@@ -1,0 +1,14 @@
+{
+  "name": "countstack-presets",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:pokemon": "tsx scripts/generate-pokemon-db.ts",
+    "generate:build": "tsx scripts/build-preset.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

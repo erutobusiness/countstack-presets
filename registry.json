@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-03-02T15:22:03Z",
+  "presets": [
+    {
+      "id": "frlg",
+      "name": "ポケモン FRLG",
+      "nameEn": "Pokémon FRLG",
+      "description": "ファイアレッド・リーフグリーン用プリセット",
+      "descriptionEn": "Preset for FireRed & LeafGreen",
+      "version": "1.0.0",
+      "size": 92474,
+      "counters": 6,
+      "pokemonCount": 386,
+      "trainerCount": 0,
+      "dataUrl": "https://erutobusiness.github.io/countstack-presets/frlg/preset.json",
+      "iconUrl": "https://erutobusiness.github.io/countstack-presets/frlg/icon.png",
+      "tags": [
+        "gen3",
+        "gba",
+        "frlg"
+      ]
+    }
+  ]
+}
