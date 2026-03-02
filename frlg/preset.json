@@ -2,7 +2,7 @@
   "meta": {
     "id": "frlg",
     "name": "ポケモン FRLG",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "ポケモン ファイアレッド・リーフグリーン用プリセット"
   },
   "counters": [
@@ -4651,19 +4651,1076 @@
         "availability": []
       },
       {
-        "id": "deoxys",
+        "id": "deoxys-attack",
         "dexNumber": 386,
-        "name": "デオキシス",
-        "nameEn": "Deoxys",
+        "name": "デオキシス（アタック）",
+        "nameEn": "Deoxys (Attack)",
         "yield": {
           "atk": 1,
           "spa": 1,
           "spe": 1
         },
-        "availability": []
+        "availability": [
+          "fr"
+        ]
+      },
+      {
+        "id": "deoxys-defense",
+        "dexNumber": 386,
+        "name": "デオキシス（ディフェンス）",
+        "nameEn": "Deoxys (Defense)",
+        "yield": {
+          "def": 1,
+          "spd": 1,
+          "spe": 1
+        },
+        "availability": [
+          "lg"
+        ]
       }
     ],
-    "trainers": []
+    "trainers": [
+      {
+        "id": "tuber-f-route19",
+        "name": "うきわガール（19ばんすいどう）",
+        "nameEn": "Tuber♀ (Route 19)",
+        "location": "19ばんすいどう",
+        "locationEn": "Route 19",
+        "pokemon": [
+          {
+            "name": "Staryu",
+            "level": 17,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Staryu",
+            "level": 17,
+            "yield": {
+              "spe": 1
+            }
+          }
+        ],
+        "totalYield": {
+          "spe": 2
+        },
+        "rematchable": true
+      },
+      {
+        "id": "cooltrainer-f-route19",
+        "name": "エリートトレーナー♀（19ばんすいどう）",
+        "nameEn": "Cooltrainer♀ (Route 19)",
+        "location": "19ばんすいどう",
+        "locationEn": "Route 19",
+        "pokemon": [
+          {
+            "name": "Seaking",
+            "level": 37,
+            "yield": {
+              "atk": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "atk": 2
+        },
+        "rematchable": true
+      },
+      {
+        "id": "aroma-lady-route15",
+        "name": "アロマなおねえさん（15ばんどうろ）",
+        "nameEn": "Aroma Lady (Route 15)",
+        "location": "15ばんどうろ",
+        "locationEn": "Route 15",
+        "pokemon": [
+          {
+            "name": "Vileplume",
+            "level": 37,
+            "yield": {
+              "spa": 3
+            }
+          }
+        ],
+        "totalYield": {
+          "spa": 3
+        },
+        "rematchable": true
+      },
+      {
+        "id": "camper-route14",
+        "name": "キャンプボーイ（14ばんどうろ）",
+        "nameEn": "Camper (Route 14)",
+        "location": "14ばんどうろ",
+        "locationEn": "Route 14",
+        "pokemon": [
+          {
+            "name": "Nidorino",
+            "level": 38,
+            "yield": {
+              "atk": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "atk": 2
+        },
+        "rematchable": true
+      },
+      {
+        "id": "blackbelt-route12",
+        "name": "カラテおう（12ばんどうろ）",
+        "nameEn": "Black Belt (Route 12)",
+        "location": "12ばんどうろ",
+        "locationEn": "Route 12",
+        "pokemon": [
+          {
+            "name": "Machoke",
+            "level": 36,
+            "yield": {
+              "atk": 2
+            }
+          },
+          {
+            "name": "Machoke",
+            "level": 36,
+            "yield": {
+              "atk": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "atk": 4
+        },
+        "rematchable": true
+      },
+      {
+        "id": "biker-route16",
+        "name": "ぼうそうぞく（16ばんどうろ）",
+        "nameEn": "Biker (Route 16)",
+        "location": "16ばんどうろ",
+        "locationEn": "Route 16",
+        "pokemon": [
+          {
+            "name": "Weezing",
+            "level": 38,
+            "yield": {
+              "def": 2
+            }
+          },
+          {
+            "name": "Muk",
+            "level": 38,
+            "yield": {
+              "hp": 1,
+              "atk": 1
+            }
+          }
+        ],
+        "totalYield": {
+          "def": 2,
+          "hp": 1,
+          "atk": 1
+        },
+        "rematchable": true
+      },
+      {
+        "id": "picnicker-route14",
+        "name": "ピクニックガール（14ばんどうろ）",
+        "nameEn": "Picnicker (Route 14)",
+        "location": "14ばんどうろ",
+        "locationEn": "Route 14",
+        "pokemon": [
+          {
+            "name": "Nidorina",
+            "level": 38,
+            "yield": {
+              "hp": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "hp": 2
+        },
+        "rematchable": true
+      },
+      {
+        "id": "hiker-rocktunel",
+        "name": "やまおとこ（イワヤマトンネル）",
+        "nameEn": "Hiker (Rock Tunnel)",
+        "location": "イワヤマトンネル",
+        "locationEn": "Rock Tunnel",
+        "pokemon": [
+          {
+            "name": "Geodude",
+            "level": 25,
+            "yield": {
+              "def": 1
+            }
+          },
+          {
+            "name": "Geodude",
+            "level": 25,
+            "yield": {
+              "def": 1
+            }
+          },
+          {
+            "name": "Graveler",
+            "level": 25,
+            "yield": {
+              "def": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "def": 4
+        },
+        "rematchable": true
+      },
+      {
+        "id": "youngster-route11",
+        "name": "たんパンこぞう（11ばんどうろ）",
+        "nameEn": "Youngster (Route 11)",
+        "location": "11ばんどうろ",
+        "locationEn": "Route 11",
+        "pokemon": [
+          {
+            "name": "Sandslash",
+            "level": 31,
+            "yield": {
+              "def": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "def": 2
+        },
+        "rematchable": true
+      },
+      {
+        "id": "psychic-m-route10",
+        "name": "サイキッカー♂（10ばんどうろ）",
+        "nameEn": "Psychic♂ (Route 10)",
+        "location": "10ばんどうろ",
+        "locationEn": "Route 10",
+        "pokemon": [
+          {
+            "name": "Slowpoke",
+            "level": 33,
+            "yield": {
+              "hp": 1
+            }
+          },
+          {
+            "name": "Slowpoke",
+            "level": 33,
+            "yield": {
+              "hp": 1
+            }
+          },
+          {
+            "name": "Slowbro",
+            "level": 33,
+            "yield": {
+              "def": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "hp": 2,
+          "def": 2
+        },
+        "rematchable": true
+      },
+      {
+        "id": "beauty-route19",
+        "name": "おとなのおねえさん（19ばんすいどう）",
+        "nameEn": "Beauty (Route 19)",
+        "location": "19ばんすいどう",
+        "locationEn": "Route 19",
+        "pokemon": [
+          {
+            "name": "Goldeen",
+            "level": 35,
+            "yield": {
+              "atk": 1
+            }
+          },
+          {
+            "name": "Seaking",
+            "level": 35,
+            "yield": {
+              "atk": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "atk": 3
+        },
+        "rematchable": true
+      },
+      {
+        "id": "aroma-lady2-route15",
+        "name": "アロマなおねえさん2（15ばんどうろ）",
+        "nameEn": "Aroma Lady 2 (Route 15)",
+        "location": "15ばんどうろ",
+        "locationEn": "Route 15",
+        "pokemon": [
+          {
+            "name": "Gloom",
+            "level": 34,
+            "yield": {
+              "spa": 2
+            }
+          },
+          {
+            "name": "Gloom",
+            "level": 34,
+            "yield": {
+              "spa": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "spa": 4
+        },
+        "rematchable": true
+      },
+      {
+        "id": "gentleman-route12",
+        "name": "ジェントルマン（12ばんどうろ）",
+        "nameEn": "Gentleman (Route 12)",
+        "location": "12ばんどうろ",
+        "locationEn": "Route 12",
+        "pokemon": [
+          {
+            "name": "Snorlax",
+            "level": 38,
+            "yield": {
+              "hp": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "hp": 2
+        },
+        "rematchable": true
+      },
+      {
+        "id": "fisherman-route12a",
+        "name": "つりびと（12ばんどうろ）",
+        "nameEn": "Fisherman (Route 12)",
+        "location": "12ばんどうろ",
+        "locationEn": "Route 12",
+        "pokemon": [
+          {
+            "name": "Magikarp",
+            "level": 28,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Magikarp",
+            "level": 28,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Magikarp",
+            "level": 28,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Magikarp",
+            "level": 28,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Gyarados",
+            "level": 28,
+            "yield": {
+              "atk": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "spe": 4,
+          "atk": 2
+        },
+        "rematchable": true
+      },
+      {
+        "id": "swimmer-f-route20",
+        "name": "かいパンやろう♀（20ばんすいどう）",
+        "nameEn": "Swimmer♀ (Route 20)",
+        "location": "20ばんすいどう",
+        "locationEn": "Route 20",
+        "pokemon": [
+          {
+            "name": "Tentacool",
+            "level": 35,
+            "yield": {
+              "spd": 1
+            }
+          },
+          {
+            "name": "Tentacruel",
+            "level": 35,
+            "yield": {
+              "spd": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "spd": 3
+        },
+        "rematchable": true
+      },
+      {
+        "id": "biker-route17a",
+        "name": "ぼうそうぞく（17ばんどうろ）A",
+        "nameEn": "Biker A (Route 17)",
+        "location": "17ばんどうろ",
+        "locationEn": "Route 17",
+        "pokemon": [
+          {
+            "name": "Doduo",
+            "level": 28,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Doduo",
+            "level": 28,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Dodrio",
+            "level": 28,
+            "yield": {
+              "spe": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "spe": 4
+        },
+        "rematchable": true
+      },
+      {
+        "id": "bird-keeper-route18",
+        "name": "とりつかい（18ばんどうろ）",
+        "nameEn": "Bird Keeper (Route 18)",
+        "location": "18ばんどうろ",
+        "locationEn": "Route 18",
+        "pokemon": [
+          {
+            "name": "Spearow",
+            "level": 29,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Fearow",
+            "level": 29,
+            "yield": {
+              "spe": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "spe": 3
+        },
+        "rematchable": true
+      },
+      {
+        "id": "biker-route17b",
+        "name": "ぼうそうぞく（17ばんどうろ）B",
+        "nameEn": "Biker B (Route 17)",
+        "location": "17ばんどうろ",
+        "locationEn": "Route 17",
+        "pokemon": [
+          {
+            "name": "Voltorb",
+            "level": 29,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Voltorb",
+            "level": 29,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Magnemite",
+            "level": 29,
+            "yield": {
+              "spa": 1
+            }
+          }
+        ],
+        "totalYield": {
+          "spe": 2,
+          "spa": 1
+        },
+        "rematchable": true
+      },
+      {
+        "id": "elite-four-lorelei",
+        "name": "してんのう カンナ",
+        "nameEn": "Elite Four Lorelei",
+        "location": "ポケモンリーグ",
+        "locationEn": "Pokémon League",
+        "pokemon": [
+          {
+            "name": "Dewgong",
+            "level": 52,
+            "yield": {
+              "spd": 2
+            }
+          },
+          {
+            "name": "Cloyster",
+            "level": 51,
+            "yield": {
+              "def": 2
+            }
+          },
+          {
+            "name": "Slowbro",
+            "level": 52,
+            "yield": {
+              "def": 2
+            }
+          },
+          {
+            "name": "Jynx",
+            "level": 54,
+            "yield": {
+              "spa": 2
+            }
+          },
+          {
+            "name": "Lapras",
+            "level": 54,
+            "yield": {
+              "hp": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "spd": 2,
+          "def": 4,
+          "spa": 2,
+          "hp": 2
+        },
+        "rematchable": false
+      },
+      {
+        "id": "elite-four-bruno",
+        "name": "してんのう シバ",
+        "nameEn": "Elite Four Bruno",
+        "location": "ポケモンリーグ",
+        "locationEn": "Pokémon League",
+        "pokemon": [
+          {
+            "name": "Onix",
+            "level": 51,
+            "yield": {
+              "def": 1
+            }
+          },
+          {
+            "name": "Hitmonchan",
+            "level": 53,
+            "yield": {
+              "spd": 2
+            }
+          },
+          {
+            "name": "Hitmonlee",
+            "level": 53,
+            "yield": {
+              "atk": 2
+            }
+          },
+          {
+            "name": "Onix",
+            "level": 54,
+            "yield": {
+              "def": 1
+            }
+          },
+          {
+            "name": "Machamp",
+            "level": 56,
+            "yield": {
+              "atk": 3
+            }
+          }
+        ],
+        "totalYield": {
+          "def": 2,
+          "spd": 2,
+          "atk": 5
+        },
+        "rematchable": false
+      },
+      {
+        "id": "elite-four-agatha",
+        "name": "してんのう キクコ",
+        "nameEn": "Elite Four Agatha",
+        "location": "ポケモンリーグ",
+        "locationEn": "Pokémon League",
+        "pokemon": [
+          {
+            "name": "Gengar",
+            "level": 54,
+            "yield": {
+              "spa": 3
+            }
+          },
+          {
+            "name": "Golbat",
+            "level": 54,
+            "yield": {
+              "spe": 2
+            }
+          },
+          {
+            "name": "Haunter",
+            "level": 53,
+            "yield": {
+              "spa": 2
+            }
+          },
+          {
+            "name": "Arbok",
+            "level": 56,
+            "yield": {
+              "atk": 2
+            }
+          },
+          {
+            "name": "Gengar",
+            "level": 58,
+            "yield": {
+              "spa": 3
+            }
+          }
+        ],
+        "totalYield": {
+          "spa": 8,
+          "spe": 2,
+          "atk": 2
+        },
+        "rematchable": false
+      },
+      {
+        "id": "elite-four-lance",
+        "name": "してんのう ワタル",
+        "nameEn": "Elite Four Lance",
+        "location": "ポケモンリーグ",
+        "locationEn": "Pokémon League",
+        "pokemon": [
+          {
+            "name": "Gyarados",
+            "level": 56,
+            "yield": {
+              "atk": 2
+            }
+          },
+          {
+            "name": "Dragonair",
+            "level": 54,
+            "yield": {
+              "atk": 2
+            }
+          },
+          {
+            "name": "Dragonair",
+            "level": 54,
+            "yield": {
+              "atk": 2
+            }
+          },
+          {
+            "name": "Aerodactyl",
+            "level": 58,
+            "yield": {
+              "spe": 2
+            }
+          },
+          {
+            "name": "Dragonite",
+            "level": 60,
+            "yield": {
+              "atk": 3
+            }
+          }
+        ],
+        "totalYield": {
+          "atk": 9,
+          "spe": 2
+        },
+        "rematchable": false
+      },
+      {
+        "id": "champion-rival",
+        "name": "チャンピオン ライバル",
+        "nameEn": "Champion Rival",
+        "location": "ポケモンリーグ",
+        "locationEn": "Pokémon League",
+        "pokemon": [
+          {
+            "name": "Pidgeot",
+            "level": 59,
+            "yield": {
+              "spe": 3
+            }
+          },
+          {
+            "name": "Alakazam",
+            "level": 57,
+            "yield": {
+              "spa": 3
+            }
+          },
+          {
+            "name": "Rhydon",
+            "level": 59,
+            "yield": {
+              "atk": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "spe": 3,
+          "spa": 3,
+          "atk": 2
+        },
+        "rematchable": false
+      },
+      {
+        "id": "gym-leader-brock",
+        "name": "ジムリーダー タケシ",
+        "nameEn": "Gym Leader Brock",
+        "location": "ニビシティジム",
+        "locationEn": "Pewter City Gym",
+        "pokemon": [
+          {
+            "name": "Geodude",
+            "level": 12,
+            "yield": {
+              "def": 1
+            }
+          },
+          {
+            "name": "Onix",
+            "level": 14,
+            "yield": {
+              "def": 1
+            }
+          }
+        ],
+        "totalYield": {
+          "def": 2
+        },
+        "rematchable": false
+      },
+      {
+        "id": "gym-leader-misty",
+        "name": "ジムリーダー カスミ",
+        "nameEn": "Gym Leader Misty",
+        "location": "ハナダシティジム",
+        "locationEn": "Cerulean City Gym",
+        "pokemon": [
+          {
+            "name": "Staryu",
+            "level": 18,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Starmie",
+            "level": 21,
+            "yield": {
+              "spe": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "spe": 3
+        },
+        "rematchable": false
+      },
+      {
+        "id": "gym-leader-surge",
+        "name": "ジムリーダー マチス",
+        "nameEn": "Gym Leader Lt. Surge",
+        "location": "クチバシティジム",
+        "locationEn": "Vermilion City Gym",
+        "pokemon": [
+          {
+            "name": "Voltorb",
+            "level": 21,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Pikachu",
+            "level": 18,
+            "yield": {
+              "spe": 2
+            }
+          },
+          {
+            "name": "Raichu",
+            "level": 24,
+            "yield": {
+              "spe": 3
+            }
+          }
+        ],
+        "totalYield": {
+          "spe": 6
+        },
+        "rematchable": false
+      },
+      {
+        "id": "gym-leader-erika",
+        "name": "ジムリーダー エリカ",
+        "nameEn": "Gym Leader Erika",
+        "location": "タマムシシティジム",
+        "locationEn": "Celadon City Gym",
+        "pokemon": [
+          {
+            "name": "Victreebel",
+            "level": 29,
+            "yield": {
+              "atk": 3
+            }
+          },
+          {
+            "name": "Tangela",
+            "level": 24,
+            "yield": {
+              "def": 1
+            }
+          },
+          {
+            "name": "Vileplume",
+            "level": 29,
+            "yield": {
+              "spa": 3
+            }
+          }
+        ],
+        "totalYield": {
+          "atk": 3,
+          "def": 1,
+          "spa": 3
+        },
+        "rematchable": false
+      },
+      {
+        "id": "gym-leader-koga",
+        "name": "ジムリーダー キョウ",
+        "nameEn": "Gym Leader Koga",
+        "location": "セキチクシティジム",
+        "locationEn": "Fuchsia City Gym",
+        "pokemon": [
+          {
+            "name": "Koffing",
+            "level": 37,
+            "yield": {
+              "def": 1
+            }
+          },
+          {
+            "name": "Muk",
+            "level": 39,
+            "yield": {
+              "hp": 1,
+              "atk": 1
+            }
+          },
+          {
+            "name": "Koffing",
+            "level": 37,
+            "yield": {
+              "def": 1
+            }
+          },
+          {
+            "name": "Weezing",
+            "level": 43,
+            "yield": {
+              "def": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "def": 4,
+          "hp": 1,
+          "atk": 1
+        },
+        "rematchable": false
+      },
+      {
+        "id": "gym-leader-sabrina",
+        "name": "ジムリーダー ナツメ",
+        "nameEn": "Gym Leader Sabrina",
+        "location": "ヤマブキシティジム",
+        "locationEn": "Saffron City Gym",
+        "pokemon": [
+          {
+            "name": "Kadabra",
+            "level": 38,
+            "yield": {
+              "spa": 2
+            }
+          },
+          {
+            "name": "Mr. Mime",
+            "level": 37,
+            "yield": {
+              "spd": 2
+            }
+          },
+          {
+            "name": "Venomoth",
+            "level": 38,
+            "yield": {
+              "spa": 1,
+              "spe": 1
+            }
+          },
+          {
+            "name": "Alakazam",
+            "level": 43,
+            "yield": {
+              "spa": 3
+            }
+          }
+        ],
+        "totalYield": {
+          "spa": 6,
+          "spd": 2,
+          "spe": 1
+        },
+        "rematchable": false
+      },
+      {
+        "id": "gym-leader-blaine",
+        "name": "ジムリーダー カツラ",
+        "nameEn": "Gym Leader Blaine",
+        "location": "グレンジム",
+        "locationEn": "Cinnabar Island Gym",
+        "pokemon": [
+          {
+            "name": "Growlithe",
+            "level": 42,
+            "yield": {
+              "atk": 1
+            }
+          },
+          {
+            "name": "Ponyta",
+            "level": 40,
+            "yield": {
+              "spe": 1
+            }
+          },
+          {
+            "name": "Rapidash",
+            "level": 42,
+            "yield": {
+              "spe": 2
+            }
+          },
+          {
+            "name": "Arcanine",
+            "level": 47,
+            "yield": {
+              "atk": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "atk": 3,
+          "spe": 3
+        },
+        "rematchable": false
+      },
+      {
+        "id": "gym-leader-giovanni",
+        "name": "ジムリーダー サカキ",
+        "nameEn": "Gym Leader Giovanni",
+        "location": "トキワシティジム",
+        "locationEn": "Viridian City Gym",
+        "pokemon": [
+          {
+            "name": "Rhyhorn",
+            "level": 45,
+            "yield": {
+              "def": 1
+            }
+          },
+          {
+            "name": "Dugtrio",
+            "level": 42,
+            "yield": {
+              "spe": 2
+            }
+          },
+          {
+            "name": "Nidoqueen",
+            "level": 44,
+            "yield": {
+              "hp": 3
+            }
+          },
+          {
+            "name": "Nidoking",
+            "level": 45,
+            "yield": {
+              "atk": 3
+            }
+          },
+          {
+            "name": "Rhydon",
+            "level": 50,
+            "yield": {
+              "atk": 2
+            }
+          }
+        ],
+        "totalYield": {
+          "def": 1,
+          "spe": 2,
+          "hp": 3,
+          "atk": 5
+        },
+        "rematchable": false
+      }
+    ]
   },
   "goalTemplates": [
     {
@@ -4703,6 +5760,9 @@
     "FRLGではEV低減きのみが機能しない。振り間違えたら取り返しがつかない",
     "ポケルスはFRLG単体では入手不可。RSEから通信交換で持ち込む必要がある",
     "EVはレベルアップ時に反映される（ボックスに預けて出すことで即時反映も可能）",
-    "実効上限は255ではなく252（255=4×63+3で端数3が無駄）"
+    "実効上限は255ではなく252（255=4×63+3で端数3が無駄）",
+    "Switch版では殿堂入り後にオーロラチケット・しんぴのチケットが自動入手でき、デオキシス・ルギア・ホウオウと戦える",
+    "Switch版の通信交換はローカル限定（オンライン非対応）。ポケルスの持ち込みには近くにRSEプレイヤーが必要",
+    "メールバグによるアイテム増殖はSwitch版でも動作する。ドーピングアイテムの増殖でEV振りを効率化できる"
   ]
 }

@@ -121,6 +121,27 @@ const NOT_IN_FRLG = new Set([
   196, 197, // Espeon, Umbreon (no day/night)
 ]);
 
+// Deoxys has different formes (and EV yields) per version.
+// FR = Attack Forme, LG = Defense Forme. Replaces the single PokeAPI entry.
+const DEOXYS_FORMES = [
+  {
+    id: "deoxys-attack",
+    dexNumber: 386,
+    nameJa: "デオキシス（アタック）",
+    nameEn: "Deoxys (Attack)",
+    yield: { atk: 1, spa: 1, spe: 1 },
+    availability: ["fr"] as ("fr" | "lg")[],
+  },
+  {
+    id: "deoxys-defense",
+    dexNumber: 386,
+    nameJa: "デオキシス（ディフェンス）",
+    nameEn: "Deoxys (Defense)",
+    yield: { def: 1, spd: 1, spe: 1 },
+    availability: ["lg"] as ("fr" | "lg")[],
+  },
+];
+
 interface PokemonRaw {
   id: number;
   nameEn: string;
@@ -240,6 +261,19 @@ async function main() {
     yield: p.yield,
     availability: getAvailability(p.id),
   }));
+
+  // Replace Deoxys Normal with forme-specific entries
+  const deoxysIdx = pokemon.findIndex((p) => p.dexNumber === 386);
+  if (deoxysIdx !== -1) {
+    pokemon.splice(deoxysIdx, 1, ...DEOXYS_FORMES.map((f) => ({
+      id: f.id,
+      dexNumber: f.dexNumber,
+      name: f.nameJa,
+      nameEn: f.nameEn,
+      yield: f.yield,
+      availability: f.availability,
+    })));
+  }
 
   writeFileSync(OUTPUT_PATH, JSON.stringify(pokemon, null, 2));
 

@@ -1,8 +1,8 @@
 /**
  * build-preset.ts
  *
- * Reads the base preset.json and injects the generated pokemon.json data.
- * Also updates registry.json with the correct size and counts.
+ * Reads the base preset.json and injects the generated pokemon.json
+ * and trainer data. Also updates registry.json with the correct size and counts.
  *
  * Usage: npm run generate:build
  */
@@ -16,12 +16,16 @@ const PRESET_PATH = resolve(__dirname, "../frlg/preset.json");
 const POKEMON_PATH = resolve(__dirname, "../frlg/pokemon.json");
 const REGISTRY_PATH = resolve(__dirname, "../registry.json");
 
-function main() {
+async function main() {
   const preset = JSON.parse(readFileSync(PRESET_PATH, "utf-8"));
   const pokemon = JSON.parse(readFileSync(POKEMON_PATH, "utf-8"));
 
   // Inject pokemon data
   preset.database.pokemon = pokemon;
+
+  // Inject trainer data
+  const { frlgTrainers } = await import("./frlg-trainers.ts");
+  preset.database.trainers = frlgTrainers;
 
   // Write final preset
   writeFileSync(PRESET_PATH, JSON.stringify(preset, null, 2));
