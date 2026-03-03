@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://erutobusiness.github.io/countstack-presets/schema/registry.schema.json",
+  "title": "PresetRegistry",
+  "description": "Registry of available countstack presets for discovery and version checking.",
+  "type": "object",
+  "required": ["schemaVersion", "updatedAt", "presets"],
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "presets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/RegistryEntry"
+      }
+    }
+  },
+  "$defs": {
+    "RegistryEntry": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "nameEn",
+        "description",
+        "descriptionEn",
+        "version",
+        "size",
+        "counters",
+        "entryCount",
+        "groupCount",
+        "dataUrl",
+        "iconUrl",
+        "tags"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "name": { "type": "string", "minLength": 1 },
+        "nameEn": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "descriptionEn": { "type": "string" },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "size": { "type": "number" },
+        "counters": { "type": "number" },
+        "entryCount": { "type": "number" },
+        "groupCount": { "type": "number" },
+        "dataUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "iconUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

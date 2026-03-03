@@ -11,8 +11,8 @@
       "version": "1.1.0",
       "size": 116832,
       "counters": 6,
-      "pokemonCount": 387,
-      "trainerCount": 31,
+      "entryCount": 387,
+      "groupCount": 31,
       "dataUrl": "https://erutobusiness.github.io/countstack-presets/frlg/preset.json",
       "iconUrl": "https://erutobusiness.github.io/countstack-presets/frlg/icon.png",
       "tags": [
