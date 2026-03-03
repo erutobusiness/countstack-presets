@@ -1,0 +1,26 @@
+name: Validate Presets
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '*/preset.json'
+      - 'registry.json'
+      - 'schema/**'
+      - 'scripts/validate-pr.mjs'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install validation dependencies
+        run: npm install --no-save ajv ajv-formats
+
+      - name: Validate presets and registry
+        run: node scripts/validate-pr.mjs
