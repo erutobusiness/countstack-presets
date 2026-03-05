@@ -8,6 +8,7 @@
     "generate:build": "tsx scripts/build-preset.ts"
   },
   "devDependencies": {
+    "@types/node": "^25.3.3",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0"
   }

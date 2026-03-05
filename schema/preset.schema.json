@@ -14,7 +14,6 @@
     "itemsAffectedByMultipliers",
     "manualSteps",
     "database",
-    "goalTemplates",
     "notes"
   ],
   "properties": {
@@ -60,7 +59,7 @@
     },
     "multiplierStacking": {
       "type": "string",
-      "enum": ["multiplicative"],
+      "enum": ["multiplicative", "additive"],
       "description": "How multipliers combine"
     },
     "items": {
@@ -94,12 +93,6 @@
         }
       }
     },
-    "goalTemplates": {
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/GoalTemplate"
-      }
-    },
     "notes": {
       "type": "array",
       "items": {
@@ -108,15 +101,21 @@
     }
   },
   "$defs": {
+    "LocalizedString": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "description": "Localized string: { \"ja\": \"...\", \"en\": \"...\", ... }"
+    },
     "CounterDefinition": {
       "type": "object",
       "required": ["id", "name", "shortName", "max", "recommended", "defaultDirection", "includeInTotal"],
       "properties": {
         "id": { "type": "string", "minLength": 1 },
-        "name": { "type": "string", "minLength": 1 },
+        "name": { "$ref": "#/$defs/LocalizedString" },
         "shortName": { "type": "string", "minLength": 1 },
         "max": { "type": "number" },
         "recommended": { "type": "number" },
+        "goalValue": { "type": "number" },
         "defaultDirection": { "type": "string", "enum": ["up", "down"] },
         "includeInTotal": { "type": "boolean" }
       }
@@ -126,7 +125,7 @@
       "required": ["id", "name", "factor", "scope"],
       "properties": {
         "id": { "type": "string", "minLength": 1 },
-        "name": { "type": "string", "minLength": 1 },
+        "name": { "$ref": "#/$defs/LocalizedString" },
         "factor": { "type": "number" },
         "scope": { "type": "string", "enum": ["battle"] }
       }
@@ -136,10 +135,10 @@
       "required": ["id", "name", "counter", "amount", "maxPerStat"],
       "properties": {
         "id": { "type": "string", "minLength": 1 },
-        "name": { "type": "string", "minLength": 1 },
+        "name": { "$ref": "#/$defs/LocalizedString" },
         "counter": { "type": "string", "minLength": 1 },
         "amount": { "type": "number" },
-        "maxPerStat": { "type": "number" }
+        "maxPerStat": { "type": ["number", "null"] }
       }
     },
     "ManualSteps": {
@@ -158,12 +157,11 @@
     },
     "DatabaseEntry": {
       "type": "object",
-      "required": ["id", "catalogNumber", "name", "nameEn", "yield", "tags"],
+      "required": ["id", "catalogNumber", "name", "yield", "tags"],
       "properties": {
         "id": { "type": "string", "minLength": 1 },
         "catalogNumber": { "type": "number" },
-        "name": { "type": "string", "minLength": 1 },
-        "nameEn": { "type": "string", "minLength": 1 },
+        "name": { "$ref": "#/$defs/LocalizedString" },
         "yield": {
           "type": "object",
           "additionalProperties": { "type": "number" }
@@ -178,7 +176,7 @@
       "type": "object",
       "required": ["name", "level", "yield"],
       "properties": {
-        "name": { "type": "string", "minLength": 1 },
+        "name": { "$ref": "#/$defs/LocalizedString" },
         "level": { "type": "number" },
         "yield": {
           "type": "object",
@@ -188,13 +186,11 @@
     },
     "SourceGroup": {
       "type": "object",
-      "required": ["id", "name", "nameEn", "location", "locationEn", "members", "totalYield", "rematchable"],
+      "required": ["id", "name", "location", "members", "totalYield", "rematchable"],
       "properties": {
         "id": { "type": "string", "minLength": 1 },
-        "name": { "type": "string", "minLength": 1 },
-        "nameEn": { "type": "string", "minLength": 1 },
-        "location": { "type": "string", "minLength": 1 },
-        "locationEn": { "type": "string", "minLength": 1 },
+        "name": { "$ref": "#/$defs/LocalizedString" },
+        "location": { "$ref": "#/$defs/LocalizedString" },
         "members": {
           "type": "array",
           "items": { "$ref": "#/$defs/SourceGroupMember" }
@@ -204,18 +200,6 @@
           "additionalProperties": { "type": "number" }
         },
         "rematchable": { "type": "boolean" }
-      }
-    },
-    "GoalTemplate": {
-      "type": "object",
-      "required": ["id", "name", "goals"],
-      "properties": {
-        "id": { "type": "string", "minLength": 1 },
-        "name": { "type": "string", "minLength": 1 },
-        "goals": {
-          "type": "object",
-          "additionalProperties": { "type": "number" }
-        }
       }
     }
   }

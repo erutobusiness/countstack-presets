@@ -126,19 +126,19 @@ const NOT_IN_FRLG = new Set([
 const DEOXYS_FORMES = [
   {
     id: "deoxys-attack",
-    dexNumber: 386,
+    catalogNumber: 386,
     nameJa: "デオキシス（アタック）",
     nameEn: "Deoxys (Attack)",
-    yield: { atk: 1, spa: 1, spe: 1 },
-    availability: ["fr"] as ("fr" | "lg")[],
+    yield: { atk: 1, spa: 1, spe: 1 } as Record<string, number>,
+    tags: ["fr"] as ("fr" | "lg")[],
   },
   {
     id: "deoxys-defense",
-    dexNumber: 386,
+    catalogNumber: 386,
     nameJa: "デオキシス（ディフェンス）",
     nameEn: "Deoxys (Defense)",
-    yield: { def: 1, spd: 1, spe: 1 },
-    availability: ["lg"] as ("fr" | "lg")[],
+    yield: { def: 1, spd: 1, spe: 1 } as Record<string, number>,
+    tags: ["lg"] as ("fr" | "lg")[],
   },
 ];
 
@@ -147,6 +147,13 @@ interface PokemonRaw {
   nameEn: string;
   nameJa: string;
   yield: Record<string, number>;
+}
+
+// Special-case ID generation for Nidoran (♀/♂ → f/m)
+function generateId(nameEn: string, dexNum: number): string {
+  if (dexNum === 29) return "nidoran-f";
+  if (dexNum === 32) return "nidoran-m";
+  return nameEn.toLowerCase().replace(/[^a-z0-9]/g, "-").replace(/-+$/, "");
 }
 
 function getAvailability(dexNum: number): ("fr" | "lg")[] {
@@ -254,43 +261,41 @@ async function main() {
 
   // Transform to preset format
   const pokemon = rawData.map((p) => ({
-    id: p.nameEn.toLowerCase().replace(/[^a-z0-9]/g, "-"),
-    dexNumber: p.id,
-    name: p.nameJa,
-    nameEn: p.nameEn,
+    id: generateId(p.nameEn, p.id),
+    catalogNumber: p.id,
+    name: { ja: p.nameJa, en: p.nameEn },
     yield: p.yield,
-    availability: getAvailability(p.id),
+    tags: getAvailability(p.id),
   }));
 
   // Replace Deoxys Normal with forme-specific entries
-  const deoxysIdx = pokemon.findIndex((p) => p.dexNumber === 386);
+  const deoxysIdx = pokemon.findIndex((p) => p.catalogNumber === 386);
   if (deoxysIdx !== -1) {
     pokemon.splice(deoxysIdx, 1, ...DEOXYS_FORMES.map((f) => ({
       id: f.id,
-      dexNumber: f.dexNumber,
-      name: f.nameJa,
-      nameEn: f.nameEn,
+      catalogNumber: f.catalogNumber,
+      name: { ja: f.nameJa, en: f.nameEn },
       yield: f.yield,
-      availability: f.availability,
+      tags: f.tags,
     })));
   }
 
   writeFileSync(OUTPUT_PATH, JSON.stringify(pokemon, null, 2));
 
   // Stats
-  const withFrlg = pokemon.filter((p) => p.availability.length > 0);
+  const withFrlg = pokemon.filter((p) => p.tags.length > 0);
   const frOnly = pokemon.filter(
-    (p) => p.availability.length === 1 && p.availability[0] === "fr"
+    (p) => p.tags.length === 1 && p.tags[0] === "fr"
   );
   const lgOnly = pokemon.filter(
-    (p) => p.availability.length === 1 && p.availability[0] === "lg"
+    (p) => p.tags.length === 1 && p.tags[0] === "lg"
   );
 
   console.log(`\nDone! Wrote ${pokemon.length} Pokémon to ${OUTPUT_PATH}`);
   console.log(`  FRLG obtainable: ${withFrlg.length}`);
   console.log(`  FR exclusive: ${frOnly.length}`);
   console.log(`  LG exclusive: ${lgOnly.length}`);
-  console.log(`  Trade-in only: ${pokemon.length - withFrlg.length}`);
+  console.log(`  Not in FRLG: ${pokemon.length - withFrlg.length}`);
 }
 
 main().catch(console.error);

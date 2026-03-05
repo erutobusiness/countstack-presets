@@ -1,4545 +1,5319 @@
 [
   {
     "id": "bulbasaur",
-    "dexNumber": 1,
-    "name": "フシギダネ",
-    "nameEn": "Bulbasaur",
+    "catalogNumber": 1,
+    "name": {
+      "ja": "フシギダネ",
+      "en": "Bulbasaur"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "ivysaur",
-    "dexNumber": 2,
-    "name": "フシギソウ",
-    "nameEn": "Ivysaur",
+    "catalogNumber": 2,
+    "name": {
+      "ja": "フシギソウ",
+      "en": "Ivysaur"
+    },
     "yield": {
       "spa": 1,
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "venusaur",
-    "dexNumber": 3,
-    "name": "フシギバナ",
-    "nameEn": "Venusaur",
+    "catalogNumber": 3,
+    "name": {
+      "ja": "フシギバナ",
+      "en": "Venusaur"
+    },
     "yield": {
       "spa": 2,
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "charmander",
-    "dexNumber": 4,
-    "name": "ヒトカゲ",
-    "nameEn": "Charmander",
+    "catalogNumber": 4,
+    "name": {
+      "ja": "ヒトカゲ",
+      "en": "Charmander"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "charmeleon",
-    "dexNumber": 5,
-    "name": "リザード",
-    "nameEn": "Charmeleon",
+    "catalogNumber": 5,
+    "name": {
+      "ja": "リザード",
+      "en": "Charmeleon"
+    },
     "yield": {
       "spa": 1,
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "charizard",
-    "dexNumber": 6,
-    "name": "リザードン",
-    "nameEn": "Charizard",
+    "catalogNumber": 6,
+    "name": {
+      "ja": "リザードン",
+      "en": "Charizard"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "squirtle",
-    "dexNumber": 7,
-    "name": "ゼニガメ",
-    "nameEn": "Squirtle",
+    "catalogNumber": 7,
+    "name": {
+      "ja": "ゼニガメ",
+      "en": "Squirtle"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "wartortle",
-    "dexNumber": 8,
-    "name": "カメール",
-    "nameEn": "Wartortle",
+    "catalogNumber": 8,
+    "name": {
+      "ja": "カメール",
+      "en": "Wartortle"
+    },
     "yield": {
       "def": 1,
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "blastoise",
-    "dexNumber": 9,
-    "name": "カメックス",
-    "nameEn": "Blastoise",
+    "catalogNumber": 9,
+    "name": {
+      "ja": "カメックス",
+      "en": "Blastoise"
+    },
     "yield": {
       "spd": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "caterpie",
-    "dexNumber": 10,
-    "name": "キャタピー",
-    "nameEn": "Caterpie",
+    "catalogNumber": 10,
+    "name": {
+      "ja": "キャタピー",
+      "en": "Caterpie"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "metapod",
-    "dexNumber": 11,
-    "name": "トランセル",
-    "nameEn": "Metapod",
+    "catalogNumber": 11,
+    "name": {
+      "ja": "トランセル",
+      "en": "Metapod"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "butterfree",
-    "dexNumber": 12,
-    "name": "バタフリー",
-    "nameEn": "Butterfree",
+    "catalogNumber": 12,
+    "name": {
+      "ja": "バタフリー",
+      "en": "Butterfree"
+    },
     "yield": {
       "spa": 2,
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "weedle",
-    "dexNumber": 13,
-    "name": "ビードル",
-    "nameEn": "Weedle",
+    "catalogNumber": 13,
+    "name": {
+      "ja": "ビードル",
+      "en": "Weedle"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "kakuna",
-    "dexNumber": 14,
-    "name": "コクーン",
-    "nameEn": "Kakuna",
+    "catalogNumber": 14,
+    "name": {
+      "ja": "コクーン",
+      "en": "Kakuna"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "beedrill",
-    "dexNumber": 15,
-    "name": "スピアー",
-    "nameEn": "Beedrill",
+    "catalogNumber": 15,
+    "name": {
+      "ja": "スピアー",
+      "en": "Beedrill"
+    },
     "yield": {
       "atk": 2,
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "pidgey",
-    "dexNumber": 16,
-    "name": "ポッポ",
-    "nameEn": "Pidgey",
+    "catalogNumber": 16,
+    "name": {
+      "ja": "ポッポ",
+      "en": "Pidgey"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "pidgeotto",
-    "dexNumber": 17,
-    "name": "ピジョン",
-    "nameEn": "Pidgeotto",
+    "catalogNumber": 17,
+    "name": {
+      "ja": "ピジョン",
+      "en": "Pidgeotto"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "pidgeot",
-    "dexNumber": 18,
-    "name": "ピジョット",
-    "nameEn": "Pidgeot",
+    "catalogNumber": 18,
+    "name": {
+      "ja": "ピジョット",
+      "en": "Pidgeot"
+    },
     "yield": {
       "spe": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "rattata",
-    "dexNumber": 19,
-    "name": "コラッタ",
-    "nameEn": "Rattata",
+    "catalogNumber": 19,
+    "name": {
+      "ja": "コラッタ",
+      "en": "Rattata"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "raticate",
-    "dexNumber": 20,
-    "name": "ラッタ",
-    "nameEn": "Raticate",
+    "catalogNumber": 20,
+    "name": {
+      "ja": "ラッタ",
+      "en": "Raticate"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "spearow",
-    "dexNumber": 21,
-    "name": "オニスズメ",
-    "nameEn": "Spearow",
+    "catalogNumber": 21,
+    "name": {
+      "ja": "オニスズメ",
+      "en": "Spearow"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "fearow",
-    "dexNumber": 22,
-    "name": "オニドリル",
-    "nameEn": "Fearow",
+    "catalogNumber": 22,
+    "name": {
+      "ja": "オニドリル",
+      "en": "Fearow"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "ekans",
-    "dexNumber": 23,
-    "name": "アーボ",
-    "nameEn": "Ekans",
+    "catalogNumber": 23,
+    "name": {
+      "ja": "アーボ",
+      "en": "Ekans"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "arbok",
-    "dexNumber": 24,
-    "name": "アーボック",
-    "nameEn": "Arbok",
+    "catalogNumber": 24,
+    "name": {
+      "ja": "アーボック",
+      "en": "Arbok"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "pikachu",
-    "dexNumber": 25,
-    "name": "ピカチュウ",
-    "nameEn": "Pikachu",
+    "catalogNumber": 25,
+    "name": {
+      "ja": "ピカチュウ",
+      "en": "Pikachu"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "raichu",
-    "dexNumber": 26,
-    "name": "ライチュウ",
-    "nameEn": "Raichu",
+    "catalogNumber": 26,
+    "name": {
+      "ja": "ライチュウ",
+      "en": "Raichu"
+    },
     "yield": {
       "spe": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "sandshrew",
-    "dexNumber": 27,
-    "name": "サンド",
-    "nameEn": "Sandshrew",
+    "catalogNumber": 27,
+    "name": {
+      "ja": "サンド",
+      "en": "Sandshrew"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "sandslash",
-    "dexNumber": 28,
-    "name": "サンドパン",
-    "nameEn": "Sandslash",
+    "catalogNumber": 28,
+    "name": {
+      "ja": "サンドパン",
+      "en": "Sandslash"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
-    "id": "nidoran-",
-    "dexNumber": 29,
-    "name": "ニドラン♀",
-    "nameEn": "Nidoran♀",
+    "id": "nidoran-f",
+    "catalogNumber": 29,
+    "name": {
+      "ja": "ニドラン♀",
+      "en": "Nidoran♀"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "nidorina",
-    "dexNumber": 30,
-    "name": "ニドリーナ",
-    "nameEn": "Nidorina",
+    "catalogNumber": 30,
+    "name": {
+      "ja": "ニドリーナ",
+      "en": "Nidorina"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "nidoqueen",
-    "dexNumber": 31,
-    "name": "ニドクイン",
-    "nameEn": "Nidoqueen",
+    "catalogNumber": 31,
+    "name": {
+      "ja": "ニドクイン",
+      "en": "Nidoqueen"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
-    "id": "nidoran-",
-    "dexNumber": 32,
-    "name": "ニドラン♂",
-    "nameEn": "Nidoran♂",
+    "id": "nidoran-m",
+    "catalogNumber": 32,
+    "name": {
+      "ja": "ニドラン♂",
+      "en": "Nidoran♂"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "nidorino",
-    "dexNumber": 33,
-    "name": "ニドリーノ",
-    "nameEn": "Nidorino",
+    "catalogNumber": 33,
+    "name": {
+      "ja": "ニドリーノ",
+      "en": "Nidorino"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "nidoking",
-    "dexNumber": 34,
-    "name": "ニドキング",
-    "nameEn": "Nidoking",
+    "catalogNumber": 34,
+    "name": {
+      "ja": "ニドキング",
+      "en": "Nidoking"
+    },
     "yield": {
       "atk": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "clefairy",
-    "dexNumber": 35,
-    "name": "ピッピ",
-    "nameEn": "Clefairy",
+    "catalogNumber": 35,
+    "name": {
+      "ja": "ピッピ",
+      "en": "Clefairy"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "clefable",
-    "dexNumber": 36,
-    "name": "ピクシー",
-    "nameEn": "Clefable",
+    "catalogNumber": 36,
+    "name": {
+      "ja": "ピクシー",
+      "en": "Clefable"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "vulpix",
-    "dexNumber": 37,
-    "name": "ロコン",
-    "nameEn": "Vulpix",
+    "catalogNumber": 37,
+    "name": {
+      "ja": "ロコン",
+      "en": "Vulpix"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "ninetales",
-    "dexNumber": 38,
-    "name": "キュウコン",
-    "nameEn": "Ninetales",
+    "catalogNumber": 38,
+    "name": {
+      "ja": "キュウコン",
+      "en": "Ninetales"
+    },
     "yield": {
       "spd": 1,
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "jigglypuff",
-    "dexNumber": 39,
-    "name": "プリン",
-    "nameEn": "Jigglypuff",
+    "catalogNumber": 39,
+    "name": {
+      "ja": "プリン",
+      "en": "Jigglypuff"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "wigglytuff",
-    "dexNumber": 40,
-    "name": "プクリン",
-    "nameEn": "Wigglytuff",
+    "catalogNumber": 40,
+    "name": {
+      "ja": "プクリン",
+      "en": "Wigglytuff"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "zubat",
-    "dexNumber": 41,
-    "name": "ズバット",
-    "nameEn": "Zubat",
+    "catalogNumber": 41,
+    "name": {
+      "ja": "ズバット",
+      "en": "Zubat"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "golbat",
-    "dexNumber": 42,
-    "name": "ゴルバット",
-    "nameEn": "Golbat",
+    "catalogNumber": 42,
+    "name": {
+      "ja": "ゴルバット",
+      "en": "Golbat"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "oddish",
-    "dexNumber": 43,
-    "name": "ナゾノクサ",
-    "nameEn": "Oddish",
+    "catalogNumber": 43,
+    "name": {
+      "ja": "ナゾノクサ",
+      "en": "Oddish"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "gloom",
-    "dexNumber": 44,
-    "name": "クサイハナ",
-    "nameEn": "Gloom",
+    "catalogNumber": 44,
+    "name": {
+      "ja": "クサイハナ",
+      "en": "Gloom"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "vileplume",
-    "dexNumber": 45,
-    "name": "ラフレシア",
-    "nameEn": "Vileplume",
+    "catalogNumber": 45,
+    "name": {
+      "ja": "ラフレシア",
+      "en": "Vileplume"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "paras",
-    "dexNumber": 46,
-    "name": "パラス",
-    "nameEn": "Paras",
+    "catalogNumber": 46,
+    "name": {
+      "ja": "パラス",
+      "en": "Paras"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "parasect",
-    "dexNumber": 47,
-    "name": "パラセクト",
-    "nameEn": "Parasect",
+    "catalogNumber": 47,
+    "name": {
+      "ja": "パラセクト",
+      "en": "Parasect"
+    },
     "yield": {
       "atk": 2,
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "venonat",
-    "dexNumber": 48,
-    "name": "コンパン",
-    "nameEn": "Venonat",
+    "catalogNumber": 48,
+    "name": {
+      "ja": "コンパン",
+      "en": "Venonat"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "venomoth",
-    "dexNumber": 49,
-    "name": "モルフォン",
-    "nameEn": "Venomoth",
+    "catalogNumber": 49,
+    "name": {
+      "ja": "モルフォン",
+      "en": "Venomoth"
+    },
     "yield": {
       "spa": 1,
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "diglett",
-    "dexNumber": 50,
-    "name": "ディグダ",
-    "nameEn": "Diglett",
+    "catalogNumber": 50,
+    "name": {
+      "ja": "ディグダ",
+      "en": "Diglett"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "dugtrio",
-    "dexNumber": 51,
-    "name": "ダグトリオ",
-    "nameEn": "Dugtrio",
+    "catalogNumber": 51,
+    "name": {
+      "ja": "ダグトリオ",
+      "en": "Dugtrio"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "meowth",
-    "dexNumber": 52,
-    "name": "ニャース",
-    "nameEn": "Meowth",
+    "catalogNumber": 52,
+    "name": {
+      "ja": "ニャース",
+      "en": "Meowth"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "persian",
-    "dexNumber": 53,
-    "name": "ペルシアン",
-    "nameEn": "Persian",
+    "catalogNumber": 53,
+    "name": {
+      "ja": "ペルシアン",
+      "en": "Persian"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "psyduck",
-    "dexNumber": 54,
-    "name": "コダック",
-    "nameEn": "Psyduck",
+    "catalogNumber": 54,
+    "name": {
+      "ja": "コダック",
+      "en": "Psyduck"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "golduck",
-    "dexNumber": 55,
-    "name": "ゴルダック",
-    "nameEn": "Golduck",
+    "catalogNumber": 55,
+    "name": {
+      "ja": "ゴルダック",
+      "en": "Golduck"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "mankey",
-    "dexNumber": 56,
-    "name": "マンキー",
-    "nameEn": "Mankey",
+    "catalogNumber": 56,
+    "name": {
+      "ja": "マンキー",
+      "en": "Mankey"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "primeape",
-    "dexNumber": 57,
-    "name": "オコリザル",
-    "nameEn": "Primeape",
+    "catalogNumber": 57,
+    "name": {
+      "ja": "オコリザル",
+      "en": "Primeape"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "growlithe",
-    "dexNumber": 58,
-    "name": "ガーディ",
-    "nameEn": "Growlithe",
+    "catalogNumber": 58,
+    "name": {
+      "ja": "ガーディ",
+      "en": "Growlithe"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "arcanine",
-    "dexNumber": 59,
-    "name": "ウインディ",
-    "nameEn": "Arcanine",
+    "catalogNumber": 59,
+    "name": {
+      "ja": "ウインディ",
+      "en": "Arcanine"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "poliwag",
-    "dexNumber": 60,
-    "name": "ニョロモ",
-    "nameEn": "Poliwag",
+    "catalogNumber": 60,
+    "name": {
+      "ja": "ニョロモ",
+      "en": "Poliwag"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "poliwhirl",
-    "dexNumber": 61,
-    "name": "ニョロゾ",
-    "nameEn": "Poliwhirl",
+    "catalogNumber": 61,
+    "name": {
+      "ja": "ニョロゾ",
+      "en": "Poliwhirl"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "poliwrath",
-    "dexNumber": 62,
-    "name": "ニョロボン",
-    "nameEn": "Poliwrath",
+    "catalogNumber": 62,
+    "name": {
+      "ja": "ニョロボン",
+      "en": "Poliwrath"
+    },
     "yield": {
       "def": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "abra",
-    "dexNumber": 63,
-    "name": "ケーシィ",
-    "nameEn": "Abra",
+    "catalogNumber": 63,
+    "name": {
+      "ja": "ケーシィ",
+      "en": "Abra"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "kadabra",
-    "dexNumber": 64,
-    "name": "ユンゲラー",
-    "nameEn": "Kadabra",
+    "catalogNumber": 64,
+    "name": {
+      "ja": "ユンゲラー",
+      "en": "Kadabra"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "alakazam",
-    "dexNumber": 65,
-    "name": "フーディン",
-    "nameEn": "Alakazam",
+    "catalogNumber": 65,
+    "name": {
+      "ja": "フーディン",
+      "en": "Alakazam"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "machop",
-    "dexNumber": 66,
-    "name": "ワンリキー",
-    "nameEn": "Machop",
+    "catalogNumber": 66,
+    "name": {
+      "ja": "ワンリキー",
+      "en": "Machop"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "machoke",
-    "dexNumber": 67,
-    "name": "ゴーリキー",
-    "nameEn": "Machoke",
+    "catalogNumber": 67,
+    "name": {
+      "ja": "ゴーリキー",
+      "en": "Machoke"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "machamp",
-    "dexNumber": 68,
-    "name": "カイリキー",
-    "nameEn": "Machamp",
+    "catalogNumber": 68,
+    "name": {
+      "ja": "カイリキー",
+      "en": "Machamp"
+    },
     "yield": {
       "atk": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "bellsprout",
-    "dexNumber": 69,
-    "name": "マダツボミ",
-    "nameEn": "Bellsprout",
+    "catalogNumber": 69,
+    "name": {
+      "ja": "マダツボミ",
+      "en": "Bellsprout"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "weepinbell",
-    "dexNumber": 70,
-    "name": "ウツドン",
-    "nameEn": "Weepinbell",
+    "catalogNumber": 70,
+    "name": {
+      "ja": "ウツドン",
+      "en": "Weepinbell"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "victreebel",
-    "dexNumber": 71,
-    "name": "ウツボット",
-    "nameEn": "Victreebel",
+    "catalogNumber": 71,
+    "name": {
+      "ja": "ウツボット",
+      "en": "Victreebel"
+    },
     "yield": {
       "atk": 3
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "tentacool",
-    "dexNumber": 72,
-    "name": "メノクラゲ",
-    "nameEn": "Tentacool",
+    "catalogNumber": 72,
+    "name": {
+      "ja": "メノクラゲ",
+      "en": "Tentacool"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "tentacruel",
-    "dexNumber": 73,
-    "name": "ドククラゲ",
-    "nameEn": "Tentacruel",
+    "catalogNumber": 73,
+    "name": {
+      "ja": "ドククラゲ",
+      "en": "Tentacruel"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "geodude",
-    "dexNumber": 74,
-    "name": "イシツブテ",
-    "nameEn": "Geodude",
+    "catalogNumber": 74,
+    "name": {
+      "ja": "イシツブテ",
+      "en": "Geodude"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "graveler",
-    "dexNumber": 75,
-    "name": "ゴローン",
-    "nameEn": "Graveler",
+    "catalogNumber": 75,
+    "name": {
+      "ja": "ゴローン",
+      "en": "Graveler"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "golem",
-    "dexNumber": 76,
-    "name": "ゴローニャ",
-    "nameEn": "Golem",
+    "catalogNumber": 76,
+    "name": {
+      "ja": "ゴローニャ",
+      "en": "Golem"
+    },
     "yield": {
       "def": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "ponyta",
-    "dexNumber": 77,
-    "name": "ポニータ",
-    "nameEn": "Ponyta",
+    "catalogNumber": 77,
+    "name": {
+      "ja": "ポニータ",
+      "en": "Ponyta"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "rapidash",
-    "dexNumber": 78,
-    "name": "ギャロップ",
-    "nameEn": "Rapidash",
+    "catalogNumber": 78,
+    "name": {
+      "ja": "ギャロップ",
+      "en": "Rapidash"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "slowpoke",
-    "dexNumber": 79,
-    "name": "ヤドン",
-    "nameEn": "Slowpoke",
+    "catalogNumber": 79,
+    "name": {
+      "ja": "ヤドン",
+      "en": "Slowpoke"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "slowbro",
-    "dexNumber": 80,
-    "name": "ヤドラン",
-    "nameEn": "Slowbro",
+    "catalogNumber": 80,
+    "name": {
+      "ja": "ヤドラン",
+      "en": "Slowbro"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "magnemite",
-    "dexNumber": 81,
-    "name": "コイル",
-    "nameEn": "Magnemite",
+    "catalogNumber": 81,
+    "name": {
+      "ja": "コイル",
+      "en": "Magnemite"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "magneton",
-    "dexNumber": 82,
-    "name": "レアコイル",
-    "nameEn": "Magneton",
+    "catalogNumber": 82,
+    "name": {
+      "ja": "レアコイル",
+      "en": "Magneton"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "farfetch-d",
-    "dexNumber": 83,
-    "name": "カモネギ",
-    "nameEn": "Farfetch’d",
+    "catalogNumber": 83,
+    "name": {
+      "ja": "カモネギ",
+      "en": "Farfetch’d"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "doduo",
-    "dexNumber": 84,
-    "name": "ドードー",
-    "nameEn": "Doduo",
+    "catalogNumber": 84,
+    "name": {
+      "ja": "ドードー",
+      "en": "Doduo"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "dodrio",
-    "dexNumber": 85,
-    "name": "ドードリオ",
-    "nameEn": "Dodrio",
+    "catalogNumber": 85,
+    "name": {
+      "ja": "ドードリオ",
+      "en": "Dodrio"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "seel",
-    "dexNumber": 86,
-    "name": "パウワウ",
-    "nameEn": "Seel",
+    "catalogNumber": 86,
+    "name": {
+      "ja": "パウワウ",
+      "en": "Seel"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "dewgong",
-    "dexNumber": 87,
-    "name": "ジュゴン",
-    "nameEn": "Dewgong",
+    "catalogNumber": 87,
+    "name": {
+      "ja": "ジュゴン",
+      "en": "Dewgong"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "grimer",
-    "dexNumber": 88,
-    "name": "ベトベター",
-    "nameEn": "Grimer",
+    "catalogNumber": 88,
+    "name": {
+      "ja": "ベトベター",
+      "en": "Grimer"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "muk",
-    "dexNumber": 89,
-    "name": "ベトベトン",
-    "nameEn": "Muk",
+    "catalogNumber": 89,
+    "name": {
+      "ja": "ベトベトン",
+      "en": "Muk"
+    },
     "yield": {
       "hp": 1,
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "shellder",
-    "dexNumber": 90,
-    "name": "シェルダー",
-    "nameEn": "Shellder",
+    "catalogNumber": 90,
+    "name": {
+      "ja": "シェルダー",
+      "en": "Shellder"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "cloyster",
-    "dexNumber": 91,
-    "name": "パルシェン",
-    "nameEn": "Cloyster",
+    "catalogNumber": 91,
+    "name": {
+      "ja": "パルシェン",
+      "en": "Cloyster"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "gastly",
-    "dexNumber": 92,
-    "name": "ゴース",
-    "nameEn": "Gastly",
+    "catalogNumber": 92,
+    "name": {
+      "ja": "ゴース",
+      "en": "Gastly"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "haunter",
-    "dexNumber": 93,
-    "name": "ゴースト",
-    "nameEn": "Haunter",
+    "catalogNumber": 93,
+    "name": {
+      "ja": "ゴースト",
+      "en": "Haunter"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "gengar",
-    "dexNumber": 94,
-    "name": "ゲンガー",
-    "nameEn": "Gengar",
+    "catalogNumber": 94,
+    "name": {
+      "ja": "ゲンガー",
+      "en": "Gengar"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "onix",
-    "dexNumber": 95,
-    "name": "イワーク",
-    "nameEn": "Onix",
+    "catalogNumber": 95,
+    "name": {
+      "ja": "イワーク",
+      "en": "Onix"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "drowzee",
-    "dexNumber": 96,
-    "name": "スリープ",
-    "nameEn": "Drowzee",
+    "catalogNumber": 96,
+    "name": {
+      "ja": "スリープ",
+      "en": "Drowzee"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "hypno",
-    "dexNumber": 97,
-    "name": "スリーパー",
-    "nameEn": "Hypno",
+    "catalogNumber": 97,
+    "name": {
+      "ja": "スリーパー",
+      "en": "Hypno"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "krabby",
-    "dexNumber": 98,
-    "name": "クラブ",
-    "nameEn": "Krabby",
+    "catalogNumber": 98,
+    "name": {
+      "ja": "クラブ",
+      "en": "Krabby"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "kingler",
-    "dexNumber": 99,
-    "name": "キングラー",
-    "nameEn": "Kingler",
+    "catalogNumber": 99,
+    "name": {
+      "ja": "キングラー",
+      "en": "Kingler"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "voltorb",
-    "dexNumber": 100,
-    "name": "ビリリダマ",
-    "nameEn": "Voltorb",
+    "catalogNumber": 100,
+    "name": {
+      "ja": "ビリリダマ",
+      "en": "Voltorb"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "electrode",
-    "dexNumber": 101,
-    "name": "マルマイン",
-    "nameEn": "Electrode",
+    "catalogNumber": 101,
+    "name": {
+      "ja": "マルマイン",
+      "en": "Electrode"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "exeggcute",
-    "dexNumber": 102,
-    "name": "タマタマ",
-    "nameEn": "Exeggcute",
+    "catalogNumber": 102,
+    "name": {
+      "ja": "タマタマ",
+      "en": "Exeggcute"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "exeggutor",
-    "dexNumber": 103,
-    "name": "ナッシー",
-    "nameEn": "Exeggutor",
+    "catalogNumber": 103,
+    "name": {
+      "ja": "ナッシー",
+      "en": "Exeggutor"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "cubone",
-    "dexNumber": 104,
-    "name": "カラカラ",
-    "nameEn": "Cubone",
+    "catalogNumber": 104,
+    "name": {
+      "ja": "カラカラ",
+      "en": "Cubone"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "marowak",
-    "dexNumber": 105,
-    "name": "ガラガラ",
-    "nameEn": "Marowak",
+    "catalogNumber": 105,
+    "name": {
+      "ja": "ガラガラ",
+      "en": "Marowak"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "hitmonlee",
-    "dexNumber": 106,
-    "name": "サワムラー",
-    "nameEn": "Hitmonlee",
+    "catalogNumber": 106,
+    "name": {
+      "ja": "サワムラー",
+      "en": "Hitmonlee"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "hitmonchan",
-    "dexNumber": 107,
-    "name": "エビワラー",
-    "nameEn": "Hitmonchan",
+    "catalogNumber": 107,
+    "name": {
+      "ja": "エビワラー",
+      "en": "Hitmonchan"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "lickitung",
-    "dexNumber": 108,
-    "name": "ベロリンガ",
-    "nameEn": "Lickitung",
+    "catalogNumber": 108,
+    "name": {
+      "ja": "ベロリンガ",
+      "en": "Lickitung"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "koffing",
-    "dexNumber": 109,
-    "name": "ドガース",
-    "nameEn": "Koffing",
+    "catalogNumber": 109,
+    "name": {
+      "ja": "ドガース",
+      "en": "Koffing"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "weezing",
-    "dexNumber": 110,
-    "name": "マタドガス",
-    "nameEn": "Weezing",
+    "catalogNumber": 110,
+    "name": {
+      "ja": "マタドガス",
+      "en": "Weezing"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "rhyhorn",
-    "dexNumber": 111,
-    "name": "サイホーン",
-    "nameEn": "Rhyhorn",
+    "catalogNumber": 111,
+    "name": {
+      "ja": "サイホーン",
+      "en": "Rhyhorn"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "rhydon",
-    "dexNumber": 112,
-    "name": "サイドン",
-    "nameEn": "Rhydon",
+    "catalogNumber": 112,
+    "name": {
+      "ja": "サイドン",
+      "en": "Rhydon"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "chansey",
-    "dexNumber": 113,
-    "name": "ラッキー",
-    "nameEn": "Chansey",
+    "catalogNumber": 113,
+    "name": {
+      "ja": "ラッキー",
+      "en": "Chansey"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "tangela",
-    "dexNumber": 114,
-    "name": "モンジャラ",
-    "nameEn": "Tangela",
+    "catalogNumber": 114,
+    "name": {
+      "ja": "モンジャラ",
+      "en": "Tangela"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "kangaskhan",
-    "dexNumber": 115,
-    "name": "ガルーラ",
-    "nameEn": "Kangaskhan",
+    "catalogNumber": 115,
+    "name": {
+      "ja": "ガルーラ",
+      "en": "Kangaskhan"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "horsea",
-    "dexNumber": 116,
-    "name": "タッツー",
-    "nameEn": "Horsea",
+    "catalogNumber": 116,
+    "name": {
+      "ja": "タッツー",
+      "en": "Horsea"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "seadra",
-    "dexNumber": 117,
-    "name": "シードラ",
-    "nameEn": "Seadra",
+    "catalogNumber": 117,
+    "name": {
+      "ja": "シードラ",
+      "en": "Seadra"
+    },
     "yield": {
       "def": 1,
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "goldeen",
-    "dexNumber": 118,
-    "name": "トサキント",
-    "nameEn": "Goldeen",
+    "catalogNumber": 118,
+    "name": {
+      "ja": "トサキント",
+      "en": "Goldeen"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "seaking",
-    "dexNumber": 119,
-    "name": "アズマオウ",
-    "nameEn": "Seaking",
+    "catalogNumber": 119,
+    "name": {
+      "ja": "アズマオウ",
+      "en": "Seaking"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "staryu",
-    "dexNumber": 120,
-    "name": "ヒトデマン",
-    "nameEn": "Staryu",
+    "catalogNumber": 120,
+    "name": {
+      "ja": "ヒトデマン",
+      "en": "Staryu"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "starmie",
-    "dexNumber": 121,
-    "name": "スターミー",
-    "nameEn": "Starmie",
+    "catalogNumber": 121,
+    "name": {
+      "ja": "スターミー",
+      "en": "Starmie"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "mr--mime",
-    "dexNumber": 122,
-    "name": "バリヤード",
-    "nameEn": "Mr. Mime",
+    "catalogNumber": 122,
+    "name": {
+      "ja": "バリヤード",
+      "en": "Mr. Mime"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "scyther",
-    "dexNumber": 123,
-    "name": "ストライク",
-    "nameEn": "Scyther",
+    "catalogNumber": 123,
+    "name": {
+      "ja": "ストライク",
+      "en": "Scyther"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "jynx",
-    "dexNumber": 124,
-    "name": "ルージュラ",
-    "nameEn": "Jynx",
+    "catalogNumber": 124,
+    "name": {
+      "ja": "ルージュラ",
+      "en": "Jynx"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "electabuzz",
-    "dexNumber": 125,
-    "name": "エレブー",
-    "nameEn": "Electabuzz",
+    "catalogNumber": 125,
+    "name": {
+      "ja": "エレブー",
+      "en": "Electabuzz"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "magmar",
-    "dexNumber": 126,
-    "name": "ブーバー",
-    "nameEn": "Magmar",
+    "catalogNumber": 126,
+    "name": {
+      "ja": "ブーバー",
+      "en": "Magmar"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "pinsir",
-    "dexNumber": 127,
-    "name": "カイロス",
-    "nameEn": "Pinsir",
+    "catalogNumber": 127,
+    "name": {
+      "ja": "カイロス",
+      "en": "Pinsir"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "tauros",
-    "dexNumber": 128,
-    "name": "ケンタロス",
-    "nameEn": "Tauros",
+    "catalogNumber": 128,
+    "name": {
+      "ja": "ケンタロス",
+      "en": "Tauros"
+    },
     "yield": {
       "atk": 1,
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "magikarp",
-    "dexNumber": 129,
-    "name": "コイキング",
-    "nameEn": "Magikarp",
+    "catalogNumber": 129,
+    "name": {
+      "ja": "コイキング",
+      "en": "Magikarp"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "gyarados",
-    "dexNumber": 130,
-    "name": "ギャラドス",
-    "nameEn": "Gyarados",
+    "catalogNumber": 130,
+    "name": {
+      "ja": "ギャラドス",
+      "en": "Gyarados"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "lapras",
-    "dexNumber": 131,
-    "name": "ラプラス",
-    "nameEn": "Lapras",
+    "catalogNumber": 131,
+    "name": {
+      "ja": "ラプラス",
+      "en": "Lapras"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "ditto",
-    "dexNumber": 132,
-    "name": "メタモン",
-    "nameEn": "Ditto",
+    "catalogNumber": 132,
+    "name": {
+      "ja": "メタモン",
+      "en": "Ditto"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "eevee",
-    "dexNumber": 133,
-    "name": "イーブイ",
-    "nameEn": "Eevee",
+    "catalogNumber": 133,
+    "name": {
+      "ja": "イーブイ",
+      "en": "Eevee"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "vaporeon",
-    "dexNumber": 134,
-    "name": "シャワーズ",
-    "nameEn": "Vaporeon",
+    "catalogNumber": 134,
+    "name": {
+      "ja": "シャワーズ",
+      "en": "Vaporeon"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "jolteon",
-    "dexNumber": 135,
-    "name": "サンダース",
-    "nameEn": "Jolteon",
+    "catalogNumber": 135,
+    "name": {
+      "ja": "サンダース",
+      "en": "Jolteon"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "flareon",
-    "dexNumber": 136,
-    "name": "ブースター",
-    "nameEn": "Flareon",
+    "catalogNumber": 136,
+    "name": {
+      "ja": "ブースター",
+      "en": "Flareon"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "porygon",
-    "dexNumber": 137,
-    "name": "ポリゴン",
-    "nameEn": "Porygon",
+    "catalogNumber": 137,
+    "name": {
+      "ja": "ポリゴン",
+      "en": "Porygon"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "omanyte",
-    "dexNumber": 138,
-    "name": "オムナイト",
-    "nameEn": "Omanyte",
+    "catalogNumber": 138,
+    "name": {
+      "ja": "オムナイト",
+      "en": "Omanyte"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "omastar",
-    "dexNumber": 139,
-    "name": "オムスター",
-    "nameEn": "Omastar",
+    "catalogNumber": 139,
+    "name": {
+      "ja": "オムスター",
+      "en": "Omastar"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "kabuto",
-    "dexNumber": 140,
-    "name": "カブト",
-    "nameEn": "Kabuto",
+    "catalogNumber": 140,
+    "name": {
+      "ja": "カブト",
+      "en": "Kabuto"
+    },
     "yield": {
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "kabutops",
-    "dexNumber": 141,
-    "name": "カブトプス",
-    "nameEn": "Kabutops",
+    "catalogNumber": 141,
+    "name": {
+      "ja": "カブトプス",
+      "en": "Kabutops"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "aerodactyl",
-    "dexNumber": 142,
-    "name": "プテラ",
-    "nameEn": "Aerodactyl",
+    "catalogNumber": 142,
+    "name": {
+      "ja": "プテラ",
+      "en": "Aerodactyl"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "snorlax",
-    "dexNumber": 143,
-    "name": "カビゴン",
-    "nameEn": "Snorlax",
+    "catalogNumber": 143,
+    "name": {
+      "ja": "カビゴン",
+      "en": "Snorlax"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "articuno",
-    "dexNumber": 144,
-    "name": "フリーザー",
-    "nameEn": "Articuno",
+    "catalogNumber": 144,
+    "name": {
+      "ja": "フリーザー",
+      "en": "Articuno"
+    },
     "yield": {
       "spd": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "zapdos",
-    "dexNumber": 145,
-    "name": "サンダー",
-    "nameEn": "Zapdos",
+    "catalogNumber": 145,
+    "name": {
+      "ja": "サンダー",
+      "en": "Zapdos"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "moltres",
-    "dexNumber": 146,
-    "name": "ファイヤー",
-    "nameEn": "Moltres",
+    "catalogNumber": 146,
+    "name": {
+      "ja": "ファイヤー",
+      "en": "Moltres"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "dratini",
-    "dexNumber": 147,
-    "name": "ミニリュウ",
-    "nameEn": "Dratini",
+    "catalogNumber": 147,
+    "name": {
+      "ja": "ミニリュウ",
+      "en": "Dratini"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "dragonair",
-    "dexNumber": 148,
-    "name": "ハクリュー",
-    "nameEn": "Dragonair",
+    "catalogNumber": 148,
+    "name": {
+      "ja": "ハクリュー",
+      "en": "Dragonair"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "dragonite",
-    "dexNumber": 149,
-    "name": "カイリュー",
-    "nameEn": "Dragonite",
+    "catalogNumber": 149,
+    "name": {
+      "ja": "カイリュー",
+      "en": "Dragonite"
+    },
     "yield": {
       "atk": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "mewtwo",
-    "dexNumber": 150,
-    "name": "ミュウツー",
-    "nameEn": "Mewtwo",
+    "catalogNumber": 150,
+    "name": {
+      "ja": "ミュウツー",
+      "en": "Mewtwo"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "mew",
-    "dexNumber": 151,
-    "name": "ミュウ",
-    "nameEn": "Mew",
+    "catalogNumber": 151,
+    "name": {
+      "ja": "ミュウ",
+      "en": "Mew"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "chikorita",
-    "dexNumber": 152,
-    "name": "チコリータ",
-    "nameEn": "Chikorita",
+    "catalogNumber": 152,
+    "name": {
+      "ja": "チコリータ",
+      "en": "Chikorita"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "bayleef",
-    "dexNumber": 153,
-    "name": "ベイリーフ",
-    "nameEn": "Bayleef",
+    "catalogNumber": 153,
+    "name": {
+      "ja": "ベイリーフ",
+      "en": "Bayleef"
+    },
     "yield": {
       "def": 1,
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "meganium",
-    "dexNumber": 154,
-    "name": "メガニウム",
-    "nameEn": "Meganium",
+    "catalogNumber": 154,
+    "name": {
+      "ja": "メガニウム",
+      "en": "Meganium"
+    },
     "yield": {
       "def": 1,
       "spd": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "cyndaquil",
-    "dexNumber": 155,
-    "name": "ヒノアラシ",
-    "nameEn": "Cyndaquil",
+    "catalogNumber": 155,
+    "name": {
+      "ja": "ヒノアラシ",
+      "en": "Cyndaquil"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "quilava",
-    "dexNumber": 156,
-    "name": "マグマラシ",
-    "nameEn": "Quilava",
+    "catalogNumber": 156,
+    "name": {
+      "ja": "マグマラシ",
+      "en": "Quilava"
+    },
     "yield": {
       "spa": 1,
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "typhlosion",
-    "dexNumber": 157,
-    "name": "バクフーン",
-    "nameEn": "Typhlosion",
+    "catalogNumber": 157,
+    "name": {
+      "ja": "バクフーン",
+      "en": "Typhlosion"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "totodile",
-    "dexNumber": 158,
-    "name": "ワニノコ",
-    "nameEn": "Totodile",
+    "catalogNumber": 158,
+    "name": {
+      "ja": "ワニノコ",
+      "en": "Totodile"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "croconaw",
-    "dexNumber": 159,
-    "name": "アリゲイツ",
-    "nameEn": "Croconaw",
+    "catalogNumber": 159,
+    "name": {
+      "ja": "アリゲイツ",
+      "en": "Croconaw"
+    },
     "yield": {
       "atk": 1,
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "feraligatr",
-    "dexNumber": 160,
-    "name": "オーダイル",
-    "nameEn": "Feraligatr",
+    "catalogNumber": 160,
+    "name": {
+      "ja": "オーダイル",
+      "en": "Feraligatr"
+    },
     "yield": {
       "atk": 2,
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "sentret",
-    "dexNumber": 161,
-    "name": "オタチ",
-    "nameEn": "Sentret",
+    "catalogNumber": 161,
+    "name": {
+      "ja": "オタチ",
+      "en": "Sentret"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "furret",
-    "dexNumber": 162,
-    "name": "オオタチ",
-    "nameEn": "Furret",
+    "catalogNumber": 162,
+    "name": {
+      "ja": "オオタチ",
+      "en": "Furret"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "hoothoot",
-    "dexNumber": 163,
-    "name": "ホーホー",
-    "nameEn": "Hoothoot",
+    "catalogNumber": 163,
+    "name": {
+      "ja": "ホーホー",
+      "en": "Hoothoot"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "noctowl",
-    "dexNumber": 164,
-    "name": "ヨルノズク",
-    "nameEn": "Noctowl",
+    "catalogNumber": 164,
+    "name": {
+      "ja": "ヨルノズク",
+      "en": "Noctowl"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "ledyba",
-    "dexNumber": 165,
-    "name": "レディバ",
-    "nameEn": "Ledyba",
+    "catalogNumber": 165,
+    "name": {
+      "ja": "レディバ",
+      "en": "Ledyba"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "ledian",
-    "dexNumber": 166,
-    "name": "レディアン",
-    "nameEn": "Ledian",
+    "catalogNumber": 166,
+    "name": {
+      "ja": "レディアン",
+      "en": "Ledian"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "spinarak",
-    "dexNumber": 167,
-    "name": "イトマル",
-    "nameEn": "Spinarak",
+    "catalogNumber": 167,
+    "name": {
+      "ja": "イトマル",
+      "en": "Spinarak"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "ariados",
-    "dexNumber": 168,
-    "name": "アリアドス",
-    "nameEn": "Ariados",
+    "catalogNumber": 168,
+    "name": {
+      "ja": "アリアドス",
+      "en": "Ariados"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "crobat",
-    "dexNumber": 169,
-    "name": "クロバット",
-    "nameEn": "Crobat",
+    "catalogNumber": 169,
+    "name": {
+      "ja": "クロバット",
+      "en": "Crobat"
+    },
     "yield": {
       "spe": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "chinchou",
-    "dexNumber": 170,
-    "name": "チョンチー",
-    "nameEn": "Chinchou",
+    "catalogNumber": 170,
+    "name": {
+      "ja": "チョンチー",
+      "en": "Chinchou"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "lanturn",
-    "dexNumber": 171,
-    "name": "ランターン",
-    "nameEn": "Lanturn",
+    "catalogNumber": 171,
+    "name": {
+      "ja": "ランターン",
+      "en": "Lanturn"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "pichu",
-    "dexNumber": 172,
-    "name": "ピチュー",
-    "nameEn": "Pichu",
+    "catalogNumber": 172,
+    "name": {
+      "ja": "ピチュー",
+      "en": "Pichu"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "cleffa",
-    "dexNumber": 173,
-    "name": "ピィ",
-    "nameEn": "Cleffa",
+    "catalogNumber": 173,
+    "name": {
+      "ja": "ピィ",
+      "en": "Cleffa"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "igglybuff",
-    "dexNumber": 174,
-    "name": "ププリン",
-    "nameEn": "Igglybuff",
+    "catalogNumber": 174,
+    "name": {
+      "ja": "ププリン",
+      "en": "Igglybuff"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "togepi",
-    "dexNumber": 175,
-    "name": "トゲピー",
-    "nameEn": "Togepi",
+    "catalogNumber": 175,
+    "name": {
+      "ja": "トゲピー",
+      "en": "Togepi"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "togetic",
-    "dexNumber": 176,
-    "name": "トゲチック",
-    "nameEn": "Togetic",
+    "catalogNumber": 176,
+    "name": {
+      "ja": "トゲチック",
+      "en": "Togetic"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "natu",
-    "dexNumber": 177,
-    "name": "ネイティ",
-    "nameEn": "Natu",
+    "catalogNumber": 177,
+    "name": {
+      "ja": "ネイティ",
+      "en": "Natu"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "xatu",
-    "dexNumber": 178,
-    "name": "ネイティオ",
-    "nameEn": "Xatu",
+    "catalogNumber": 178,
+    "name": {
+      "ja": "ネイティオ",
+      "en": "Xatu"
+    },
     "yield": {
       "spa": 1,
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "mareep",
-    "dexNumber": 179,
-    "name": "メリープ",
-    "nameEn": "Mareep",
+    "catalogNumber": 179,
+    "name": {
+      "ja": "メリープ",
+      "en": "Mareep"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "flaaffy",
-    "dexNumber": 180,
-    "name": "モココ",
-    "nameEn": "Flaaffy",
+    "catalogNumber": 180,
+    "name": {
+      "ja": "モココ",
+      "en": "Flaaffy"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "ampharos",
-    "dexNumber": 181,
-    "name": "デンリュウ",
-    "nameEn": "Ampharos",
+    "catalogNumber": 181,
+    "name": {
+      "ja": "デンリュウ",
+      "en": "Ampharos"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "bellossom",
-    "dexNumber": 182,
-    "name": "キレイハナ",
-    "nameEn": "Bellossom",
+    "catalogNumber": 182,
+    "name": {
+      "ja": "キレイハナ",
+      "en": "Bellossom"
+    },
     "yield": {
       "spd": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "marill",
-    "dexNumber": 183,
-    "name": "マリル",
-    "nameEn": "Marill",
+    "catalogNumber": 183,
+    "name": {
+      "ja": "マリル",
+      "en": "Marill"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "azumarill",
-    "dexNumber": 184,
-    "name": "マリルリ",
-    "nameEn": "Azumarill",
+    "catalogNumber": 184,
+    "name": {
+      "ja": "マリルリ",
+      "en": "Azumarill"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "sudowoodo",
-    "dexNumber": 185,
-    "name": "ウソッキー",
-    "nameEn": "Sudowoodo",
+    "catalogNumber": 185,
+    "name": {
+      "ja": "ウソッキー",
+      "en": "Sudowoodo"
+    },
     "yield": {
       "def": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "politoed",
-    "dexNumber": 186,
-    "name": "ニョロトノ",
-    "nameEn": "Politoed",
+    "catalogNumber": 186,
+    "name": {
+      "ja": "ニョロトノ",
+      "en": "Politoed"
+    },
     "yield": {
       "spd": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "hoppip",
-    "dexNumber": 187,
-    "name": "ハネッコ",
-    "nameEn": "Hoppip",
+    "catalogNumber": 187,
+    "name": {
+      "ja": "ハネッコ",
+      "en": "Hoppip"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "skiploom",
-    "dexNumber": 188,
-    "name": "ポポッコ",
-    "nameEn": "Skiploom",
+    "catalogNumber": 188,
+    "name": {
+      "ja": "ポポッコ",
+      "en": "Skiploom"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "jumpluff",
-    "dexNumber": 189,
-    "name": "ワタッコ",
-    "nameEn": "Jumpluff",
+    "catalogNumber": 189,
+    "name": {
+      "ja": "ワタッコ",
+      "en": "Jumpluff"
+    },
     "yield": {
       "spe": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "aipom",
-    "dexNumber": 190,
-    "name": "エイパム",
-    "nameEn": "Aipom",
+    "catalogNumber": 190,
+    "name": {
+      "ja": "エイパム",
+      "en": "Aipom"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "sunkern",
-    "dexNumber": 191,
-    "name": "ヒマナッツ",
-    "nameEn": "Sunkern",
+    "catalogNumber": 191,
+    "name": {
+      "ja": "ヒマナッツ",
+      "en": "Sunkern"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "sunflora",
-    "dexNumber": 192,
-    "name": "キマワリ",
-    "nameEn": "Sunflora",
+    "catalogNumber": 192,
+    "name": {
+      "ja": "キマワリ",
+      "en": "Sunflora"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "yanma",
-    "dexNumber": 193,
-    "name": "ヤンヤンマ",
-    "nameEn": "Yanma",
+    "catalogNumber": 193,
+    "name": {
+      "ja": "ヤンヤンマ",
+      "en": "Yanma"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "wooper",
-    "dexNumber": 194,
-    "name": "ウパー",
-    "nameEn": "Wooper",
+    "catalogNumber": 194,
+    "name": {
+      "ja": "ウパー",
+      "en": "Wooper"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "quagsire",
-    "dexNumber": 195,
-    "name": "ヌオー",
-    "nameEn": "Quagsire",
+    "catalogNumber": 195,
+    "name": {
+      "ja": "ヌオー",
+      "en": "Quagsire"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "espeon",
-    "dexNumber": 196,
-    "name": "エーフィ",
-    "nameEn": "Espeon",
+    "catalogNumber": 196,
+    "name": {
+      "ja": "エーフィ",
+      "en": "Espeon"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "umbreon",
-    "dexNumber": 197,
-    "name": "ブラッキー",
-    "nameEn": "Umbreon",
+    "catalogNumber": 197,
+    "name": {
+      "ja": "ブラッキー",
+      "en": "Umbreon"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "murkrow",
-    "dexNumber": 198,
-    "name": "ヤミカラス",
-    "nameEn": "Murkrow",
+    "catalogNumber": 198,
+    "name": {
+      "ja": "ヤミカラス",
+      "en": "Murkrow"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "slowking",
-    "dexNumber": 199,
-    "name": "ヤドキング",
-    "nameEn": "Slowking",
+    "catalogNumber": 199,
+    "name": {
+      "ja": "ヤドキング",
+      "en": "Slowking"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "misdreavus",
-    "dexNumber": 200,
-    "name": "ムウマ",
-    "nameEn": "Misdreavus",
+    "catalogNumber": 200,
+    "name": {
+      "ja": "ムウマ",
+      "en": "Misdreavus"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "unown",
-    "dexNumber": 201,
-    "name": "アンノーン",
-    "nameEn": "Unown",
+    "catalogNumber": 201,
+    "name": {
+      "ja": "アンノーン",
+      "en": "Unown"
+    },
     "yield": {
       "atk": 1,
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "wobbuffet",
-    "dexNumber": 202,
-    "name": "ソーナンス",
-    "nameEn": "Wobbuffet",
+    "catalogNumber": 202,
+    "name": {
+      "ja": "ソーナンス",
+      "en": "Wobbuffet"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "girafarig",
-    "dexNumber": 203,
-    "name": "キリンリキ",
-    "nameEn": "Girafarig",
+    "catalogNumber": 203,
+    "name": {
+      "ja": "キリンリキ",
+      "en": "Girafarig"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "pineco",
-    "dexNumber": 204,
-    "name": "クヌギダマ",
-    "nameEn": "Pineco",
+    "catalogNumber": 204,
+    "name": {
+      "ja": "クヌギダマ",
+      "en": "Pineco"
+    },
     "yield": {
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "forretress",
-    "dexNumber": 205,
-    "name": "フォレトス",
-    "nameEn": "Forretress",
+    "catalogNumber": 205,
+    "name": {
+      "ja": "フォレトス",
+      "en": "Forretress"
+    },
     "yield": {
       "def": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "dunsparce",
-    "dexNumber": 206,
-    "name": "ノコッチ",
-    "nameEn": "Dunsparce",
+    "catalogNumber": 206,
+    "name": {
+      "ja": "ノコッチ",
+      "en": "Dunsparce"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "gligar",
-    "dexNumber": 207,
-    "name": "グライガー",
-    "nameEn": "Gligar",
+    "catalogNumber": 207,
+    "name": {
+      "ja": "グライガー",
+      "en": "Gligar"
+    },
     "yield": {
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "steelix",
-    "dexNumber": 208,
-    "name": "ハガネール",
-    "nameEn": "Steelix",
+    "catalogNumber": 208,
+    "name": {
+      "ja": "ハガネール",
+      "en": "Steelix"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "snubbull",
-    "dexNumber": 209,
-    "name": "ブルー",
-    "nameEn": "Snubbull",
+    "catalogNumber": 209,
+    "name": {
+      "ja": "ブルー",
+      "en": "Snubbull"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "granbull",
-    "dexNumber": 210,
-    "name": "グランブル",
-    "nameEn": "Granbull",
+    "catalogNumber": 210,
+    "name": {
+      "ja": "グランブル",
+      "en": "Granbull"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "qwilfish",
-    "dexNumber": 211,
-    "name": "ハリーセン",
-    "nameEn": "Qwilfish",
+    "catalogNumber": 211,
+    "name": {
+      "ja": "ハリーセン",
+      "en": "Qwilfish"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "scizor",
-    "dexNumber": 212,
-    "name": "ハッサム",
-    "nameEn": "Scizor",
+    "catalogNumber": 212,
+    "name": {
+      "ja": "ハッサム",
+      "en": "Scizor"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "shuckle",
-    "dexNumber": 213,
-    "name": "ツボツボ",
-    "nameEn": "Shuckle",
+    "catalogNumber": 213,
+    "name": {
+      "ja": "ツボツボ",
+      "en": "Shuckle"
+    },
     "yield": {
       "def": 1,
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "heracross",
-    "dexNumber": 214,
-    "name": "ヘラクロス",
-    "nameEn": "Heracross",
+    "catalogNumber": 214,
+    "name": {
+      "ja": "ヘラクロス",
+      "en": "Heracross"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "sneasel",
-    "dexNumber": 215,
-    "name": "ニューラ",
-    "nameEn": "Sneasel",
+    "catalogNumber": 215,
+    "name": {
+      "ja": "ニューラ",
+      "en": "Sneasel"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "teddiursa",
-    "dexNumber": 216,
-    "name": "ヒメグマ",
-    "nameEn": "Teddiursa",
+    "catalogNumber": 216,
+    "name": {
+      "ja": "ヒメグマ",
+      "en": "Teddiursa"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "ursaring",
-    "dexNumber": 217,
-    "name": "リングマ",
-    "nameEn": "Ursaring",
+    "catalogNumber": 217,
+    "name": {
+      "ja": "リングマ",
+      "en": "Ursaring"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "slugma",
-    "dexNumber": 218,
-    "name": "マグマッグ",
-    "nameEn": "Slugma",
+    "catalogNumber": 218,
+    "name": {
+      "ja": "マグマッグ",
+      "en": "Slugma"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "magcargo",
-    "dexNumber": 219,
-    "name": "マグカルゴ",
-    "nameEn": "Magcargo",
+    "catalogNumber": 219,
+    "name": {
+      "ja": "マグカルゴ",
+      "en": "Magcargo"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "swinub",
-    "dexNumber": 220,
-    "name": "ウリムー",
-    "nameEn": "Swinub",
+    "catalogNumber": 220,
+    "name": {
+      "ja": "ウリムー",
+      "en": "Swinub"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "piloswine",
-    "dexNumber": 221,
-    "name": "イノムー",
-    "nameEn": "Piloswine",
+    "catalogNumber": 221,
+    "name": {
+      "ja": "イノムー",
+      "en": "Piloswine"
+    },
     "yield": {
       "hp": 1,
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "corsola",
-    "dexNumber": 222,
-    "name": "サニーゴ",
-    "nameEn": "Corsola",
+    "catalogNumber": 222,
+    "name": {
+      "ja": "サニーゴ",
+      "en": "Corsola"
+    },
     "yield": {
       "def": 1,
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "remoraid",
-    "dexNumber": 223,
-    "name": "テッポウオ",
-    "nameEn": "Remoraid",
+    "catalogNumber": 223,
+    "name": {
+      "ja": "テッポウオ",
+      "en": "Remoraid"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "octillery",
-    "dexNumber": 224,
-    "name": "オクタン",
-    "nameEn": "Octillery",
+    "catalogNumber": 224,
+    "name": {
+      "ja": "オクタン",
+      "en": "Octillery"
+    },
     "yield": {
       "atk": 1,
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "delibird",
-    "dexNumber": 225,
-    "name": "デリバード",
-    "nameEn": "Delibird",
+    "catalogNumber": 225,
+    "name": {
+      "ja": "デリバード",
+      "en": "Delibird"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "mantine",
-    "dexNumber": 226,
-    "name": "マンタイン",
-    "nameEn": "Mantine",
+    "catalogNumber": 226,
+    "name": {
+      "ja": "マンタイン",
+      "en": "Mantine"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "skarmory",
-    "dexNumber": 227,
-    "name": "エアームド",
-    "nameEn": "Skarmory",
+    "catalogNumber": 227,
+    "name": {
+      "ja": "エアームド",
+      "en": "Skarmory"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "houndour",
-    "dexNumber": 228,
-    "name": "デルビル",
-    "nameEn": "Houndour",
+    "catalogNumber": 228,
+    "name": {
+      "ja": "デルビル",
+      "en": "Houndour"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "houndoom",
-    "dexNumber": 229,
-    "name": "ヘルガー",
-    "nameEn": "Houndoom",
+    "catalogNumber": 229,
+    "name": {
+      "ja": "ヘルガー",
+      "en": "Houndoom"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "kingdra",
-    "dexNumber": 230,
-    "name": "キングドラ",
-    "nameEn": "Kingdra",
+    "catalogNumber": 230,
+    "name": {
+      "ja": "キングドラ",
+      "en": "Kingdra"
+    },
     "yield": {
       "atk": 1,
       "spa": 1,
       "spd": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "phanpy",
-    "dexNumber": 231,
-    "name": "ゴマゾウ",
-    "nameEn": "Phanpy",
+    "catalogNumber": 231,
+    "name": {
+      "ja": "ゴマゾウ",
+      "en": "Phanpy"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "donphan",
-    "dexNumber": 232,
-    "name": "ドンファン",
-    "nameEn": "Donphan",
+    "catalogNumber": 232,
+    "name": {
+      "ja": "ドンファン",
+      "en": "Donphan"
+    },
     "yield": {
       "atk": 1,
       "def": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "porygon2",
-    "dexNumber": 233,
-    "name": "ポリゴン２",
-    "nameEn": "Porygon2",
+    "catalogNumber": 233,
+    "name": {
+      "ja": "ポリゴン２",
+      "en": "Porygon2"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "stantler",
-    "dexNumber": 234,
-    "name": "オドシシ",
-    "nameEn": "Stantler",
+    "catalogNumber": 234,
+    "name": {
+      "ja": "オドシシ",
+      "en": "Stantler"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "smeargle",
-    "dexNumber": 235,
-    "name": "ドーブル",
-    "nameEn": "Smeargle",
+    "catalogNumber": 235,
+    "name": {
+      "ja": "ドーブル",
+      "en": "Smeargle"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "tyrogue",
-    "dexNumber": 236,
-    "name": "バルキー",
-    "nameEn": "Tyrogue",
+    "catalogNumber": 236,
+    "name": {
+      "ja": "バルキー",
+      "en": "Tyrogue"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "hitmontop",
-    "dexNumber": 237,
-    "name": "カポエラー",
-    "nameEn": "Hitmontop",
+    "catalogNumber": 237,
+    "name": {
+      "ja": "カポエラー",
+      "en": "Hitmontop"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "smoochum",
-    "dexNumber": 238,
-    "name": "ムチュール",
-    "nameEn": "Smoochum",
+    "catalogNumber": 238,
+    "name": {
+      "ja": "ムチュール",
+      "en": "Smoochum"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "elekid",
-    "dexNumber": 239,
-    "name": "エレキッド",
-    "nameEn": "Elekid",
+    "catalogNumber": 239,
+    "name": {
+      "ja": "エレキッド",
+      "en": "Elekid"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "magby",
-    "dexNumber": 240,
-    "name": "ブビィ",
-    "nameEn": "Magby",
+    "catalogNumber": 240,
+    "name": {
+      "ja": "ブビィ",
+      "en": "Magby"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "miltank",
-    "dexNumber": 241,
-    "name": "ミルタンク",
-    "nameEn": "Miltank",
+    "catalogNumber": 241,
+    "name": {
+      "ja": "ミルタンク",
+      "en": "Miltank"
+    },
     "yield": {
       "def": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "blissey",
-    "dexNumber": 242,
-    "name": "ハピナス",
-    "nameEn": "Blissey",
+    "catalogNumber": 242,
+    "name": {
+      "ja": "ハピナス",
+      "en": "Blissey"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "raikou",
-    "dexNumber": 243,
-    "name": "ライコウ",
-    "nameEn": "Raikou",
+    "catalogNumber": 243,
+    "name": {
+      "ja": "ライコウ",
+      "en": "Raikou"
+    },
     "yield": {
       "spa": 1,
       "spe": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "entei",
-    "dexNumber": 244,
-    "name": "エンテイ",
-    "nameEn": "Entei",
+    "catalogNumber": 244,
+    "name": {
+      "ja": "エンテイ",
+      "en": "Entei"
+    },
     "yield": {
       "hp": 1,
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "suicune",
-    "dexNumber": 245,
-    "name": "スイクン",
-    "nameEn": "Suicune",
+    "catalogNumber": 245,
+    "name": {
+      "ja": "スイクン",
+      "en": "Suicune"
+    },
     "yield": {
       "def": 1,
       "spd": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "larvitar",
-    "dexNumber": 246,
-    "name": "ヨーギラス",
-    "nameEn": "Larvitar",
+    "catalogNumber": 246,
+    "name": {
+      "ja": "ヨーギラス",
+      "en": "Larvitar"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "pupitar",
-    "dexNumber": 247,
-    "name": "サナギラス",
-    "nameEn": "Pupitar",
+    "catalogNumber": 247,
+    "name": {
+      "ja": "サナギラス",
+      "en": "Pupitar"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "tyranitar",
-    "dexNumber": 248,
-    "name": "バンギラス",
-    "nameEn": "Tyranitar",
+    "catalogNumber": 248,
+    "name": {
+      "ja": "バンギラス",
+      "en": "Tyranitar"
+    },
     "yield": {
       "atk": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "lugia",
-    "dexNumber": 249,
-    "name": "ルギア",
-    "nameEn": "Lugia",
+    "catalogNumber": 249,
+    "name": {
+      "ja": "ルギア",
+      "en": "Lugia"
+    },
     "yield": {
       "spd": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "ho-oh",
-    "dexNumber": 250,
-    "name": "ホウオウ",
-    "nameEn": "Ho-Oh",
+    "catalogNumber": 250,
+    "name": {
+      "ja": "ホウオウ",
+      "en": "Ho-Oh"
+    },
     "yield": {
       "spd": 3
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "celebi",
-    "dexNumber": 251,
-    "name": "セレビィ",
-    "nameEn": "Celebi",
+    "catalogNumber": 251,
+    "name": {
+      "ja": "セレビィ",
+      "en": "Celebi"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "treecko",
-    "dexNumber": 252,
-    "name": "キモリ",
-    "nameEn": "Treecko",
+    "catalogNumber": 252,
+    "name": {
+      "ja": "キモリ",
+      "en": "Treecko"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "grovyle",
-    "dexNumber": 253,
-    "name": "ジュプトル",
-    "nameEn": "Grovyle",
+    "catalogNumber": 253,
+    "name": {
+      "ja": "ジュプトル",
+      "en": "Grovyle"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "sceptile",
-    "dexNumber": 254,
-    "name": "ジュカイン",
-    "nameEn": "Sceptile",
+    "catalogNumber": 254,
+    "name": {
+      "ja": "ジュカイン",
+      "en": "Sceptile"
+    },
     "yield": {
       "spe": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "torchic",
-    "dexNumber": 255,
-    "name": "アチャモ",
-    "nameEn": "Torchic",
+    "catalogNumber": 255,
+    "name": {
+      "ja": "アチャモ",
+      "en": "Torchic"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "combusken",
-    "dexNumber": 256,
-    "name": "ワカシャモ",
-    "nameEn": "Combusken",
+    "catalogNumber": 256,
+    "name": {
+      "ja": "ワカシャモ",
+      "en": "Combusken"
+    },
     "yield": {
       "atk": 1,
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "blaziken",
-    "dexNumber": 257,
-    "name": "バシャーモ",
-    "nameEn": "Blaziken",
+    "catalogNumber": 257,
+    "name": {
+      "ja": "バシャーモ",
+      "en": "Blaziken"
+    },
     "yield": {
       "atk": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "mudkip",
-    "dexNumber": 258,
-    "name": "ミズゴロウ",
-    "nameEn": "Mudkip",
+    "catalogNumber": 258,
+    "name": {
+      "ja": "ミズゴロウ",
+      "en": "Mudkip"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "marshtomp",
-    "dexNumber": 259,
-    "name": "ヌマクロー",
-    "nameEn": "Marshtomp",
+    "catalogNumber": 259,
+    "name": {
+      "ja": "ヌマクロー",
+      "en": "Marshtomp"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "swampert",
-    "dexNumber": 260,
-    "name": "ラグラージ",
-    "nameEn": "Swampert",
+    "catalogNumber": 260,
+    "name": {
+      "ja": "ラグラージ",
+      "en": "Swampert"
+    },
     "yield": {
       "atk": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "poochyena",
-    "dexNumber": 261,
-    "name": "ポチエナ",
-    "nameEn": "Poochyena",
+    "catalogNumber": 261,
+    "name": {
+      "ja": "ポチエナ",
+      "en": "Poochyena"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "mightyena",
-    "dexNumber": 262,
-    "name": "グラエナ",
-    "nameEn": "Mightyena",
+    "catalogNumber": 262,
+    "name": {
+      "ja": "グラエナ",
+      "en": "Mightyena"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "zigzagoon",
-    "dexNumber": 263,
-    "name": "ジグザグマ",
-    "nameEn": "Zigzagoon",
+    "catalogNumber": 263,
+    "name": {
+      "ja": "ジグザグマ",
+      "en": "Zigzagoon"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "linoone",
-    "dexNumber": 264,
-    "name": "マッスグマ",
-    "nameEn": "Linoone",
+    "catalogNumber": 264,
+    "name": {
+      "ja": "マッスグマ",
+      "en": "Linoone"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "wurmple",
-    "dexNumber": 265,
-    "name": "ケムッソ",
-    "nameEn": "Wurmple",
+    "catalogNumber": 265,
+    "name": {
+      "ja": "ケムッソ",
+      "en": "Wurmple"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "silcoon",
-    "dexNumber": 266,
-    "name": "カラサリス",
-    "nameEn": "Silcoon",
+    "catalogNumber": 266,
+    "name": {
+      "ja": "カラサリス",
+      "en": "Silcoon"
+    },
     "yield": {
       "def": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "beautifly",
-    "dexNumber": 267,
-    "name": "アゲハント",
-    "nameEn": "Beautifly",
+    "catalogNumber": 267,
+    "name": {
+      "ja": "アゲハント",
+      "en": "Beautifly"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "cascoon",
-    "dexNumber": 268,
-    "name": "マユルド",
-    "nameEn": "Cascoon",
+    "catalogNumber": 268,
+    "name": {
+      "ja": "マユルド",
+      "en": "Cascoon"
+    },
     "yield": {
       "def": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "dustox",
-    "dexNumber": 269,
-    "name": "ドクケイル",
-    "nameEn": "Dustox",
+    "catalogNumber": 269,
+    "name": {
+      "ja": "ドクケイル",
+      "en": "Dustox"
+    },
     "yield": {
       "spd": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "lotad",
-    "dexNumber": 270,
-    "name": "ハスボー",
-    "nameEn": "Lotad",
+    "catalogNumber": 270,
+    "name": {
+      "ja": "ハスボー",
+      "en": "Lotad"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "lombre",
-    "dexNumber": 271,
-    "name": "ハスブレロ",
-    "nameEn": "Lombre",
+    "catalogNumber": 271,
+    "name": {
+      "ja": "ハスブレロ",
+      "en": "Lombre"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "ludicolo",
-    "dexNumber": 272,
-    "name": "ルンパッパ",
-    "nameEn": "Ludicolo",
+    "catalogNumber": 272,
+    "name": {
+      "ja": "ルンパッパ",
+      "en": "Ludicolo"
+    },
     "yield": {
       "spd": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "seedot",
-    "dexNumber": 273,
-    "name": "タネボー",
-    "nameEn": "Seedot",
+    "catalogNumber": 273,
+    "name": {
+      "ja": "タネボー",
+      "en": "Seedot"
+    },
     "yield": {
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "nuzleaf",
-    "dexNumber": 274,
-    "name": "コノハナ",
-    "nameEn": "Nuzleaf",
+    "catalogNumber": 274,
+    "name": {
+      "ja": "コノハナ",
+      "en": "Nuzleaf"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "shiftry",
-    "dexNumber": 275,
-    "name": "ダーテング",
-    "nameEn": "Shiftry",
+    "catalogNumber": 275,
+    "name": {
+      "ja": "ダーテング",
+      "en": "Shiftry"
+    },
     "yield": {
       "atk": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "taillow",
-    "dexNumber": 276,
-    "name": "スバメ",
-    "nameEn": "Taillow",
+    "catalogNumber": 276,
+    "name": {
+      "ja": "スバメ",
+      "en": "Taillow"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "swellow",
-    "dexNumber": 277,
-    "name": "オオスバメ",
-    "nameEn": "Swellow",
+    "catalogNumber": 277,
+    "name": {
+      "ja": "オオスバメ",
+      "en": "Swellow"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "wingull",
-    "dexNumber": 278,
-    "name": "キャモメ",
-    "nameEn": "Wingull",
+    "catalogNumber": 278,
+    "name": {
+      "ja": "キャモメ",
+      "en": "Wingull"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "pelipper",
-    "dexNumber": 279,
-    "name": "ペリッパー",
-    "nameEn": "Pelipper",
+    "catalogNumber": 279,
+    "name": {
+      "ja": "ペリッパー",
+      "en": "Pelipper"
+    },
     "yield": {
       "def": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "ralts",
-    "dexNumber": 280,
-    "name": "ラルトス",
-    "nameEn": "Ralts",
+    "catalogNumber": 280,
+    "name": {
+      "ja": "ラルトス",
+      "en": "Ralts"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "kirlia",
-    "dexNumber": 281,
-    "name": "キルリア",
-    "nameEn": "Kirlia",
+    "catalogNumber": 281,
+    "name": {
+      "ja": "キルリア",
+      "en": "Kirlia"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "gardevoir",
-    "dexNumber": 282,
-    "name": "サーナイト",
-    "nameEn": "Gardevoir",
+    "catalogNumber": 282,
+    "name": {
+      "ja": "サーナイト",
+      "en": "Gardevoir"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "surskit",
-    "dexNumber": 283,
-    "name": "アメタマ",
-    "nameEn": "Surskit",
+    "catalogNumber": 283,
+    "name": {
+      "ja": "アメタマ",
+      "en": "Surskit"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "masquerain",
-    "dexNumber": 284,
-    "name": "アメモース",
-    "nameEn": "Masquerain",
+    "catalogNumber": 284,
+    "name": {
+      "ja": "アメモース",
+      "en": "Masquerain"
+    },
     "yield": {
       "spa": 1,
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "shroomish",
-    "dexNumber": 285,
-    "name": "キノココ",
-    "nameEn": "Shroomish",
+    "catalogNumber": 285,
+    "name": {
+      "ja": "キノココ",
+      "en": "Shroomish"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "breloom",
-    "dexNumber": 286,
-    "name": "キノガッサ",
-    "nameEn": "Breloom",
+    "catalogNumber": 286,
+    "name": {
+      "ja": "キノガッサ",
+      "en": "Breloom"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "slakoth",
-    "dexNumber": 287,
-    "name": "ナマケロ",
-    "nameEn": "Slakoth",
+    "catalogNumber": 287,
+    "name": {
+      "ja": "ナマケロ",
+      "en": "Slakoth"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "vigoroth",
-    "dexNumber": 288,
-    "name": "ヤルキモノ",
-    "nameEn": "Vigoroth",
+    "catalogNumber": 288,
+    "name": {
+      "ja": "ヤルキモノ",
+      "en": "Vigoroth"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "slaking",
-    "dexNumber": 289,
-    "name": "ケッキング",
-    "nameEn": "Slaking",
+    "catalogNumber": 289,
+    "name": {
+      "ja": "ケッキング",
+      "en": "Slaking"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "nincada",
-    "dexNumber": 290,
-    "name": "ツチニン",
-    "nameEn": "Nincada",
+    "catalogNumber": 290,
+    "name": {
+      "ja": "ツチニン",
+      "en": "Nincada"
+    },
     "yield": {
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "ninjask",
-    "dexNumber": 291,
-    "name": "テッカニン",
-    "nameEn": "Ninjask",
+    "catalogNumber": 291,
+    "name": {
+      "ja": "テッカニン",
+      "en": "Ninjask"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "shedinja",
-    "dexNumber": 292,
-    "name": "ヌケニン",
-    "nameEn": "Shedinja",
+    "catalogNumber": 292,
+    "name": {
+      "ja": "ヌケニン",
+      "en": "Shedinja"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "whismur",
-    "dexNumber": 293,
-    "name": "ゴニョニョ",
-    "nameEn": "Whismur",
+    "catalogNumber": 293,
+    "name": {
+      "ja": "ゴニョニョ",
+      "en": "Whismur"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "loudred",
-    "dexNumber": 294,
-    "name": "ドゴーム",
-    "nameEn": "Loudred",
+    "catalogNumber": 294,
+    "name": {
+      "ja": "ドゴーム",
+      "en": "Loudred"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "exploud",
-    "dexNumber": 295,
-    "name": "バクオング",
-    "nameEn": "Exploud",
+    "catalogNumber": 295,
+    "name": {
+      "ja": "バクオング",
+      "en": "Exploud"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "makuhita",
-    "dexNumber": 296,
-    "name": "マクノシタ",
-    "nameEn": "Makuhita",
+    "catalogNumber": 296,
+    "name": {
+      "ja": "マクノシタ",
+      "en": "Makuhita"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "hariyama",
-    "dexNumber": 297,
-    "name": "ハリテヤマ",
-    "nameEn": "Hariyama",
+    "catalogNumber": 297,
+    "name": {
+      "ja": "ハリテヤマ",
+      "en": "Hariyama"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "azurill",
-    "dexNumber": 298,
-    "name": "ルリリ",
-    "nameEn": "Azurill",
+    "catalogNumber": 298,
+    "name": {
+      "ja": "ルリリ",
+      "en": "Azurill"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   },
   {
     "id": "nosepass",
-    "dexNumber": 299,
-    "name": "ノズパス",
-    "nameEn": "Nosepass",
+    "catalogNumber": 299,
+    "name": {
+      "ja": "ノズパス",
+      "en": "Nosepass"
+    },
     "yield": {
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "skitty",
-    "dexNumber": 300,
-    "name": "エネコ",
-    "nameEn": "Skitty",
+    "catalogNumber": 300,
+    "name": {
+      "ja": "エネコ",
+      "en": "Skitty"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "delcatty",
-    "dexNumber": 301,
-    "name": "エネコロロ",
-    "nameEn": "Delcatty",
+    "catalogNumber": 301,
+    "name": {
+      "ja": "エネコロロ",
+      "en": "Delcatty"
+    },
     "yield": {
       "hp": 1,
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "sableye",
-    "dexNumber": 302,
-    "name": "ヤミラミ",
-    "nameEn": "Sableye",
+    "catalogNumber": 302,
+    "name": {
+      "ja": "ヤミラミ",
+      "en": "Sableye"
+    },
     "yield": {
       "atk": 1,
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "mawile",
-    "dexNumber": 303,
-    "name": "クチート",
-    "nameEn": "Mawile",
+    "catalogNumber": 303,
+    "name": {
+      "ja": "クチート",
+      "en": "Mawile"
+    },
     "yield": {
       "atk": 1,
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "aron",
-    "dexNumber": 304,
-    "name": "ココドラ",
-    "nameEn": "Aron",
+    "catalogNumber": 304,
+    "name": {
+      "ja": "ココドラ",
+      "en": "Aron"
+    },
     "yield": {
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "lairon",
-    "dexNumber": 305,
-    "name": "コドラ",
-    "nameEn": "Lairon",
+    "catalogNumber": 305,
+    "name": {
+      "ja": "コドラ",
+      "en": "Lairon"
+    },
     "yield": {
       "def": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "aggron",
-    "dexNumber": 306,
-    "name": "ボスゴドラ",
-    "nameEn": "Aggron",
+    "catalogNumber": 306,
+    "name": {
+      "ja": "ボスゴドラ",
+      "en": "Aggron"
+    },
     "yield": {
       "def": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "meditite",
-    "dexNumber": 307,
-    "name": "アサナン",
-    "nameEn": "Meditite",
+    "catalogNumber": 307,
+    "name": {
+      "ja": "アサナン",
+      "en": "Meditite"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "medicham",
-    "dexNumber": 308,
-    "name": "チャーレム",
-    "nameEn": "Medicham",
+    "catalogNumber": 308,
+    "name": {
+      "ja": "チャーレム",
+      "en": "Medicham"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "electrike",
-    "dexNumber": 309,
-    "name": "ラクライ",
-    "nameEn": "Electrike",
+    "catalogNumber": 309,
+    "name": {
+      "ja": "ラクライ",
+      "en": "Electrike"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "manectric",
-    "dexNumber": 310,
-    "name": "ライボルト",
-    "nameEn": "Manectric",
+    "catalogNumber": 310,
+    "name": {
+      "ja": "ライボルト",
+      "en": "Manectric"
+    },
     "yield": {
       "spe": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "plusle",
-    "dexNumber": 311,
-    "name": "プラスル",
-    "nameEn": "Plusle",
+    "catalogNumber": 311,
+    "name": {
+      "ja": "プラスル",
+      "en": "Plusle"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "minun",
-    "dexNumber": 312,
-    "name": "マイナン",
-    "nameEn": "Minun",
+    "catalogNumber": 312,
+    "name": {
+      "ja": "マイナン",
+      "en": "Minun"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "volbeat",
-    "dexNumber": 313,
-    "name": "バルビート",
-    "nameEn": "Volbeat",
+    "catalogNumber": 313,
+    "name": {
+      "ja": "バルビート",
+      "en": "Volbeat"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "illumise",
-    "dexNumber": 314,
-    "name": "イルミーゼ",
-    "nameEn": "Illumise",
+    "catalogNumber": 314,
+    "name": {
+      "ja": "イルミーゼ",
+      "en": "Illumise"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "roselia",
-    "dexNumber": 315,
-    "name": "ロゼリア",
-    "nameEn": "Roselia",
+    "catalogNumber": 315,
+    "name": {
+      "ja": "ロゼリア",
+      "en": "Roselia"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "gulpin",
-    "dexNumber": 316,
-    "name": "ゴクリン",
-    "nameEn": "Gulpin",
+    "catalogNumber": 316,
+    "name": {
+      "ja": "ゴクリン",
+      "en": "Gulpin"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "swalot",
-    "dexNumber": 317,
-    "name": "マルノーム",
-    "nameEn": "Swalot",
+    "catalogNumber": 317,
+    "name": {
+      "ja": "マルノーム",
+      "en": "Swalot"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "carvanha",
-    "dexNumber": 318,
-    "name": "キバニア",
-    "nameEn": "Carvanha",
+    "catalogNumber": 318,
+    "name": {
+      "ja": "キバニア",
+      "en": "Carvanha"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "sharpedo",
-    "dexNumber": 319,
-    "name": "サメハダー",
-    "nameEn": "Sharpedo",
+    "catalogNumber": 319,
+    "name": {
+      "ja": "サメハダー",
+      "en": "Sharpedo"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "wailmer",
-    "dexNumber": 320,
-    "name": "ホエルコ",
-    "nameEn": "Wailmer",
+    "catalogNumber": 320,
+    "name": {
+      "ja": "ホエルコ",
+      "en": "Wailmer"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "wailord",
-    "dexNumber": 321,
-    "name": "ホエルオー",
-    "nameEn": "Wailord",
+    "catalogNumber": 321,
+    "name": {
+      "ja": "ホエルオー",
+      "en": "Wailord"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "numel",
-    "dexNumber": 322,
-    "name": "ドンメル",
-    "nameEn": "Numel",
+    "catalogNumber": 322,
+    "name": {
+      "ja": "ドンメル",
+      "en": "Numel"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "camerupt",
-    "dexNumber": 323,
-    "name": "バクーダ",
-    "nameEn": "Camerupt",
+    "catalogNumber": 323,
+    "name": {
+      "ja": "バクーダ",
+      "en": "Camerupt"
+    },
     "yield": {
       "atk": 1,
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "torkoal",
-    "dexNumber": 324,
-    "name": "コータス",
-    "nameEn": "Torkoal",
+    "catalogNumber": 324,
+    "name": {
+      "ja": "コータス",
+      "en": "Torkoal"
+    },
     "yield": {
       "def": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "spoink",
-    "dexNumber": 325,
-    "name": "バネブー",
-    "nameEn": "Spoink",
+    "catalogNumber": 325,
+    "name": {
+      "ja": "バネブー",
+      "en": "Spoink"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "grumpig",
-    "dexNumber": 326,
-    "name": "ブーピッグ",
-    "nameEn": "Grumpig",
+    "catalogNumber": 326,
+    "name": {
+      "ja": "ブーピッグ",
+      "en": "Grumpig"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "spinda",
-    "dexNumber": 327,
-    "name": "パッチール",
-    "nameEn": "Spinda",
+    "catalogNumber": 327,
+    "name": {
+      "ja": "パッチール",
+      "en": "Spinda"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "trapinch",
-    "dexNumber": 328,
-    "name": "ナックラー",
-    "nameEn": "Trapinch",
+    "catalogNumber": 328,
+    "name": {
+      "ja": "ナックラー",
+      "en": "Trapinch"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "vibrava",
-    "dexNumber": 329,
-    "name": "ビブラーバ",
-    "nameEn": "Vibrava",
+    "catalogNumber": 329,
+    "name": {
+      "ja": "ビブラーバ",
+      "en": "Vibrava"
+    },
     "yield": {
       "atk": 1,
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "flygon",
-    "dexNumber": 330,
-    "name": "フライゴン",
-    "nameEn": "Flygon",
+    "catalogNumber": 330,
+    "name": {
+      "ja": "フライゴン",
+      "en": "Flygon"
+    },
     "yield": {
       "atk": 1,
       "spe": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "cacnea",
-    "dexNumber": 331,
-    "name": "サボネア",
-    "nameEn": "Cacnea",
+    "catalogNumber": 331,
+    "name": {
+      "ja": "サボネア",
+      "en": "Cacnea"
+    },
     "yield": {
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "cacturne",
-    "dexNumber": 332,
-    "name": "ノクタス",
-    "nameEn": "Cacturne",
+    "catalogNumber": 332,
+    "name": {
+      "ja": "ノクタス",
+      "en": "Cacturne"
+    },
     "yield": {
       "atk": 1,
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "swablu",
-    "dexNumber": 333,
-    "name": "チルット",
-    "nameEn": "Swablu",
+    "catalogNumber": 333,
+    "name": {
+      "ja": "チルット",
+      "en": "Swablu"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "altaria",
-    "dexNumber": 334,
-    "name": "チルタリス",
-    "nameEn": "Altaria",
+    "catalogNumber": 334,
+    "name": {
+      "ja": "チルタリス",
+      "en": "Altaria"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "zangoose",
-    "dexNumber": 335,
-    "name": "ザングース",
-    "nameEn": "Zangoose",
+    "catalogNumber": 335,
+    "name": {
+      "ja": "ザングース",
+      "en": "Zangoose"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "seviper",
-    "dexNumber": 336,
-    "name": "ハブネーク",
-    "nameEn": "Seviper",
+    "catalogNumber": 336,
+    "name": {
+      "ja": "ハブネーク",
+      "en": "Seviper"
+    },
     "yield": {
       "atk": 1,
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "lunatone",
-    "dexNumber": 337,
-    "name": "ルナトーン",
-    "nameEn": "Lunatone",
+    "catalogNumber": 337,
+    "name": {
+      "ja": "ルナトーン",
+      "en": "Lunatone"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "solrock",
-    "dexNumber": 338,
-    "name": "ソルロック",
-    "nameEn": "Solrock",
+    "catalogNumber": 338,
+    "name": {
+      "ja": "ソルロック",
+      "en": "Solrock"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "barboach",
-    "dexNumber": 339,
-    "name": "ドジョッチ",
-    "nameEn": "Barboach",
+    "catalogNumber": 339,
+    "name": {
+      "ja": "ドジョッチ",
+      "en": "Barboach"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "whiscash",
-    "dexNumber": 340,
-    "name": "ナマズン",
-    "nameEn": "Whiscash",
+    "catalogNumber": 340,
+    "name": {
+      "ja": "ナマズン",
+      "en": "Whiscash"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "corphish",
-    "dexNumber": 341,
-    "name": "ヘイガニ",
-    "nameEn": "Corphish",
+    "catalogNumber": 341,
+    "name": {
+      "ja": "ヘイガニ",
+      "en": "Corphish"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "crawdaunt",
-    "dexNumber": 342,
-    "name": "シザリガー",
-    "nameEn": "Crawdaunt",
+    "catalogNumber": 342,
+    "name": {
+      "ja": "シザリガー",
+      "en": "Crawdaunt"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "baltoy",
-    "dexNumber": 343,
-    "name": "ヤジロン",
-    "nameEn": "Baltoy",
+    "catalogNumber": 343,
+    "name": {
+      "ja": "ヤジロン",
+      "en": "Baltoy"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "claydol",
-    "dexNumber": 344,
-    "name": "ネンドール",
-    "nameEn": "Claydol",
+    "catalogNumber": 344,
+    "name": {
+      "ja": "ネンドール",
+      "en": "Claydol"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "lileep",
-    "dexNumber": 345,
-    "name": "リリーラ",
-    "nameEn": "Lileep",
+    "catalogNumber": 345,
+    "name": {
+      "ja": "リリーラ",
+      "en": "Lileep"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "cradily",
-    "dexNumber": 346,
-    "name": "ユレイドル",
-    "nameEn": "Cradily",
+    "catalogNumber": 346,
+    "name": {
+      "ja": "ユレイドル",
+      "en": "Cradily"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "anorith",
-    "dexNumber": 347,
-    "name": "アノプス",
-    "nameEn": "Anorith",
+    "catalogNumber": 347,
+    "name": {
+      "ja": "アノプス",
+      "en": "Anorith"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "armaldo",
-    "dexNumber": 348,
-    "name": "アーマルド",
-    "nameEn": "Armaldo",
+    "catalogNumber": 348,
+    "name": {
+      "ja": "アーマルド",
+      "en": "Armaldo"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "feebas",
-    "dexNumber": 349,
-    "name": "ヒンバス",
-    "nameEn": "Feebas",
+    "catalogNumber": 349,
+    "name": {
+      "ja": "ヒンバス",
+      "en": "Feebas"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "milotic",
-    "dexNumber": 350,
-    "name": "ミロカロス",
-    "nameEn": "Milotic",
+    "catalogNumber": 350,
+    "name": {
+      "ja": "ミロカロス",
+      "en": "Milotic"
+    },
     "yield": {
       "spd": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "castform",
-    "dexNumber": 351,
-    "name": "ポワルン",
-    "nameEn": "Castform",
+    "catalogNumber": 351,
+    "name": {
+      "ja": "ポワルン",
+      "en": "Castform"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "kecleon",
-    "dexNumber": 352,
-    "name": "カクレオン",
-    "nameEn": "Kecleon",
+    "catalogNumber": 352,
+    "name": {
+      "ja": "カクレオン",
+      "en": "Kecleon"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "shuppet",
-    "dexNumber": 353,
-    "name": "カゲボウズ",
-    "nameEn": "Shuppet",
+    "catalogNumber": 353,
+    "name": {
+      "ja": "カゲボウズ",
+      "en": "Shuppet"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "banette",
-    "dexNumber": 354,
-    "name": "ジュペッタ",
-    "nameEn": "Banette",
+    "catalogNumber": 354,
+    "name": {
+      "ja": "ジュペッタ",
+      "en": "Banette"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "duskull",
-    "dexNumber": 355,
-    "name": "ヨマワル",
-    "nameEn": "Duskull",
+    "catalogNumber": 355,
+    "name": {
+      "ja": "ヨマワル",
+      "en": "Duskull"
+    },
     "yield": {
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "dusclops",
-    "dexNumber": 356,
-    "name": "サマヨール",
-    "nameEn": "Dusclops",
+    "catalogNumber": 356,
+    "name": {
+      "ja": "サマヨール",
+      "en": "Dusclops"
+    },
     "yield": {
       "def": 1,
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "tropius",
-    "dexNumber": 357,
-    "name": "トロピウス",
-    "nameEn": "Tropius",
+    "catalogNumber": 357,
+    "name": {
+      "ja": "トロピウス",
+      "en": "Tropius"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "chimecho",
-    "dexNumber": 358,
-    "name": "チリーン",
-    "nameEn": "Chimecho",
+    "catalogNumber": 358,
+    "name": {
+      "ja": "チリーン",
+      "en": "Chimecho"
+    },
     "yield": {
       "spa": 1,
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "absol",
-    "dexNumber": 359,
-    "name": "アブソル",
-    "nameEn": "Absol",
+    "catalogNumber": 359,
+    "name": {
+      "ja": "アブソル",
+      "en": "Absol"
+    },
     "yield": {
       "atk": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "wynaut",
-    "dexNumber": 360,
-    "name": "ソーナノ",
-    "nameEn": "Wynaut",
+    "catalogNumber": 360,
+    "name": {
+      "ja": "ソーナノ",
+      "en": "Wynaut"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": [
+    "tags": [
       "fr",
       "lg"
     ]
   },
   {
     "id": "snorunt",
-    "dexNumber": 361,
-    "name": "ユキワラシ",
-    "nameEn": "Snorunt",
+    "catalogNumber": 361,
+    "name": {
+      "ja": "ユキワラシ",
+      "en": "Snorunt"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "glalie",
-    "dexNumber": 362,
-    "name": "オニゴーリ",
-    "nameEn": "Glalie",
+    "catalogNumber": 362,
+    "name": {
+      "ja": "オニゴーリ",
+      "en": "Glalie"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "spheal",
-    "dexNumber": 363,
-    "name": "タマザラシ",
-    "nameEn": "Spheal",
+    "catalogNumber": 363,
+    "name": {
+      "ja": "タマザラシ",
+      "en": "Spheal"
+    },
     "yield": {
       "hp": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "sealeo",
-    "dexNumber": 364,
-    "name": "トドグラー",
-    "nameEn": "Sealeo",
+    "catalogNumber": 364,
+    "name": {
+      "ja": "トドグラー",
+      "en": "Sealeo"
+    },
     "yield": {
       "hp": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "walrein",
-    "dexNumber": 365,
-    "name": "トドゼルガ",
-    "nameEn": "Walrein",
+    "catalogNumber": 365,
+    "name": {
+      "ja": "トドゼルガ",
+      "en": "Walrein"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "clamperl",
-    "dexNumber": 366,
-    "name": "パールル",
-    "nameEn": "Clamperl",
+    "catalogNumber": 366,
+    "name": {
+      "ja": "パールル",
+      "en": "Clamperl"
+    },
     "yield": {
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "huntail",
-    "dexNumber": 367,
-    "name": "ハンテール",
-    "nameEn": "Huntail",
+    "catalogNumber": 367,
+    "name": {
+      "ja": "ハンテール",
+      "en": "Huntail"
+    },
     "yield": {
       "atk": 1,
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "gorebyss",
-    "dexNumber": 368,
-    "name": "サクラビス",
-    "nameEn": "Gorebyss",
+    "catalogNumber": 368,
+    "name": {
+      "ja": "サクラビス",
+      "en": "Gorebyss"
+    },
     "yield": {
       "spa": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "relicanth",
-    "dexNumber": 369,
-    "name": "ジーランス",
-    "nameEn": "Relicanth",
+    "catalogNumber": 369,
+    "name": {
+      "ja": "ジーランス",
+      "en": "Relicanth"
+    },
     "yield": {
       "hp": 1,
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "luvdisc",
-    "dexNumber": 370,
-    "name": "ラブカス",
-    "nameEn": "Luvdisc",
+    "catalogNumber": 370,
+    "name": {
+      "ja": "ラブカス",
+      "en": "Luvdisc"
+    },
     "yield": {
       "spe": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "bagon",
-    "dexNumber": 371,
-    "name": "タツベイ",
-    "nameEn": "Bagon",
+    "catalogNumber": 371,
+    "name": {
+      "ja": "タツベイ",
+      "en": "Bagon"
+    },
     "yield": {
       "atk": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "shelgon",
-    "dexNumber": 372,
-    "name": "コモルー",
-    "nameEn": "Shelgon",
+    "catalogNumber": 372,
+    "name": {
+      "ja": "コモルー",
+      "en": "Shelgon"
+    },
     "yield": {
       "def": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "salamence",
-    "dexNumber": 373,
-    "name": "ボーマンダ",
-    "nameEn": "Salamence",
+    "catalogNumber": 373,
+    "name": {
+      "ja": "ボーマンダ",
+      "en": "Salamence"
+    },
     "yield": {
       "atk": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "beldum",
-    "dexNumber": 374,
-    "name": "ダンバル",
-    "nameEn": "Beldum",
+    "catalogNumber": 374,
+    "name": {
+      "ja": "ダンバル",
+      "en": "Beldum"
+    },
     "yield": {
       "def": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "metang",
-    "dexNumber": 375,
-    "name": "メタング",
-    "nameEn": "Metang",
+    "catalogNumber": 375,
+    "name": {
+      "ja": "メタング",
+      "en": "Metang"
+    },
     "yield": {
       "def": 2
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "metagross",
-    "dexNumber": 376,
-    "name": "メタグロス",
-    "nameEn": "Metagross",
+    "catalogNumber": 376,
+    "name": {
+      "ja": "メタグロス",
+      "en": "Metagross"
+    },
     "yield": {
       "def": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "regirock",
-    "dexNumber": 377,
-    "name": "レジロック",
-    "nameEn": "Regirock",
+    "catalogNumber": 377,
+    "name": {
+      "ja": "レジロック",
+      "en": "Regirock"
+    },
     "yield": {
       "def": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "regice",
-    "dexNumber": 378,
-    "name": "レジアイス",
-    "nameEn": "Regice",
+    "catalogNumber": 378,
+    "name": {
+      "ja": "レジアイス",
+      "en": "Regice"
+    },
     "yield": {
       "spd": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "registeel",
-    "dexNumber": 379,
-    "name": "レジスチル",
-    "nameEn": "Registeel",
+    "catalogNumber": 379,
+    "name": {
+      "ja": "レジスチル",
+      "en": "Registeel"
+    },
     "yield": {
       "def": 2,
       "spd": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "latias",
-    "dexNumber": 380,
-    "name": "ラティアス",
-    "nameEn": "Latias",
+    "catalogNumber": 380,
+    "name": {
+      "ja": "ラティアス",
+      "en": "Latias"
+    },
     "yield": {
       "spd": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "latios",
-    "dexNumber": 381,
-    "name": "ラティオス",
-    "nameEn": "Latios",
+    "catalogNumber": 381,
+    "name": {
+      "ja": "ラティオス",
+      "en": "Latios"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "kyogre",
-    "dexNumber": 382,
-    "name": "カイオーガ",
-    "nameEn": "Kyogre",
+    "catalogNumber": 382,
+    "name": {
+      "ja": "カイオーガ",
+      "en": "Kyogre"
+    },
     "yield": {
       "spa": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "groudon",
-    "dexNumber": 383,
-    "name": "グラードン",
-    "nameEn": "Groudon",
+    "catalogNumber": 383,
+    "name": {
+      "ja": "グラードン",
+      "en": "Groudon"
+    },
     "yield": {
       "atk": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "rayquaza",
-    "dexNumber": 384,
-    "name": "レックウザ",
-    "nameEn": "Rayquaza",
+    "catalogNumber": 384,
+    "name": {
+      "ja": "レックウザ",
+      "en": "Rayquaza"
+    },
     "yield": {
       "atk": 2,
       "spa": 1
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "jirachi",
-    "dexNumber": 385,
-    "name": "ジラーチ",
-    "nameEn": "Jirachi",
+    "catalogNumber": 385,
+    "name": {
+      "ja": "ジラーチ",
+      "en": "Jirachi"
+    },
     "yield": {
       "hp": 3
     },
-    "availability": []
+    "tags": []
   },
   {
     "id": "deoxys-attack",
-    "dexNumber": 386,
-    "name": "デオキシス（アタック）",
-    "nameEn": "Deoxys (Attack)",
+    "catalogNumber": 386,
+    "name": {
+      "ja": "デオキシス（アタック）",
+      "en": "Deoxys (Attack)"
+    },
     "yield": {
       "atk": 1,
       "spa": 1,
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "fr"
     ]
   },
   {
     "id": "deoxys-defense",
-    "dexNumber": 386,
-    "name": "デオキシス（ディフェンス）",
-    "nameEn": "Deoxys (Defense)",
+    "catalogNumber": 386,
+    "name": {
+      "ja": "デオキシス（ディフェンス）",
+      "en": "Deoxys (Defense)"
+    },
     "yield": {
       "def": 1,
       "spd": 1,
       "spe": 1
     },
-    "availability": [
+    "tags": [
       "lg"
     ]
   }
