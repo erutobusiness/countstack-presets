@@ -1,9 +1,9 @@
 /**
  * frlg-trainers.ts
  *
- * Trainer data for FRLG EV training.
- * Focuses on Vs. Seeker rematchable trainers commonly used for EV training.
- * Data sourced from Smogon FRLG EV Training Guide and Bulbapedia.
+ * Trainer data for FRLG stat training.
+ * Focuses on Vs. Seeker rematchable trainers commonly used for training.
+ * Data sourced from Smogon FRLG Training Guide and Bulbapedia.
  *
  * Format follows SourceGroup from countstack preset schema.
  */
@@ -15,7 +15,7 @@ export interface LocalizedString {
 export interface TrainerPokemon {
   name: LocalizedString;
   level: number;
-  yield: Record<string, number>;
+  values: Record<string, number>;
 }
 
 export interface TrainerEntry {
@@ -23,14 +23,14 @@ export interface TrainerEntry {
   name: LocalizedString;
   location: LocalizedString;
   members: TrainerPokemon[];
-  totalYield: Record<string, number>;
+  totalValues: Record<string, number>;
   rematchable: boolean;
 }
 
-function sumYields(pokemon: TrainerPokemon[]): Record<string, number> {
+function sumValues(pokemon: TrainerPokemon[]): Record<string, number> {
   const total: Record<string, number> = {};
   for (const p of pokemon) {
-    for (const [stat, value] of Object.entries(p.yield)) {
+    for (const [stat, value] of Object.entries(p.values)) {
       total[stat] = (total[stat] ?? 0) + value;
     }
   }
@@ -49,16 +49,16 @@ function trainer(
     name,
     location,
     members,
-    totalYield: sumYields(members),
+    totalValues: sumValues(members),
     rematchable,
   };
 }
 
-function pkmn(ja: string, en: string, level: number, y: Record<string, number>): TrainerPokemon {
-  return { name: { ja, en }, level, yield: y };
+function pkmn(ja: string, en: string, level: number, v: Record<string, number>): TrainerPokemon {
+  return { name: { ja, en }, level, values: v };
 }
 
-// ── HP EV Trainers ──────────────────────────────────────────────
+// ── HP Trainers ──────────────────────────────────────────────
 
 const hpTrainers: TrainerEntry[] = [
   trainer(
@@ -91,7 +91,7 @@ const hpTrainers: TrainerEntry[] = [
   ),
 ];
 
-// ── Attack EV Trainers ──────────────────────────────────────────
+// ── Attack Trainers ──────────────────────────────────────────
 
 const atkTrainers: TrainerEntry[] = [
   trainer(
@@ -125,7 +125,7 @@ const atkTrainers: TrainerEntry[] = [
   ),
 ];
 
-// ── Defense EV Trainers ──────────────────────────────────────────
+// ── Defense Trainers ──────────────────────────────────────────
 
 const defTrainers: TrainerEntry[] = [
   trainer(
@@ -159,7 +159,7 @@ const defTrainers: TrainerEntry[] = [
   ),
 ];
 
-// ── Special Attack EV Trainers ──────────────────────────────────
+// ── Special Attack Trainers ──────────────────────────────────
 
 const spaTrainers: TrainerEntry[] = [
   trainer(
@@ -195,7 +195,7 @@ const spaTrainers: TrainerEntry[] = [
   ),
 ];
 
-// ── Special Defense EV Trainers ──────────────────────────────────
+// ── Special Defense Trainers ──────────────────────────────────
 
 const spdTrainers: TrainerEntry[] = [
   trainer(
@@ -232,7 +232,7 @@ const spdTrainers: TrainerEntry[] = [
   ),
 ];
 
-// ── Speed EV Trainers ──────────────────────────────────────────
+// ── Speed Trainers ──────────────────────────────────────────
 
 const speTrainers: TrainerEntry[] = [
   trainer(

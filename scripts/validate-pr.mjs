@@ -50,25 +50,64 @@ function normalizePreset(obj) {
     // SourceGroup members: trainers[].pokemon → groups[].members
     if (Array.isArray(database.groups)) {
       for (const g of database.groups) {
-        if (g && typeof g === 'object' && !g.members && Array.isArray(g.pokemon)) {
-          g.members = g.pokemon;
-          delete g.pokemon;
+        if (g && typeof g === 'object') {
+          if (!g.members && Array.isArray(g.pokemon)) {
+            g.members = g.pokemon;
+            delete g.pokemon;
+          }
         }
       }
     }
-    // DatabaseEntry fields: dexNumber → catalogNumber, availability → tags
+    // DatabaseEntry fields: dexNumber → catalogNumber → sortOrder, availability → tags
+    // yield → values
     if (Array.isArray(database.entries)) {
       for (const e of database.entries) {
         if (e && typeof e === 'object') {
-          if (e.catalogNumber === undefined && e.dexNumber !== undefined) {
-            e.catalogNumber = e.dexNumber;
+          if (e.sortOrder === undefined && e.catalogNumber !== undefined) {
+            e.sortOrder = e.catalogNumber;
+            delete e.catalogNumber;
+          }
+          if (e.sortOrder === undefined && e.dexNumber !== undefined) {
+            e.sortOrder = e.dexNumber;
             delete e.dexNumber;
+          }
+          if (e.values === undefined && e.yield !== undefined) {
+            e.values = e.yield;
+            delete e.yield;
           }
           if (e.tags === undefined && Array.isArray(e.availability)) {
             e.tags = e.availability;
             delete e.availability;
           }
         }
+      }
+    }
+    // SourceGroup: totalYield → totalValues, members[].yield → members[].values
+    if (Array.isArray(database.groups)) {
+      for (const g of database.groups) {
+        if (g && typeof g === 'object') {
+          if (g.totalValues === undefined && g.totalYield !== undefined) {
+            g.totalValues = g.totalYield;
+            delete g.totalYield;
+          }
+          if (Array.isArray(g.members)) {
+            for (const m of g.members) {
+              if (m && typeof m === 'object' && m.values === undefined && m.yield !== undefined) {
+                m.values = m.yield;
+                delete m.yield;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // multipliers[].scope: "battle" → "source"
+  if (Array.isArray(obj.multipliers)) {
+    for (const m of obj.multipliers) {
+      if (m && typeof m === 'object' && m.scope === 'battle') {
+        m.scope = 'source';
       }
     }
   }

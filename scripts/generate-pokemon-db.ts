@@ -1,7 +1,7 @@
 /**
  * generate-pokemon-db.ts
  *
- * Fetches EV yield data for all Gen 1-3 Pokémon (#1-386) from PokeAPI,
+ * Fetches stat gain data for all Gen 1-3 Pokémon (#1-386) from PokeAPI,
  * including Japanese/English names and FRLG version availability.
  *
  * Output: frlg/pokemon.json
@@ -33,7 +33,7 @@ const STAT_MAP: Record<string, string> = {
 
 // FRLG version availability mapping
 // Pokemon appearing in wild encounters, gifts, or static encounters.
-// Pokemon not in this map are still included (for trade-in EV training)
+// Pokemon not in this map are still included (for trade-in training)
 // but have availability: [] (not natively obtainable in FRLG).
 
 // FireRed exclusives (not in LeafGreen)
@@ -121,23 +121,23 @@ const NOT_IN_FRLG = new Set([
   196, 197, // Espeon, Umbreon (no day/night)
 ]);
 
-// Deoxys has different formes (and EV yields) per version.
+// Deoxys has different formes (and stat gains) per version.
 // FR = Attack Forme, LG = Defense Forme. Replaces the single PokeAPI entry.
 const DEOXYS_FORMES = [
   {
     id: "deoxys-attack",
-    catalogNumber: 386,
+    sortOrder: 386,
     nameJa: "デオキシス（アタック）",
     nameEn: "Deoxys (Attack)",
-    yield: { atk: 1, spa: 1, spe: 1 } as Record<string, number>,
+    values: { atk: 1, spa: 1, spe: 1 } as Record<string, number>,
     tags: ["fr"] as ("fr" | "lg")[],
   },
   {
     id: "deoxys-defense",
-    catalogNumber: 386,
+    sortOrder: 386,
     nameJa: "デオキシス（ディフェンス）",
     nameEn: "Deoxys (Defense)",
-    yield: { def: 1, spd: 1, spe: 1 } as Record<string, number>,
+    values: { def: 1, spd: 1, spe: 1 } as Record<string, number>,
     tags: ["lg"] as ("fr" | "lg")[],
   },
 ];
@@ -146,7 +146,7 @@ interface PokemonRaw {
   id: number;
   nameEn: string;
   nameJa: string;
-  yield: Record<string, number>;
+  values: Record<string, number>;
 }
 
 // Special-case ID generation for Nidoran (♀/♂ → f/m)
@@ -190,12 +190,12 @@ async function fetchPokemon(id: number): Promise<PokemonRaw> {
     fetchJson<any>(`https://pokeapi.co/api/v2/pokemon-species/${id}`),
   ]);
 
-  // Extract EV yield (only non-zero stats)
-  const evYield: Record<string, number> = {};
+  // Extract stat gains (only non-zero stats)
+  const values: Record<string, number> = {};
   for (const stat of pokemon.stats) {
     if (stat.effort > 0) {
       const key = STAT_MAP[stat.stat.name];
-      if (key) evYield[key] = stat.effort;
+      if (key) values[key] = stat.effort;
     }
   }
 
@@ -209,7 +209,7 @@ async function fetchPokemon(id: number): Promise<PokemonRaw> {
     id,
     nameEn: enName?.name ?? pokemon.name,
     nameJa: jaName?.name ?? pokemon.name,
-    yield: evYield,
+    values,
   };
 }
 
@@ -262,20 +262,20 @@ async function main() {
   // Transform to preset format
   const pokemon = rawData.map((p) => ({
     id: generateId(p.nameEn, p.id),
-    catalogNumber: p.id,
+    sortOrder: p.id,
     name: { ja: p.nameJa, en: p.nameEn },
-    yield: p.yield,
+    values: p.values,
     tags: getAvailability(p.id),
   }));
 
   // Replace Deoxys Normal with forme-specific entries
-  const deoxysIdx = pokemon.findIndex((p) => p.catalogNumber === 386);
+  const deoxysIdx = pokemon.findIndex((p) => p.sortOrder === 386);
   if (deoxysIdx !== -1) {
     pokemon.splice(deoxysIdx, 1, ...DEOXYS_FORMES.map((f) => ({
       id: f.id,
-      catalogNumber: f.catalogNumber,
+      sortOrder: f.sortOrder,
       name: { ja: f.nameJa, en: f.nameEn },
-      yield: f.yield,
+      values: f.values,
       tags: f.tags,
     })));
   }

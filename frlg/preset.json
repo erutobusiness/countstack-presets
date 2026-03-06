@@ -2,7 +2,7 @@
   "meta": {
     "id": "frlg",
     "name": "ポケモン FRLG",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "ポケモン ファイアレッド・リーフグリーン用プリセット"
   },
   "theme": {
@@ -102,7 +102,7 @@
         "en": "Macho Brace"
       },
       "factor": 2,
-      "scope": "battle"
+      "scope": "source"
     },
     {
       "id": "pokerus",
@@ -111,7 +111,7 @@
         "en": "Pokérus"
       },
       "factor": 2,
-      "scope": "battle"
+      "scope": "source"
     }
   ],
   "multiplierStacking": "multiplicative",
@@ -192,12 +192,12 @@
     "entries": [
       {
         "id": "bulbasaur",
-        "catalogNumber": 1,
+        "sortOrder": 1,
         "name": {
           "ja": "フシギダネ",
           "en": "Bulbasaur"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -207,12 +207,12 @@
       },
       {
         "id": "ivysaur",
-        "catalogNumber": 2,
+        "sortOrder": 2,
         "name": {
           "ja": "フシギソウ",
           "en": "Ivysaur"
         },
-        "yield": {
+        "values": {
           "spa": 1,
           "spd": 1
         },
@@ -223,12 +223,12 @@
       },
       {
         "id": "venusaur",
-        "catalogNumber": 3,
+        "sortOrder": 3,
         "name": {
           "ja": "フシギバナ",
           "en": "Venusaur"
         },
-        "yield": {
+        "values": {
           "spa": 2,
           "spd": 1
         },
@@ -239,12 +239,12 @@
       },
       {
         "id": "charmander",
-        "catalogNumber": 4,
+        "sortOrder": 4,
         "name": {
           "ja": "ヒトカゲ",
           "en": "Charmander"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -254,12 +254,12 @@
       },
       {
         "id": "charmeleon",
-        "catalogNumber": 5,
+        "sortOrder": 5,
         "name": {
           "ja": "リザード",
           "en": "Charmeleon"
         },
-        "yield": {
+        "values": {
           "spa": 1,
           "spe": 1
         },
@@ -270,12 +270,12 @@
       },
       {
         "id": "charizard",
-        "catalogNumber": 6,
+        "sortOrder": 6,
         "name": {
           "ja": "リザードン",
           "en": "Charizard"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": [
@@ -285,12 +285,12 @@
       },
       {
         "id": "squirtle",
-        "catalogNumber": 7,
+        "sortOrder": 7,
         "name": {
           "ja": "ゼニガメ",
           "en": "Squirtle"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -300,12 +300,12 @@
       },
       {
         "id": "wartortle",
-        "catalogNumber": 8,
+        "sortOrder": 8,
         "name": {
           "ja": "カメール",
           "en": "Wartortle"
         },
-        "yield": {
+        "values": {
           "def": 1,
           "spd": 1
         },
@@ -316,12 +316,12 @@
       },
       {
         "id": "blastoise",
-        "catalogNumber": 9,
+        "sortOrder": 9,
         "name": {
           "ja": "カメックス",
           "en": "Blastoise"
         },
-        "yield": {
+        "values": {
           "spd": 3
         },
         "tags": [
@@ -331,12 +331,12 @@
       },
       {
         "id": "caterpie",
-        "catalogNumber": 10,
+        "sortOrder": 10,
         "name": {
           "ja": "キャタピー",
           "en": "Caterpie"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -346,12 +346,12 @@
       },
       {
         "id": "metapod",
-        "catalogNumber": 11,
+        "sortOrder": 11,
         "name": {
           "ja": "トランセル",
           "en": "Metapod"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -361,12 +361,12 @@
       },
       {
         "id": "butterfree",
-        "catalogNumber": 12,
+        "sortOrder": 12,
         "name": {
           "ja": "バタフリー",
           "en": "Butterfree"
         },
-        "yield": {
+        "values": {
           "spa": 2,
           "spd": 1
         },
@@ -377,12 +377,12 @@
       },
       {
         "id": "weedle",
-        "catalogNumber": 13,
+        "sortOrder": 13,
         "name": {
           "ja": "ビードル",
           "en": "Weedle"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -392,12 +392,12 @@
       },
       {
         "id": "kakuna",
-        "catalogNumber": 14,
+        "sortOrder": 14,
         "name": {
           "ja": "コクーン",
           "en": "Kakuna"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -407,12 +407,12 @@
       },
       {
         "id": "beedrill",
-        "catalogNumber": 15,
+        "sortOrder": 15,
         "name": {
           "ja": "スピアー",
           "en": "Beedrill"
         },
-        "yield": {
+        "values": {
           "atk": 2,
           "spd": 1
         },
@@ -423,12 +423,12 @@
       },
       {
         "id": "pidgey",
-        "catalogNumber": 16,
+        "sortOrder": 16,
         "name": {
           "ja": "ポッポ",
           "en": "Pidgey"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -438,12 +438,12 @@
       },
       {
         "id": "pidgeotto",
-        "catalogNumber": 17,
+        "sortOrder": 17,
         "name": {
           "ja": "ピジョン",
           "en": "Pidgeotto"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -453,12 +453,12 @@
       },
       {
         "id": "pidgeot",
-        "catalogNumber": 18,
+        "sortOrder": 18,
         "name": {
           "ja": "ピジョット",
           "en": "Pidgeot"
         },
-        "yield": {
+        "values": {
           "spe": 3
         },
         "tags": [
@@ -468,12 +468,12 @@
       },
       {
         "id": "rattata",
-        "catalogNumber": 19,
+        "sortOrder": 19,
         "name": {
           "ja": "コラッタ",
           "en": "Rattata"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -483,12 +483,12 @@
       },
       {
         "id": "raticate",
-        "catalogNumber": 20,
+        "sortOrder": 20,
         "name": {
           "ja": "ラッタ",
           "en": "Raticate"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -498,12 +498,12 @@
       },
       {
         "id": "spearow",
-        "catalogNumber": 21,
+        "sortOrder": 21,
         "name": {
           "ja": "オニスズメ",
           "en": "Spearow"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -513,12 +513,12 @@
       },
       {
         "id": "fearow",
-        "catalogNumber": 22,
+        "sortOrder": 22,
         "name": {
           "ja": "オニドリル",
           "en": "Fearow"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -528,12 +528,12 @@
       },
       {
         "id": "ekans",
-        "catalogNumber": 23,
+        "sortOrder": 23,
         "name": {
           "ja": "アーボ",
           "en": "Ekans"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -542,12 +542,12 @@
       },
       {
         "id": "arbok",
-        "catalogNumber": 24,
+        "sortOrder": 24,
         "name": {
           "ja": "アーボック",
           "en": "Arbok"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -556,12 +556,12 @@
       },
       {
         "id": "pikachu",
-        "catalogNumber": 25,
+        "sortOrder": 25,
         "name": {
           "ja": "ピカチュウ",
           "en": "Pikachu"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -571,12 +571,12 @@
       },
       {
         "id": "raichu",
-        "catalogNumber": 26,
+        "sortOrder": 26,
         "name": {
           "ja": "ライチュウ",
           "en": "Raichu"
         },
-        "yield": {
+        "values": {
           "spe": 3
         },
         "tags": [
@@ -586,12 +586,12 @@
       },
       {
         "id": "sandshrew",
-        "catalogNumber": 27,
+        "sortOrder": 27,
         "name": {
           "ja": "サンド",
           "en": "Sandshrew"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -600,12 +600,12 @@
       },
       {
         "id": "sandslash",
-        "catalogNumber": 28,
+        "sortOrder": 28,
         "name": {
           "ja": "サンドパン",
           "en": "Sandslash"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -614,12 +614,12 @@
       },
       {
         "id": "nidoran-f",
-        "catalogNumber": 29,
+        "sortOrder": 29,
         "name": {
           "ja": "ニドラン♀",
           "en": "Nidoran♀"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -629,12 +629,12 @@
       },
       {
         "id": "nidorina",
-        "catalogNumber": 30,
+        "sortOrder": 30,
         "name": {
           "ja": "ニドリーナ",
           "en": "Nidorina"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -644,12 +644,12 @@
       },
       {
         "id": "nidoqueen",
-        "catalogNumber": 31,
+        "sortOrder": 31,
         "name": {
           "ja": "ニドクイン",
           "en": "Nidoqueen"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": [
@@ -659,12 +659,12 @@
       },
       {
         "id": "nidoran-m",
-        "catalogNumber": 32,
+        "sortOrder": 32,
         "name": {
           "ja": "ニドラン♂",
           "en": "Nidoran♂"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -674,12 +674,12 @@
       },
       {
         "id": "nidorino",
-        "catalogNumber": 33,
+        "sortOrder": 33,
         "name": {
           "ja": "ニドリーノ",
           "en": "Nidorino"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -689,12 +689,12 @@
       },
       {
         "id": "nidoking",
-        "catalogNumber": 34,
+        "sortOrder": 34,
         "name": {
           "ja": "ニドキング",
           "en": "Nidoking"
         },
-        "yield": {
+        "values": {
           "atk": 3
         },
         "tags": [
@@ -704,12 +704,12 @@
       },
       {
         "id": "clefairy",
-        "catalogNumber": 35,
+        "sortOrder": 35,
         "name": {
           "ja": "ピッピ",
           "en": "Clefairy"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -719,12 +719,12 @@
       },
       {
         "id": "clefable",
-        "catalogNumber": 36,
+        "sortOrder": 36,
         "name": {
           "ja": "ピクシー",
           "en": "Clefable"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": [
@@ -734,12 +734,12 @@
       },
       {
         "id": "vulpix",
-        "catalogNumber": 37,
+        "sortOrder": 37,
         "name": {
           "ja": "ロコン",
           "en": "Vulpix"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -748,12 +748,12 @@
       },
       {
         "id": "ninetales",
-        "catalogNumber": 38,
+        "sortOrder": 38,
         "name": {
           "ja": "キュウコン",
           "en": "Ninetales"
         },
-        "yield": {
+        "values": {
           "spd": 1,
           "spe": 1
         },
@@ -763,12 +763,12 @@
       },
       {
         "id": "jigglypuff",
-        "catalogNumber": 39,
+        "sortOrder": 39,
         "name": {
           "ja": "プリン",
           "en": "Jigglypuff"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -778,12 +778,12 @@
       },
       {
         "id": "wigglytuff",
-        "catalogNumber": 40,
+        "sortOrder": 40,
         "name": {
           "ja": "プクリン",
           "en": "Wigglytuff"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": [
@@ -793,12 +793,12 @@
       },
       {
         "id": "zubat",
-        "catalogNumber": 41,
+        "sortOrder": 41,
         "name": {
           "ja": "ズバット",
           "en": "Zubat"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -808,12 +808,12 @@
       },
       {
         "id": "golbat",
-        "catalogNumber": 42,
+        "sortOrder": 42,
         "name": {
           "ja": "ゴルバット",
           "en": "Golbat"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -823,12 +823,12 @@
       },
       {
         "id": "oddish",
-        "catalogNumber": 43,
+        "sortOrder": 43,
         "name": {
           "ja": "ナゾノクサ",
           "en": "Oddish"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -837,12 +837,12 @@
       },
       {
         "id": "gloom",
-        "catalogNumber": 44,
+        "sortOrder": 44,
         "name": {
           "ja": "クサイハナ",
           "en": "Gloom"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": [
@@ -851,12 +851,12 @@
       },
       {
         "id": "vileplume",
-        "catalogNumber": 45,
+        "sortOrder": 45,
         "name": {
           "ja": "ラフレシア",
           "en": "Vileplume"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": [
@@ -865,12 +865,12 @@
       },
       {
         "id": "paras",
-        "catalogNumber": 46,
+        "sortOrder": 46,
         "name": {
           "ja": "パラス",
           "en": "Paras"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -880,12 +880,12 @@
       },
       {
         "id": "parasect",
-        "catalogNumber": 47,
+        "sortOrder": 47,
         "name": {
           "ja": "パラセクト",
           "en": "Parasect"
         },
-        "yield": {
+        "values": {
           "atk": 2,
           "def": 1
         },
@@ -896,12 +896,12 @@
       },
       {
         "id": "venonat",
-        "catalogNumber": 48,
+        "sortOrder": 48,
         "name": {
           "ja": "コンパン",
           "en": "Venonat"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": [
@@ -911,12 +911,12 @@
       },
       {
         "id": "venomoth",
-        "catalogNumber": 49,
+        "sortOrder": 49,
         "name": {
           "ja": "モルフォン",
           "en": "Venomoth"
         },
-        "yield": {
+        "values": {
           "spa": 1,
           "spe": 1
         },
@@ -927,12 +927,12 @@
       },
       {
         "id": "diglett",
-        "catalogNumber": 50,
+        "sortOrder": 50,
         "name": {
           "ja": "ディグダ",
           "en": "Diglett"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -942,12 +942,12 @@
       },
       {
         "id": "dugtrio",
-        "catalogNumber": 51,
+        "sortOrder": 51,
         "name": {
           "ja": "ダグトリオ",
           "en": "Dugtrio"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -957,12 +957,12 @@
       },
       {
         "id": "meowth",
-        "catalogNumber": 52,
+        "sortOrder": 52,
         "name": {
           "ja": "ニャース",
           "en": "Meowth"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -972,12 +972,12 @@
       },
       {
         "id": "persian",
-        "catalogNumber": 53,
+        "sortOrder": 53,
         "name": {
           "ja": "ペルシアン",
           "en": "Persian"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -987,12 +987,12 @@
       },
       {
         "id": "psyduck",
-        "catalogNumber": 54,
+        "sortOrder": 54,
         "name": {
           "ja": "コダック",
           "en": "Psyduck"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -1001,12 +1001,12 @@
       },
       {
         "id": "golduck",
-        "catalogNumber": 55,
+        "sortOrder": 55,
         "name": {
           "ja": "ゴルダック",
           "en": "Golduck"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": [
@@ -1015,12 +1015,12 @@
       },
       {
         "id": "mankey",
-        "catalogNumber": 56,
+        "sortOrder": 56,
         "name": {
           "ja": "マンキー",
           "en": "Mankey"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -1030,12 +1030,12 @@
       },
       {
         "id": "primeape",
-        "catalogNumber": 57,
+        "sortOrder": 57,
         "name": {
           "ja": "オコリザル",
           "en": "Primeape"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -1045,12 +1045,12 @@
       },
       {
         "id": "growlithe",
-        "catalogNumber": 58,
+        "sortOrder": 58,
         "name": {
           "ja": "ガーディ",
           "en": "Growlithe"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -1059,12 +1059,12 @@
       },
       {
         "id": "arcanine",
-        "catalogNumber": 59,
+        "sortOrder": 59,
         "name": {
           "ja": "ウインディ",
           "en": "Arcanine"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -1073,12 +1073,12 @@
       },
       {
         "id": "poliwag",
-        "catalogNumber": 60,
+        "sortOrder": 60,
         "name": {
           "ja": "ニョロモ",
           "en": "Poliwag"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -1088,12 +1088,12 @@
       },
       {
         "id": "poliwhirl",
-        "catalogNumber": 61,
+        "sortOrder": 61,
         "name": {
           "ja": "ニョロゾ",
           "en": "Poliwhirl"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -1103,12 +1103,12 @@
       },
       {
         "id": "poliwrath",
-        "catalogNumber": 62,
+        "sortOrder": 62,
         "name": {
           "ja": "ニョロボン",
           "en": "Poliwrath"
         },
-        "yield": {
+        "values": {
           "def": 3
         },
         "tags": [
@@ -1118,12 +1118,12 @@
       },
       {
         "id": "abra",
-        "catalogNumber": 63,
+        "sortOrder": 63,
         "name": {
           "ja": "ケーシィ",
           "en": "Abra"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -1133,12 +1133,12 @@
       },
       {
         "id": "kadabra",
-        "catalogNumber": 64,
+        "sortOrder": 64,
         "name": {
           "ja": "ユンゲラー",
           "en": "Kadabra"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": [
@@ -1148,12 +1148,12 @@
       },
       {
         "id": "alakazam",
-        "catalogNumber": 65,
+        "sortOrder": 65,
         "name": {
           "ja": "フーディン",
           "en": "Alakazam"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": [
@@ -1163,12 +1163,12 @@
       },
       {
         "id": "machop",
-        "catalogNumber": 66,
+        "sortOrder": 66,
         "name": {
           "ja": "ワンリキー",
           "en": "Machop"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -1178,12 +1178,12 @@
       },
       {
         "id": "machoke",
-        "catalogNumber": 67,
+        "sortOrder": 67,
         "name": {
           "ja": "ゴーリキー",
           "en": "Machoke"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -1193,12 +1193,12 @@
       },
       {
         "id": "machamp",
-        "catalogNumber": 68,
+        "sortOrder": 68,
         "name": {
           "ja": "カイリキー",
           "en": "Machamp"
         },
-        "yield": {
+        "values": {
           "atk": 3
         },
         "tags": [
@@ -1208,12 +1208,12 @@
       },
       {
         "id": "bellsprout",
-        "catalogNumber": 69,
+        "sortOrder": 69,
         "name": {
           "ja": "マダツボミ",
           "en": "Bellsprout"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -1222,12 +1222,12 @@
       },
       {
         "id": "weepinbell",
-        "catalogNumber": 70,
+        "sortOrder": 70,
         "name": {
           "ja": "ウツドン",
           "en": "Weepinbell"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -1236,12 +1236,12 @@
       },
       {
         "id": "victreebel",
-        "catalogNumber": 71,
+        "sortOrder": 71,
         "name": {
           "ja": "ウツボット",
           "en": "Victreebel"
         },
-        "yield": {
+        "values": {
           "atk": 3
         },
         "tags": [
@@ -1250,12 +1250,12 @@
       },
       {
         "id": "tentacool",
-        "catalogNumber": 72,
+        "sortOrder": 72,
         "name": {
           "ja": "メノクラゲ",
           "en": "Tentacool"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": [
@@ -1265,12 +1265,12 @@
       },
       {
         "id": "tentacruel",
-        "catalogNumber": 73,
+        "sortOrder": 73,
         "name": {
           "ja": "ドククラゲ",
           "en": "Tentacruel"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": [
@@ -1280,12 +1280,12 @@
       },
       {
         "id": "geodude",
-        "catalogNumber": 74,
+        "sortOrder": 74,
         "name": {
           "ja": "イシツブテ",
           "en": "Geodude"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -1295,12 +1295,12 @@
       },
       {
         "id": "graveler",
-        "catalogNumber": 75,
+        "sortOrder": 75,
         "name": {
           "ja": "ゴローン",
           "en": "Graveler"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -1310,12 +1310,12 @@
       },
       {
         "id": "golem",
-        "catalogNumber": 76,
+        "sortOrder": 76,
         "name": {
           "ja": "ゴローニャ",
           "en": "Golem"
         },
-        "yield": {
+        "values": {
           "def": 3
         },
         "tags": [
@@ -1325,12 +1325,12 @@
       },
       {
         "id": "ponyta",
-        "catalogNumber": 77,
+        "sortOrder": 77,
         "name": {
           "ja": "ポニータ",
           "en": "Ponyta"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -1340,12 +1340,12 @@
       },
       {
         "id": "rapidash",
-        "catalogNumber": 78,
+        "sortOrder": 78,
         "name": {
           "ja": "ギャロップ",
           "en": "Rapidash"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -1355,12 +1355,12 @@
       },
       {
         "id": "slowpoke",
-        "catalogNumber": 79,
+        "sortOrder": 79,
         "name": {
           "ja": "ヤドン",
           "en": "Slowpoke"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -1369,12 +1369,12 @@
       },
       {
         "id": "slowbro",
-        "catalogNumber": 80,
+        "sortOrder": 80,
         "name": {
           "ja": "ヤドラン",
           "en": "Slowbro"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -1383,12 +1383,12 @@
       },
       {
         "id": "magnemite",
-        "catalogNumber": 81,
+        "sortOrder": 81,
         "name": {
           "ja": "コイル",
           "en": "Magnemite"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -1398,12 +1398,12 @@
       },
       {
         "id": "magneton",
-        "catalogNumber": 82,
+        "sortOrder": 82,
         "name": {
           "ja": "レアコイル",
           "en": "Magneton"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": [
@@ -1413,12 +1413,12 @@
       },
       {
         "id": "farfetch-d",
-        "catalogNumber": 83,
+        "sortOrder": 83,
         "name": {
           "ja": "カモネギ",
           "en": "Farfetch’d"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -1428,12 +1428,12 @@
       },
       {
         "id": "doduo",
-        "catalogNumber": 84,
+        "sortOrder": 84,
         "name": {
           "ja": "ドードー",
           "en": "Doduo"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -1443,12 +1443,12 @@
       },
       {
         "id": "dodrio",
-        "catalogNumber": 85,
+        "sortOrder": 85,
         "name": {
           "ja": "ドードリオ",
           "en": "Dodrio"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -1458,12 +1458,12 @@
       },
       {
         "id": "seel",
-        "catalogNumber": 86,
+        "sortOrder": 86,
         "name": {
           "ja": "パウワウ",
           "en": "Seel"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": [
@@ -1473,12 +1473,12 @@
       },
       {
         "id": "dewgong",
-        "catalogNumber": 87,
+        "sortOrder": 87,
         "name": {
           "ja": "ジュゴン",
           "en": "Dewgong"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": [
@@ -1488,12 +1488,12 @@
       },
       {
         "id": "grimer",
-        "catalogNumber": 88,
+        "sortOrder": 88,
         "name": {
           "ja": "ベトベター",
           "en": "Grimer"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -1503,12 +1503,12 @@
       },
       {
         "id": "muk",
-        "catalogNumber": 89,
+        "sortOrder": 89,
         "name": {
           "ja": "ベトベトン",
           "en": "Muk"
         },
-        "yield": {
+        "values": {
           "hp": 1,
           "atk": 1
         },
@@ -1519,12 +1519,12 @@
       },
       {
         "id": "shellder",
-        "catalogNumber": 90,
+        "sortOrder": 90,
         "name": {
           "ja": "シェルダー",
           "en": "Shellder"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -1533,12 +1533,12 @@
       },
       {
         "id": "cloyster",
-        "catalogNumber": 91,
+        "sortOrder": 91,
         "name": {
           "ja": "パルシェン",
           "en": "Cloyster"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -1547,12 +1547,12 @@
       },
       {
         "id": "gastly",
-        "catalogNumber": 92,
+        "sortOrder": 92,
         "name": {
           "ja": "ゴース",
           "en": "Gastly"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -1562,12 +1562,12 @@
       },
       {
         "id": "haunter",
-        "catalogNumber": 93,
+        "sortOrder": 93,
         "name": {
           "ja": "ゴースト",
           "en": "Haunter"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": [
@@ -1577,12 +1577,12 @@
       },
       {
         "id": "gengar",
-        "catalogNumber": 94,
+        "sortOrder": 94,
         "name": {
           "ja": "ゲンガー",
           "en": "Gengar"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": [
@@ -1592,12 +1592,12 @@
       },
       {
         "id": "onix",
-        "catalogNumber": 95,
+        "sortOrder": 95,
         "name": {
           "ja": "イワーク",
           "en": "Onix"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -1607,12 +1607,12 @@
       },
       {
         "id": "drowzee",
-        "catalogNumber": 96,
+        "sortOrder": 96,
         "name": {
           "ja": "スリープ",
           "en": "Drowzee"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": [
@@ -1622,12 +1622,12 @@
       },
       {
         "id": "hypno",
-        "catalogNumber": 97,
+        "sortOrder": 97,
         "name": {
           "ja": "スリーパー",
           "en": "Hypno"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": [
@@ -1637,12 +1637,12 @@
       },
       {
         "id": "krabby",
-        "catalogNumber": 98,
+        "sortOrder": 98,
         "name": {
           "ja": "クラブ",
           "en": "Krabby"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -1652,12 +1652,12 @@
       },
       {
         "id": "kingler",
-        "catalogNumber": 99,
+        "sortOrder": 99,
         "name": {
           "ja": "キングラー",
           "en": "Kingler"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -1667,12 +1667,12 @@
       },
       {
         "id": "voltorb",
-        "catalogNumber": 100,
+        "sortOrder": 100,
         "name": {
           "ja": "ビリリダマ",
           "en": "Voltorb"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -1682,12 +1682,12 @@
       },
       {
         "id": "electrode",
-        "catalogNumber": 101,
+        "sortOrder": 101,
         "name": {
           "ja": "マルマイン",
           "en": "Electrode"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -1697,12 +1697,12 @@
       },
       {
         "id": "exeggcute",
-        "catalogNumber": 102,
+        "sortOrder": 102,
         "name": {
           "ja": "タマタマ",
           "en": "Exeggcute"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -1712,12 +1712,12 @@
       },
       {
         "id": "exeggutor",
-        "catalogNumber": 103,
+        "sortOrder": 103,
         "name": {
           "ja": "ナッシー",
           "en": "Exeggutor"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": [
@@ -1727,12 +1727,12 @@
       },
       {
         "id": "cubone",
-        "catalogNumber": 104,
+        "sortOrder": 104,
         "name": {
           "ja": "カラカラ",
           "en": "Cubone"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -1742,12 +1742,12 @@
       },
       {
         "id": "marowak",
-        "catalogNumber": 105,
+        "sortOrder": 105,
         "name": {
           "ja": "ガラガラ",
           "en": "Marowak"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -1757,12 +1757,12 @@
       },
       {
         "id": "hitmonlee",
-        "catalogNumber": 106,
+        "sortOrder": 106,
         "name": {
           "ja": "サワムラー",
           "en": "Hitmonlee"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -1772,12 +1772,12 @@
       },
       {
         "id": "hitmonchan",
-        "catalogNumber": 107,
+        "sortOrder": 107,
         "name": {
           "ja": "エビワラー",
           "en": "Hitmonchan"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": [
@@ -1787,12 +1787,12 @@
       },
       {
         "id": "lickitung",
-        "catalogNumber": 108,
+        "sortOrder": 108,
         "name": {
           "ja": "ベロリンガ",
           "en": "Lickitung"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -1802,12 +1802,12 @@
       },
       {
         "id": "koffing",
-        "catalogNumber": 109,
+        "sortOrder": 109,
         "name": {
           "ja": "ドガース",
           "en": "Koffing"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -1817,12 +1817,12 @@
       },
       {
         "id": "weezing",
-        "catalogNumber": 110,
+        "sortOrder": 110,
         "name": {
           "ja": "マタドガス",
           "en": "Weezing"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -1832,12 +1832,12 @@
       },
       {
         "id": "rhyhorn",
-        "catalogNumber": 111,
+        "sortOrder": 111,
         "name": {
           "ja": "サイホーン",
           "en": "Rhyhorn"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -1847,12 +1847,12 @@
       },
       {
         "id": "rhydon",
-        "catalogNumber": 112,
+        "sortOrder": 112,
         "name": {
           "ja": "サイドン",
           "en": "Rhydon"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -1862,12 +1862,12 @@
       },
       {
         "id": "chansey",
-        "catalogNumber": 113,
+        "sortOrder": 113,
         "name": {
           "ja": "ラッキー",
           "en": "Chansey"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -1877,12 +1877,12 @@
       },
       {
         "id": "tangela",
-        "catalogNumber": 114,
+        "sortOrder": 114,
         "name": {
           "ja": "モンジャラ",
           "en": "Tangela"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -1892,12 +1892,12 @@
       },
       {
         "id": "kangaskhan",
-        "catalogNumber": 115,
+        "sortOrder": 115,
         "name": {
           "ja": "ガルーラ",
           "en": "Kangaskhan"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -1907,12 +1907,12 @@
       },
       {
         "id": "horsea",
-        "catalogNumber": 116,
+        "sortOrder": 116,
         "name": {
           "ja": "タッツー",
           "en": "Horsea"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -1922,12 +1922,12 @@
       },
       {
         "id": "seadra",
-        "catalogNumber": 117,
+        "sortOrder": 117,
         "name": {
           "ja": "シードラ",
           "en": "Seadra"
         },
-        "yield": {
+        "values": {
           "def": 1,
           "spa": 1
         },
@@ -1938,12 +1938,12 @@
       },
       {
         "id": "goldeen",
-        "catalogNumber": 118,
+        "sortOrder": 118,
         "name": {
           "ja": "トサキント",
           "en": "Goldeen"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -1953,12 +1953,12 @@
       },
       {
         "id": "seaking",
-        "catalogNumber": 119,
+        "sortOrder": 119,
         "name": {
           "ja": "アズマオウ",
           "en": "Seaking"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -1968,12 +1968,12 @@
       },
       {
         "id": "staryu",
-        "catalogNumber": 120,
+        "sortOrder": 120,
         "name": {
           "ja": "ヒトデマン",
           "en": "Staryu"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -1982,12 +1982,12 @@
       },
       {
         "id": "starmie",
-        "catalogNumber": 121,
+        "sortOrder": 121,
         "name": {
           "ja": "スターミー",
           "en": "Starmie"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -1996,12 +1996,12 @@
       },
       {
         "id": "mr--mime",
-        "catalogNumber": 122,
+        "sortOrder": 122,
         "name": {
           "ja": "バリヤード",
           "en": "Mr. Mime"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": [
@@ -2011,12 +2011,12 @@
       },
       {
         "id": "scyther",
-        "catalogNumber": 123,
+        "sortOrder": 123,
         "name": {
           "ja": "ストライク",
           "en": "Scyther"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -2025,12 +2025,12 @@
       },
       {
         "id": "jynx",
-        "catalogNumber": 124,
+        "sortOrder": 124,
         "name": {
           "ja": "ルージュラ",
           "en": "Jynx"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": [
@@ -2040,12 +2040,12 @@
       },
       {
         "id": "electabuzz",
-        "catalogNumber": 125,
+        "sortOrder": 125,
         "name": {
           "ja": "エレブー",
           "en": "Electabuzz"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -2054,12 +2054,12 @@
       },
       {
         "id": "magmar",
-        "catalogNumber": 126,
+        "sortOrder": 126,
         "name": {
           "ja": "ブーバー",
           "en": "Magmar"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": [
@@ -2068,12 +2068,12 @@
       },
       {
         "id": "pinsir",
-        "catalogNumber": 127,
+        "sortOrder": 127,
         "name": {
           "ja": "カイロス",
           "en": "Pinsir"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -2082,12 +2082,12 @@
       },
       {
         "id": "tauros",
-        "catalogNumber": 128,
+        "sortOrder": 128,
         "name": {
           "ja": "ケンタロス",
           "en": "Tauros"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spe": 1
         },
@@ -2098,12 +2098,12 @@
       },
       {
         "id": "magikarp",
-        "catalogNumber": 129,
+        "sortOrder": 129,
         "name": {
           "ja": "コイキング",
           "en": "Magikarp"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -2113,12 +2113,12 @@
       },
       {
         "id": "gyarados",
-        "catalogNumber": 130,
+        "sortOrder": 130,
         "name": {
           "ja": "ギャラドス",
           "en": "Gyarados"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -2128,12 +2128,12 @@
       },
       {
         "id": "lapras",
-        "catalogNumber": 131,
+        "sortOrder": 131,
         "name": {
           "ja": "ラプラス",
           "en": "Lapras"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -2143,12 +2143,12 @@
       },
       {
         "id": "ditto",
-        "catalogNumber": 132,
+        "sortOrder": 132,
         "name": {
           "ja": "メタモン",
           "en": "Ditto"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -2158,12 +2158,12 @@
       },
       {
         "id": "eevee",
-        "catalogNumber": 133,
+        "sortOrder": 133,
         "name": {
           "ja": "イーブイ",
           "en": "Eevee"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": [
@@ -2173,12 +2173,12 @@
       },
       {
         "id": "vaporeon",
-        "catalogNumber": 134,
+        "sortOrder": 134,
         "name": {
           "ja": "シャワーズ",
           "en": "Vaporeon"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -2188,12 +2188,12 @@
       },
       {
         "id": "jolteon",
-        "catalogNumber": 135,
+        "sortOrder": 135,
         "name": {
           "ja": "サンダース",
           "en": "Jolteon"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -2203,12 +2203,12 @@
       },
       {
         "id": "flareon",
-        "catalogNumber": 136,
+        "sortOrder": 136,
         "name": {
           "ja": "ブースター",
           "en": "Flareon"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -2218,12 +2218,12 @@
       },
       {
         "id": "porygon",
-        "catalogNumber": 137,
+        "sortOrder": 137,
         "name": {
           "ja": "ポリゴン",
           "en": "Porygon"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -2233,12 +2233,12 @@
       },
       {
         "id": "omanyte",
-        "catalogNumber": 138,
+        "sortOrder": 138,
         "name": {
           "ja": "オムナイト",
           "en": "Omanyte"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -2248,12 +2248,12 @@
       },
       {
         "id": "omastar",
-        "catalogNumber": 139,
+        "sortOrder": 139,
         "name": {
           "ja": "オムスター",
           "en": "Omastar"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -2263,12 +2263,12 @@
       },
       {
         "id": "kabuto",
-        "catalogNumber": 140,
+        "sortOrder": 140,
         "name": {
           "ja": "カブト",
           "en": "Kabuto"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": [
@@ -2278,12 +2278,12 @@
       },
       {
         "id": "kabutops",
-        "catalogNumber": 141,
+        "sortOrder": 141,
         "name": {
           "ja": "カブトプス",
           "en": "Kabutops"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -2293,12 +2293,12 @@
       },
       {
         "id": "aerodactyl",
-        "catalogNumber": 142,
+        "sortOrder": 142,
         "name": {
           "ja": "プテラ",
           "en": "Aerodactyl"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -2308,12 +2308,12 @@
       },
       {
         "id": "snorlax",
-        "catalogNumber": 143,
+        "sortOrder": 143,
         "name": {
           "ja": "カビゴン",
           "en": "Snorlax"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -2323,12 +2323,12 @@
       },
       {
         "id": "articuno",
-        "catalogNumber": 144,
+        "sortOrder": 144,
         "name": {
           "ja": "フリーザー",
           "en": "Articuno"
         },
-        "yield": {
+        "values": {
           "spd": 3
         },
         "tags": [
@@ -2338,12 +2338,12 @@
       },
       {
         "id": "zapdos",
-        "catalogNumber": 145,
+        "sortOrder": 145,
         "name": {
           "ja": "サンダー",
           "en": "Zapdos"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": [
@@ -2353,12 +2353,12 @@
       },
       {
         "id": "moltres",
-        "catalogNumber": 146,
+        "sortOrder": 146,
         "name": {
           "ja": "ファイヤー",
           "en": "Moltres"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": [
@@ -2368,12 +2368,12 @@
       },
       {
         "id": "dratini",
-        "catalogNumber": 147,
+        "sortOrder": 147,
         "name": {
           "ja": "ミニリュウ",
           "en": "Dratini"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -2383,12 +2383,12 @@
       },
       {
         "id": "dragonair",
-        "catalogNumber": 148,
+        "sortOrder": 148,
         "name": {
           "ja": "ハクリュー",
           "en": "Dragonair"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -2398,12 +2398,12 @@
       },
       {
         "id": "dragonite",
-        "catalogNumber": 149,
+        "sortOrder": 149,
         "name": {
           "ja": "カイリュー",
           "en": "Dragonite"
         },
-        "yield": {
+        "values": {
           "atk": 3
         },
         "tags": [
@@ -2413,12 +2413,12 @@
       },
       {
         "id": "mewtwo",
-        "catalogNumber": 150,
+        "sortOrder": 150,
         "name": {
           "ja": "ミュウツー",
           "en": "Mewtwo"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": [
@@ -2428,12 +2428,12 @@
       },
       {
         "id": "mew",
-        "catalogNumber": 151,
+        "sortOrder": 151,
         "name": {
           "ja": "ミュウ",
           "en": "Mew"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": [
@@ -2443,24 +2443,24 @@
       },
       {
         "id": "chikorita",
-        "catalogNumber": 152,
+        "sortOrder": 152,
         "name": {
           "ja": "チコリータ",
           "en": "Chikorita"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": []
       },
       {
         "id": "bayleef",
-        "catalogNumber": 153,
+        "sortOrder": 153,
         "name": {
           "ja": "ベイリーフ",
           "en": "Bayleef"
         },
-        "yield": {
+        "values": {
           "def": 1,
           "spd": 1
         },
@@ -2468,12 +2468,12 @@
       },
       {
         "id": "meganium",
-        "catalogNumber": 154,
+        "sortOrder": 154,
         "name": {
           "ja": "メガニウム",
           "en": "Meganium"
         },
-        "yield": {
+        "values": {
           "def": 1,
           "spd": 2
         },
@@ -2481,24 +2481,24 @@
       },
       {
         "id": "cyndaquil",
-        "catalogNumber": 155,
+        "sortOrder": 155,
         "name": {
           "ja": "ヒノアラシ",
           "en": "Cyndaquil"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "quilava",
-        "catalogNumber": 156,
+        "sortOrder": 156,
         "name": {
           "ja": "マグマラシ",
           "en": "Quilava"
         },
-        "yield": {
+        "values": {
           "spa": 1,
           "spe": 1
         },
@@ -2506,36 +2506,36 @@
       },
       {
         "id": "typhlosion",
-        "catalogNumber": 157,
+        "sortOrder": 157,
         "name": {
           "ja": "バクフーン",
           "en": "Typhlosion"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": []
       },
       {
         "id": "totodile",
-        "catalogNumber": 158,
+        "sortOrder": 158,
         "name": {
           "ja": "ワニノコ",
           "en": "Totodile"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "croconaw",
-        "catalogNumber": 159,
+        "sortOrder": 159,
         "name": {
           "ja": "アリゲイツ",
           "en": "Croconaw"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "def": 1
         },
@@ -2543,12 +2543,12 @@
       },
       {
         "id": "feraligatr",
-        "catalogNumber": 160,
+        "sortOrder": 160,
         "name": {
           "ja": "オーダイル",
           "en": "Feraligatr"
         },
-        "yield": {
+        "values": {
           "atk": 2,
           "def": 1
         },
@@ -2556,12 +2556,12 @@
       },
       {
         "id": "sentret",
-        "catalogNumber": 161,
+        "sortOrder": 161,
         "name": {
           "ja": "オタチ",
           "en": "Sentret"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -2571,12 +2571,12 @@
       },
       {
         "id": "furret",
-        "catalogNumber": 162,
+        "sortOrder": 162,
         "name": {
           "ja": "オオタチ",
           "en": "Furret"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -2586,12 +2586,12 @@
       },
       {
         "id": "hoothoot",
-        "catalogNumber": 163,
+        "sortOrder": 163,
         "name": {
           "ja": "ホーホー",
           "en": "Hoothoot"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -2601,12 +2601,12 @@
       },
       {
         "id": "noctowl",
-        "catalogNumber": 164,
+        "sortOrder": 164,
         "name": {
           "ja": "ヨルノズク",
           "en": "Noctowl"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -2616,12 +2616,12 @@
       },
       {
         "id": "ledyba",
-        "catalogNumber": 165,
+        "sortOrder": 165,
         "name": {
           "ja": "レディバ",
           "en": "Ledyba"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": [
@@ -2631,12 +2631,12 @@
       },
       {
         "id": "ledian",
-        "catalogNumber": 166,
+        "sortOrder": 166,
         "name": {
           "ja": "レディアン",
           "en": "Ledian"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": [
@@ -2646,12 +2646,12 @@
       },
       {
         "id": "spinarak",
-        "catalogNumber": 167,
+        "sortOrder": 167,
         "name": {
           "ja": "イトマル",
           "en": "Spinarak"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -2661,12 +2661,12 @@
       },
       {
         "id": "ariados",
-        "catalogNumber": 168,
+        "sortOrder": 168,
         "name": {
           "ja": "アリアドス",
           "en": "Ariados"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -2676,12 +2676,12 @@
       },
       {
         "id": "crobat",
-        "catalogNumber": 169,
+        "sortOrder": 169,
         "name": {
           "ja": "クロバット",
           "en": "Crobat"
         },
-        "yield": {
+        "values": {
           "spe": 3
         },
         "tags": [
@@ -2691,12 +2691,12 @@
       },
       {
         "id": "chinchou",
-        "catalogNumber": 170,
+        "sortOrder": 170,
         "name": {
           "ja": "チョンチー",
           "en": "Chinchou"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -2706,12 +2706,12 @@
       },
       {
         "id": "lanturn",
-        "catalogNumber": 171,
+        "sortOrder": 171,
         "name": {
           "ja": "ランターン",
           "en": "Lanturn"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -2721,12 +2721,12 @@
       },
       {
         "id": "pichu",
-        "catalogNumber": 172,
+        "sortOrder": 172,
         "name": {
           "ja": "ピチュー",
           "en": "Pichu"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -2736,12 +2736,12 @@
       },
       {
         "id": "cleffa",
-        "catalogNumber": 173,
+        "sortOrder": 173,
         "name": {
           "ja": "ピィ",
           "en": "Cleffa"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": [
@@ -2751,12 +2751,12 @@
       },
       {
         "id": "igglybuff",
-        "catalogNumber": 174,
+        "sortOrder": 174,
         "name": {
           "ja": "ププリン",
           "en": "Igglybuff"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -2766,12 +2766,12 @@
       },
       {
         "id": "togepi",
-        "catalogNumber": 175,
+        "sortOrder": 175,
         "name": {
           "ja": "トゲピー",
           "en": "Togepi"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": [
@@ -2781,12 +2781,12 @@
       },
       {
         "id": "togetic",
-        "catalogNumber": 176,
+        "sortOrder": 176,
         "name": {
           "ja": "トゲチック",
           "en": "Togetic"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": [
@@ -2796,12 +2796,12 @@
       },
       {
         "id": "natu",
-        "catalogNumber": 177,
+        "sortOrder": 177,
         "name": {
           "ja": "ネイティ",
           "en": "Natu"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -2811,12 +2811,12 @@
       },
       {
         "id": "xatu",
-        "catalogNumber": 178,
+        "sortOrder": 178,
         "name": {
           "ja": "ネイティオ",
           "en": "Xatu"
         },
-        "yield": {
+        "values": {
           "spa": 1,
           "spe": 1
         },
@@ -2827,60 +2827,60 @@
       },
       {
         "id": "mareep",
-        "catalogNumber": 179,
+        "sortOrder": 179,
         "name": {
           "ja": "メリープ",
           "en": "Mareep"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": []
       },
       {
         "id": "flaaffy",
-        "catalogNumber": 180,
+        "sortOrder": 180,
         "name": {
           "ja": "モココ",
           "en": "Flaaffy"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": []
       },
       {
         "id": "ampharos",
-        "catalogNumber": 181,
+        "sortOrder": 181,
         "name": {
           "ja": "デンリュウ",
           "en": "Ampharos"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": []
       },
       {
         "id": "bellossom",
-        "catalogNumber": 182,
+        "sortOrder": 182,
         "name": {
           "ja": "キレイハナ",
           "en": "Bellossom"
         },
-        "yield": {
+        "values": {
           "spd": 3
         },
         "tags": []
       },
       {
         "id": "marill",
-        "catalogNumber": 183,
+        "sortOrder": 183,
         "name": {
           "ja": "マリル",
           "en": "Marill"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -2889,12 +2889,12 @@
       },
       {
         "id": "azumarill",
-        "catalogNumber": 184,
+        "sortOrder": 184,
         "name": {
           "ja": "マリルリ",
           "en": "Azumarill"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": [
@@ -2903,24 +2903,24 @@
       },
       {
         "id": "sudowoodo",
-        "catalogNumber": 185,
+        "sortOrder": 185,
         "name": {
           "ja": "ウソッキー",
           "en": "Sudowoodo"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": []
       },
       {
         "id": "politoed",
-        "catalogNumber": 186,
+        "sortOrder": 186,
         "name": {
           "ja": "ニョロトノ",
           "en": "Politoed"
         },
-        "yield": {
+        "values": {
           "spd": 3
         },
         "tags": [
@@ -2930,12 +2930,12 @@
       },
       {
         "id": "hoppip",
-        "catalogNumber": 187,
+        "sortOrder": 187,
         "name": {
           "ja": "ハネッコ",
           "en": "Hoppip"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": [
@@ -2945,12 +2945,12 @@
       },
       {
         "id": "skiploom",
-        "catalogNumber": 188,
+        "sortOrder": 188,
         "name": {
           "ja": "ポポッコ",
           "en": "Skiploom"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": [
@@ -2960,12 +2960,12 @@
       },
       {
         "id": "jumpluff",
-        "catalogNumber": 189,
+        "sortOrder": 189,
         "name": {
           "ja": "ワタッコ",
           "en": "Jumpluff"
         },
-        "yield": {
+        "values": {
           "spe": 3
         },
         "tags": [
@@ -2975,12 +2975,12 @@
       },
       {
         "id": "aipom",
-        "catalogNumber": 190,
+        "sortOrder": 190,
         "name": {
           "ja": "エイパム",
           "en": "Aipom"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -2990,36 +2990,36 @@
       },
       {
         "id": "sunkern",
-        "catalogNumber": 191,
+        "sortOrder": 191,
         "name": {
           "ja": "ヒマナッツ",
           "en": "Sunkern"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": []
       },
       {
         "id": "sunflora",
-        "catalogNumber": 192,
+        "sortOrder": 192,
         "name": {
           "ja": "キマワリ",
           "en": "Sunflora"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": []
       },
       {
         "id": "yanma",
-        "catalogNumber": 193,
+        "sortOrder": 193,
         "name": {
           "ja": "ヤンヤンマ",
           "en": "Yanma"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -3029,12 +3029,12 @@
       },
       {
         "id": "wooper",
-        "catalogNumber": 194,
+        "sortOrder": 194,
         "name": {
           "ja": "ウパー",
           "en": "Wooper"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -3043,12 +3043,12 @@
       },
       {
         "id": "quagsire",
-        "catalogNumber": 195,
+        "sortOrder": 195,
         "name": {
           "ja": "ヌオー",
           "en": "Quagsire"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -3057,36 +3057,36 @@
       },
       {
         "id": "espeon",
-        "catalogNumber": 196,
+        "sortOrder": 196,
         "name": {
           "ja": "エーフィ",
           "en": "Espeon"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": []
       },
       {
         "id": "umbreon",
-        "catalogNumber": 197,
+        "sortOrder": 197,
         "name": {
           "ja": "ブラッキー",
           "en": "Umbreon"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": []
       },
       {
         "id": "murkrow",
-        "catalogNumber": 198,
+        "sortOrder": 198,
         "name": {
           "ja": "ヤミカラス",
           "en": "Murkrow"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -3095,24 +3095,24 @@
       },
       {
         "id": "slowking",
-        "catalogNumber": 199,
+        "sortOrder": 199,
         "name": {
           "ja": "ヤドキング",
           "en": "Slowking"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": []
       },
       {
         "id": "misdreavus",
-        "catalogNumber": 200,
+        "sortOrder": 200,
         "name": {
           "ja": "ムウマ",
           "en": "Misdreavus"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": [
@@ -3121,12 +3121,12 @@
       },
       {
         "id": "unown",
-        "catalogNumber": 201,
+        "sortOrder": 201,
         "name": {
           "ja": "アンノーン",
           "en": "Unown"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spa": 1
         },
@@ -3137,12 +3137,12 @@
       },
       {
         "id": "wobbuffet",
-        "catalogNumber": 202,
+        "sortOrder": 202,
         "name": {
           "ja": "ソーナンス",
           "en": "Wobbuffet"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": [
@@ -3152,48 +3152,48 @@
       },
       {
         "id": "girafarig",
-        "catalogNumber": 203,
+        "sortOrder": 203,
         "name": {
           "ja": "キリンリキ",
           "en": "Girafarig"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": []
       },
       {
         "id": "pineco",
-        "catalogNumber": 204,
+        "sortOrder": 204,
         "name": {
           "ja": "クヌギダマ",
           "en": "Pineco"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": []
       },
       {
         "id": "forretress",
-        "catalogNumber": 205,
+        "sortOrder": 205,
         "name": {
           "ja": "フォレトス",
           "en": "Forretress"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": []
       },
       {
         "id": "dunsparce",
-        "catalogNumber": 206,
+        "sortOrder": 206,
         "name": {
           "ja": "ノコッチ",
           "en": "Dunsparce"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -3203,24 +3203,24 @@
       },
       {
         "id": "gligar",
-        "catalogNumber": 207,
+        "sortOrder": 207,
         "name": {
           "ja": "グライガー",
           "en": "Gligar"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": []
       },
       {
         "id": "steelix",
-        "catalogNumber": 208,
+        "sortOrder": 208,
         "name": {
           "ja": "ハガネール",
           "en": "Steelix"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -3230,36 +3230,36 @@
       },
       {
         "id": "snubbull",
-        "catalogNumber": 209,
+        "sortOrder": 209,
         "name": {
           "ja": "ブルー",
           "en": "Snubbull"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "granbull",
-        "catalogNumber": 210,
+        "sortOrder": 210,
         "name": {
           "ja": "グランブル",
           "en": "Granbull"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "qwilfish",
-        "catalogNumber": 211,
+        "sortOrder": 211,
         "name": {
           "ja": "ハリーセン",
           "en": "Qwilfish"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -3268,12 +3268,12 @@
       },
       {
         "id": "scizor",
-        "catalogNumber": 212,
+        "sortOrder": 212,
         "name": {
           "ja": "ハッサム",
           "en": "Scizor"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -3283,12 +3283,12 @@
       },
       {
         "id": "shuckle",
-        "catalogNumber": 213,
+        "sortOrder": 213,
         "name": {
           "ja": "ツボツボ",
           "en": "Shuckle"
         },
-        "yield": {
+        "values": {
           "def": 1,
           "spd": 1
         },
@@ -3299,12 +3299,12 @@
       },
       {
         "id": "heracross",
-        "catalogNumber": 214,
+        "sortOrder": 214,
         "name": {
           "ja": "ヘラクロス",
           "en": "Heracross"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -3314,12 +3314,12 @@
       },
       {
         "id": "sneasel",
-        "catalogNumber": 215,
+        "sortOrder": 215,
         "name": {
           "ja": "ニューラ",
           "en": "Sneasel"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -3328,36 +3328,36 @@
       },
       {
         "id": "teddiursa",
-        "catalogNumber": 216,
+        "sortOrder": 216,
         "name": {
           "ja": "ヒメグマ",
           "en": "Teddiursa"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "ursaring",
-        "catalogNumber": 217,
+        "sortOrder": 217,
         "name": {
           "ja": "リングマ",
           "en": "Ursaring"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "slugma",
-        "catalogNumber": 218,
+        "sortOrder": 218,
         "name": {
           "ja": "マグマッグ",
           "en": "Slugma"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -3367,12 +3367,12 @@
       },
       {
         "id": "magcargo",
-        "catalogNumber": 219,
+        "sortOrder": 219,
         "name": {
           "ja": "マグカルゴ",
           "en": "Magcargo"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -3382,12 +3382,12 @@
       },
       {
         "id": "swinub",
-        "catalogNumber": 220,
+        "sortOrder": 220,
         "name": {
           "ja": "ウリムー",
           "en": "Swinub"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -3397,12 +3397,12 @@
       },
       {
         "id": "piloswine",
-        "catalogNumber": 221,
+        "sortOrder": 221,
         "name": {
           "ja": "イノムー",
           "en": "Piloswine"
         },
-        "yield": {
+        "values": {
           "hp": 1,
           "atk": 1
         },
@@ -3413,12 +3413,12 @@
       },
       {
         "id": "corsola",
-        "catalogNumber": 222,
+        "sortOrder": 222,
         "name": {
           "ja": "サニーゴ",
           "en": "Corsola"
         },
-        "yield": {
+        "values": {
           "def": 1,
           "spd": 1
         },
@@ -3426,12 +3426,12 @@
       },
       {
         "id": "remoraid",
-        "catalogNumber": 223,
+        "sortOrder": 223,
         "name": {
           "ja": "テッポウオ",
           "en": "Remoraid"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -3440,12 +3440,12 @@
       },
       {
         "id": "octillery",
-        "catalogNumber": 224,
+        "sortOrder": 224,
         "name": {
           "ja": "オクタン",
           "en": "Octillery"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spa": 1
         },
@@ -3455,12 +3455,12 @@
       },
       {
         "id": "delibird",
-        "catalogNumber": 225,
+        "sortOrder": 225,
         "name": {
           "ja": "デリバード",
           "en": "Delibird"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -3469,12 +3469,12 @@
       },
       {
         "id": "mantine",
-        "catalogNumber": 226,
+        "sortOrder": 226,
         "name": {
           "ja": "マンタイン",
           "en": "Mantine"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": [
@@ -3483,12 +3483,12 @@
       },
       {
         "id": "skarmory",
-        "catalogNumber": 227,
+        "sortOrder": 227,
         "name": {
           "ja": "エアームド",
           "en": "Skarmory"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -3497,12 +3497,12 @@
       },
       {
         "id": "houndour",
-        "catalogNumber": 228,
+        "sortOrder": 228,
         "name": {
           "ja": "デルビル",
           "en": "Houndour"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -3512,12 +3512,12 @@
       },
       {
         "id": "houndoom",
-        "catalogNumber": 229,
+        "sortOrder": 229,
         "name": {
           "ja": "ヘルガー",
           "en": "Houndoom"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": [
@@ -3527,12 +3527,12 @@
       },
       {
         "id": "kingdra",
-        "catalogNumber": 230,
+        "sortOrder": 230,
         "name": {
           "ja": "キングドラ",
           "en": "Kingdra"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spa": 1,
           "spd": 1
@@ -3544,12 +3544,12 @@
       },
       {
         "id": "phanpy",
-        "catalogNumber": 231,
+        "sortOrder": 231,
         "name": {
           "ja": "ゴマゾウ",
           "en": "Phanpy"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -3559,12 +3559,12 @@
       },
       {
         "id": "donphan",
-        "catalogNumber": 232,
+        "sortOrder": 232,
         "name": {
           "ja": "ドンファン",
           "en": "Donphan"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "def": 1
         },
@@ -3575,12 +3575,12 @@
       },
       {
         "id": "porygon2",
-        "catalogNumber": 233,
+        "sortOrder": 233,
         "name": {
           "ja": "ポリゴン２",
           "en": "Porygon2"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": [
@@ -3590,12 +3590,12 @@
       },
       {
         "id": "stantler",
-        "catalogNumber": 234,
+        "sortOrder": 234,
         "name": {
           "ja": "オドシシ",
           "en": "Stantler"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -3605,12 +3605,12 @@
       },
       {
         "id": "smeargle",
-        "catalogNumber": 235,
+        "sortOrder": 235,
         "name": {
           "ja": "ドーブル",
           "en": "Smeargle"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -3620,12 +3620,12 @@
       },
       {
         "id": "tyrogue",
-        "catalogNumber": 236,
+        "sortOrder": 236,
         "name": {
           "ja": "バルキー",
           "en": "Tyrogue"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -3635,12 +3635,12 @@
       },
       {
         "id": "hitmontop",
-        "catalogNumber": 237,
+        "sortOrder": 237,
         "name": {
           "ja": "カポエラー",
           "en": "Hitmontop"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": [
@@ -3650,12 +3650,12 @@
       },
       {
         "id": "smoochum",
-        "catalogNumber": 238,
+        "sortOrder": 238,
         "name": {
           "ja": "ムチュール",
           "en": "Smoochum"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": [
@@ -3665,12 +3665,12 @@
       },
       {
         "id": "elekid",
-        "catalogNumber": 239,
+        "sortOrder": 239,
         "name": {
           "ja": "エレキッド",
           "en": "Elekid"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -3679,12 +3679,12 @@
       },
       {
         "id": "magby",
-        "catalogNumber": 240,
+        "sortOrder": 240,
         "name": {
           "ja": "ブビィ",
           "en": "Magby"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": [
@@ -3693,12 +3693,12 @@
       },
       {
         "id": "miltank",
-        "catalogNumber": 241,
+        "sortOrder": 241,
         "name": {
           "ja": "ミルタンク",
           "en": "Miltank"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": [
@@ -3708,12 +3708,12 @@
       },
       {
         "id": "blissey",
-        "catalogNumber": 242,
+        "sortOrder": 242,
         "name": {
           "ja": "ハピナス",
           "en": "Blissey"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": [
@@ -3723,12 +3723,12 @@
       },
       {
         "id": "raikou",
-        "catalogNumber": 243,
+        "sortOrder": 243,
         "name": {
           "ja": "ライコウ",
           "en": "Raikou"
         },
-        "yield": {
+        "values": {
           "spa": 1,
           "spe": 2
         },
@@ -3736,12 +3736,12 @@
       },
       {
         "id": "entei",
-        "catalogNumber": 244,
+        "sortOrder": 244,
         "name": {
           "ja": "エンテイ",
           "en": "Entei"
         },
-        "yield": {
+        "values": {
           "hp": 1,
           "atk": 2
         },
@@ -3749,12 +3749,12 @@
       },
       {
         "id": "suicune",
-        "catalogNumber": 245,
+        "sortOrder": 245,
         "name": {
           "ja": "スイクン",
           "en": "Suicune"
         },
-        "yield": {
+        "values": {
           "def": 1,
           "spd": 2
         },
@@ -3762,12 +3762,12 @@
       },
       {
         "id": "larvitar",
-        "catalogNumber": 246,
+        "sortOrder": 246,
         "name": {
           "ja": "ヨーギラス",
           "en": "Larvitar"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": [
@@ -3777,12 +3777,12 @@
       },
       {
         "id": "pupitar",
-        "catalogNumber": 247,
+        "sortOrder": 247,
         "name": {
           "ja": "サナギラス",
           "en": "Pupitar"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": [
@@ -3792,12 +3792,12 @@
       },
       {
         "id": "tyranitar",
-        "catalogNumber": 248,
+        "sortOrder": 248,
         "name": {
           "ja": "バンギラス",
           "en": "Tyranitar"
         },
-        "yield": {
+        "values": {
           "atk": 3
         },
         "tags": [
@@ -3807,12 +3807,12 @@
       },
       {
         "id": "lugia",
-        "catalogNumber": 249,
+        "sortOrder": 249,
         "name": {
           "ja": "ルギア",
           "en": "Lugia"
         },
-        "yield": {
+        "values": {
           "spd": 3
         },
         "tags": [
@@ -3822,12 +3822,12 @@
       },
       {
         "id": "ho-oh",
-        "catalogNumber": 250,
+        "sortOrder": 250,
         "name": {
           "ja": "ホウオウ",
           "en": "Ho-Oh"
         },
-        "yield": {
+        "values": {
           "spd": 3
         },
         "tags": [
@@ -3837,72 +3837,72 @@
       },
       {
         "id": "celebi",
-        "catalogNumber": 251,
+        "sortOrder": 251,
         "name": {
           "ja": "セレビィ",
           "en": "Celebi"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": []
       },
       {
         "id": "treecko",
-        "catalogNumber": 252,
+        "sortOrder": 252,
         "name": {
           "ja": "キモリ",
           "en": "Treecko"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "grovyle",
-        "catalogNumber": 253,
+        "sortOrder": 253,
         "name": {
           "ja": "ジュプトル",
           "en": "Grovyle"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": []
       },
       {
         "id": "sceptile",
-        "catalogNumber": 254,
+        "sortOrder": 254,
         "name": {
           "ja": "ジュカイン",
           "en": "Sceptile"
         },
-        "yield": {
+        "values": {
           "spe": 3
         },
         "tags": []
       },
       {
         "id": "torchic",
-        "catalogNumber": 255,
+        "sortOrder": 255,
         "name": {
           "ja": "アチャモ",
           "en": "Torchic"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": []
       },
       {
         "id": "combusken",
-        "catalogNumber": 256,
+        "sortOrder": 256,
         "name": {
           "ja": "ワカシャモ",
           "en": "Combusken"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spa": 1
         },
@@ -3910,336 +3910,336 @@
       },
       {
         "id": "blaziken",
-        "catalogNumber": 257,
+        "sortOrder": 257,
         "name": {
           "ja": "バシャーモ",
           "en": "Blaziken"
         },
-        "yield": {
+        "values": {
           "atk": 3
         },
         "tags": []
       },
       {
         "id": "mudkip",
-        "catalogNumber": 258,
+        "sortOrder": 258,
         "name": {
           "ja": "ミズゴロウ",
           "en": "Mudkip"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "marshtomp",
-        "catalogNumber": 259,
+        "sortOrder": 259,
         "name": {
           "ja": "ヌマクロー",
           "en": "Marshtomp"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "swampert",
-        "catalogNumber": 260,
+        "sortOrder": 260,
         "name": {
           "ja": "ラグラージ",
           "en": "Swampert"
         },
-        "yield": {
+        "values": {
           "atk": 3
         },
         "tags": []
       },
       {
         "id": "poochyena",
-        "catalogNumber": 261,
+        "sortOrder": 261,
         "name": {
           "ja": "ポチエナ",
           "en": "Poochyena"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "mightyena",
-        "catalogNumber": 262,
+        "sortOrder": 262,
         "name": {
           "ja": "グラエナ",
           "en": "Mightyena"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "zigzagoon",
-        "catalogNumber": 263,
+        "sortOrder": 263,
         "name": {
           "ja": "ジグザグマ",
           "en": "Zigzagoon"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "linoone",
-        "catalogNumber": 264,
+        "sortOrder": 264,
         "name": {
           "ja": "マッスグマ",
           "en": "Linoone"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": []
       },
       {
         "id": "wurmple",
-        "catalogNumber": 265,
+        "sortOrder": 265,
         "name": {
           "ja": "ケムッソ",
           "en": "Wurmple"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "silcoon",
-        "catalogNumber": 266,
+        "sortOrder": 266,
         "name": {
           "ja": "カラサリス",
           "en": "Silcoon"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": []
       },
       {
         "id": "beautifly",
-        "catalogNumber": 267,
+        "sortOrder": 267,
         "name": {
           "ja": "アゲハント",
           "en": "Beautifly"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": []
       },
       {
         "id": "cascoon",
-        "catalogNumber": 268,
+        "sortOrder": 268,
         "name": {
           "ja": "マユルド",
           "en": "Cascoon"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": []
       },
       {
         "id": "dustox",
-        "catalogNumber": 269,
+        "sortOrder": 269,
         "name": {
           "ja": "ドクケイル",
           "en": "Dustox"
         },
-        "yield": {
+        "values": {
           "spd": 3
         },
         "tags": []
       },
       {
         "id": "lotad",
-        "catalogNumber": 270,
+        "sortOrder": 270,
         "name": {
           "ja": "ハスボー",
           "en": "Lotad"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": []
       },
       {
         "id": "lombre",
-        "catalogNumber": 271,
+        "sortOrder": 271,
         "name": {
           "ja": "ハスブレロ",
           "en": "Lombre"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": []
       },
       {
         "id": "ludicolo",
-        "catalogNumber": 272,
+        "sortOrder": 272,
         "name": {
           "ja": "ルンパッパ",
           "en": "Ludicolo"
         },
-        "yield": {
+        "values": {
           "spd": 3
         },
         "tags": []
       },
       {
         "id": "seedot",
-        "catalogNumber": 273,
+        "sortOrder": 273,
         "name": {
           "ja": "タネボー",
           "en": "Seedot"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": []
       },
       {
         "id": "nuzleaf",
-        "catalogNumber": 274,
+        "sortOrder": 274,
         "name": {
           "ja": "コノハナ",
           "en": "Nuzleaf"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "shiftry",
-        "catalogNumber": 275,
+        "sortOrder": 275,
         "name": {
           "ja": "ダーテング",
           "en": "Shiftry"
         },
-        "yield": {
+        "values": {
           "atk": 3
         },
         "tags": []
       },
       {
         "id": "taillow",
-        "catalogNumber": 276,
+        "sortOrder": 276,
         "name": {
           "ja": "スバメ",
           "en": "Taillow"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "swellow",
-        "catalogNumber": 277,
+        "sortOrder": 277,
         "name": {
           "ja": "オオスバメ",
           "en": "Swellow"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": []
       },
       {
         "id": "wingull",
-        "catalogNumber": 278,
+        "sortOrder": 278,
         "name": {
           "ja": "キャモメ",
           "en": "Wingull"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "pelipper",
-        "catalogNumber": 279,
+        "sortOrder": 279,
         "name": {
           "ja": "ペリッパー",
           "en": "Pelipper"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": []
       },
       {
         "id": "ralts",
-        "catalogNumber": 280,
+        "sortOrder": 280,
         "name": {
           "ja": "ラルトス",
           "en": "Ralts"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": []
       },
       {
         "id": "kirlia",
-        "catalogNumber": 281,
+        "sortOrder": 281,
         "name": {
           "ja": "キルリア",
           "en": "Kirlia"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": []
       },
       {
         "id": "gardevoir",
-        "catalogNumber": 282,
+        "sortOrder": 282,
         "name": {
           "ja": "サーナイト",
           "en": "Gardevoir"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": []
       },
       {
         "id": "surskit",
-        "catalogNumber": 283,
+        "sortOrder": 283,
         "name": {
           "ja": "アメタマ",
           "en": "Surskit"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "masquerain",
-        "catalogNumber": 284,
+        "sortOrder": 284,
         "name": {
           "ja": "アメモース",
           "en": "Masquerain"
         },
-        "yield": {
+        "values": {
           "spa": 1,
           "spd": 1
         },
@@ -4247,168 +4247,168 @@
       },
       {
         "id": "shroomish",
-        "catalogNumber": 285,
+        "sortOrder": 285,
         "name": {
           "ja": "キノココ",
           "en": "Shroomish"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "breloom",
-        "catalogNumber": 286,
+        "sortOrder": 286,
         "name": {
           "ja": "キノガッサ",
           "en": "Breloom"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "slakoth",
-        "catalogNumber": 287,
+        "sortOrder": 287,
         "name": {
           "ja": "ナマケロ",
           "en": "Slakoth"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "vigoroth",
-        "catalogNumber": 288,
+        "sortOrder": 288,
         "name": {
           "ja": "ヤルキモノ",
           "en": "Vigoroth"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": []
       },
       {
         "id": "slaking",
-        "catalogNumber": 289,
+        "sortOrder": 289,
         "name": {
           "ja": "ケッキング",
           "en": "Slaking"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": []
       },
       {
         "id": "nincada",
-        "catalogNumber": 290,
+        "sortOrder": 290,
         "name": {
           "ja": "ツチニン",
           "en": "Nincada"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": []
       },
       {
         "id": "ninjask",
-        "catalogNumber": 291,
+        "sortOrder": 291,
         "name": {
           "ja": "テッカニン",
           "en": "Ninjask"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": []
       },
       {
         "id": "shedinja",
-        "catalogNumber": 292,
+        "sortOrder": 292,
         "name": {
           "ja": "ヌケニン",
           "en": "Shedinja"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": []
       },
       {
         "id": "whismur",
-        "catalogNumber": 293,
+        "sortOrder": 293,
         "name": {
           "ja": "ゴニョニョ",
           "en": "Whismur"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "loudred",
-        "catalogNumber": 294,
+        "sortOrder": 294,
         "name": {
           "ja": "ドゴーム",
           "en": "Loudred"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": []
       },
       {
         "id": "exploud",
-        "catalogNumber": 295,
+        "sortOrder": 295,
         "name": {
           "ja": "バクオング",
           "en": "Exploud"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": []
       },
       {
         "id": "makuhita",
-        "catalogNumber": 296,
+        "sortOrder": 296,
         "name": {
           "ja": "マクノシタ",
           "en": "Makuhita"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "hariyama",
-        "catalogNumber": 297,
+        "sortOrder": 297,
         "name": {
           "ja": "ハリテヤマ",
           "en": "Hariyama"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": []
       },
       {
         "id": "azurill",
-        "catalogNumber": 298,
+        "sortOrder": 298,
         "name": {
           "ja": "ルリリ",
           "en": "Azurill"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -4417,36 +4417,36 @@
       },
       {
         "id": "nosepass",
-        "catalogNumber": 299,
+        "sortOrder": 299,
         "name": {
           "ja": "ノズパス",
           "en": "Nosepass"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": []
       },
       {
         "id": "skitty",
-        "catalogNumber": 300,
+        "sortOrder": 300,
         "name": {
           "ja": "エネコ",
           "en": "Skitty"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "delcatty",
-        "catalogNumber": 301,
+        "sortOrder": 301,
         "name": {
           "ja": "エネコロロ",
           "en": "Delcatty"
         },
-        "yield": {
+        "values": {
           "hp": 1,
           "spe": 1
         },
@@ -4454,12 +4454,12 @@
       },
       {
         "id": "sableye",
-        "catalogNumber": 302,
+        "sortOrder": 302,
         "name": {
           "ja": "ヤミラミ",
           "en": "Sableye"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "def": 1
         },
@@ -4467,12 +4467,12 @@
       },
       {
         "id": "mawile",
-        "catalogNumber": 303,
+        "sortOrder": 303,
         "name": {
           "ja": "クチート",
           "en": "Mawile"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "def": 1
         },
@@ -4480,240 +4480,240 @@
       },
       {
         "id": "aron",
-        "catalogNumber": 304,
+        "sortOrder": 304,
         "name": {
           "ja": "ココドラ",
           "en": "Aron"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": []
       },
       {
         "id": "lairon",
-        "catalogNumber": 305,
+        "sortOrder": 305,
         "name": {
           "ja": "コドラ",
           "en": "Lairon"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": []
       },
       {
         "id": "aggron",
-        "catalogNumber": 306,
+        "sortOrder": 306,
         "name": {
           "ja": "ボスゴドラ",
           "en": "Aggron"
         },
-        "yield": {
+        "values": {
           "def": 3
         },
         "tags": []
       },
       {
         "id": "meditite",
-        "catalogNumber": 307,
+        "sortOrder": 307,
         "name": {
           "ja": "アサナン",
           "en": "Meditite"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "medicham",
-        "catalogNumber": 308,
+        "sortOrder": 308,
         "name": {
           "ja": "チャーレム",
           "en": "Medicham"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": []
       },
       {
         "id": "electrike",
-        "catalogNumber": 309,
+        "sortOrder": 309,
         "name": {
           "ja": "ラクライ",
           "en": "Electrike"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "manectric",
-        "catalogNumber": 310,
+        "sortOrder": 310,
         "name": {
           "ja": "ライボルト",
           "en": "Manectric"
         },
-        "yield": {
+        "values": {
           "spe": 2
         },
         "tags": []
       },
       {
         "id": "plusle",
-        "catalogNumber": 311,
+        "sortOrder": 311,
         "name": {
           "ja": "プラスル",
           "en": "Plusle"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "minun",
-        "catalogNumber": 312,
+        "sortOrder": 312,
         "name": {
           "ja": "マイナン",
           "en": "Minun"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "volbeat",
-        "catalogNumber": 313,
+        "sortOrder": 313,
         "name": {
           "ja": "バルビート",
           "en": "Volbeat"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "illumise",
-        "catalogNumber": 314,
+        "sortOrder": 314,
         "name": {
           "ja": "イルミーゼ",
           "en": "Illumise"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "roselia",
-        "catalogNumber": 315,
+        "sortOrder": 315,
         "name": {
           "ja": "ロゼリア",
           "en": "Roselia"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": []
       },
       {
         "id": "gulpin",
-        "catalogNumber": 316,
+        "sortOrder": 316,
         "name": {
           "ja": "ゴクリン",
           "en": "Gulpin"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "swalot",
-        "catalogNumber": 317,
+        "sortOrder": 317,
         "name": {
           "ja": "マルノーム",
           "en": "Swalot"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": []
       },
       {
         "id": "carvanha",
-        "catalogNumber": 318,
+        "sortOrder": 318,
         "name": {
           "ja": "キバニア",
           "en": "Carvanha"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "sharpedo",
-        "catalogNumber": 319,
+        "sortOrder": 319,
         "name": {
           "ja": "サメハダー",
           "en": "Sharpedo"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "wailmer",
-        "catalogNumber": 320,
+        "sortOrder": 320,
         "name": {
           "ja": "ホエルコ",
           "en": "Wailmer"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "wailord",
-        "catalogNumber": 321,
+        "sortOrder": 321,
         "name": {
           "ja": "ホエルオー",
           "en": "Wailord"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": []
       },
       {
         "id": "numel",
-        "catalogNumber": 322,
+        "sortOrder": 322,
         "name": {
           "ja": "ドンメル",
           "en": "Numel"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": []
       },
       {
         "id": "camerupt",
-        "catalogNumber": 323,
+        "sortOrder": 323,
         "name": {
           "ja": "バクーダ",
           "en": "Camerupt"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spa": 1
         },
@@ -4721,72 +4721,72 @@
       },
       {
         "id": "torkoal",
-        "catalogNumber": 324,
+        "sortOrder": 324,
         "name": {
           "ja": "コータス",
           "en": "Torkoal"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": []
       },
       {
         "id": "spoink",
-        "catalogNumber": 325,
+        "sortOrder": 325,
         "name": {
           "ja": "バネブー",
           "en": "Spoink"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": []
       },
       {
         "id": "grumpig",
-        "catalogNumber": 326,
+        "sortOrder": 326,
         "name": {
           "ja": "ブーピッグ",
           "en": "Grumpig"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": []
       },
       {
         "id": "spinda",
-        "catalogNumber": 327,
+        "sortOrder": 327,
         "name": {
           "ja": "パッチール",
           "en": "Spinda"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": []
       },
       {
         "id": "trapinch",
-        "catalogNumber": 328,
+        "sortOrder": 328,
         "name": {
           "ja": "ナックラー",
           "en": "Trapinch"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "vibrava",
-        "catalogNumber": 329,
+        "sortOrder": 329,
         "name": {
           "ja": "ビブラーバ",
           "en": "Vibrava"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spe": 1
         },
@@ -4794,12 +4794,12 @@
       },
       {
         "id": "flygon",
-        "catalogNumber": 330,
+        "sortOrder": 330,
         "name": {
           "ja": "フライゴン",
           "en": "Flygon"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spe": 2
         },
@@ -4807,24 +4807,24 @@
       },
       {
         "id": "cacnea",
-        "catalogNumber": 331,
+        "sortOrder": 331,
         "name": {
           "ja": "サボネア",
           "en": "Cacnea"
         },
-        "yield": {
+        "values": {
           "spa": 1
         },
         "tags": []
       },
       {
         "id": "cacturne",
-        "catalogNumber": 332,
+        "sortOrder": 332,
         "name": {
           "ja": "ノクタス",
           "en": "Cacturne"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spa": 1
         },
@@ -4832,48 +4832,48 @@
       },
       {
         "id": "swablu",
-        "catalogNumber": 333,
+        "sortOrder": 333,
         "name": {
           "ja": "チルット",
           "en": "Swablu"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": []
       },
       {
         "id": "altaria",
-        "catalogNumber": 334,
+        "sortOrder": 334,
         "name": {
           "ja": "チルタリス",
           "en": "Altaria"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": []
       },
       {
         "id": "zangoose",
-        "catalogNumber": 335,
+        "sortOrder": 335,
         "name": {
           "ja": "ザングース",
           "en": "Zangoose"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "seviper",
-        "catalogNumber": 336,
+        "sortOrder": 336,
         "name": {
           "ja": "ハブネーク",
           "en": "Seviper"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spa": 1
         },
@@ -4881,240 +4881,240 @@
       },
       {
         "id": "lunatone",
-        "catalogNumber": 337,
+        "sortOrder": 337,
         "name": {
           "ja": "ルナトーン",
           "en": "Lunatone"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": []
       },
       {
         "id": "solrock",
-        "catalogNumber": 338,
+        "sortOrder": 338,
         "name": {
           "ja": "ソルロック",
           "en": "Solrock"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "barboach",
-        "catalogNumber": 339,
+        "sortOrder": 339,
         "name": {
           "ja": "ドジョッチ",
           "en": "Barboach"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "whiscash",
-        "catalogNumber": 340,
+        "sortOrder": 340,
         "name": {
           "ja": "ナマズン",
           "en": "Whiscash"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": []
       },
       {
         "id": "corphish",
-        "catalogNumber": 341,
+        "sortOrder": 341,
         "name": {
           "ja": "ヘイガニ",
           "en": "Corphish"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "crawdaunt",
-        "catalogNumber": 342,
+        "sortOrder": 342,
         "name": {
           "ja": "シザリガー",
           "en": "Crawdaunt"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "baltoy",
-        "catalogNumber": 343,
+        "sortOrder": 343,
         "name": {
           "ja": "ヤジロン",
           "en": "Baltoy"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": []
       },
       {
         "id": "claydol",
-        "catalogNumber": 344,
+        "sortOrder": 344,
         "name": {
           "ja": "ネンドール",
           "en": "Claydol"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": []
       },
       {
         "id": "lileep",
-        "catalogNumber": 345,
+        "sortOrder": 345,
         "name": {
           "ja": "リリーラ",
           "en": "Lileep"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": []
       },
       {
         "id": "cradily",
-        "catalogNumber": 346,
+        "sortOrder": 346,
         "name": {
           "ja": "ユレイドル",
           "en": "Cradily"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": []
       },
       {
         "id": "anorith",
-        "catalogNumber": 347,
+        "sortOrder": 347,
         "name": {
           "ja": "アノプス",
           "en": "Anorith"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "armaldo",
-        "catalogNumber": 348,
+        "sortOrder": 348,
         "name": {
           "ja": "アーマルド",
           "en": "Armaldo"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "feebas",
-        "catalogNumber": 349,
+        "sortOrder": 349,
         "name": {
           "ja": "ヒンバス",
           "en": "Feebas"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "milotic",
-        "catalogNumber": 350,
+        "sortOrder": 350,
         "name": {
           "ja": "ミロカロス",
           "en": "Milotic"
         },
-        "yield": {
+        "values": {
           "spd": 2
         },
         "tags": []
       },
       {
         "id": "castform",
-        "catalogNumber": 351,
+        "sortOrder": 351,
         "name": {
           "ja": "ポワルン",
           "en": "Castform"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "kecleon",
-        "catalogNumber": 352,
+        "sortOrder": 352,
         "name": {
           "ja": "カクレオン",
           "en": "Kecleon"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": []
       },
       {
         "id": "shuppet",
-        "catalogNumber": 353,
+        "sortOrder": 353,
         "name": {
           "ja": "カゲボウズ",
           "en": "Shuppet"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "banette",
-        "catalogNumber": 354,
+        "sortOrder": 354,
         "name": {
           "ja": "ジュペッタ",
           "en": "Banette"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "duskull",
-        "catalogNumber": 355,
+        "sortOrder": 355,
         "name": {
           "ja": "ヨマワル",
           "en": "Duskull"
         },
-        "yield": {
+        "values": {
           "spd": 1
         },
         "tags": []
       },
       {
         "id": "dusclops",
-        "catalogNumber": 356,
+        "sortOrder": 356,
         "name": {
           "ja": "サマヨール",
           "en": "Dusclops"
         },
-        "yield": {
+        "values": {
           "def": 1,
           "spd": 1
         },
@@ -5122,24 +5122,24 @@
       },
       {
         "id": "tropius",
-        "catalogNumber": 357,
+        "sortOrder": 357,
         "name": {
           "ja": "トロピウス",
           "en": "Tropius"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": []
       },
       {
         "id": "chimecho",
-        "catalogNumber": 358,
+        "sortOrder": 358,
         "name": {
           "ja": "チリーン",
           "en": "Chimecho"
         },
-        "yield": {
+        "values": {
           "spa": 1,
           "spd": 1
         },
@@ -5147,24 +5147,24 @@
       },
       {
         "id": "absol",
-        "catalogNumber": 359,
+        "sortOrder": 359,
         "name": {
           "ja": "アブソル",
           "en": "Absol"
         },
-        "yield": {
+        "values": {
           "atk": 2
         },
         "tags": []
       },
       {
         "id": "wynaut",
-        "catalogNumber": 360,
+        "sortOrder": 360,
         "name": {
           "ja": "ソーナノ",
           "en": "Wynaut"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": [
@@ -5174,84 +5174,84 @@
       },
       {
         "id": "snorunt",
-        "catalogNumber": 361,
+        "sortOrder": 361,
         "name": {
           "ja": "ユキワラシ",
           "en": "Snorunt"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "glalie",
-        "catalogNumber": 362,
+        "sortOrder": 362,
         "name": {
           "ja": "オニゴーリ",
           "en": "Glalie"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": []
       },
       {
         "id": "spheal",
-        "catalogNumber": 363,
+        "sortOrder": 363,
         "name": {
           "ja": "タマザラシ",
           "en": "Spheal"
         },
-        "yield": {
+        "values": {
           "hp": 1
         },
         "tags": []
       },
       {
         "id": "sealeo",
-        "catalogNumber": 364,
+        "sortOrder": 364,
         "name": {
           "ja": "トドグラー",
           "en": "Sealeo"
         },
-        "yield": {
+        "values": {
           "hp": 2
         },
         "tags": []
       },
       {
         "id": "walrein",
-        "catalogNumber": 365,
+        "sortOrder": 365,
         "name": {
           "ja": "トドゼルガ",
           "en": "Walrein"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": []
       },
       {
         "id": "clamperl",
-        "catalogNumber": 366,
+        "sortOrder": 366,
         "name": {
           "ja": "パールル",
           "en": "Clamperl"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": []
       },
       {
         "id": "huntail",
-        "catalogNumber": 367,
+        "sortOrder": 367,
         "name": {
           "ja": "ハンテール",
           "en": "Huntail"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "def": 1
         },
@@ -5259,24 +5259,24 @@
       },
       {
         "id": "gorebyss",
-        "catalogNumber": 368,
+        "sortOrder": 368,
         "name": {
           "ja": "サクラビス",
           "en": "Gorebyss"
         },
-        "yield": {
+        "values": {
           "spa": 2
         },
         "tags": []
       },
       {
         "id": "relicanth",
-        "catalogNumber": 369,
+        "sortOrder": 369,
         "name": {
           "ja": "ジーランス",
           "en": "Relicanth"
         },
-        "yield": {
+        "values": {
           "hp": 1,
           "def": 1
         },
@@ -5284,120 +5284,120 @@
       },
       {
         "id": "luvdisc",
-        "catalogNumber": 370,
+        "sortOrder": 370,
         "name": {
           "ja": "ラブカス",
           "en": "Luvdisc"
         },
-        "yield": {
+        "values": {
           "spe": 1
         },
         "tags": []
       },
       {
         "id": "bagon",
-        "catalogNumber": 371,
+        "sortOrder": 371,
         "name": {
           "ja": "タツベイ",
           "en": "Bagon"
         },
-        "yield": {
+        "values": {
           "atk": 1
         },
         "tags": []
       },
       {
         "id": "shelgon",
-        "catalogNumber": 372,
+        "sortOrder": 372,
         "name": {
           "ja": "コモルー",
           "en": "Shelgon"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": []
       },
       {
         "id": "salamence",
-        "catalogNumber": 373,
+        "sortOrder": 373,
         "name": {
           "ja": "ボーマンダ",
           "en": "Salamence"
         },
-        "yield": {
+        "values": {
           "atk": 3
         },
         "tags": []
       },
       {
         "id": "beldum",
-        "catalogNumber": 374,
+        "sortOrder": 374,
         "name": {
           "ja": "ダンバル",
           "en": "Beldum"
         },
-        "yield": {
+        "values": {
           "def": 1
         },
         "tags": []
       },
       {
         "id": "metang",
-        "catalogNumber": 375,
+        "sortOrder": 375,
         "name": {
           "ja": "メタング",
           "en": "Metang"
         },
-        "yield": {
+        "values": {
           "def": 2
         },
         "tags": []
       },
       {
         "id": "metagross",
-        "catalogNumber": 376,
+        "sortOrder": 376,
         "name": {
           "ja": "メタグロス",
           "en": "Metagross"
         },
-        "yield": {
+        "values": {
           "def": 3
         },
         "tags": []
       },
       {
         "id": "regirock",
-        "catalogNumber": 377,
+        "sortOrder": 377,
         "name": {
           "ja": "レジロック",
           "en": "Regirock"
         },
-        "yield": {
+        "values": {
           "def": 3
         },
         "tags": []
       },
       {
         "id": "regice",
-        "catalogNumber": 378,
+        "sortOrder": 378,
         "name": {
           "ja": "レジアイス",
           "en": "Regice"
         },
-        "yield": {
+        "values": {
           "spd": 3
         },
         "tags": []
       },
       {
         "id": "registeel",
-        "catalogNumber": 379,
+        "sortOrder": 379,
         "name": {
           "ja": "レジスチル",
           "en": "Registeel"
         },
-        "yield": {
+        "values": {
           "def": 2,
           "spd": 1
         },
@@ -5405,60 +5405,60 @@
       },
       {
         "id": "latias",
-        "catalogNumber": 380,
+        "sortOrder": 380,
         "name": {
           "ja": "ラティアス",
           "en": "Latias"
         },
-        "yield": {
+        "values": {
           "spd": 3
         },
         "tags": []
       },
       {
         "id": "latios",
-        "catalogNumber": 381,
+        "sortOrder": 381,
         "name": {
           "ja": "ラティオス",
           "en": "Latios"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": []
       },
       {
         "id": "kyogre",
-        "catalogNumber": 382,
+        "sortOrder": 382,
         "name": {
           "ja": "カイオーガ",
           "en": "Kyogre"
         },
-        "yield": {
+        "values": {
           "spa": 3
         },
         "tags": []
       },
       {
         "id": "groudon",
-        "catalogNumber": 383,
+        "sortOrder": 383,
         "name": {
           "ja": "グラードン",
           "en": "Groudon"
         },
-        "yield": {
+        "values": {
           "atk": 3
         },
         "tags": []
       },
       {
         "id": "rayquaza",
-        "catalogNumber": 384,
+        "sortOrder": 384,
         "name": {
           "ja": "レックウザ",
           "en": "Rayquaza"
         },
-        "yield": {
+        "values": {
           "atk": 2,
           "spa": 1
         },
@@ -5466,24 +5466,24 @@
       },
       {
         "id": "jirachi",
-        "catalogNumber": 385,
+        "sortOrder": 385,
         "name": {
           "ja": "ジラーチ",
           "en": "Jirachi"
         },
-        "yield": {
+        "values": {
           "hp": 3
         },
         "tags": []
       },
       {
         "id": "deoxys-attack",
-        "catalogNumber": 386,
+        "sortOrder": 386,
         "name": {
           "ja": "デオキシス（アタック）",
           "en": "Deoxys (Attack)"
         },
-        "yield": {
+        "values": {
           "atk": 1,
           "spa": 1,
           "spe": 1
@@ -5494,12 +5494,12 @@
       },
       {
         "id": "deoxys-defense",
-        "catalogNumber": 386,
+        "sortOrder": 386,
         "name": {
           "ja": "デオキシス（ディフェンス）",
           "en": "Deoxys (Defense)"
         },
-        "yield": {
+        "values": {
           "def": 1,
           "spd": 1,
           "spe": 1
@@ -5527,7 +5527,7 @@
               "en": "Staryu"
             },
             "level": 17,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -5537,12 +5537,12 @@
               "en": "Staryu"
             },
             "level": 17,
-            "yield": {
+            "values": {
               "spe": 1
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spe": 2
         },
         "rematchable": true
@@ -5564,12 +5564,12 @@
               "en": "Seaking"
             },
             "level": 37,
-            "yield": {
+            "values": {
               "atk": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "atk": 2
         },
         "rematchable": true
@@ -5591,12 +5591,12 @@
               "en": "Vileplume"
             },
             "level": 37,
-            "yield": {
+            "values": {
               "spa": 3
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spa": 3
         },
         "rematchable": true
@@ -5618,12 +5618,12 @@
               "en": "Nidorino"
             },
             "level": 38,
-            "yield": {
+            "values": {
               "atk": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "atk": 2
         },
         "rematchable": true
@@ -5645,7 +5645,7 @@
               "en": "Machoke"
             },
             "level": 36,
-            "yield": {
+            "values": {
               "atk": 2
             }
           },
@@ -5655,12 +5655,12 @@
               "en": "Machoke"
             },
             "level": 36,
-            "yield": {
+            "values": {
               "atk": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "atk": 4
         },
         "rematchable": true
@@ -5682,7 +5682,7 @@
               "en": "Weezing"
             },
             "level": 38,
-            "yield": {
+            "values": {
               "def": 2
             }
           },
@@ -5692,13 +5692,13 @@
               "en": "Muk"
             },
             "level": 38,
-            "yield": {
+            "values": {
               "hp": 1,
               "atk": 1
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "def": 2,
           "hp": 1,
           "atk": 1
@@ -5722,12 +5722,12 @@
               "en": "Nidorina"
             },
             "level": 38,
-            "yield": {
+            "values": {
               "hp": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "hp": 2
         },
         "rematchable": true
@@ -5749,7 +5749,7 @@
               "en": "Geodude"
             },
             "level": 25,
-            "yield": {
+            "values": {
               "def": 1
             }
           },
@@ -5759,7 +5759,7 @@
               "en": "Geodude"
             },
             "level": 25,
-            "yield": {
+            "values": {
               "def": 1
             }
           },
@@ -5769,12 +5769,12 @@
               "en": "Graveler"
             },
             "level": 25,
-            "yield": {
+            "values": {
               "def": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "def": 4
         },
         "rematchable": true
@@ -5796,12 +5796,12 @@
               "en": "Sandslash"
             },
             "level": 31,
-            "yield": {
+            "values": {
               "def": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "def": 2
         },
         "rematchable": true
@@ -5823,7 +5823,7 @@
               "en": "Slowpoke"
             },
             "level": 33,
-            "yield": {
+            "values": {
               "hp": 1
             }
           },
@@ -5833,7 +5833,7 @@
               "en": "Slowpoke"
             },
             "level": 33,
-            "yield": {
+            "values": {
               "hp": 1
             }
           },
@@ -5843,12 +5843,12 @@
               "en": "Slowbro"
             },
             "level": 33,
-            "yield": {
+            "values": {
               "def": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "hp": 2,
           "def": 2
         },
@@ -5871,7 +5871,7 @@
               "en": "Goldeen"
             },
             "level": 35,
-            "yield": {
+            "values": {
               "atk": 1
             }
           },
@@ -5881,12 +5881,12 @@
               "en": "Seaking"
             },
             "level": 35,
-            "yield": {
+            "values": {
               "atk": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "atk": 3
         },
         "rematchable": true
@@ -5908,7 +5908,7 @@
               "en": "Gloom"
             },
             "level": 34,
-            "yield": {
+            "values": {
               "spa": 2
             }
           },
@@ -5918,12 +5918,12 @@
               "en": "Gloom"
             },
             "level": 34,
-            "yield": {
+            "values": {
               "spa": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spa": 4
         },
         "rematchable": true
@@ -5945,12 +5945,12 @@
               "en": "Snorlax"
             },
             "level": 38,
-            "yield": {
+            "values": {
               "hp": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "hp": 2
         },
         "rematchable": true
@@ -5972,7 +5972,7 @@
               "en": "Magikarp"
             },
             "level": 28,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -5982,7 +5982,7 @@
               "en": "Magikarp"
             },
             "level": 28,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -5992,7 +5992,7 @@
               "en": "Magikarp"
             },
             "level": 28,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -6002,7 +6002,7 @@
               "en": "Magikarp"
             },
             "level": 28,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -6012,12 +6012,12 @@
               "en": "Gyarados"
             },
             "level": 28,
-            "yield": {
+            "values": {
               "atk": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spe": 4,
           "atk": 2
         },
@@ -6040,7 +6040,7 @@
               "en": "Tentacool"
             },
             "level": 35,
-            "yield": {
+            "values": {
               "spd": 1
             }
           },
@@ -6050,12 +6050,12 @@
               "en": "Tentacruel"
             },
             "level": 35,
-            "yield": {
+            "values": {
               "spd": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spd": 3
         },
         "rematchable": true
@@ -6077,7 +6077,7 @@
               "en": "Doduo"
             },
             "level": 28,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -6087,7 +6087,7 @@
               "en": "Doduo"
             },
             "level": 28,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -6097,12 +6097,12 @@
               "en": "Dodrio"
             },
             "level": 28,
-            "yield": {
+            "values": {
               "spe": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spe": 4
         },
         "rematchable": true
@@ -6124,7 +6124,7 @@
               "en": "Spearow"
             },
             "level": 29,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -6134,12 +6134,12 @@
               "en": "Fearow"
             },
             "level": 29,
-            "yield": {
+            "values": {
               "spe": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spe": 3
         },
         "rematchable": true
@@ -6161,7 +6161,7 @@
               "en": "Voltorb"
             },
             "level": 29,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -6171,7 +6171,7 @@
               "en": "Voltorb"
             },
             "level": 29,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -6181,12 +6181,12 @@
               "en": "Magnemite"
             },
             "level": 29,
-            "yield": {
+            "values": {
               "spa": 1
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spe": 2,
           "spa": 1
         },
@@ -6209,7 +6209,7 @@
               "en": "Dewgong"
             },
             "level": 52,
-            "yield": {
+            "values": {
               "spd": 2
             }
           },
@@ -6219,7 +6219,7 @@
               "en": "Cloyster"
             },
             "level": 51,
-            "yield": {
+            "values": {
               "def": 2
             }
           },
@@ -6229,7 +6229,7 @@
               "en": "Slowbro"
             },
             "level": 52,
-            "yield": {
+            "values": {
               "def": 2
             }
           },
@@ -6239,7 +6239,7 @@
               "en": "Jynx"
             },
             "level": 54,
-            "yield": {
+            "values": {
               "spa": 2
             }
           },
@@ -6249,12 +6249,12 @@
               "en": "Lapras"
             },
             "level": 54,
-            "yield": {
+            "values": {
               "hp": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spd": 2,
           "def": 4,
           "spa": 2,
@@ -6279,7 +6279,7 @@
               "en": "Onix"
             },
             "level": 51,
-            "yield": {
+            "values": {
               "def": 1
             }
           },
@@ -6289,7 +6289,7 @@
               "en": "Hitmonchan"
             },
             "level": 53,
-            "yield": {
+            "values": {
               "spd": 2
             }
           },
@@ -6299,7 +6299,7 @@
               "en": "Hitmonlee"
             },
             "level": 53,
-            "yield": {
+            "values": {
               "atk": 2
             }
           },
@@ -6309,7 +6309,7 @@
               "en": "Onix"
             },
             "level": 54,
-            "yield": {
+            "values": {
               "def": 1
             }
           },
@@ -6319,12 +6319,12 @@
               "en": "Machamp"
             },
             "level": 56,
-            "yield": {
+            "values": {
               "atk": 3
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "def": 2,
           "spd": 2,
           "atk": 5
@@ -6348,7 +6348,7 @@
               "en": "Gengar"
             },
             "level": 54,
-            "yield": {
+            "values": {
               "spa": 3
             }
           },
@@ -6358,7 +6358,7 @@
               "en": "Golbat"
             },
             "level": 54,
-            "yield": {
+            "values": {
               "spe": 2
             }
           },
@@ -6368,7 +6368,7 @@
               "en": "Haunter"
             },
             "level": 53,
-            "yield": {
+            "values": {
               "spa": 2
             }
           },
@@ -6378,7 +6378,7 @@
               "en": "Arbok"
             },
             "level": 56,
-            "yield": {
+            "values": {
               "atk": 2
             }
           },
@@ -6388,12 +6388,12 @@
               "en": "Gengar"
             },
             "level": 58,
-            "yield": {
+            "values": {
               "spa": 3
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spa": 8,
           "spe": 2,
           "atk": 2
@@ -6417,7 +6417,7 @@
               "en": "Gyarados"
             },
             "level": 56,
-            "yield": {
+            "values": {
               "atk": 2
             }
           },
@@ -6427,7 +6427,7 @@
               "en": "Dragonair"
             },
             "level": 54,
-            "yield": {
+            "values": {
               "atk": 2
             }
           },
@@ -6437,7 +6437,7 @@
               "en": "Dragonair"
             },
             "level": 54,
-            "yield": {
+            "values": {
               "atk": 2
             }
           },
@@ -6447,7 +6447,7 @@
               "en": "Aerodactyl"
             },
             "level": 58,
-            "yield": {
+            "values": {
               "spe": 2
             }
           },
@@ -6457,12 +6457,12 @@
               "en": "Dragonite"
             },
             "level": 60,
-            "yield": {
+            "values": {
               "atk": 3
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "atk": 9,
           "spe": 2
         },
@@ -6485,7 +6485,7 @@
               "en": "Pidgeot"
             },
             "level": 59,
-            "yield": {
+            "values": {
               "spe": 3
             }
           },
@@ -6495,7 +6495,7 @@
               "en": "Alakazam"
             },
             "level": 57,
-            "yield": {
+            "values": {
               "spa": 3
             }
           },
@@ -6505,12 +6505,12 @@
               "en": "Rhydon"
             },
             "level": 59,
-            "yield": {
+            "values": {
               "atk": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spe": 3,
           "spa": 3,
           "atk": 2
@@ -6534,7 +6534,7 @@
               "en": "Geodude"
             },
             "level": 12,
-            "yield": {
+            "values": {
               "def": 1
             }
           },
@@ -6544,12 +6544,12 @@
               "en": "Onix"
             },
             "level": 14,
-            "yield": {
+            "values": {
               "def": 1
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "def": 2
         },
         "rematchable": false
@@ -6571,7 +6571,7 @@
               "en": "Staryu"
             },
             "level": 18,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -6581,12 +6581,12 @@
               "en": "Starmie"
             },
             "level": 21,
-            "yield": {
+            "values": {
               "spe": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spe": 3
         },
         "rematchable": false
@@ -6608,7 +6608,7 @@
               "en": "Voltorb"
             },
             "level": 21,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -6618,7 +6618,7 @@
               "en": "Pikachu"
             },
             "level": 18,
-            "yield": {
+            "values": {
               "spe": 2
             }
           },
@@ -6628,12 +6628,12 @@
               "en": "Raichu"
             },
             "level": 24,
-            "yield": {
+            "values": {
               "spe": 3
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spe": 6
         },
         "rematchable": false
@@ -6655,7 +6655,7 @@
               "en": "Victreebel"
             },
             "level": 29,
-            "yield": {
+            "values": {
               "atk": 3
             }
           },
@@ -6665,7 +6665,7 @@
               "en": "Tangela"
             },
             "level": 24,
-            "yield": {
+            "values": {
               "def": 1
             }
           },
@@ -6675,12 +6675,12 @@
               "en": "Vileplume"
             },
             "level": 29,
-            "yield": {
+            "values": {
               "spa": 3
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "atk": 3,
           "def": 1,
           "spa": 3
@@ -6704,7 +6704,7 @@
               "en": "Koffing"
             },
             "level": 37,
-            "yield": {
+            "values": {
               "def": 1
             }
           },
@@ -6714,7 +6714,7 @@
               "en": "Muk"
             },
             "level": 39,
-            "yield": {
+            "values": {
               "hp": 1,
               "atk": 1
             }
@@ -6725,7 +6725,7 @@
               "en": "Koffing"
             },
             "level": 37,
-            "yield": {
+            "values": {
               "def": 1
             }
           },
@@ -6735,12 +6735,12 @@
               "en": "Weezing"
             },
             "level": 43,
-            "yield": {
+            "values": {
               "def": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "def": 4,
           "hp": 1,
           "atk": 1
@@ -6764,7 +6764,7 @@
               "en": "Kadabra"
             },
             "level": 38,
-            "yield": {
+            "values": {
               "spa": 2
             }
           },
@@ -6774,7 +6774,7 @@
               "en": "Mr. Mime"
             },
             "level": 37,
-            "yield": {
+            "values": {
               "spd": 2
             }
           },
@@ -6784,7 +6784,7 @@
               "en": "Venomoth"
             },
             "level": 38,
-            "yield": {
+            "values": {
               "spa": 1,
               "spe": 1
             }
@@ -6795,12 +6795,12 @@
               "en": "Alakazam"
             },
             "level": 43,
-            "yield": {
+            "values": {
               "spa": 3
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "spa": 6,
           "spd": 2,
           "spe": 1
@@ -6824,7 +6824,7 @@
               "en": "Growlithe"
             },
             "level": 42,
-            "yield": {
+            "values": {
               "atk": 1
             }
           },
@@ -6834,7 +6834,7 @@
               "en": "Ponyta"
             },
             "level": 40,
-            "yield": {
+            "values": {
               "spe": 1
             }
           },
@@ -6844,7 +6844,7 @@
               "en": "Rapidash"
             },
             "level": 42,
-            "yield": {
+            "values": {
               "spe": 2
             }
           },
@@ -6854,12 +6854,12 @@
               "en": "Arcanine"
             },
             "level": 47,
-            "yield": {
+            "values": {
               "atk": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "atk": 3,
           "spe": 3
         },
@@ -6882,7 +6882,7 @@
               "en": "Rhyhorn"
             },
             "level": 45,
-            "yield": {
+            "values": {
               "def": 1
             }
           },
@@ -6892,7 +6892,7 @@
               "en": "Dugtrio"
             },
             "level": 42,
-            "yield": {
+            "values": {
               "spe": 2
             }
           },
@@ -6902,7 +6902,7 @@
               "en": "Nidoqueen"
             },
             "level": 44,
-            "yield": {
+            "values": {
               "hp": 3
             }
           },
@@ -6912,7 +6912,7 @@
               "en": "Nidoking"
             },
             "level": 45,
-            "yield": {
+            "values": {
               "atk": 3
             }
           },
@@ -6922,12 +6922,12 @@
               "en": "Rhydon"
             },
             "level": 50,
-            "yield": {
+            "values": {
               "atk": 2
             }
           }
         ],
-        "totalYield": {
+        "totalValues": {
           "def": 1,
           "spe": 2,
           "hp": 3,
