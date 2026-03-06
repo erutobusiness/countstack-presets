@@ -2,7 +2,6 @@
  * CI Validation Script
  *
  * Validates all preset.json files and registry.json against JSON Schemas.
- * Handles legacy field name normalization before validation.
  *
  * Dependencies (install with `npm install --no-save ajv ajv-formats`):
  *   - ajv
@@ -32,98 +31,6 @@ addFormats(ajv);
 
 const validatePresetSchema = ajv.compile(presetSchema);
 const validateRegistrySchema = ajv.compile(registrySchema);
-
-// ─── Legacy → canonical field normalization ──────────────────
-// Ported from countstack/src/utils/preset-fetch.ts normalizePreset()
-
-function normalizePreset(obj) {
-  if (obj.database && typeof obj.database === 'object') {
-    const database = obj.database;
-    if (!database.entries && Array.isArray(database.pokemon)) {
-      database.entries = database.pokemon;
-      delete database.pokemon;
-    }
-    if (!database.groups && Array.isArray(database.trainers)) {
-      database.groups = database.trainers;
-      delete database.trainers;
-    }
-    // SourceGroup members: trainers[].pokemon → groups[].members
-    if (Array.isArray(database.groups)) {
-      for (const g of database.groups) {
-        if (g && typeof g === 'object') {
-          if (!g.members && Array.isArray(g.pokemon)) {
-            g.members = g.pokemon;
-            delete g.pokemon;
-          }
-        }
-      }
-    }
-    // DatabaseEntry fields: dexNumber → catalogNumber → sortOrder, availability → tags
-    // yield → values
-    if (Array.isArray(database.entries)) {
-      for (const e of database.entries) {
-        if (e && typeof e === 'object') {
-          if (e.sortOrder === undefined && e.catalogNumber !== undefined) {
-            e.sortOrder = e.catalogNumber;
-            delete e.catalogNumber;
-          }
-          if (e.sortOrder === undefined && e.dexNumber !== undefined) {
-            e.sortOrder = e.dexNumber;
-            delete e.dexNumber;
-          }
-          if (e.values === undefined && e.yield !== undefined) {
-            e.values = e.yield;
-            delete e.yield;
-          }
-          if (e.tags === undefined && Array.isArray(e.availability)) {
-            e.tags = e.availability;
-            delete e.availability;
-          }
-        }
-      }
-    }
-    // SourceGroup: totalYield → totalValues, members[].yield → members[].values
-    if (Array.isArray(database.groups)) {
-      for (const g of database.groups) {
-        if (g && typeof g === 'object') {
-          if (g.totalValues === undefined && g.totalYield !== undefined) {
-            g.totalValues = g.totalYield;
-            delete g.totalYield;
-          }
-          if (Array.isArray(g.members)) {
-            for (const m of g.members) {
-              if (m && typeof m === 'object' && m.values === undefined && m.yield !== undefined) {
-                m.values = m.yield;
-                delete m.yield;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
-  // multipliers[].scope: "battle" → "source"
-  if (Array.isArray(obj.multipliers)) {
-    for (const m of obj.multipliers) {
-      if (m && typeof m === 'object' && m.scope === 'battle') {
-        m.scope = 'source';
-      }
-    }
-  }
-
-  // vitamins → items
-  if (!obj.items && Array.isArray(obj.vitamins)) {
-    obj.items = obj.vitamins;
-    delete obj.vitamins;
-  }
-  if (obj.itemsAffectedByMultipliers === undefined && obj.vitaminsAffectedByMultipliers !== undefined) {
-    obj.itemsAffectedByMultipliers = obj.vitaminsAffectedByMultipliers;
-    delete obj.vitaminsAffectedByMultipliers;
-  }
-
-  return obj;
-}
 
 // ─── Discover preset directories ─────────────────────────────
 
@@ -189,9 +96,6 @@ for (const preset of presets) {
     continue;
   }
   success('Valid JSON');
-
-  // Normalize legacy fields
-  normalizePreset(data);
 
   // JSON Schema validation
   const valid = validatePresetSchema(data);

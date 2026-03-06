@@ -223,4 +223,4 @@ node scripts/validate-pr.mjs
 - **Versioning**: Start at `1.0.0`. Use semantic versioning — increment the patch for data fixes, minor for new entries, major for structural changes.
 - **Localization**: Use `LocalizedString` objects for all name fields. At minimum, provide an `"en"` key. Add other languages as needed.
 - **Value keys**: The keys in `values` objects must match your `counters[].id` values.
-- **Legacy field names**: The validation script handles legacy v2 names (`catalogNumber` -> `sortOrder`, `yield` -> `values`, `totalYield` -> `totalValues`, `scope: "battle"` -> `"source"`) for backward compatibility, but new presets should use the current field names.
+- **Field names**: Use the current v3 field names (`sortOrder`, `values`, `totalValues`, `scope: "source"`). Legacy field names are not supported.
