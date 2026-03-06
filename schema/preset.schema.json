@@ -40,6 +40,10 @@
         }
       }
     },
+    "theme": {
+      "$ref": "#/$defs/PresetTheme",
+      "description": "Optional two-tone accent colors for the preset"
+    },
     "counters": {
       "type": "array",
       "minItems": 1,
@@ -101,6 +105,28 @@
     }
   },
   "$defs": {
+    "ColorPair": {
+      "type": "object",
+      "required": ["light", "dark"],
+      "properties": {
+        "light": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "dark":  { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" }
+      },
+      "description": "A color pair for light and dark modes"
+    },
+    "PresetTheme": {
+      "type": "object",
+      "required": ["secondary", "secondaryContainer", "onSecondaryContainer", "tertiary", "tertiaryContainer", "onAccent"],
+      "properties": {
+        "secondary":            { "$ref": "#/$defs/ColorPair" },
+        "secondaryContainer":   { "$ref": "#/$defs/ColorPair" },
+        "onSecondaryContainer": { "$ref": "#/$defs/ColorPair" },
+        "tertiary":             { "$ref": "#/$defs/ColorPair" },
+        "tertiaryContainer":    { "$ref": "#/$defs/ColorPair" },
+        "onAccent":             { "$ref": "#/$defs/ColorPair" }
+      },
+      "description": "Two-tone accent colors. Keys match countstack CSS token names."
+    },
     "LocalizedString": {
       "type": "object",
       "additionalProperties": { "type": "string" },
