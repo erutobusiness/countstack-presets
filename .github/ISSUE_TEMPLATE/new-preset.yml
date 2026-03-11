@@ -1,0 +1,70 @@
+name: New Preset Proposal
+description: Propose a new preset for countstack
+labels: ["preset-request"]
+body:
+  - type: input
+    id: game
+    attributes:
+      label: Game / System
+      description: What game or system is this preset for?
+      placeholder: e.g. Pokemon Emerald, Fitness Tracking
+    validations:
+      required: true
+
+  - type: input
+    id: preset-id
+    attributes:
+      label: Suggested Preset ID
+      description: Lowercase letters, numbers, and hyphens only.
+      placeholder: e.g. emerald, fitness-basic
+    validations:
+      required: true
+
+  - type: textarea
+    id: counters
+    attributes:
+      label: Counters
+      description: List the counters this preset should track.
+      placeholder: |
+        - HP (max: 255)
+        - Attack (max: 255)
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: database
+    attributes:
+      label: Database Entries / Groups
+      description: Describe the data sources (entries and groups) to include. Link to reference data if available.
+      placeholder: |
+        Entries: Hoenn Pokedex (386 Pokemon with EV yields)
+        Groups: Trainers from Route 101-134
+    validations:
+      required: false
+
+  - type: textarea
+    id: data-source
+    attributes:
+      label: Data Source
+      description: Where can the data be obtained? Link to APIs, wikis, or other references.
+      placeholder: |
+        - PokeAPI: https://pokeapi.co/
+        - Bulbapedia: https://bulbapedia.bulbagarden.net/
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other details about the preset (multipliers, items, special features, etc.)
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I'm willing to create a PR for this preset

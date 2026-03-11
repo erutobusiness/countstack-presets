@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Pre-commit hook: rebuild preset and verify output.
+# Install: git config core.hooksPath .githooks
+
+set -e
+
+echo "=== pre-commit: generate:build ==="
+npm run generate:build
+
+echo "=== pre-commit: JSON syntax check ==="
+node -e "
+  const fs = require('fs');
+  const path = require('path');
+  const presetsDir = path.join(__dirname, 'presets');
+  for (const dir of fs.readdirSync(presetsDir)) {
+    const p = path.join(presetsDir, dir, 'preset.json');
+    if (fs.existsSync(p)) {
+      JSON.parse(fs.readFileSync(p, 'utf8'));
+      console.log('  ✓ ' + dir + '/preset.json');
+    }
+  }
+  JSON.parse(fs.readFileSync(path.join(__dirname, 'registry.json'), 'utf8'));
+  console.log('  ✓ registry.json');
+"
+
+echo "=== pre-commit: OK ==="

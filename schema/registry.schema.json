@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://erutobusiness.github.io/countstack-presets/schema/registry.schema.json",
+  "title": "PresetRegistry",
+  "description": "Registry of available countstack presets for discovery and version checking.",
+  "type": "object",
+  "required": ["schemaVersion", "updatedAt", "presets"],
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "presets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/RegistryEntry"
+      }
+    }
+  },
+  "$defs": {
+    "LocalizedString": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "description": "Localized string: { \"ja\": \"...\", \"en\": \"...\", ... }"
+    },
+    "RegistryEntry": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "description",
+        "version",
+        "size",
+        "counters",
+        "entryCount",
+        "groupCount",
+        "dataUrl",
+        "tags"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "name": { "$ref": "#/$defs/LocalizedString" },
+        "description": { "$ref": "#/$defs/LocalizedString" },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "size": { "type": "number" },
+        "counters": { "type": "number" },
+        "entryCount": { "type": "number" },
+        "groupCount": { "type": "number" },
+        "dataUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "labels": {
+          "type": "object",
+          "properties": {
+            "entries": { "$ref": "#/$defs/LocalizedString" },
+            "groups": { "$ref": "#/$defs/LocalizedString" },
+            "notes": { "$ref": "#/$defs/LocalizedString" }
+          },
+          "description": "Custom labels for entries/groups/notes display"
+        }
+      }
+    }
+  }
+}

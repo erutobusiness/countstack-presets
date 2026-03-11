@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "id": "study",
+    "name": "勉強トラッカー",
+    "version": "1.0.0",
+    "description": "教科別の学習量を可視化・管理するプリセット"
+  },
+  "theme": {
+    "secondary":            { "light": "#1565C0", "dark": "#82B1FF" },
+    "secondaryContainer":   { "light": "#BBDEFB", "dark": "#0D47A1" },
+    "onSecondaryContainer": { "light": "#0D47A1", "dark": "#BBDEFB" },
+    "tertiary":             { "light": "#00897B", "dark": "#80CBC4" },
+    "tertiaryContainer":    { "light": "#B2DFDB", "dark": "#004D40" },
+    "onAccent":             { "light": "#FFFFFF", "dark": "#1A1A1A" }
+  },
+  "labels": {
+    "entries": { "ja": "学習内容", "en": "Topics" },
+    "groups": { "ja": "学習プラン", "en": "Study Plans" },
+    "notes": { "ja": "学習法", "en": "Methods" }
+  },
+  "counters": [
+    { "id": "math",     "name": { "ja": "数学",   "en": "Math" },            "shortName": "数", "max": 100, "recommended": 30, "goalValue": 20, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "コマ", "en": "sessions" }, "milestones": [
+      { "label": { "ja": "基礎", "en": "Basic" }, "value": 10 },
+      { "label": { "ja": "標準", "en": "Standard" }, "value": 20 },
+      { "label": { "ja": "発展", "en": "Advanced" }, "value": 40 },
+      { "label": { "ja": "完成", "en": "Mastery" }, "value": 80 }
+    ]},
+    { "id": "english",  "name": { "ja": "英語",   "en": "English" },         "shortName": "英", "max": 100, "recommended": 30, "goalValue": 20, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "コマ", "en": "sessions" }, "milestones": [
+      { "label": { "ja": "基礎", "en": "Basic" }, "value": 10 },
+      { "label": { "ja": "標準", "en": "Standard" }, "value": 20 },
+      { "label": { "ja": "発展", "en": "Advanced" }, "value": 40 },
+      { "label": { "ja": "完成", "en": "Mastery" }, "value": 80 }
+    ]},
+    { "id": "science",  "name": { "ja": "理科",   "en": "Science" },         "shortName": "理", "max": 100, "recommended": 25, "goalValue": 15, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "コマ", "en": "sessions" }, "milestones": [
+      { "label": { "ja": "基礎", "en": "Basic" }, "value": 8 },
+      { "label": { "ja": "標準", "en": "Standard" }, "value": 15 },
+      { "label": { "ja": "発展", "en": "Advanced" }, "value": 30 },
+      { "label": { "ja": "完成", "en": "Mastery" }, "value": 60 }
+    ]},
+    { "id": "social",   "name": { "ja": "社会",   "en": "Social Studies" },  "shortName": "社", "max": 100, "recommended": 25, "goalValue": 15, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "コマ", "en": "sessions" }, "milestones": [
+      { "label": { "ja": "基礎", "en": "Basic" }, "value": 8 },
+      { "label": { "ja": "標準", "en": "Standard" }, "value": 15 },
+      { "label": { "ja": "発展", "en": "Advanced" }, "value": 30 },
+      { "label": { "ja": "完成", "en": "Mastery" }, "value": 60 }
+    ]},
+    { "id": "japanese", "name": { "ja": "国語",   "en": "Japanese" },        "shortName": "国", "max": 100, "recommended": 20, "goalValue": 12, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "コマ", "en": "sessions" }, "milestones": [
+      { "label": { "ja": "基礎", "en": "Basic" }, "value": 6 },
+      { "label": { "ja": "標準", "en": "Standard" }, "value": 12 },
+      { "label": { "ja": "発展", "en": "Advanced" }, "value": 25 },
+      { "label": { "ja": "完成", "en": "Mastery" }, "value": 50 }
+    ]}
+  ],
+  "totalMax": 500,
+  "multipliers": [],
+  "multiplierStacking": "multiplicative",
+  "items": [],
+  "itemsAffectedByMultipliers": false,
+  "manualSteps": {
+    "increments": [1, 2, 3],
+    "decrements": [1]
+  },
+  "database": {
+    "entries": [
+      { "id": "calc-drill",       "sortOrder": 1,  "name": { "ja": "計算ドリル",       "en": "Calculation Drill" },         "values": { "math": 1 },     "tags": ["math", "basic"] },
+      { "id": "word-problems",    "sortOrder": 2,  "name": { "ja": "文章問題",          "en": "Word Problems" },             "values": { "math": 1 },     "tags": ["math", "applied"] },
+      { "id": "geometry",         "sortOrder": 3,  "name": { "ja": "図形・幾何",        "en": "Geometry" },                  "values": { "math": 1 },     "tags": ["math"] },
+      { "id": "functions",        "sortOrder": 4,  "name": { "ja": "関数・グラフ",      "en": "Functions & Graphs" },        "values": { "math": 1 },     "tags": ["math"] },
+      { "id": "equations",        "sortOrder": 5,  "name": { "ja": "方程式・不等式",    "en": "Equations & Inequalities" },  "values": { "math": 1 },     "tags": ["math"] },
+      { "id": "probability",      "sortOrder": 6,  "name": { "ja": "確率・統計",        "en": "Probability & Statistics" },  "values": { "math": 1 },     "tags": ["math", "applied"] },
+      { "id": "math-exam-prep",   "sortOrder": 7,  "name": { "ja": "数学 過去問演習",   "en": "Math Past Exams" },           "values": { "math": 1 },     "tags": ["math", "exam"] },
+
+      { "id": "vocabulary",       "sortOrder": 10, "name": { "ja": "英単語・熟語暗記",  "en": "Vocabulary & Idioms" },       "values": { "english": 1 },  "tags": ["english", "basic"] },
+      { "id": "grammar",          "sortOrder": 11, "name": { "ja": "英文法演習",        "en": "Grammar Practice" },          "values": { "english": 1 },  "tags": ["english", "basic"] },
+      { "id": "reading-comp",     "sortOrder": 12, "name": { "ja": "長文読解",          "en": "Reading Comprehension" },     "values": { "english": 1 },  "tags": ["english", "applied"] },
+      { "id": "listening",        "sortOrder": 13, "name": { "ja": "リスニング",        "en": "Listening Practice" },        "values": { "english": 1 },  "tags": ["english"] },
+      { "id": "composition",      "sortOrder": 14, "name": { "ja": "英作文",            "en": "English Composition" },       "values": { "english": 1 },  "tags": ["english", "applied"] },
+      { "id": "eng-exam-prep",    "sortOrder": 15, "name": { "ja": "英語 過去問演習",   "en": "English Past Exams" },        "values": { "english": 1 },  "tags": ["english", "exam"] },
+
+      { "id": "physics",          "sortOrder": 20, "name": { "ja": "物理演習",          "en": "Physics Problems" },          "values": { "science": 1 },  "tags": ["science"] },
+      { "id": "chemistry",        "sortOrder": 21, "name": { "ja": "化学演習",          "en": "Chemistry Problems" },        "values": { "science": 1 },  "tags": ["science"] },
+      { "id": "biology",          "sortOrder": 22, "name": { "ja": "生物学習",          "en": "Biology Study" },             "values": { "science": 1 },  "tags": ["science"] },
+      { "id": "earth-science",    "sortOrder": 23, "name": { "ja": "地学学習",          "en": "Earth Science" },             "values": { "science": 1 },  "tags": ["science"] },
+      { "id": "sci-lab-report",   "sortOrder": 24, "name": { "ja": "実験レポート",      "en": "Lab Report" },                "values": { "science": 1 },  "tags": ["science", "applied"] },
+      { "id": "sci-exam-prep",    "sortOrder": 25, "name": { "ja": "理科 過去問演習",   "en": "Science Past Exams" },        "values": { "science": 1 },  "tags": ["science", "exam"] },
+
+      { "id": "jp-history",       "sortOrder": 30, "name": { "ja": "日本史学習",        "en": "Japanese History" },          "values": { "social": 1 },   "tags": ["social"] },
+      { "id": "world-history",    "sortOrder": 31, "name": { "ja": "世界史学習",        "en": "World History" },             "values": { "social": 1 },   "tags": ["social"] },
+      { "id": "geography",        "sortOrder": 32, "name": { "ja": "地理学習",          "en": "Geography" },                 "values": { "social": 1 },   "tags": ["social"] },
+      { "id": "civics",           "sortOrder": 33, "name": { "ja": "公民・政経",        "en": "Civics & Economics" },        "values": { "social": 1 },   "tags": ["social"] },
+      { "id": "current-events",   "sortOrder": 34, "name": { "ja": "時事問題",          "en": "Current Events" },            "values": { "social": 1 },   "tags": ["social", "applied"] },
+      { "id": "soc-exam-prep",    "sortOrder": 35, "name": { "ja": "社会 過去問演習",   "en": "Social Studies Past Exams" }, "values": { "social": 1 },   "tags": ["social", "exam"] },
+
+      { "id": "kanji",            "sortOrder": 40, "name": { "ja": "漢字練習",          "en": "Kanji Practice" },            "values": { "japanese": 1 }, "tags": ["japanese", "basic"] },
+      { "id": "modern-reading",   "sortOrder": 41, "name": { "ja": "現代文読解",        "en": "Modern Text Reading" },       "values": { "japanese": 1 }, "tags": ["japanese"] },
+      { "id": "classical-grammar","sortOrder": 42, "name": { "ja": "古典文法",          "en": "Classical Grammar" },         "values": { "japanese": 1 }, "tags": ["japanese"] },
+      { "id": "classical-reading","sortOrder": 43, "name": { "ja": "古文読解",          "en": "Classical Text Reading" },    "values": { "japanese": 1 }, "tags": ["japanese"] },
+      { "id": "essay-writing",    "sortOrder": 44, "name": { "ja": "小論文・作文",      "en": "Essay Writing" },             "values": { "japanese": 1 }, "tags": ["japanese", "applied"] },
+      { "id": "jpn-exam-prep",    "sortOrder": 45, "name": { "ja": "国語 過去問演習",   "en": "Japanese Past Exams" },       "values": { "japanese": 1 }, "tags": ["japanese", "exam"] }
+    ],
+    "groups": [
+      {
+        "id": "weekday-morning",
+        "name": { "ja": "平日朝学習（30分）", "en": "Weekday Morning (30 min)" },
+        "location": { "ja": "毎日ルーティン", "en": "Daily Routine" },
+        "members": [
+          { "name": { "ja": "英単語・熟語暗記", "en": "Vocabulary & Idioms" }, "level": 1, "values": { "english": 1 } },
+          { "name": { "ja": "計算ドリル",       "en": "Calculation Drill" },   "level": 1, "values": { "math": 1 } }
+        ],
+        "totalValues": { "english": 1, "math": 1 },
+        "rematchable": true
+      },
+      {
+        "id": "after-school",
+        "name": { "ja": "放課後集中（2時間）", "en": "After School Focus (2h)" },
+        "location": { "ja": "平日", "en": "Weekdays" },
+        "members": [
+          { "name": { "ja": "文章問題",    "en": "Word Problems" },           "level": 1, "values": { "math": 1 } },
+          { "name": { "ja": "英文法演習",   "en": "Grammar Practice" },       "level": 1, "values": { "english": 1 } },
+          { "name": { "ja": "物理演習",     "en": "Physics Problems" },       "level": 1, "values": { "science": 1 } },
+          { "name": { "ja": "日本史学習",   "en": "Japanese History" },       "level": 1, "values": { "social": 1 } }
+        ],
+        "totalValues": { "math": 1, "english": 1, "science": 1, "social": 1 },
+        "rematchable": true
+      },
+      {
+        "id": "weekend-review",
+        "name": { "ja": "週末総復習（半日）", "en": "Weekend Full Review (half day)" },
+        "location": { "ja": "週末", "en": "Weekends" },
+        "members": [
+          { "name": { "ja": "関数・グラフ",  "en": "Functions & Graphs" },    "level": 1, "values": { "math": 1 } },
+          { "name": { "ja": "長文読解",      "en": "Reading Comprehension" }, "level": 1, "values": { "english": 1 } },
+          { "name": { "ja": "化学演習",      "en": "Chemistry Problems" },    "level": 1, "values": { "science": 1 } },
+          { "name": { "ja": "世界史学習",    "en": "World History" },         "level": 1, "values": { "social": 1 } },
+          { "name": { "ja": "古典文法",      "en": "Classical Grammar" },     "level": 1, "values": { "japanese": 1 } },
+          { "name": { "ja": "現代文読解",    "en": "Modern Text Reading" },   "level": 1, "values": { "japanese": 1 } }
+        ],
+        "totalValues": { "math": 1, "english": 1, "science": 1, "social": 1, "japanese": 2 },
+        "rematchable": true
+      },
+      {
+        "id": "exam-prep",
+        "name": { "ja": "定期テスト直前対策", "en": "Pre-Exam Intensive" },
+        "location": { "ja": "テスト前1週間", "en": "1 Week Before Exam" },
+        "members": [
+          { "name": { "ja": "数学 過去問演習",  "en": "Math Past Exams" },              "level": 2, "values": { "math": 2 } },
+          { "name": { "ja": "英語 過去問演習",  "en": "English Past Exams" },            "level": 2, "values": { "english": 2 } },
+          { "name": { "ja": "理科 過去問演習",  "en": "Science Past Exams" },            "level": 2, "values": { "science": 2 } },
+          { "name": { "ja": "社会 過去問演習",  "en": "Social Studies Past Exams" },     "level": 2, "values": { "social": 2 } },
+          { "name": { "ja": "国語 過去問演習",  "en": "Japanese Past Exams" },           "level": 2, "values": { "japanese": 2 } }
+        ],
+        "totalValues": { "math": 2, "english": 2, "science": 2, "social": 2, "japanese": 2 },
+        "rematchable": true
+      },
+      {
+        "id": "english-intensive",
+        "name": { "ja": "英語集中デー", "en": "English Intensive Day" },
+        "location": { "ja": "苦手対策", "en": "Weakness Focus" },
+        "members": [
+          { "name": { "ja": "英単語・熟語暗記", "en": "Vocabulary & Idioms" },    "level": 2, "values": { "english": 2 } },
+          { "name": { "ja": "英文法演習",       "en": "Grammar Practice" },       "level": 1, "values": { "english": 1 } },
+          { "name": { "ja": "長文読解",         "en": "Reading Comprehension" },  "level": 2, "values": { "english": 2 } },
+          { "name": { "ja": "リスニング",       "en": "Listening Practice" },     "level": 1, "values": { "english": 1 } },
+          { "name": { "ja": "英作文",           "en": "English Composition" },    "level": 1, "values": { "english": 1 } }
+        ],
+        "totalValues": { "english": 7 },
+        "rematchable": true
+      },
+      {
+        "id": "stem-day",
+        "name": { "ja": "理数集中デー", "en": "STEM Day" },
+        "location": { "ja": "苦手対策", "en": "Weakness Focus" },
+        "members": [
+          { "name": { "ja": "計算ドリル",   "en": "Calculation Drill" },     "level": 1, "values": { "math": 1 } },
+          { "name": { "ja": "文章問題",     "en": "Word Problems" },         "level": 1, "values": { "math": 1 } },
+          { "name": { "ja": "関数・グラフ", "en": "Functions & Graphs" },    "level": 1, "values": { "math": 1 } },
+          { "name": { "ja": "物理演習",     "en": "Physics Problems" },      "level": 1, "values": { "science": 1 } },
+          { "name": { "ja": "化学演習",     "en": "Chemistry Problems" },    "level": 1, "values": { "science": 1 } }
+        ],
+        "totalValues": { "math": 3, "science": 2 },
+        "rematchable": true
+      }
+    ]
+  },
+  "notes": [
+    {
+      "text": {
+        "ja": "**ポモドーロ・テクニック**: **25分**集中 → 5分休憩を1コマとし、4コマごとに15〜30分の長い休憩を取る。集中力を維持しやすい",
+        "en": "**Pomodoro Technique**: **25 min** focus → 5 min break = 1 session. Take a 15–30 min break every 4 sessions to maintain concentration"
+      },
+      "url": "https://en.wikipedia.org/wiki/Pomodoro_Technique"
+    },
+    {
+      "text": {
+        "ja": "**間隔反復**（スペースドリピティション）: 忘れかけた頃に復習すると記憶が定着しやすい\n- 1日後 → 3日後 → 1週間後 → 1ヶ月後",
+        "en": "**Spaced repetition**: review material just as you're about to forget it\n- 1 day → 3 days → 1 week → 1 month"
+      },
+      "url": "https://en.wikipedia.org/wiki/Spaced_repetition"
+    },
+    {
+      "text": {
+        "ja": "**アクティブリコール**: 教科書を読み返すだけでなく、自分でテストを作って答える方が記憶に残る。「思い出す」行為自体が学習",
+        "en": "**Active recall**: testing yourself is more effective than re-reading. The act of retrieving information strengthens memory"
+      },
+      "url": "https://en.wikipedia.org/wiki/Active_recall"
+    },
+    {
+      "text": {
+        "ja": "**インターリーブ学習**: 同じ科目を長時間やるより、複数科目を交互に勉強する方が長期記憶に効果的",
+        "en": "**Interleaving**: alternating between different subjects is more effective for long-term retention than studying one subject for hours"
+      },
+      "url": "https://en.wikipedia.org/wiki/Interleaving_(psychology)"
+    },
+    {
+      "text": {
+        "ja": "**過去問は最強の教材**。出題傾向の把握、時間配分の練習、弱点の発見が同時にできる。テスト**2週間前**から着手が理想",
+        "en": "**Past exams are the most effective study material** — they reveal question patterns, help practice time management, and identify weaknesses. Start **2 weeks** before the test"
+      }
+    },
+    {
+      "text": {
+        "ja": "苦手科目は**1日の最初**に取り組む。脳が疲れていない朝のうちに難しい科目をやり、得意科目は午後に回す",
+        "en": "Tackle weak subjects **first thing in the day** when your brain is fresh. Save stronger subjects for the afternoon"
+      }
+    },
+    {
+      "text": {
+        "ja": "ノートまとめは「書く」こと自体が目的ではない。自分の言葉で**要約・構造化**し、後から見返せる形にすることが重要",
+        "en": "Note-taking isn't about writing things down — it's about **summarizing and structuring** information in your own words for later review"
+      }
+    },
+    {
+      "text": {
+        "ja": "睡眠は記憶の定着に不可欠。徹夜での詰め込みは非効率。**6時間以上**の睡眠を確保して翌日に復習する方が効果的",
+        "en": "Sleep is essential for memory consolidation. All-night cramming is inefficient — get **6+ hours** of sleep and review the next day"
+      }
+    },
+    {
+      "text": {
+        "ja": "1コマ ≈ **25分**（ポモドーロ1回分）を想定。自分のペースに合わせて、1コマの長さや各科目の目標を調整してください",
+        "en": "1 session ≈ **25 minutes** (one Pomodoro). Adjust session length and per-subject goals to match your pace"
+      }
+    },
+    {
+      "text": {
+        "ja": "勉強の「量」を可視化することでモチベーションが維持しやすくなる。カウンターが増えていく達成感を活用しよう",
+        "en": "Visualizing study volume helps maintain motivation. Use the satisfaction of watching your counters grow to stay on track"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+name: Preset Bug Report
+description: Report incorrect data or issues with an existing preset
+labels: ["bug"]
+body:
+  - type: input
+    id: preset
+    attributes:
+      label: Preset
+      description: Which preset has the issue?
+      placeholder: e.g. frlg
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+      description: Describe the issue. Include specific entries, values, or fields that are incorrect.
+      placeholder: |
+        Bulbasaur's HP EV yield is listed as 2 but should be 1.
+        Source: https://bulbapedia.bulbagarden.net/wiki/Bulbasaur
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Preset Version
+      description: Check Settings > Data in countstack for the version.
+      placeholder: e.g. 1.0.0
+    validations:
+      required: false

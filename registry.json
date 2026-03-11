@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-03-11T08:17:41Z",
+  "presets": [
+    {
+      "id": "frlg",
+      "name": {
+        "ja": "ポケモン FRLG",
+        "en": "Pokémon FRLG"
+      },
+      "description": {
+        "ja": "ファイアレッド・リーフグリーン用プリセット",
+        "en": "Preset for FireRed & LeafGreen"
+      },
+      "version": "1.0.0",
+      "size": 137732,
+      "counters": 6,
+      "entryCount": 387,
+      "groupCount": 31,
+      "dataUrl": "https://erutobusiness.github.io/countstack-presets/presets/frlg/preset.json",
+      "tags": [
+        "gen3",
+        "gba",
+        "frlg"
+      ],
+      "labels": {
+        "entries": {
+          "ja": "ポケモン",
+          "en": "Pokémon"
+        },
+        "groups": {
+          "ja": "トレーナー",
+          "en": "Trainers"
+        },
+        "notes": {
+          "ja": "ヒント",
+          "en": "Tips"
+        }
+      }
+    },
+    {
+      "id": "workout",
+      "name": {
+        "ja": "筋トレ Volume Tracker",
+        "en": "Workout Volume Tracker"
+      },
+      "description": {
+        "ja": "週間トレーニングボリュームを部位別に管理",
+        "en": "Track weekly training volume by muscle group"
+      },
+      "version": "1.0.0",
+      "size": 24081,
+      "counters": 6,
+      "entryCount": 44,
+      "groupCount": 7,
+      "dataUrl": "https://erutobusiness.github.io/countstack-presets/presets/workout/preset.json",
+      "tags": [
+        "fitness",
+        "workout",
+        "gym"
+      ],
+      "labels": {
+        "entries": {
+          "ja": "種目",
+          "en": "Exercises"
+        },
+        "groups": {
+          "ja": "メニュー",
+          "en": "Routines"
+        },
+        "notes": {
+          "ja": "ガイド",
+          "en": "Guide"
+        }
+      }
+    },
+    {
+      "id": "dnd5e-xp",
+      "name": {
+        "ja": "D&D 5e XP トラッカー",
+        "en": "D&D 5e XP Tracker"
+      },
+      "description": {
+        "ja": "SRD 5.1 モンスターデータでD&D 5版の経験値を管理",
+        "en": "Track experience points for D&D 5th Edition using SRD 5.1 monster data"
+      },
+      "version": "1.0.0",
+      "size": 182425,
+      "counters": 1,
+      "entryCount": 334,
+      "groupCount": 28,
+      "dataUrl": "https://erutobusiness.github.io/countstack-presets/presets/dnd5e-xp/preset.json",
+      "tags": [
+        "ttrpg",
+        "dnd",
+        "5e"
+      ],
+      "labels": {
+        "entries": {
+          "ja": "モンスター",
+          "en": "Monsters"
+        },
+        "groups": {
+          "ja": "CR別",
+          "en": "By CR"
+        },
+        "notes": {
+          "ja": "ガイド",
+          "en": "Guide"
+        }
+      }
+    },
+    {
+      "id": "study",
+      "name": {
+        "ja": "勉強トラッカー",
+        "en": "Study Tracker"
+      },
+      "description": {
+        "ja": "教科別の学習量を可視化・管理",
+        "en": "Track and visualize study volume by subject"
+      },
+      "version": "1.0.0",
+      "size": 17336,
+      "counters": 5,
+      "entryCount": 31,
+      "groupCount": 6,
+      "dataUrl": "https://erutobusiness.github.io/countstack-presets/presets/study/preset.json",
+      "tags": [
+        "education",
+        "study",
+        "exam"
+      ],
+      "labels": {
+        "entries": {
+          "ja": "学習内容",
+          "en": "Topics"
+        },
+        "groups": {
+          "ja": "学習プラン",
+          "en": "Study Plans"
+        },
+        "notes": {
+          "ja": "学習法",
+          "en": "Methods"
+        }
+      }
+    }
+  ]
+}

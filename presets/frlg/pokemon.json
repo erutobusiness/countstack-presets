@@ -1,0 +1,5320 @@
+[
+  {
+    "id": "bulbasaur",
+    "sortOrder": 1,
+    "name": {
+      "ja": "フシギダネ",
+      "en": "Bulbasaur"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "ivysaur",
+    "sortOrder": 2,
+    "name": {
+      "ja": "フシギソウ",
+      "en": "Ivysaur"
+    },
+    "values": {
+      "spa": 1,
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "venusaur",
+    "sortOrder": 3,
+    "name": {
+      "ja": "フシギバナ",
+      "en": "Venusaur"
+    },
+    "values": {
+      "spa": 2,
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "charmander",
+    "sortOrder": 4,
+    "name": {
+      "ja": "ヒトカゲ",
+      "en": "Charmander"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "charmeleon",
+    "sortOrder": 5,
+    "name": {
+      "ja": "リザード",
+      "en": "Charmeleon"
+    },
+    "values": {
+      "spa": 1,
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "charizard",
+    "sortOrder": 6,
+    "name": {
+      "ja": "リザードン",
+      "en": "Charizard"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "squirtle",
+    "sortOrder": 7,
+    "name": {
+      "ja": "ゼニガメ",
+      "en": "Squirtle"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "wartortle",
+    "sortOrder": 8,
+    "name": {
+      "ja": "カメール",
+      "en": "Wartortle"
+    },
+    "values": {
+      "def": 1,
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "blastoise",
+    "sortOrder": 9,
+    "name": {
+      "ja": "カメックス",
+      "en": "Blastoise"
+    },
+    "values": {
+      "spd": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "caterpie",
+    "sortOrder": 10,
+    "name": {
+      "ja": "キャタピー",
+      "en": "Caterpie"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "metapod",
+    "sortOrder": 11,
+    "name": {
+      "ja": "トランセル",
+      "en": "Metapod"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "butterfree",
+    "sortOrder": 12,
+    "name": {
+      "ja": "バタフリー",
+      "en": "Butterfree"
+    },
+    "values": {
+      "spa": 2,
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "weedle",
+    "sortOrder": 13,
+    "name": {
+      "ja": "ビードル",
+      "en": "Weedle"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "kakuna",
+    "sortOrder": 14,
+    "name": {
+      "ja": "コクーン",
+      "en": "Kakuna"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "beedrill",
+    "sortOrder": 15,
+    "name": {
+      "ja": "スピアー",
+      "en": "Beedrill"
+    },
+    "values": {
+      "atk": 2,
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "pidgey",
+    "sortOrder": 16,
+    "name": {
+      "ja": "ポッポ",
+      "en": "Pidgey"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "pidgeotto",
+    "sortOrder": 17,
+    "name": {
+      "ja": "ピジョン",
+      "en": "Pidgeotto"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "pidgeot",
+    "sortOrder": 18,
+    "name": {
+      "ja": "ピジョット",
+      "en": "Pidgeot"
+    },
+    "values": {
+      "spe": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "rattata",
+    "sortOrder": 19,
+    "name": {
+      "ja": "コラッタ",
+      "en": "Rattata"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "raticate",
+    "sortOrder": 20,
+    "name": {
+      "ja": "ラッタ",
+      "en": "Raticate"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "spearow",
+    "sortOrder": 21,
+    "name": {
+      "ja": "オニスズメ",
+      "en": "Spearow"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "fearow",
+    "sortOrder": 22,
+    "name": {
+      "ja": "オニドリル",
+      "en": "Fearow"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "ekans",
+    "sortOrder": 23,
+    "name": {
+      "ja": "アーボ",
+      "en": "Ekans"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "arbok",
+    "sortOrder": 24,
+    "name": {
+      "ja": "アーボック",
+      "en": "Arbok"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "pikachu",
+    "sortOrder": 25,
+    "name": {
+      "ja": "ピカチュウ",
+      "en": "Pikachu"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "raichu",
+    "sortOrder": 26,
+    "name": {
+      "ja": "ライチュウ",
+      "en": "Raichu"
+    },
+    "values": {
+      "spe": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "sandshrew",
+    "sortOrder": 27,
+    "name": {
+      "ja": "サンド",
+      "en": "Sandshrew"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "sandslash",
+    "sortOrder": 28,
+    "name": {
+      "ja": "サンドパン",
+      "en": "Sandslash"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "nidoran-f",
+    "sortOrder": 29,
+    "name": {
+      "ja": "ニドラン♀",
+      "en": "Nidoran♀"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "nidorina",
+    "sortOrder": 30,
+    "name": {
+      "ja": "ニドリーナ",
+      "en": "Nidorina"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "nidoqueen",
+    "sortOrder": 31,
+    "name": {
+      "ja": "ニドクイン",
+      "en": "Nidoqueen"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "nidoran-m",
+    "sortOrder": 32,
+    "name": {
+      "ja": "ニドラン♂",
+      "en": "Nidoran♂"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "nidorino",
+    "sortOrder": 33,
+    "name": {
+      "ja": "ニドリーノ",
+      "en": "Nidorino"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "nidoking",
+    "sortOrder": 34,
+    "name": {
+      "ja": "ニドキング",
+      "en": "Nidoking"
+    },
+    "values": {
+      "atk": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "clefairy",
+    "sortOrder": 35,
+    "name": {
+      "ja": "ピッピ",
+      "en": "Clefairy"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "clefable",
+    "sortOrder": 36,
+    "name": {
+      "ja": "ピクシー",
+      "en": "Clefable"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "vulpix",
+    "sortOrder": 37,
+    "name": {
+      "ja": "ロコン",
+      "en": "Vulpix"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "ninetales",
+    "sortOrder": 38,
+    "name": {
+      "ja": "キュウコン",
+      "en": "Ninetales"
+    },
+    "values": {
+      "spd": 1,
+      "spe": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "jigglypuff",
+    "sortOrder": 39,
+    "name": {
+      "ja": "プリン",
+      "en": "Jigglypuff"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "wigglytuff",
+    "sortOrder": 40,
+    "name": {
+      "ja": "プクリン",
+      "en": "Wigglytuff"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "zubat",
+    "sortOrder": 41,
+    "name": {
+      "ja": "ズバット",
+      "en": "Zubat"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "golbat",
+    "sortOrder": 42,
+    "name": {
+      "ja": "ゴルバット",
+      "en": "Golbat"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "oddish",
+    "sortOrder": 43,
+    "name": {
+      "ja": "ナゾノクサ",
+      "en": "Oddish"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "gloom",
+    "sortOrder": 44,
+    "name": {
+      "ja": "クサイハナ",
+      "en": "Gloom"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "vileplume",
+    "sortOrder": 45,
+    "name": {
+      "ja": "ラフレシア",
+      "en": "Vileplume"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "paras",
+    "sortOrder": 46,
+    "name": {
+      "ja": "パラス",
+      "en": "Paras"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "parasect",
+    "sortOrder": 47,
+    "name": {
+      "ja": "パラセクト",
+      "en": "Parasect"
+    },
+    "values": {
+      "atk": 2,
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "venonat",
+    "sortOrder": 48,
+    "name": {
+      "ja": "コンパン",
+      "en": "Venonat"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "venomoth",
+    "sortOrder": 49,
+    "name": {
+      "ja": "モルフォン",
+      "en": "Venomoth"
+    },
+    "values": {
+      "spa": 1,
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "diglett",
+    "sortOrder": 50,
+    "name": {
+      "ja": "ディグダ",
+      "en": "Diglett"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "dugtrio",
+    "sortOrder": 51,
+    "name": {
+      "ja": "ダグトリオ",
+      "en": "Dugtrio"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "meowth",
+    "sortOrder": 52,
+    "name": {
+      "ja": "ニャース",
+      "en": "Meowth"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "persian",
+    "sortOrder": 53,
+    "name": {
+      "ja": "ペルシアン",
+      "en": "Persian"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "psyduck",
+    "sortOrder": 54,
+    "name": {
+      "ja": "コダック",
+      "en": "Psyduck"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "golduck",
+    "sortOrder": 55,
+    "name": {
+      "ja": "ゴルダック",
+      "en": "Golduck"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "mankey",
+    "sortOrder": 56,
+    "name": {
+      "ja": "マンキー",
+      "en": "Mankey"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "primeape",
+    "sortOrder": 57,
+    "name": {
+      "ja": "オコリザル",
+      "en": "Primeape"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "growlithe",
+    "sortOrder": 58,
+    "name": {
+      "ja": "ガーディ",
+      "en": "Growlithe"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "arcanine",
+    "sortOrder": 59,
+    "name": {
+      "ja": "ウインディ",
+      "en": "Arcanine"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "poliwag",
+    "sortOrder": 60,
+    "name": {
+      "ja": "ニョロモ",
+      "en": "Poliwag"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "poliwhirl",
+    "sortOrder": 61,
+    "name": {
+      "ja": "ニョロゾ",
+      "en": "Poliwhirl"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "poliwrath",
+    "sortOrder": 62,
+    "name": {
+      "ja": "ニョロボン",
+      "en": "Poliwrath"
+    },
+    "values": {
+      "def": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "abra",
+    "sortOrder": 63,
+    "name": {
+      "ja": "ケーシィ",
+      "en": "Abra"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "kadabra",
+    "sortOrder": 64,
+    "name": {
+      "ja": "ユンゲラー",
+      "en": "Kadabra"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "alakazam",
+    "sortOrder": 65,
+    "name": {
+      "ja": "フーディン",
+      "en": "Alakazam"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "machop",
+    "sortOrder": 66,
+    "name": {
+      "ja": "ワンリキー",
+      "en": "Machop"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "machoke",
+    "sortOrder": 67,
+    "name": {
+      "ja": "ゴーリキー",
+      "en": "Machoke"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "machamp",
+    "sortOrder": 68,
+    "name": {
+      "ja": "カイリキー",
+      "en": "Machamp"
+    },
+    "values": {
+      "atk": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "bellsprout",
+    "sortOrder": 69,
+    "name": {
+      "ja": "マダツボミ",
+      "en": "Bellsprout"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "weepinbell",
+    "sortOrder": 70,
+    "name": {
+      "ja": "ウツドン",
+      "en": "Weepinbell"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "victreebel",
+    "sortOrder": 71,
+    "name": {
+      "ja": "ウツボット",
+      "en": "Victreebel"
+    },
+    "values": {
+      "atk": 3
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "tentacool",
+    "sortOrder": 72,
+    "name": {
+      "ja": "メノクラゲ",
+      "en": "Tentacool"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "tentacruel",
+    "sortOrder": 73,
+    "name": {
+      "ja": "ドククラゲ",
+      "en": "Tentacruel"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "geodude",
+    "sortOrder": 74,
+    "name": {
+      "ja": "イシツブテ",
+      "en": "Geodude"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "graveler",
+    "sortOrder": 75,
+    "name": {
+      "ja": "ゴローン",
+      "en": "Graveler"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "golem",
+    "sortOrder": 76,
+    "name": {
+      "ja": "ゴローニャ",
+      "en": "Golem"
+    },
+    "values": {
+      "def": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "ponyta",
+    "sortOrder": 77,
+    "name": {
+      "ja": "ポニータ",
+      "en": "Ponyta"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "rapidash",
+    "sortOrder": 78,
+    "name": {
+      "ja": "ギャロップ",
+      "en": "Rapidash"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "slowpoke",
+    "sortOrder": 79,
+    "name": {
+      "ja": "ヤドン",
+      "en": "Slowpoke"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "slowbro",
+    "sortOrder": 80,
+    "name": {
+      "ja": "ヤドラン",
+      "en": "Slowbro"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "magnemite",
+    "sortOrder": 81,
+    "name": {
+      "ja": "コイル",
+      "en": "Magnemite"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "magneton",
+    "sortOrder": 82,
+    "name": {
+      "ja": "レアコイル",
+      "en": "Magneton"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "farfetch-d",
+    "sortOrder": 83,
+    "name": {
+      "ja": "カモネギ",
+      "en": "Farfetch’d"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "doduo",
+    "sortOrder": 84,
+    "name": {
+      "ja": "ドードー",
+      "en": "Doduo"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "dodrio",
+    "sortOrder": 85,
+    "name": {
+      "ja": "ドードリオ",
+      "en": "Dodrio"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "seel",
+    "sortOrder": 86,
+    "name": {
+      "ja": "パウワウ",
+      "en": "Seel"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "dewgong",
+    "sortOrder": 87,
+    "name": {
+      "ja": "ジュゴン",
+      "en": "Dewgong"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "grimer",
+    "sortOrder": 88,
+    "name": {
+      "ja": "ベトベター",
+      "en": "Grimer"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "muk",
+    "sortOrder": 89,
+    "name": {
+      "ja": "ベトベトン",
+      "en": "Muk"
+    },
+    "values": {
+      "hp": 1,
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "shellder",
+    "sortOrder": 90,
+    "name": {
+      "ja": "シェルダー",
+      "en": "Shellder"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "cloyster",
+    "sortOrder": 91,
+    "name": {
+      "ja": "パルシェン",
+      "en": "Cloyster"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "gastly",
+    "sortOrder": 92,
+    "name": {
+      "ja": "ゴース",
+      "en": "Gastly"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "haunter",
+    "sortOrder": 93,
+    "name": {
+      "ja": "ゴースト",
+      "en": "Haunter"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "gengar",
+    "sortOrder": 94,
+    "name": {
+      "ja": "ゲンガー",
+      "en": "Gengar"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "onix",
+    "sortOrder": 95,
+    "name": {
+      "ja": "イワーク",
+      "en": "Onix"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "drowzee",
+    "sortOrder": 96,
+    "name": {
+      "ja": "スリープ",
+      "en": "Drowzee"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "hypno",
+    "sortOrder": 97,
+    "name": {
+      "ja": "スリーパー",
+      "en": "Hypno"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "krabby",
+    "sortOrder": 98,
+    "name": {
+      "ja": "クラブ",
+      "en": "Krabby"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "kingler",
+    "sortOrder": 99,
+    "name": {
+      "ja": "キングラー",
+      "en": "Kingler"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "voltorb",
+    "sortOrder": 100,
+    "name": {
+      "ja": "ビリリダマ",
+      "en": "Voltorb"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "electrode",
+    "sortOrder": 101,
+    "name": {
+      "ja": "マルマイン",
+      "en": "Electrode"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "exeggcute",
+    "sortOrder": 102,
+    "name": {
+      "ja": "タマタマ",
+      "en": "Exeggcute"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "exeggutor",
+    "sortOrder": 103,
+    "name": {
+      "ja": "ナッシー",
+      "en": "Exeggutor"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "cubone",
+    "sortOrder": 104,
+    "name": {
+      "ja": "カラカラ",
+      "en": "Cubone"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "marowak",
+    "sortOrder": 105,
+    "name": {
+      "ja": "ガラガラ",
+      "en": "Marowak"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "hitmonlee",
+    "sortOrder": 106,
+    "name": {
+      "ja": "サワムラー",
+      "en": "Hitmonlee"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "hitmonchan",
+    "sortOrder": 107,
+    "name": {
+      "ja": "エビワラー",
+      "en": "Hitmonchan"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "lickitung",
+    "sortOrder": 108,
+    "name": {
+      "ja": "ベロリンガ",
+      "en": "Lickitung"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "koffing",
+    "sortOrder": 109,
+    "name": {
+      "ja": "ドガース",
+      "en": "Koffing"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "weezing",
+    "sortOrder": 110,
+    "name": {
+      "ja": "マタドガス",
+      "en": "Weezing"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "rhyhorn",
+    "sortOrder": 111,
+    "name": {
+      "ja": "サイホーン",
+      "en": "Rhyhorn"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "rhydon",
+    "sortOrder": 112,
+    "name": {
+      "ja": "サイドン",
+      "en": "Rhydon"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "chansey",
+    "sortOrder": 113,
+    "name": {
+      "ja": "ラッキー",
+      "en": "Chansey"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "tangela",
+    "sortOrder": 114,
+    "name": {
+      "ja": "モンジャラ",
+      "en": "Tangela"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "kangaskhan",
+    "sortOrder": 115,
+    "name": {
+      "ja": "ガルーラ",
+      "en": "Kangaskhan"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "horsea",
+    "sortOrder": 116,
+    "name": {
+      "ja": "タッツー",
+      "en": "Horsea"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "seadra",
+    "sortOrder": 117,
+    "name": {
+      "ja": "シードラ",
+      "en": "Seadra"
+    },
+    "values": {
+      "def": 1,
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "goldeen",
+    "sortOrder": 118,
+    "name": {
+      "ja": "トサキント",
+      "en": "Goldeen"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "seaking",
+    "sortOrder": 119,
+    "name": {
+      "ja": "アズマオウ",
+      "en": "Seaking"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "staryu",
+    "sortOrder": 120,
+    "name": {
+      "ja": "ヒトデマン",
+      "en": "Staryu"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "starmie",
+    "sortOrder": 121,
+    "name": {
+      "ja": "スターミー",
+      "en": "Starmie"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "mr--mime",
+    "sortOrder": 122,
+    "name": {
+      "ja": "バリヤード",
+      "en": "Mr. Mime"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "scyther",
+    "sortOrder": 123,
+    "name": {
+      "ja": "ストライク",
+      "en": "Scyther"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "jynx",
+    "sortOrder": 124,
+    "name": {
+      "ja": "ルージュラ",
+      "en": "Jynx"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "electabuzz",
+    "sortOrder": 125,
+    "name": {
+      "ja": "エレブー",
+      "en": "Electabuzz"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "magmar",
+    "sortOrder": 126,
+    "name": {
+      "ja": "ブーバー",
+      "en": "Magmar"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "pinsir",
+    "sortOrder": 127,
+    "name": {
+      "ja": "カイロス",
+      "en": "Pinsir"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "tauros",
+    "sortOrder": 128,
+    "name": {
+      "ja": "ケンタロス",
+      "en": "Tauros"
+    },
+    "values": {
+      "atk": 1,
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "magikarp",
+    "sortOrder": 129,
+    "name": {
+      "ja": "コイキング",
+      "en": "Magikarp"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "gyarados",
+    "sortOrder": 130,
+    "name": {
+      "ja": "ギャラドス",
+      "en": "Gyarados"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "lapras",
+    "sortOrder": 131,
+    "name": {
+      "ja": "ラプラス",
+      "en": "Lapras"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "ditto",
+    "sortOrder": 132,
+    "name": {
+      "ja": "メタモン",
+      "en": "Ditto"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "eevee",
+    "sortOrder": 133,
+    "name": {
+      "ja": "イーブイ",
+      "en": "Eevee"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "vaporeon",
+    "sortOrder": 134,
+    "name": {
+      "ja": "シャワーズ",
+      "en": "Vaporeon"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "jolteon",
+    "sortOrder": 135,
+    "name": {
+      "ja": "サンダース",
+      "en": "Jolteon"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "flareon",
+    "sortOrder": 136,
+    "name": {
+      "ja": "ブースター",
+      "en": "Flareon"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "porygon",
+    "sortOrder": 137,
+    "name": {
+      "ja": "ポリゴン",
+      "en": "Porygon"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "omanyte",
+    "sortOrder": 138,
+    "name": {
+      "ja": "オムナイト",
+      "en": "Omanyte"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "omastar",
+    "sortOrder": 139,
+    "name": {
+      "ja": "オムスター",
+      "en": "Omastar"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "kabuto",
+    "sortOrder": 140,
+    "name": {
+      "ja": "カブト",
+      "en": "Kabuto"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "kabutops",
+    "sortOrder": 141,
+    "name": {
+      "ja": "カブトプス",
+      "en": "Kabutops"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "aerodactyl",
+    "sortOrder": 142,
+    "name": {
+      "ja": "プテラ",
+      "en": "Aerodactyl"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "snorlax",
+    "sortOrder": 143,
+    "name": {
+      "ja": "カビゴン",
+      "en": "Snorlax"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "articuno",
+    "sortOrder": 144,
+    "name": {
+      "ja": "フリーザー",
+      "en": "Articuno"
+    },
+    "values": {
+      "spd": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "zapdos",
+    "sortOrder": 145,
+    "name": {
+      "ja": "サンダー",
+      "en": "Zapdos"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "moltres",
+    "sortOrder": 146,
+    "name": {
+      "ja": "ファイヤー",
+      "en": "Moltres"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "dratini",
+    "sortOrder": 147,
+    "name": {
+      "ja": "ミニリュウ",
+      "en": "Dratini"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "dragonair",
+    "sortOrder": 148,
+    "name": {
+      "ja": "ハクリュー",
+      "en": "Dragonair"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "dragonite",
+    "sortOrder": 149,
+    "name": {
+      "ja": "カイリュー",
+      "en": "Dragonite"
+    },
+    "values": {
+      "atk": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "mewtwo",
+    "sortOrder": 150,
+    "name": {
+      "ja": "ミュウツー",
+      "en": "Mewtwo"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "mew",
+    "sortOrder": 151,
+    "name": {
+      "ja": "ミュウ",
+      "en": "Mew"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "chikorita",
+    "sortOrder": 152,
+    "name": {
+      "ja": "チコリータ",
+      "en": "Chikorita"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "bayleef",
+    "sortOrder": 153,
+    "name": {
+      "ja": "ベイリーフ",
+      "en": "Bayleef"
+    },
+    "values": {
+      "def": 1,
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "meganium",
+    "sortOrder": 154,
+    "name": {
+      "ja": "メガニウム",
+      "en": "Meganium"
+    },
+    "values": {
+      "def": 1,
+      "spd": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "cyndaquil",
+    "sortOrder": 155,
+    "name": {
+      "ja": "ヒノアラシ",
+      "en": "Cyndaquil"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "quilava",
+    "sortOrder": 156,
+    "name": {
+      "ja": "マグマラシ",
+      "en": "Quilava"
+    },
+    "values": {
+      "spa": 1,
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "typhlosion",
+    "sortOrder": 157,
+    "name": {
+      "ja": "バクフーン",
+      "en": "Typhlosion"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "totodile",
+    "sortOrder": 158,
+    "name": {
+      "ja": "ワニノコ",
+      "en": "Totodile"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "croconaw",
+    "sortOrder": 159,
+    "name": {
+      "ja": "アリゲイツ",
+      "en": "Croconaw"
+    },
+    "values": {
+      "atk": 1,
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "feraligatr",
+    "sortOrder": 160,
+    "name": {
+      "ja": "オーダイル",
+      "en": "Feraligatr"
+    },
+    "values": {
+      "atk": 2,
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "sentret",
+    "sortOrder": 161,
+    "name": {
+      "ja": "オタチ",
+      "en": "Sentret"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "furret",
+    "sortOrder": 162,
+    "name": {
+      "ja": "オオタチ",
+      "en": "Furret"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "hoothoot",
+    "sortOrder": 163,
+    "name": {
+      "ja": "ホーホー",
+      "en": "Hoothoot"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "noctowl",
+    "sortOrder": 164,
+    "name": {
+      "ja": "ヨルノズク",
+      "en": "Noctowl"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "ledyba",
+    "sortOrder": 165,
+    "name": {
+      "ja": "レディバ",
+      "en": "Ledyba"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "ledian",
+    "sortOrder": 166,
+    "name": {
+      "ja": "レディアン",
+      "en": "Ledian"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "spinarak",
+    "sortOrder": 167,
+    "name": {
+      "ja": "イトマル",
+      "en": "Spinarak"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "ariados",
+    "sortOrder": 168,
+    "name": {
+      "ja": "アリアドス",
+      "en": "Ariados"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "crobat",
+    "sortOrder": 169,
+    "name": {
+      "ja": "クロバット",
+      "en": "Crobat"
+    },
+    "values": {
+      "spe": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "chinchou",
+    "sortOrder": 170,
+    "name": {
+      "ja": "チョンチー",
+      "en": "Chinchou"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "lanturn",
+    "sortOrder": 171,
+    "name": {
+      "ja": "ランターン",
+      "en": "Lanturn"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "pichu",
+    "sortOrder": 172,
+    "name": {
+      "ja": "ピチュー",
+      "en": "Pichu"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "cleffa",
+    "sortOrder": 173,
+    "name": {
+      "ja": "ピィ",
+      "en": "Cleffa"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "igglybuff",
+    "sortOrder": 174,
+    "name": {
+      "ja": "ププリン",
+      "en": "Igglybuff"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "togepi",
+    "sortOrder": 175,
+    "name": {
+      "ja": "トゲピー",
+      "en": "Togepi"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "togetic",
+    "sortOrder": 176,
+    "name": {
+      "ja": "トゲチック",
+      "en": "Togetic"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "natu",
+    "sortOrder": 177,
+    "name": {
+      "ja": "ネイティ",
+      "en": "Natu"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "xatu",
+    "sortOrder": 178,
+    "name": {
+      "ja": "ネイティオ",
+      "en": "Xatu"
+    },
+    "values": {
+      "spa": 1,
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "mareep",
+    "sortOrder": 179,
+    "name": {
+      "ja": "メリープ",
+      "en": "Mareep"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "flaaffy",
+    "sortOrder": 180,
+    "name": {
+      "ja": "モココ",
+      "en": "Flaaffy"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "ampharos",
+    "sortOrder": 181,
+    "name": {
+      "ja": "デンリュウ",
+      "en": "Ampharos"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "bellossom",
+    "sortOrder": 182,
+    "name": {
+      "ja": "キレイハナ",
+      "en": "Bellossom"
+    },
+    "values": {
+      "spd": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "marill",
+    "sortOrder": 183,
+    "name": {
+      "ja": "マリル",
+      "en": "Marill"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "azumarill",
+    "sortOrder": 184,
+    "name": {
+      "ja": "マリルリ",
+      "en": "Azumarill"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "sudowoodo",
+    "sortOrder": 185,
+    "name": {
+      "ja": "ウソッキー",
+      "en": "Sudowoodo"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "politoed",
+    "sortOrder": 186,
+    "name": {
+      "ja": "ニョロトノ",
+      "en": "Politoed"
+    },
+    "values": {
+      "spd": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "hoppip",
+    "sortOrder": 187,
+    "name": {
+      "ja": "ハネッコ",
+      "en": "Hoppip"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "skiploom",
+    "sortOrder": 188,
+    "name": {
+      "ja": "ポポッコ",
+      "en": "Skiploom"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "jumpluff",
+    "sortOrder": 189,
+    "name": {
+      "ja": "ワタッコ",
+      "en": "Jumpluff"
+    },
+    "values": {
+      "spe": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "aipom",
+    "sortOrder": 190,
+    "name": {
+      "ja": "エイパム",
+      "en": "Aipom"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "sunkern",
+    "sortOrder": 191,
+    "name": {
+      "ja": "ヒマナッツ",
+      "en": "Sunkern"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "sunflora",
+    "sortOrder": 192,
+    "name": {
+      "ja": "キマワリ",
+      "en": "Sunflora"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "yanma",
+    "sortOrder": 193,
+    "name": {
+      "ja": "ヤンヤンマ",
+      "en": "Yanma"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "wooper",
+    "sortOrder": 194,
+    "name": {
+      "ja": "ウパー",
+      "en": "Wooper"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "quagsire",
+    "sortOrder": 195,
+    "name": {
+      "ja": "ヌオー",
+      "en": "Quagsire"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "espeon",
+    "sortOrder": 196,
+    "name": {
+      "ja": "エーフィ",
+      "en": "Espeon"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "umbreon",
+    "sortOrder": 197,
+    "name": {
+      "ja": "ブラッキー",
+      "en": "Umbreon"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "murkrow",
+    "sortOrder": 198,
+    "name": {
+      "ja": "ヤミカラス",
+      "en": "Murkrow"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "slowking",
+    "sortOrder": 199,
+    "name": {
+      "ja": "ヤドキング",
+      "en": "Slowking"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "misdreavus",
+    "sortOrder": 200,
+    "name": {
+      "ja": "ムウマ",
+      "en": "Misdreavus"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "unown",
+    "sortOrder": 201,
+    "name": {
+      "ja": "アンノーン",
+      "en": "Unown"
+    },
+    "values": {
+      "atk": 1,
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "wobbuffet",
+    "sortOrder": 202,
+    "name": {
+      "ja": "ソーナンス",
+      "en": "Wobbuffet"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "girafarig",
+    "sortOrder": 203,
+    "name": {
+      "ja": "キリンリキ",
+      "en": "Girafarig"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "pineco",
+    "sortOrder": 204,
+    "name": {
+      "ja": "クヌギダマ",
+      "en": "Pineco"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "forretress",
+    "sortOrder": 205,
+    "name": {
+      "ja": "フォレトス",
+      "en": "Forretress"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "dunsparce",
+    "sortOrder": 206,
+    "name": {
+      "ja": "ノコッチ",
+      "en": "Dunsparce"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "gligar",
+    "sortOrder": 207,
+    "name": {
+      "ja": "グライガー",
+      "en": "Gligar"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "steelix",
+    "sortOrder": 208,
+    "name": {
+      "ja": "ハガネール",
+      "en": "Steelix"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "snubbull",
+    "sortOrder": 209,
+    "name": {
+      "ja": "ブルー",
+      "en": "Snubbull"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "granbull",
+    "sortOrder": 210,
+    "name": {
+      "ja": "グランブル",
+      "en": "Granbull"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "qwilfish",
+    "sortOrder": 211,
+    "name": {
+      "ja": "ハリーセン",
+      "en": "Qwilfish"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "scizor",
+    "sortOrder": 212,
+    "name": {
+      "ja": "ハッサム",
+      "en": "Scizor"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "shuckle",
+    "sortOrder": 213,
+    "name": {
+      "ja": "ツボツボ",
+      "en": "Shuckle"
+    },
+    "values": {
+      "def": 1,
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "heracross",
+    "sortOrder": 214,
+    "name": {
+      "ja": "ヘラクロス",
+      "en": "Heracross"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "sneasel",
+    "sortOrder": 215,
+    "name": {
+      "ja": "ニューラ",
+      "en": "Sneasel"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "teddiursa",
+    "sortOrder": 216,
+    "name": {
+      "ja": "ヒメグマ",
+      "en": "Teddiursa"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "ursaring",
+    "sortOrder": 217,
+    "name": {
+      "ja": "リングマ",
+      "en": "Ursaring"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "slugma",
+    "sortOrder": 218,
+    "name": {
+      "ja": "マグマッグ",
+      "en": "Slugma"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "magcargo",
+    "sortOrder": 219,
+    "name": {
+      "ja": "マグカルゴ",
+      "en": "Magcargo"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "swinub",
+    "sortOrder": 220,
+    "name": {
+      "ja": "ウリムー",
+      "en": "Swinub"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "piloswine",
+    "sortOrder": 221,
+    "name": {
+      "ja": "イノムー",
+      "en": "Piloswine"
+    },
+    "values": {
+      "hp": 1,
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "corsola",
+    "sortOrder": 222,
+    "name": {
+      "ja": "サニーゴ",
+      "en": "Corsola"
+    },
+    "values": {
+      "def": 1,
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "remoraid",
+    "sortOrder": 223,
+    "name": {
+      "ja": "テッポウオ",
+      "en": "Remoraid"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "octillery",
+    "sortOrder": 224,
+    "name": {
+      "ja": "オクタン",
+      "en": "Octillery"
+    },
+    "values": {
+      "atk": 1,
+      "spa": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "delibird",
+    "sortOrder": 225,
+    "name": {
+      "ja": "デリバード",
+      "en": "Delibird"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "mantine",
+    "sortOrder": 226,
+    "name": {
+      "ja": "マンタイン",
+      "en": "Mantine"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "skarmory",
+    "sortOrder": 227,
+    "name": {
+      "ja": "エアームド",
+      "en": "Skarmory"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "houndour",
+    "sortOrder": 228,
+    "name": {
+      "ja": "デルビル",
+      "en": "Houndour"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "houndoom",
+    "sortOrder": 229,
+    "name": {
+      "ja": "ヘルガー",
+      "en": "Houndoom"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "kingdra",
+    "sortOrder": 230,
+    "name": {
+      "ja": "キングドラ",
+      "en": "Kingdra"
+    },
+    "values": {
+      "atk": 1,
+      "spa": 1,
+      "spd": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "phanpy",
+    "sortOrder": 231,
+    "name": {
+      "ja": "ゴマゾウ",
+      "en": "Phanpy"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "donphan",
+    "sortOrder": 232,
+    "name": {
+      "ja": "ドンファン",
+      "en": "Donphan"
+    },
+    "values": {
+      "atk": 1,
+      "def": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "porygon2",
+    "sortOrder": 233,
+    "name": {
+      "ja": "ポリゴン２",
+      "en": "Porygon2"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "stantler",
+    "sortOrder": 234,
+    "name": {
+      "ja": "オドシシ",
+      "en": "Stantler"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "smeargle",
+    "sortOrder": 235,
+    "name": {
+      "ja": "ドーブル",
+      "en": "Smeargle"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "tyrogue",
+    "sortOrder": 236,
+    "name": {
+      "ja": "バルキー",
+      "en": "Tyrogue"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "hitmontop",
+    "sortOrder": 237,
+    "name": {
+      "ja": "カポエラー",
+      "en": "Hitmontop"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "smoochum",
+    "sortOrder": 238,
+    "name": {
+      "ja": "ムチュール",
+      "en": "Smoochum"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "elekid",
+    "sortOrder": 239,
+    "name": {
+      "ja": "エレキッド",
+      "en": "Elekid"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "magby",
+    "sortOrder": 240,
+    "name": {
+      "ja": "ブビィ",
+      "en": "Magby"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "miltank",
+    "sortOrder": 241,
+    "name": {
+      "ja": "ミルタンク",
+      "en": "Miltank"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "blissey",
+    "sortOrder": 242,
+    "name": {
+      "ja": "ハピナス",
+      "en": "Blissey"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "raikou",
+    "sortOrder": 243,
+    "name": {
+      "ja": "ライコウ",
+      "en": "Raikou"
+    },
+    "values": {
+      "spa": 1,
+      "spe": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "entei",
+    "sortOrder": 244,
+    "name": {
+      "ja": "エンテイ",
+      "en": "Entei"
+    },
+    "values": {
+      "hp": 1,
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "suicune",
+    "sortOrder": 245,
+    "name": {
+      "ja": "スイクン",
+      "en": "Suicune"
+    },
+    "values": {
+      "def": 1,
+      "spd": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "larvitar",
+    "sortOrder": 246,
+    "name": {
+      "ja": "ヨーギラス",
+      "en": "Larvitar"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "pupitar",
+    "sortOrder": 247,
+    "name": {
+      "ja": "サナギラス",
+      "en": "Pupitar"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "tyranitar",
+    "sortOrder": 248,
+    "name": {
+      "ja": "バンギラス",
+      "en": "Tyranitar"
+    },
+    "values": {
+      "atk": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "lugia",
+    "sortOrder": 249,
+    "name": {
+      "ja": "ルギア",
+      "en": "Lugia"
+    },
+    "values": {
+      "spd": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "ho-oh",
+    "sortOrder": 250,
+    "name": {
+      "ja": "ホウオウ",
+      "en": "Ho-Oh"
+    },
+    "values": {
+      "spd": 3
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "celebi",
+    "sortOrder": 251,
+    "name": {
+      "ja": "セレビィ",
+      "en": "Celebi"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "treecko",
+    "sortOrder": 252,
+    "name": {
+      "ja": "キモリ",
+      "en": "Treecko"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "grovyle",
+    "sortOrder": 253,
+    "name": {
+      "ja": "ジュプトル",
+      "en": "Grovyle"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "sceptile",
+    "sortOrder": 254,
+    "name": {
+      "ja": "ジュカイン",
+      "en": "Sceptile"
+    },
+    "values": {
+      "spe": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "torchic",
+    "sortOrder": 255,
+    "name": {
+      "ja": "アチャモ",
+      "en": "Torchic"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "combusken",
+    "sortOrder": 256,
+    "name": {
+      "ja": "ワカシャモ",
+      "en": "Combusken"
+    },
+    "values": {
+      "atk": 1,
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "blaziken",
+    "sortOrder": 257,
+    "name": {
+      "ja": "バシャーモ",
+      "en": "Blaziken"
+    },
+    "values": {
+      "atk": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "mudkip",
+    "sortOrder": 258,
+    "name": {
+      "ja": "ミズゴロウ",
+      "en": "Mudkip"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "marshtomp",
+    "sortOrder": 259,
+    "name": {
+      "ja": "ヌマクロー",
+      "en": "Marshtomp"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "swampert",
+    "sortOrder": 260,
+    "name": {
+      "ja": "ラグラージ",
+      "en": "Swampert"
+    },
+    "values": {
+      "atk": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "poochyena",
+    "sortOrder": 261,
+    "name": {
+      "ja": "ポチエナ",
+      "en": "Poochyena"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "mightyena",
+    "sortOrder": 262,
+    "name": {
+      "ja": "グラエナ",
+      "en": "Mightyena"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "zigzagoon",
+    "sortOrder": 263,
+    "name": {
+      "ja": "ジグザグマ",
+      "en": "Zigzagoon"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "linoone",
+    "sortOrder": 264,
+    "name": {
+      "ja": "マッスグマ",
+      "en": "Linoone"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "wurmple",
+    "sortOrder": 265,
+    "name": {
+      "ja": "ケムッソ",
+      "en": "Wurmple"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "silcoon",
+    "sortOrder": 266,
+    "name": {
+      "ja": "カラサリス",
+      "en": "Silcoon"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "beautifly",
+    "sortOrder": 267,
+    "name": {
+      "ja": "アゲハント",
+      "en": "Beautifly"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "cascoon",
+    "sortOrder": 268,
+    "name": {
+      "ja": "マユルド",
+      "en": "Cascoon"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "dustox",
+    "sortOrder": 269,
+    "name": {
+      "ja": "ドクケイル",
+      "en": "Dustox"
+    },
+    "values": {
+      "spd": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "lotad",
+    "sortOrder": 270,
+    "name": {
+      "ja": "ハスボー",
+      "en": "Lotad"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "lombre",
+    "sortOrder": 271,
+    "name": {
+      "ja": "ハスブレロ",
+      "en": "Lombre"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "ludicolo",
+    "sortOrder": 272,
+    "name": {
+      "ja": "ルンパッパ",
+      "en": "Ludicolo"
+    },
+    "values": {
+      "spd": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "seedot",
+    "sortOrder": 273,
+    "name": {
+      "ja": "タネボー",
+      "en": "Seedot"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "nuzleaf",
+    "sortOrder": 274,
+    "name": {
+      "ja": "コノハナ",
+      "en": "Nuzleaf"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "shiftry",
+    "sortOrder": 275,
+    "name": {
+      "ja": "ダーテング",
+      "en": "Shiftry"
+    },
+    "values": {
+      "atk": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "taillow",
+    "sortOrder": 276,
+    "name": {
+      "ja": "スバメ",
+      "en": "Taillow"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "swellow",
+    "sortOrder": 277,
+    "name": {
+      "ja": "オオスバメ",
+      "en": "Swellow"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "wingull",
+    "sortOrder": 278,
+    "name": {
+      "ja": "キャモメ",
+      "en": "Wingull"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "pelipper",
+    "sortOrder": 279,
+    "name": {
+      "ja": "ペリッパー",
+      "en": "Pelipper"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "ralts",
+    "sortOrder": 280,
+    "name": {
+      "ja": "ラルトス",
+      "en": "Ralts"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "kirlia",
+    "sortOrder": 281,
+    "name": {
+      "ja": "キルリア",
+      "en": "Kirlia"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "gardevoir",
+    "sortOrder": 282,
+    "name": {
+      "ja": "サーナイト",
+      "en": "Gardevoir"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "surskit",
+    "sortOrder": 283,
+    "name": {
+      "ja": "アメタマ",
+      "en": "Surskit"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "masquerain",
+    "sortOrder": 284,
+    "name": {
+      "ja": "アメモース",
+      "en": "Masquerain"
+    },
+    "values": {
+      "spa": 1,
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "shroomish",
+    "sortOrder": 285,
+    "name": {
+      "ja": "キノココ",
+      "en": "Shroomish"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "breloom",
+    "sortOrder": 286,
+    "name": {
+      "ja": "キノガッサ",
+      "en": "Breloom"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "slakoth",
+    "sortOrder": 287,
+    "name": {
+      "ja": "ナマケロ",
+      "en": "Slakoth"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "vigoroth",
+    "sortOrder": 288,
+    "name": {
+      "ja": "ヤルキモノ",
+      "en": "Vigoroth"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "slaking",
+    "sortOrder": 289,
+    "name": {
+      "ja": "ケッキング",
+      "en": "Slaking"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "nincada",
+    "sortOrder": 290,
+    "name": {
+      "ja": "ツチニン",
+      "en": "Nincada"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "ninjask",
+    "sortOrder": 291,
+    "name": {
+      "ja": "テッカニン",
+      "en": "Ninjask"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "shedinja",
+    "sortOrder": 292,
+    "name": {
+      "ja": "ヌケニン",
+      "en": "Shedinja"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "whismur",
+    "sortOrder": 293,
+    "name": {
+      "ja": "ゴニョニョ",
+      "en": "Whismur"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "loudred",
+    "sortOrder": 294,
+    "name": {
+      "ja": "ドゴーム",
+      "en": "Loudred"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "exploud",
+    "sortOrder": 295,
+    "name": {
+      "ja": "バクオング",
+      "en": "Exploud"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "makuhita",
+    "sortOrder": 296,
+    "name": {
+      "ja": "マクノシタ",
+      "en": "Makuhita"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "hariyama",
+    "sortOrder": 297,
+    "name": {
+      "ja": "ハリテヤマ",
+      "en": "Hariyama"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "azurill",
+    "sortOrder": 298,
+    "name": {
+      "ja": "ルリリ",
+      "en": "Azurill"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  },
+  {
+    "id": "nosepass",
+    "sortOrder": 299,
+    "name": {
+      "ja": "ノズパス",
+      "en": "Nosepass"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "skitty",
+    "sortOrder": 300,
+    "name": {
+      "ja": "エネコ",
+      "en": "Skitty"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "delcatty",
+    "sortOrder": 301,
+    "name": {
+      "ja": "エネコロロ",
+      "en": "Delcatty"
+    },
+    "values": {
+      "hp": 1,
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "sableye",
+    "sortOrder": 302,
+    "name": {
+      "ja": "ヤミラミ",
+      "en": "Sableye"
+    },
+    "values": {
+      "atk": 1,
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "mawile",
+    "sortOrder": 303,
+    "name": {
+      "ja": "クチート",
+      "en": "Mawile"
+    },
+    "values": {
+      "atk": 1,
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "aron",
+    "sortOrder": 304,
+    "name": {
+      "ja": "ココドラ",
+      "en": "Aron"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "lairon",
+    "sortOrder": 305,
+    "name": {
+      "ja": "コドラ",
+      "en": "Lairon"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "aggron",
+    "sortOrder": 306,
+    "name": {
+      "ja": "ボスゴドラ",
+      "en": "Aggron"
+    },
+    "values": {
+      "def": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "meditite",
+    "sortOrder": 307,
+    "name": {
+      "ja": "アサナン",
+      "en": "Meditite"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "medicham",
+    "sortOrder": 308,
+    "name": {
+      "ja": "チャーレム",
+      "en": "Medicham"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "electrike",
+    "sortOrder": 309,
+    "name": {
+      "ja": "ラクライ",
+      "en": "Electrike"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "manectric",
+    "sortOrder": 310,
+    "name": {
+      "ja": "ライボルト",
+      "en": "Manectric"
+    },
+    "values": {
+      "spe": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "plusle",
+    "sortOrder": 311,
+    "name": {
+      "ja": "プラスル",
+      "en": "Plusle"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "minun",
+    "sortOrder": 312,
+    "name": {
+      "ja": "マイナン",
+      "en": "Minun"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "volbeat",
+    "sortOrder": 313,
+    "name": {
+      "ja": "バルビート",
+      "en": "Volbeat"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "illumise",
+    "sortOrder": 314,
+    "name": {
+      "ja": "イルミーゼ",
+      "en": "Illumise"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "roselia",
+    "sortOrder": 315,
+    "name": {
+      "ja": "ロゼリア",
+      "en": "Roselia"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "gulpin",
+    "sortOrder": 316,
+    "name": {
+      "ja": "ゴクリン",
+      "en": "Gulpin"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "swalot",
+    "sortOrder": 317,
+    "name": {
+      "ja": "マルノーム",
+      "en": "Swalot"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "carvanha",
+    "sortOrder": 318,
+    "name": {
+      "ja": "キバニア",
+      "en": "Carvanha"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "sharpedo",
+    "sortOrder": 319,
+    "name": {
+      "ja": "サメハダー",
+      "en": "Sharpedo"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "wailmer",
+    "sortOrder": 320,
+    "name": {
+      "ja": "ホエルコ",
+      "en": "Wailmer"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "wailord",
+    "sortOrder": 321,
+    "name": {
+      "ja": "ホエルオー",
+      "en": "Wailord"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "numel",
+    "sortOrder": 322,
+    "name": {
+      "ja": "ドンメル",
+      "en": "Numel"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "camerupt",
+    "sortOrder": 323,
+    "name": {
+      "ja": "バクーダ",
+      "en": "Camerupt"
+    },
+    "values": {
+      "atk": 1,
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "torkoal",
+    "sortOrder": 324,
+    "name": {
+      "ja": "コータス",
+      "en": "Torkoal"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "spoink",
+    "sortOrder": 325,
+    "name": {
+      "ja": "バネブー",
+      "en": "Spoink"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "grumpig",
+    "sortOrder": 326,
+    "name": {
+      "ja": "ブーピッグ",
+      "en": "Grumpig"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "spinda",
+    "sortOrder": 327,
+    "name": {
+      "ja": "パッチール",
+      "en": "Spinda"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "trapinch",
+    "sortOrder": 328,
+    "name": {
+      "ja": "ナックラー",
+      "en": "Trapinch"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "vibrava",
+    "sortOrder": 329,
+    "name": {
+      "ja": "ビブラーバ",
+      "en": "Vibrava"
+    },
+    "values": {
+      "atk": 1,
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "flygon",
+    "sortOrder": 330,
+    "name": {
+      "ja": "フライゴン",
+      "en": "Flygon"
+    },
+    "values": {
+      "atk": 1,
+      "spe": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "cacnea",
+    "sortOrder": 331,
+    "name": {
+      "ja": "サボネア",
+      "en": "Cacnea"
+    },
+    "values": {
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "cacturne",
+    "sortOrder": 332,
+    "name": {
+      "ja": "ノクタス",
+      "en": "Cacturne"
+    },
+    "values": {
+      "atk": 1,
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "swablu",
+    "sortOrder": 333,
+    "name": {
+      "ja": "チルット",
+      "en": "Swablu"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "altaria",
+    "sortOrder": 334,
+    "name": {
+      "ja": "チルタリス",
+      "en": "Altaria"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "zangoose",
+    "sortOrder": 335,
+    "name": {
+      "ja": "ザングース",
+      "en": "Zangoose"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "seviper",
+    "sortOrder": 336,
+    "name": {
+      "ja": "ハブネーク",
+      "en": "Seviper"
+    },
+    "values": {
+      "atk": 1,
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "lunatone",
+    "sortOrder": 337,
+    "name": {
+      "ja": "ルナトーン",
+      "en": "Lunatone"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "solrock",
+    "sortOrder": 338,
+    "name": {
+      "ja": "ソルロック",
+      "en": "Solrock"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "barboach",
+    "sortOrder": 339,
+    "name": {
+      "ja": "ドジョッチ",
+      "en": "Barboach"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "whiscash",
+    "sortOrder": 340,
+    "name": {
+      "ja": "ナマズン",
+      "en": "Whiscash"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "corphish",
+    "sortOrder": 341,
+    "name": {
+      "ja": "ヘイガニ",
+      "en": "Corphish"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "crawdaunt",
+    "sortOrder": 342,
+    "name": {
+      "ja": "シザリガー",
+      "en": "Crawdaunt"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "baltoy",
+    "sortOrder": 343,
+    "name": {
+      "ja": "ヤジロン",
+      "en": "Baltoy"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "claydol",
+    "sortOrder": 344,
+    "name": {
+      "ja": "ネンドール",
+      "en": "Claydol"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "lileep",
+    "sortOrder": 345,
+    "name": {
+      "ja": "リリーラ",
+      "en": "Lileep"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "cradily",
+    "sortOrder": 346,
+    "name": {
+      "ja": "ユレイドル",
+      "en": "Cradily"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "anorith",
+    "sortOrder": 347,
+    "name": {
+      "ja": "アノプス",
+      "en": "Anorith"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "armaldo",
+    "sortOrder": 348,
+    "name": {
+      "ja": "アーマルド",
+      "en": "Armaldo"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "feebas",
+    "sortOrder": 349,
+    "name": {
+      "ja": "ヒンバス",
+      "en": "Feebas"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "milotic",
+    "sortOrder": 350,
+    "name": {
+      "ja": "ミロカロス",
+      "en": "Milotic"
+    },
+    "values": {
+      "spd": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "castform",
+    "sortOrder": 351,
+    "name": {
+      "ja": "ポワルン",
+      "en": "Castform"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "kecleon",
+    "sortOrder": 352,
+    "name": {
+      "ja": "カクレオン",
+      "en": "Kecleon"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "shuppet",
+    "sortOrder": 353,
+    "name": {
+      "ja": "カゲボウズ",
+      "en": "Shuppet"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "banette",
+    "sortOrder": 354,
+    "name": {
+      "ja": "ジュペッタ",
+      "en": "Banette"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "duskull",
+    "sortOrder": 355,
+    "name": {
+      "ja": "ヨマワル",
+      "en": "Duskull"
+    },
+    "values": {
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "dusclops",
+    "sortOrder": 356,
+    "name": {
+      "ja": "サマヨール",
+      "en": "Dusclops"
+    },
+    "values": {
+      "def": 1,
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "tropius",
+    "sortOrder": 357,
+    "name": {
+      "ja": "トロピウス",
+      "en": "Tropius"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "chimecho",
+    "sortOrder": 358,
+    "name": {
+      "ja": "チリーン",
+      "en": "Chimecho"
+    },
+    "values": {
+      "spa": 1,
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "absol",
+    "sortOrder": 359,
+    "name": {
+      "ja": "アブソル",
+      "en": "Absol"
+    },
+    "values": {
+      "atk": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "wynaut",
+    "sortOrder": 360,
+    "name": {
+      "ja": "ソーナノ",
+      "en": "Wynaut"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": [
+      "fr",
+      "lg"
+    ]
+  },
+  {
+    "id": "snorunt",
+    "sortOrder": 361,
+    "name": {
+      "ja": "ユキワラシ",
+      "en": "Snorunt"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "glalie",
+    "sortOrder": 362,
+    "name": {
+      "ja": "オニゴーリ",
+      "en": "Glalie"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "spheal",
+    "sortOrder": 363,
+    "name": {
+      "ja": "タマザラシ",
+      "en": "Spheal"
+    },
+    "values": {
+      "hp": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "sealeo",
+    "sortOrder": 364,
+    "name": {
+      "ja": "トドグラー",
+      "en": "Sealeo"
+    },
+    "values": {
+      "hp": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "walrein",
+    "sortOrder": 365,
+    "name": {
+      "ja": "トドゼルガ",
+      "en": "Walrein"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "clamperl",
+    "sortOrder": 366,
+    "name": {
+      "ja": "パールル",
+      "en": "Clamperl"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "huntail",
+    "sortOrder": 367,
+    "name": {
+      "ja": "ハンテール",
+      "en": "Huntail"
+    },
+    "values": {
+      "atk": 1,
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "gorebyss",
+    "sortOrder": 368,
+    "name": {
+      "ja": "サクラビス",
+      "en": "Gorebyss"
+    },
+    "values": {
+      "spa": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "relicanth",
+    "sortOrder": 369,
+    "name": {
+      "ja": "ジーランス",
+      "en": "Relicanth"
+    },
+    "values": {
+      "hp": 1,
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "luvdisc",
+    "sortOrder": 370,
+    "name": {
+      "ja": "ラブカス",
+      "en": "Luvdisc"
+    },
+    "values": {
+      "spe": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "bagon",
+    "sortOrder": 371,
+    "name": {
+      "ja": "タツベイ",
+      "en": "Bagon"
+    },
+    "values": {
+      "atk": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "shelgon",
+    "sortOrder": 372,
+    "name": {
+      "ja": "コモルー",
+      "en": "Shelgon"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "salamence",
+    "sortOrder": 373,
+    "name": {
+      "ja": "ボーマンダ",
+      "en": "Salamence"
+    },
+    "values": {
+      "atk": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "beldum",
+    "sortOrder": 374,
+    "name": {
+      "ja": "ダンバル",
+      "en": "Beldum"
+    },
+    "values": {
+      "def": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "metang",
+    "sortOrder": 375,
+    "name": {
+      "ja": "メタング",
+      "en": "Metang"
+    },
+    "values": {
+      "def": 2
+    },
+    "tags": []
+  },
+  {
+    "id": "metagross",
+    "sortOrder": 376,
+    "name": {
+      "ja": "メタグロス",
+      "en": "Metagross"
+    },
+    "values": {
+      "def": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "regirock",
+    "sortOrder": 377,
+    "name": {
+      "ja": "レジロック",
+      "en": "Regirock"
+    },
+    "values": {
+      "def": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "regice",
+    "sortOrder": 378,
+    "name": {
+      "ja": "レジアイス",
+      "en": "Regice"
+    },
+    "values": {
+      "spd": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "registeel",
+    "sortOrder": 379,
+    "name": {
+      "ja": "レジスチル",
+      "en": "Registeel"
+    },
+    "values": {
+      "def": 2,
+      "spd": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "latias",
+    "sortOrder": 380,
+    "name": {
+      "ja": "ラティアス",
+      "en": "Latias"
+    },
+    "values": {
+      "spd": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "latios",
+    "sortOrder": 381,
+    "name": {
+      "ja": "ラティオス",
+      "en": "Latios"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "kyogre",
+    "sortOrder": 382,
+    "name": {
+      "ja": "カイオーガ",
+      "en": "Kyogre"
+    },
+    "values": {
+      "spa": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "groudon",
+    "sortOrder": 383,
+    "name": {
+      "ja": "グラードン",
+      "en": "Groudon"
+    },
+    "values": {
+      "atk": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "rayquaza",
+    "sortOrder": 384,
+    "name": {
+      "ja": "レックウザ",
+      "en": "Rayquaza"
+    },
+    "values": {
+      "atk": 2,
+      "spa": 1
+    },
+    "tags": []
+  },
+  {
+    "id": "jirachi",
+    "sortOrder": 385,
+    "name": {
+      "ja": "ジラーチ",
+      "en": "Jirachi"
+    },
+    "values": {
+      "hp": 3
+    },
+    "tags": []
+  },
+  {
+    "id": "deoxys-attack",
+    "sortOrder": 386,
+    "name": {
+      "ja": "デオキシス（アタック）",
+      "en": "Deoxys (Attack)"
+    },
+    "values": {
+      "atk": 1,
+      "spa": 1,
+      "spe": 1
+    },
+    "tags": [
+      "fr"
+    ]
+  },
+  {
+    "id": "deoxys-defense",
+    "sortOrder": 386,
+    "name": {
+      "ja": "デオキシス（ディフェンス）",
+      "en": "Deoxys (Defense)"
+    },
+    "values": {
+      "def": 1,
+      "spd": 1,
+      "spe": 1
+    },
+    "tags": [
+      "lg"
+    ]
+  }
+]

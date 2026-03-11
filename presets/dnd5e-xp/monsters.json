@@ -1,0 +1,8832 @@
+{
+  "entries": [
+    {
+      "id": "awakened-shrub",
+      "sortOrder": 1,
+      "name": {
+        "en": "Awakened Shrub",
+        "ja": "Awakened Shrub"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "plant"
+      ]
+    },
+    {
+      "id": "baboon",
+      "sortOrder": 2,
+      "name": {
+        "en": "Baboon",
+        "ja": "Baboon"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "badger",
+      "sortOrder": 3,
+      "name": {
+        "en": "Badger",
+        "ja": "Badger"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "bat",
+      "sortOrder": 4,
+      "name": {
+        "en": "Bat",
+        "ja": "Bat"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "cat",
+      "sortOrder": 5,
+      "name": {
+        "en": "Cat",
+        "ja": "Cat"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "commoner",
+      "sortOrder": 6,
+      "name": {
+        "en": "Commoner",
+        "ja": "Commoner"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "crab",
+      "sortOrder": 7,
+      "name": {
+        "en": "Crab",
+        "ja": "Crab"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "deer",
+      "sortOrder": 8,
+      "name": {
+        "en": "Deer",
+        "ja": "Deer"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "eagle",
+      "sortOrder": 9,
+      "name": {
+        "en": "Eagle",
+        "ja": "Eagle"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "frog",
+      "sortOrder": 10,
+      "name": {
+        "en": "Frog",
+        "ja": "Frog"
+      },
+      "values": {
+        "xp": 0
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-fire-beetle",
+      "sortOrder": 11,
+      "name": {
+        "en": "Giant Fire Beetle",
+        "ja": "Giant Fire Beetle"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "goat",
+      "sortOrder": 12,
+      "name": {
+        "en": "Goat",
+        "ja": "Goat"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "hawk",
+      "sortOrder": 13,
+      "name": {
+        "en": "Hawk",
+        "ja": "Hawk"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "homunculus",
+      "sortOrder": 14,
+      "name": {
+        "en": "Homunculus",
+        "ja": "Homunculus"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "construct"
+      ]
+    },
+    {
+      "id": "hyena",
+      "sortOrder": 15,
+      "name": {
+        "en": "Hyena",
+        "ja": "Hyena"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "jackal",
+      "sortOrder": 16,
+      "name": {
+        "en": "Jackal",
+        "ja": "Jackal"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "lemure",
+      "sortOrder": 17,
+      "name": {
+        "en": "Lemure",
+        "ja": "Lemure"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "fiend"
+      ]
+    },
+    {
+      "id": "lizard",
+      "sortOrder": 18,
+      "name": {
+        "en": "Lizard",
+        "ja": "Lizard"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "octopus",
+      "sortOrder": 19,
+      "name": {
+        "en": "Octopus",
+        "ja": "Octopus"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "owl",
+      "sortOrder": 20,
+      "name": {
+        "en": "Owl",
+        "ja": "Owl"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "quipper",
+      "sortOrder": 21,
+      "name": {
+        "en": "Quipper",
+        "ja": "Quipper"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "rat",
+      "sortOrder": 22,
+      "name": {
+        "en": "Rat",
+        "ja": "Rat"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "raven",
+      "sortOrder": 23,
+      "name": {
+        "en": "Raven",
+        "ja": "Raven"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "scorpion",
+      "sortOrder": 24,
+      "name": {
+        "en": "Scorpion",
+        "ja": "Scorpion"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "sea-horse",
+      "sortOrder": 25,
+      "name": {
+        "en": "Sea Horse",
+        "ja": "Sea Horse"
+      },
+      "values": {
+        "xp": 0
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "shrieker",
+      "sortOrder": 26,
+      "name": {
+        "en": "Shrieker",
+        "ja": "Shrieker"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "plant"
+      ]
+    },
+    {
+      "id": "spider",
+      "sortOrder": 27,
+      "name": {
+        "en": "Spider",
+        "ja": "Spider"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "vulture",
+      "sortOrder": 28,
+      "name": {
+        "en": "Vulture",
+        "ja": "Vulture"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "weasel",
+      "sortOrder": 29,
+      "name": {
+        "en": "Weasel",
+        "ja": "Weasel"
+      },
+      "values": {
+        "xp": 10
+      },
+      "tags": [
+        "cr-0",
+        "beast"
+      ]
+    },
+    {
+      "id": "bandit",
+      "sortOrder": 30,
+      "name": {
+        "en": "Bandit",
+        "ja": "Bandit"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "blood-hawk",
+      "sortOrder": 31,
+      "name": {
+        "en": "Blood Hawk",
+        "ja": "Blood Hawk"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "camel",
+      "sortOrder": 32,
+      "name": {
+        "en": "Camel",
+        "ja": "Camel"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "cultist",
+      "sortOrder": 33,
+      "name": {
+        "en": "Cultist",
+        "ja": "Cultist"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "flying-snake",
+      "sortOrder": 34,
+      "name": {
+        "en": "Flying Snake",
+        "ja": "Flying Snake"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-crab",
+      "sortOrder": 35,
+      "name": {
+        "en": "Giant Crab",
+        "ja": "Giant Crab"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-rat",
+      "sortOrder": 36,
+      "name": {
+        "en": "Giant Rat",
+        "ja": "Giant Rat"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-rat-diseased",
+      "sortOrder": 37,
+      "name": {
+        "en": "Giant Rat (Diseased)",
+        "ja": "Giant Rat (Diseased)"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-weasel",
+      "sortOrder": 38,
+      "name": {
+        "en": "Giant Weasel",
+        "ja": "Giant Weasel"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "guard",
+      "sortOrder": 39,
+      "name": {
+        "en": "Guard",
+        "ja": "Guard"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "kobold",
+      "sortOrder": 40,
+      "name": {
+        "en": "Kobold",
+        "ja": "Kobold"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "mastiff",
+      "sortOrder": 41,
+      "name": {
+        "en": "Mastiff",
+        "ja": "Mastiff"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "merfolk",
+      "sortOrder": 42,
+      "name": {
+        "en": "Merfolk",
+        "ja": "Merfolk"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "mule",
+      "sortOrder": 43,
+      "name": {
+        "en": "Mule",
+        "ja": "Mule"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "noble",
+      "sortOrder": 44,
+      "name": {
+        "en": "Noble",
+        "ja": "Noble"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "poisonous-snake",
+      "sortOrder": 45,
+      "name": {
+        "en": "Poisonous Snake",
+        "ja": "Poisonous Snake"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "pony",
+      "sortOrder": 46,
+      "name": {
+        "en": "Pony",
+        "ja": "Pony"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "stirge",
+      "sortOrder": 47,
+      "name": {
+        "en": "Stirge",
+        "ja": "Stirge"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "beast"
+      ]
+    },
+    {
+      "id": "tribal-warrior",
+      "sortOrder": 48,
+      "name": {
+        "en": "Tribal Warrior",
+        "ja": "Tribal Warrior"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_8",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "acolyte",
+      "sortOrder": 49,
+      "name": {
+        "en": "Acolyte",
+        "ja": "Acolyte"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "axe-beak",
+      "sortOrder": 50,
+      "name": {
+        "en": "Axe Beak",
+        "ja": "Axe Beak"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "blink-dog",
+      "sortOrder": 51,
+      "name": {
+        "en": "Blink Dog",
+        "ja": "Blink Dog"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "fey"
+      ]
+    },
+    {
+      "id": "boar",
+      "sortOrder": 52,
+      "name": {
+        "en": "Boar",
+        "ja": "Boar"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "constrictor-snake",
+      "sortOrder": 53,
+      "name": {
+        "en": "Constrictor Snake",
+        "ja": "Constrictor Snake"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "draft-horse",
+      "sortOrder": 54,
+      "name": {
+        "en": "Draft Horse",
+        "ja": "Draft Horse"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "dretch",
+      "sortOrder": 55,
+      "name": {
+        "en": "Dretch",
+        "ja": "Dretch"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_4",
+        "fiend"
+      ]
+    },
+    {
+      "id": "drow",
+      "sortOrder": 56,
+      "name": {
+        "en": "Drow",
+        "ja": "Drow"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "elk",
+      "sortOrder": 57,
+      "name": {
+        "en": "Elk",
+        "ja": "Elk"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "flying-sword",
+      "sortOrder": 58,
+      "name": {
+        "en": "Flying Sword",
+        "ja": "Flying Sword"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "construct"
+      ]
+    },
+    {
+      "id": "giant-badger",
+      "sortOrder": 59,
+      "name": {
+        "en": "Giant Badger",
+        "ja": "Giant Badger"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-bat",
+      "sortOrder": 60,
+      "name": {
+        "en": "Giant Bat",
+        "ja": "Giant Bat"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-centipede",
+      "sortOrder": 61,
+      "name": {
+        "en": "Giant Centipede",
+        "ja": "Giant Centipede"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-frog",
+      "sortOrder": 62,
+      "name": {
+        "en": "Giant Frog",
+        "ja": "Giant Frog"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-lizard",
+      "sortOrder": 63,
+      "name": {
+        "en": "Giant Lizard",
+        "ja": "Giant Lizard"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-owl",
+      "sortOrder": 64,
+      "name": {
+        "en": "Giant Owl",
+        "ja": "Giant Owl"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-poisonous-snake",
+      "sortOrder": 65,
+      "name": {
+        "en": "Giant Poisonous Snake",
+        "ja": "Giant Poisonous Snake"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-wolf-spider",
+      "sortOrder": 66,
+      "name": {
+        "en": "Giant Wolf Spider",
+        "ja": "Giant Wolf Spider"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "goblin",
+      "sortOrder": 67,
+      "name": {
+        "en": "Goblin",
+        "ja": "Goblin"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "grimlock",
+      "sortOrder": 68,
+      "name": {
+        "en": "Grimlock",
+        "ja": "Grimlock"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "panther",
+      "sortOrder": 69,
+      "name": {
+        "en": "Panther",
+        "ja": "Panther"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "pseudodragon",
+      "sortOrder": 70,
+      "name": {
+        "en": "Pseudodragon",
+        "ja": "Pseudodragon"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "dragon"
+      ]
+    },
+    {
+      "id": "riding-horse",
+      "sortOrder": 71,
+      "name": {
+        "en": "Riding Horse",
+        "ja": "Riding Horse"
+      },
+      "values": {
+        "xp": 25
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "skeleton",
+      "sortOrder": 72,
+      "name": {
+        "en": "Skeleton",
+        "ja": "Skeleton"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "undead"
+      ]
+    },
+    {
+      "id": "sprite",
+      "sortOrder": 73,
+      "name": {
+        "en": "Sprite",
+        "ja": "Sprite"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "fey"
+      ]
+    },
+    {
+      "id": "steam-mephit",
+      "sortOrder": 74,
+      "name": {
+        "en": "Steam Mephit",
+        "ja": "Steam Mephit"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "elemental"
+      ]
+    },
+    {
+      "id": "swarm-of-bats",
+      "sortOrder": 75,
+      "name": {
+        "en": "Swarm of Bats",
+        "ja": "Swarm of Bats"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "swarm"
+      ]
+    },
+    {
+      "id": "swarm-of-rats",
+      "sortOrder": 76,
+      "name": {
+        "en": "Swarm of Rats",
+        "ja": "Swarm of Rats"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "swarm"
+      ]
+    },
+    {
+      "id": "swarm-of-ravens",
+      "sortOrder": 77,
+      "name": {
+        "en": "Swarm of Ravens",
+        "ja": "Swarm of Ravens"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "swarm"
+      ]
+    },
+    {
+      "id": "violet-fungus",
+      "sortOrder": 78,
+      "name": {
+        "en": "Violet Fungus",
+        "ja": "Violet Fungus"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "plant"
+      ]
+    },
+    {
+      "id": "wolf",
+      "sortOrder": 79,
+      "name": {
+        "en": "Wolf",
+        "ja": "Wolf"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "beast"
+      ]
+    },
+    {
+      "id": "zombie",
+      "sortOrder": 80,
+      "name": {
+        "en": "Zombie",
+        "ja": "Zombie"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_4",
+        "undead"
+      ]
+    },
+    {
+      "id": "ape",
+      "sortOrder": 81,
+      "name": {
+        "en": "Ape",
+        "ja": "Ape"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "beast"
+      ]
+    },
+    {
+      "id": "black-bear",
+      "sortOrder": 82,
+      "name": {
+        "en": "Black Bear",
+        "ja": "Black Bear"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "beast"
+      ]
+    },
+    {
+      "id": "cockatrice",
+      "sortOrder": 83,
+      "name": {
+        "en": "Cockatrice",
+        "ja": "Cockatrice"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "crocodile",
+      "sortOrder": 84,
+      "name": {
+        "en": "Crocodile",
+        "ja": "Crocodile"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "beast"
+      ]
+    },
+    {
+      "id": "darkmantle",
+      "sortOrder": 85,
+      "name": {
+        "en": "Darkmantle",
+        "ja": "Darkmantle"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "deep-gnome-svirfneblin",
+      "sortOrder": 86,
+      "name": {
+        "en": "Deep Gnome (Svirfneblin)",
+        "ja": "Deep Gnome (Svirfneblin)"
+      },
+      "values": {
+        "xp": 50
+      },
+      "tags": [
+        "cr-1_2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "dust-mephit",
+      "sortOrder": 87,
+      "name": {
+        "en": "Dust Mephit",
+        "ja": "Dust Mephit"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "elemental"
+      ]
+    },
+    {
+      "id": "giant-goat",
+      "sortOrder": 88,
+      "name": {
+        "en": "Giant Goat",
+        "ja": "Giant Goat"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-sea-horse",
+      "sortOrder": 89,
+      "name": {
+        "en": "Giant Sea Horse",
+        "ja": "Giant Sea Horse"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-wasp",
+      "sortOrder": 90,
+      "name": {
+        "en": "Giant Wasp",
+        "ja": "Giant Wasp"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "beast"
+      ]
+    },
+    {
+      "id": "gnoll",
+      "sortOrder": 91,
+      "name": {
+        "en": "Gnoll",
+        "ja": "Gnoll"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "gray-ooze",
+      "sortOrder": 92,
+      "name": {
+        "en": "Gray Ooze",
+        "ja": "Gray Ooze"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "ooze"
+      ]
+    },
+    {
+      "id": "hobgoblin",
+      "sortOrder": 93,
+      "name": {
+        "en": "Hobgoblin",
+        "ja": "Hobgoblin"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "ice-mephit",
+      "sortOrder": 94,
+      "name": {
+        "en": "Ice Mephit",
+        "ja": "Ice Mephit"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "elemental"
+      ]
+    },
+    {
+      "id": "lizardfolk",
+      "sortOrder": 95,
+      "name": {
+        "en": "Lizardfolk",
+        "ja": "Lizardfolk"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "magma-mephit",
+      "sortOrder": 96,
+      "name": {
+        "en": "Magma Mephit",
+        "ja": "Magma Mephit"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "elemental"
+      ]
+    },
+    {
+      "id": "magmin",
+      "sortOrder": 97,
+      "name": {
+        "en": "Magmin",
+        "ja": "Magmin"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "elemental"
+      ]
+    },
+    {
+      "id": "orc",
+      "sortOrder": 98,
+      "name": {
+        "en": "Orc",
+        "ja": "Orc"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "reef-shark",
+      "sortOrder": 99,
+      "name": {
+        "en": "Reef Shark",
+        "ja": "Reef Shark"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "beast"
+      ]
+    },
+    {
+      "id": "rust-monster",
+      "sortOrder": 100,
+      "name": {
+        "en": "Rust Monster",
+        "ja": "Rust Monster"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "sahuagin",
+      "sortOrder": 101,
+      "name": {
+        "en": "Sahuagin",
+        "ja": "Sahuagin"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "satyr",
+      "sortOrder": 102,
+      "name": {
+        "en": "Satyr",
+        "ja": "Satyr"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "fey"
+      ]
+    },
+    {
+      "id": "scout",
+      "sortOrder": 103,
+      "name": {
+        "en": "Scout",
+        "ja": "Scout"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "shadow",
+      "sortOrder": 104,
+      "name": {
+        "en": "Shadow",
+        "ja": "Shadow"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "undead"
+      ]
+    },
+    {
+      "id": "swarm-of-beetles",
+      "sortOrder": 105,
+      "name": {
+        "en": "Swarm of Beetles",
+        "ja": "Swarm of Beetles"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "swarm"
+      ]
+    },
+    {
+      "id": "swarm-of-centipedes",
+      "sortOrder": 106,
+      "name": {
+        "en": "Swarm of Centipedes",
+        "ja": "Swarm of Centipedes"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "swarm"
+      ]
+    },
+    {
+      "id": "swarm-of-insects",
+      "sortOrder": 107,
+      "name": {
+        "en": "Swarm of Insects",
+        "ja": "Swarm of Insects"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "swarm"
+      ]
+    },
+    {
+      "id": "swarm-of-spiders",
+      "sortOrder": 108,
+      "name": {
+        "en": "Swarm of Spiders",
+        "ja": "Swarm of Spiders"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "swarm"
+      ]
+    },
+    {
+      "id": "swarm-of-wasps",
+      "sortOrder": 109,
+      "name": {
+        "en": "Swarm of Wasps",
+        "ja": "Swarm of Wasps"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "swarm"
+      ]
+    },
+    {
+      "id": "thug",
+      "sortOrder": 110,
+      "name": {
+        "en": "Thug",
+        "ja": "Thug"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "warhorse",
+      "sortOrder": 111,
+      "name": {
+        "en": "Warhorse",
+        "ja": "Warhorse"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "beast"
+      ]
+    },
+    {
+      "id": "warhorse-skeleton",
+      "sortOrder": 112,
+      "name": {
+        "en": "Warhorse Skeleton",
+        "ja": "Warhorse Skeleton"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "undead"
+      ]
+    },
+    {
+      "id": "worg",
+      "sortOrder": 113,
+      "name": {
+        "en": "Worg",
+        "ja": "Worg"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1_2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "animated-armor",
+      "sortOrder": 114,
+      "name": {
+        "en": "Animated Armor",
+        "ja": "Animated Armor"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "construct"
+      ]
+    },
+    {
+      "id": "brass-dragon-wyrmling",
+      "sortOrder": 115,
+      "name": {
+        "en": "Brass Dragon Wyrmling",
+        "ja": "Brass Dragon Wyrmling"
+      },
+      "values": {
+        "xp": 100
+      },
+      "tags": [
+        "cr-1",
+        "dragon"
+      ]
+    },
+    {
+      "id": "brown-bear",
+      "sortOrder": 116,
+      "name": {
+        "en": "Brown Bear",
+        "ja": "Brown Bear"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "beast"
+      ]
+    },
+    {
+      "id": "bugbear",
+      "sortOrder": 117,
+      "name": {
+        "en": "Bugbear",
+        "ja": "Bugbear"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "copper-dragon-wyrmling",
+      "sortOrder": 118,
+      "name": {
+        "en": "Copper Dragon Wyrmling",
+        "ja": "Copper Dragon Wyrmling"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "dragon"
+      ]
+    },
+    {
+      "id": "death-dog",
+      "sortOrder": 119,
+      "name": {
+        "en": "Death Dog",
+        "ja": "Death Dog"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "dire-wolf",
+      "sortOrder": 120,
+      "name": {
+        "en": "Dire Wolf",
+        "ja": "Dire Wolf"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "beast"
+      ]
+    },
+    {
+      "id": "dryad",
+      "sortOrder": 121,
+      "name": {
+        "en": "Dryad",
+        "ja": "Dryad"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "fey"
+      ]
+    },
+    {
+      "id": "duergar",
+      "sortOrder": 122,
+      "name": {
+        "en": "Duergar",
+        "ja": "Duergar"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "ghoul",
+      "sortOrder": 123,
+      "name": {
+        "en": "Ghoul",
+        "ja": "Ghoul"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "undead"
+      ]
+    },
+    {
+      "id": "giant-eagle",
+      "sortOrder": 124,
+      "name": {
+        "en": "Giant Eagle",
+        "ja": "Giant Eagle"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-hyena",
+      "sortOrder": 125,
+      "name": {
+        "en": "Giant Hyena",
+        "ja": "Giant Hyena"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-octopus",
+      "sortOrder": 126,
+      "name": {
+        "en": "Giant Octopus",
+        "ja": "Giant Octopus"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-spider",
+      "sortOrder": 127,
+      "name": {
+        "en": "Giant Spider",
+        "ja": "Giant Spider"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-toad",
+      "sortOrder": 128,
+      "name": {
+        "en": "Giant Toad",
+        "ja": "Giant Toad"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-vulture",
+      "sortOrder": 129,
+      "name": {
+        "en": "Giant Vulture",
+        "ja": "Giant Vulture"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "beast"
+      ]
+    },
+    {
+      "id": "harpy",
+      "sortOrder": 130,
+      "name": {
+        "en": "Harpy",
+        "ja": "Harpy"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "hippogriff",
+      "sortOrder": 131,
+      "name": {
+        "en": "Hippogriff",
+        "ja": "Hippogriff"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "imp",
+      "sortOrder": 132,
+      "name": {
+        "en": "Imp",
+        "ja": "Imp"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "fiend"
+      ]
+    },
+    {
+      "id": "lion",
+      "sortOrder": 133,
+      "name": {
+        "en": "Lion",
+        "ja": "Lion"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "beast"
+      ]
+    },
+    {
+      "id": "quasit",
+      "sortOrder": 134,
+      "name": {
+        "en": "Quasit",
+        "ja": "Quasit"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "fiend"
+      ]
+    },
+    {
+      "id": "specter",
+      "sortOrder": 135,
+      "name": {
+        "en": "Specter",
+        "ja": "Specter"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "undead"
+      ]
+    },
+    {
+      "id": "spy",
+      "sortOrder": 136,
+      "name": {
+        "en": "Spy",
+        "ja": "Spy"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "swarm-of-quippers",
+      "sortOrder": 137,
+      "name": {
+        "en": "Swarm of Quippers",
+        "ja": "Swarm of Quippers"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "swarm"
+      ]
+    },
+    {
+      "id": "tiger",
+      "sortOrder": 138,
+      "name": {
+        "en": "Tiger",
+        "ja": "Tiger"
+      },
+      "values": {
+        "xp": 200
+      },
+      "tags": [
+        "cr-1",
+        "beast"
+      ]
+    },
+    {
+      "id": "ankheg",
+      "sortOrder": 139,
+      "name": {
+        "en": "Ankheg",
+        "ja": "Ankheg"
+      },
+      "values": {
+        "xp": 250
+      },
+      "tags": [
+        "cr-2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "awakened-tree",
+      "sortOrder": 140,
+      "name": {
+        "en": "Awakened Tree",
+        "ja": "Awakened Tree"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "plant"
+      ]
+    },
+    {
+      "id": "azer",
+      "sortOrder": 141,
+      "name": {
+        "en": "Azer",
+        "ja": "Azer"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "elemental"
+      ]
+    },
+    {
+      "id": "bandit-captain",
+      "sortOrder": 142,
+      "name": {
+        "en": "Bandit Captain",
+        "ja": "Bandit Captain"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "berserker",
+      "sortOrder": 143,
+      "name": {
+        "en": "Berserker",
+        "ja": "Berserker"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "black-dragon-wyrmling",
+      "sortOrder": 144,
+      "name": {
+        "en": "Black Dragon Wyrmling",
+        "ja": "Black Dragon Wyrmling"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "dragon"
+      ]
+    },
+    {
+      "id": "bronze-dragon-wyrmling",
+      "sortOrder": 145,
+      "name": {
+        "en": "Bronze Dragon Wyrmling",
+        "ja": "Bronze Dragon Wyrmling"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "dragon"
+      ]
+    },
+    {
+      "id": "centaur",
+      "sortOrder": 146,
+      "name": {
+        "en": "Centaur",
+        "ja": "Centaur"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "cult-fanatic",
+      "sortOrder": 147,
+      "name": {
+        "en": "Cult Fanatic",
+        "ja": "Cult Fanatic"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "druid",
+      "sortOrder": 148,
+      "name": {
+        "en": "Druid",
+        "ja": "Druid"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "ettercap",
+      "sortOrder": 149,
+      "name": {
+        "en": "Ettercap",
+        "ja": "Ettercap"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "gargoyle",
+      "sortOrder": 150,
+      "name": {
+        "en": "Gargoyle",
+        "ja": "Gargoyle"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "elemental"
+      ]
+    },
+    {
+      "id": "gelatinous-cube",
+      "sortOrder": 151,
+      "name": {
+        "en": "Gelatinous Cube",
+        "ja": "Gelatinous Cube"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "ooze"
+      ]
+    },
+    {
+      "id": "ghast",
+      "sortOrder": 152,
+      "name": {
+        "en": "Ghast",
+        "ja": "Ghast"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "undead"
+      ]
+    },
+    {
+      "id": "giant-boar",
+      "sortOrder": 153,
+      "name": {
+        "en": "Giant Boar",
+        "ja": "Giant Boar"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-constrictor-snake",
+      "sortOrder": 154,
+      "name": {
+        "en": "Giant Constrictor Snake",
+        "ja": "Giant Constrictor Snake"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-elk",
+      "sortOrder": 155,
+      "name": {
+        "en": "Giant Elk",
+        "ja": "Giant Elk"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "beast"
+      ]
+    },
+    {
+      "id": "gibbering-mouther",
+      "sortOrder": 156,
+      "name": {
+        "en": "Gibbering Mouther",
+        "ja": "Gibbering Mouther"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "aberration"
+      ]
+    },
+    {
+      "id": "green-dragon-wyrmling",
+      "sortOrder": 157,
+      "name": {
+        "en": "Green Dragon Wyrmling",
+        "ja": "Green Dragon Wyrmling"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "dragon"
+      ]
+    },
+    {
+      "id": "grick",
+      "sortOrder": 158,
+      "name": {
+        "en": "Grick",
+        "ja": "Grick"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "griffon",
+      "sortOrder": 159,
+      "name": {
+        "en": "Griffon",
+        "ja": "Griffon"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "hunter-shark",
+      "sortOrder": 160,
+      "name": {
+        "en": "Hunter Shark",
+        "ja": "Hunter Shark"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "beast"
+      ]
+    },
+    {
+      "id": "merrow",
+      "sortOrder": 161,
+      "name": {
+        "en": "Merrow",
+        "ja": "Merrow"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "mimic",
+      "sortOrder": 162,
+      "name": {
+        "en": "Mimic",
+        "ja": "Mimic"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "minotaur-skeleton",
+      "sortOrder": 163,
+      "name": {
+        "en": "Minotaur Skeleton",
+        "ja": "Minotaur Skeleton"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "undead"
+      ]
+    },
+    {
+      "id": "ochre-jelly",
+      "sortOrder": 164,
+      "name": {
+        "en": "Ochre Jelly",
+        "ja": "Ochre Jelly"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "ooze"
+      ]
+    },
+    {
+      "id": "ogre",
+      "sortOrder": 165,
+      "name": {
+        "en": "Ogre",
+        "ja": "Ogre"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "giant"
+      ]
+    },
+    {
+      "id": "ogre-zombie",
+      "sortOrder": 166,
+      "name": {
+        "en": "Ogre Zombie",
+        "ja": "Ogre Zombie"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "undead"
+      ]
+    },
+    {
+      "id": "pegasus",
+      "sortOrder": 167,
+      "name": {
+        "en": "Pegasus",
+        "ja": "Pegasus"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "celestial"
+      ]
+    },
+    {
+      "id": "plesiosaurus",
+      "sortOrder": 168,
+      "name": {
+        "en": "Plesiosaurus",
+        "ja": "Plesiosaurus"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "beast"
+      ]
+    },
+    {
+      "id": "polar-bear",
+      "sortOrder": 169,
+      "name": {
+        "en": "Polar Bear",
+        "ja": "Polar Bear"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "beast"
+      ]
+    },
+    {
+      "id": "priest",
+      "sortOrder": 170,
+      "name": {
+        "en": "Priest",
+        "ja": "Priest"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "rhinoceros",
+      "sortOrder": 171,
+      "name": {
+        "en": "Rhinoceros",
+        "ja": "Rhinoceros"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "beast"
+      ]
+    },
+    {
+      "id": "rug-of-smothering",
+      "sortOrder": 172,
+      "name": {
+        "en": "Rug of Smothering",
+        "ja": "Rug of Smothering"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "construct"
+      ]
+    },
+    {
+      "id": "saber-toothed-tiger",
+      "sortOrder": 173,
+      "name": {
+        "en": "Saber-Toothed Tiger",
+        "ja": "Saber-Toothed Tiger"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "beast"
+      ]
+    },
+    {
+      "id": "sea-hag",
+      "sortOrder": 174,
+      "name": {
+        "en": "Sea Hag",
+        "ja": "Sea Hag"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "fey"
+      ]
+    },
+    {
+      "id": "silver-dragon-wyrmling",
+      "sortOrder": 175,
+      "name": {
+        "en": "Silver Dragon Wyrmling",
+        "ja": "Silver Dragon Wyrmling"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "dragon"
+      ]
+    },
+    {
+      "id": "swarm-of-poisonous-snakes",
+      "sortOrder": 176,
+      "name": {
+        "en": "Swarm of Poisonous Snakes",
+        "ja": "Swarm of Poisonous Snakes"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "swarm"
+      ]
+    },
+    {
+      "id": "wererat-human",
+      "sortOrder": 177,
+      "name": {
+        "en": "Wererat, Human Form",
+        "ja": "Wererat, Human Form"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "wererat-hybrid",
+      "sortOrder": 178,
+      "name": {
+        "en": "Wererat, Hybrid Form",
+        "ja": "Wererat, Hybrid Form"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "wererat-rat",
+      "sortOrder": 179,
+      "name": {
+        "en": "Wererat, Rat Form",
+        "ja": "Wererat, Rat Form"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "white-dragon-wyrmling",
+      "sortOrder": 180,
+      "name": {
+        "en": "White Dragon Wyrmling",
+        "ja": "White Dragon Wyrmling"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "dragon"
+      ]
+    },
+    {
+      "id": "will-o-wisp",
+      "sortOrder": 181,
+      "name": {
+        "en": "Will-o'-Wisp",
+        "ja": "Will-o'-Wisp"
+      },
+      "values": {
+        "xp": 450
+      },
+      "tags": [
+        "cr-2",
+        "undead"
+      ]
+    },
+    {
+      "id": "basilisk",
+      "sortOrder": 182,
+      "name": {
+        "en": "Basilisk",
+        "ja": "Basilisk"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "bearded-devil",
+      "sortOrder": 183,
+      "name": {
+        "en": "Bearded Devil",
+        "ja": "Bearded Devil"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "fiend"
+      ]
+    },
+    {
+      "id": "blue-dragon-wyrmling",
+      "sortOrder": 184,
+      "name": {
+        "en": "Blue Dragon Wyrmling",
+        "ja": "Blue Dragon Wyrmling"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "dragon"
+      ]
+    },
+    {
+      "id": "doppelganger",
+      "sortOrder": 185,
+      "name": {
+        "en": "Doppelganger",
+        "ja": "Doppelganger"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "giant-scorpion",
+      "sortOrder": 186,
+      "name": {
+        "en": "Giant Scorpion",
+        "ja": "Giant Scorpion"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "beast"
+      ]
+    },
+    {
+      "id": "gold-dragon-wyrmling",
+      "sortOrder": 187,
+      "name": {
+        "en": "Gold Dragon Wyrmling",
+        "ja": "Gold Dragon Wyrmling"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "dragon"
+      ]
+    },
+    {
+      "id": "green-hag",
+      "sortOrder": 188,
+      "name": {
+        "en": "Green Hag",
+        "ja": "Green Hag"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "fey"
+      ]
+    },
+    {
+      "id": "hell-hound",
+      "sortOrder": 189,
+      "name": {
+        "en": "Hell Hound",
+        "ja": "Hell Hound"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "fiend"
+      ]
+    },
+    {
+      "id": "killer-whale",
+      "sortOrder": 190,
+      "name": {
+        "en": "Killer Whale",
+        "ja": "Killer Whale"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "beast"
+      ]
+    },
+    {
+      "id": "knight",
+      "sortOrder": 191,
+      "name": {
+        "en": "Knight",
+        "ja": "Knight"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "manticore",
+      "sortOrder": 192,
+      "name": {
+        "en": "Manticore",
+        "ja": "Manticore"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "minotaur",
+      "sortOrder": 193,
+      "name": {
+        "en": "Minotaur",
+        "ja": "Minotaur"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "mummy",
+      "sortOrder": 194,
+      "name": {
+        "en": "Mummy",
+        "ja": "Mummy"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "undead"
+      ]
+    },
+    {
+      "id": "nightmare",
+      "sortOrder": 195,
+      "name": {
+        "en": "Nightmare",
+        "ja": "Nightmare"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "fiend"
+      ]
+    },
+    {
+      "id": "owlbear",
+      "sortOrder": 196,
+      "name": {
+        "en": "Owlbear",
+        "ja": "Owlbear"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "phase-spider",
+      "sortOrder": 197,
+      "name": {
+        "en": "Phase Spider",
+        "ja": "Phase Spider"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "veteran",
+      "sortOrder": 198,
+      "name": {
+        "en": "Veteran",
+        "ja": "Veteran"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "werewolf-human",
+      "sortOrder": 199,
+      "name": {
+        "en": "Werewolf, Human Form",
+        "ja": "Werewolf, Human Form"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "werewolf-hybrid",
+      "sortOrder": 200,
+      "name": {
+        "en": "Werewolf, Hybrid Form",
+        "ja": "Werewolf, Hybrid Form"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "werewolf-wolf",
+      "sortOrder": 201,
+      "name": {
+        "en": "Werewolf, Wolf Form",
+        "ja": "Werewolf, Wolf Form"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "wight",
+      "sortOrder": 202,
+      "name": {
+        "en": "Wight",
+        "ja": "Wight"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "undead"
+      ]
+    },
+    {
+      "id": "winter-wolf",
+      "sortOrder": 203,
+      "name": {
+        "en": "Winter Wolf",
+        "ja": "Winter Wolf"
+      },
+      "values": {
+        "xp": 700
+      },
+      "tags": [
+        "cr-3",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "black-pudding",
+      "sortOrder": 204,
+      "name": {
+        "en": "Black Pudding",
+        "ja": "Black Pudding"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "ooze"
+      ]
+    },
+    {
+      "id": "chuul",
+      "sortOrder": 205,
+      "name": {
+        "en": "Chuul",
+        "ja": "Chuul"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "aberration"
+      ]
+    },
+    {
+      "id": "couatl",
+      "sortOrder": 206,
+      "name": {
+        "en": "Couatl",
+        "ja": "Couatl"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "celestial"
+      ]
+    },
+    {
+      "id": "elephant",
+      "sortOrder": 207,
+      "name": {
+        "en": "Elephant",
+        "ja": "Elephant"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "beast"
+      ]
+    },
+    {
+      "id": "ettin",
+      "sortOrder": 208,
+      "name": {
+        "en": "Ettin",
+        "ja": "Ettin"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "giant"
+      ]
+    },
+    {
+      "id": "ghost",
+      "sortOrder": 209,
+      "name": {
+        "en": "Ghost",
+        "ja": "Ghost"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "undead"
+      ]
+    },
+    {
+      "id": "lamia",
+      "sortOrder": 210,
+      "name": {
+        "en": "Lamia",
+        "ja": "Lamia"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "red-dragon-wyrmling",
+      "sortOrder": 211,
+      "name": {
+        "en": "Red Dragon Wyrmling",
+        "ja": "Red Dragon Wyrmling"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "dragon"
+      ]
+    },
+    {
+      "id": "succubus-incubus",
+      "sortOrder": 212,
+      "name": {
+        "en": "Succubus/Incubus",
+        "ja": "Succubus/Incubus"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "fiend"
+      ]
+    },
+    {
+      "id": "wereboar-boar",
+      "sortOrder": 213,
+      "name": {
+        "en": "Wereboar, Boar Form",
+        "ja": "Wereboar, Boar Form"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "wereboar-human",
+      "sortOrder": 214,
+      "name": {
+        "en": "Wereboar, Human Form",
+        "ja": "Wereboar, Human Form"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "wereboar-hybrid",
+      "sortOrder": 215,
+      "name": {
+        "en": "Wereboar, Hybrid Form",
+        "ja": "Wereboar, Hybrid Form"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "weretiger-human",
+      "sortOrder": 216,
+      "name": {
+        "en": "Weretiger, Human Form",
+        "ja": "Weretiger, Human Form"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "weretiger-hybrid",
+      "sortOrder": 217,
+      "name": {
+        "en": "Weretiger, Hybrid Form",
+        "ja": "Weretiger, Hybrid Form"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "weretiger-tiger",
+      "sortOrder": 218,
+      "name": {
+        "en": "Weretiger, Tiger Form",
+        "ja": "Weretiger, Tiger Form"
+      },
+      "values": {
+        "xp": 1100
+      },
+      "tags": [
+        "cr-4",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "air-elemental",
+      "sortOrder": 219,
+      "name": {
+        "en": "Air Elemental",
+        "ja": "Air Elemental"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "elemental"
+      ]
+    },
+    {
+      "id": "barbed-devil",
+      "sortOrder": 220,
+      "name": {
+        "en": "Barbed Devil",
+        "ja": "Barbed Devil"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "fiend"
+      ]
+    },
+    {
+      "id": "bulette",
+      "sortOrder": 221,
+      "name": {
+        "en": "Bulette",
+        "ja": "Bulette"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "earth-elemental",
+      "sortOrder": 222,
+      "name": {
+        "en": "Earth Elemental",
+        "ja": "Earth Elemental"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "elemental"
+      ]
+    },
+    {
+      "id": "fire-elemental",
+      "sortOrder": 223,
+      "name": {
+        "en": "Fire Elemental",
+        "ja": "Fire Elemental"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "elemental"
+      ]
+    },
+    {
+      "id": "flesh-golem",
+      "sortOrder": 224,
+      "name": {
+        "en": "Flesh Golem",
+        "ja": "Flesh Golem"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "construct"
+      ]
+    },
+    {
+      "id": "giant-crocodile",
+      "sortOrder": 225,
+      "name": {
+        "en": "Giant Crocodile",
+        "ja": "Giant Crocodile"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "beast"
+      ]
+    },
+    {
+      "id": "giant-shark",
+      "sortOrder": 226,
+      "name": {
+        "en": "Giant Shark",
+        "ja": "Giant Shark"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "beast"
+      ]
+    },
+    {
+      "id": "gladiator",
+      "sortOrder": 227,
+      "name": {
+        "en": "Gladiator",
+        "ja": "Gladiator"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "gorgon",
+      "sortOrder": 228,
+      "name": {
+        "en": "Gorgon",
+        "ja": "Gorgon"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "half-red-dragon-veteran",
+      "sortOrder": 229,
+      "name": {
+        "en": "Half-Red Dragon Veteran",
+        "ja": "Half-Red Dragon Veteran"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "hill-giant",
+      "sortOrder": 230,
+      "name": {
+        "en": "Hill Giant",
+        "ja": "Hill Giant"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "giant"
+      ]
+    },
+    {
+      "id": "night-hag",
+      "sortOrder": 231,
+      "name": {
+        "en": "Night Hag",
+        "ja": "Night Hag"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "fiend"
+      ]
+    },
+    {
+      "id": "otyugh",
+      "sortOrder": 232,
+      "name": {
+        "en": "Otyugh",
+        "ja": "Otyugh"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "aberration"
+      ]
+    },
+    {
+      "id": "roper",
+      "sortOrder": 233,
+      "name": {
+        "en": "Roper",
+        "ja": "Roper"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "salamander",
+      "sortOrder": 234,
+      "name": {
+        "en": "Salamander",
+        "ja": "Salamander"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "elemental"
+      ]
+    },
+    {
+      "id": "shambling-mound",
+      "sortOrder": 235,
+      "name": {
+        "en": "Shambling Mound",
+        "ja": "Shambling Mound"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "plant"
+      ]
+    },
+    {
+      "id": "triceratops",
+      "sortOrder": 236,
+      "name": {
+        "en": "Triceratops",
+        "ja": "Triceratops"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "beast"
+      ]
+    },
+    {
+      "id": "troll",
+      "sortOrder": 237,
+      "name": {
+        "en": "Troll",
+        "ja": "Troll"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "giant"
+      ]
+    },
+    {
+      "id": "unicorn",
+      "sortOrder": 238,
+      "name": {
+        "en": "Unicorn",
+        "ja": "Unicorn"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "celestial"
+      ]
+    },
+    {
+      "id": "vampire-spawn",
+      "sortOrder": 239,
+      "name": {
+        "en": "Vampire Spawn",
+        "ja": "Vampire Spawn"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "undead"
+      ]
+    },
+    {
+      "id": "water-elemental",
+      "sortOrder": 240,
+      "name": {
+        "en": "Water Elemental",
+        "ja": "Water Elemental"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "elemental"
+      ]
+    },
+    {
+      "id": "werebear-bear",
+      "sortOrder": 241,
+      "name": {
+        "en": "Werebear, Bear Form",
+        "ja": "Werebear, Bear Form"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "werebear-human",
+      "sortOrder": 242,
+      "name": {
+        "en": "Werebear, Human Form",
+        "ja": "Werebear, Human Form"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "werebear-hybrid",
+      "sortOrder": 243,
+      "name": {
+        "en": "Werebear, Hybrid Form",
+        "ja": "Werebear, Hybrid Form"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "wraith",
+      "sortOrder": 244,
+      "name": {
+        "en": "Wraith",
+        "ja": "Wraith"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "undead"
+      ]
+    },
+    {
+      "id": "xorn",
+      "sortOrder": 245,
+      "name": {
+        "en": "Xorn",
+        "ja": "Xorn"
+      },
+      "values": {
+        "xp": 1800
+      },
+      "tags": [
+        "cr-5",
+        "elemental"
+      ]
+    },
+    {
+      "id": "chimera",
+      "sortOrder": 246,
+      "name": {
+        "en": "Chimera",
+        "ja": "Chimera"
+      },
+      "values": {
+        "xp": 2300
+      },
+      "tags": [
+        "cr-6",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "drider",
+      "sortOrder": 247,
+      "name": {
+        "en": "Drider",
+        "ja": "Drider"
+      },
+      "values": {
+        "xp": 2300
+      },
+      "tags": [
+        "cr-6",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "invisible-stalker",
+      "sortOrder": 248,
+      "name": {
+        "en": "Invisible Stalker",
+        "ja": "Invisible Stalker"
+      },
+      "values": {
+        "xp": 2300
+      },
+      "tags": [
+        "cr-6",
+        "elemental"
+      ]
+    },
+    {
+      "id": "mage",
+      "sortOrder": 249,
+      "name": {
+        "en": "Mage",
+        "ja": "Mage"
+      },
+      "values": {
+        "xp": 2300
+      },
+      "tags": [
+        "cr-6",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "mammoth",
+      "sortOrder": 250,
+      "name": {
+        "en": "Mammoth",
+        "ja": "Mammoth"
+      },
+      "values": {
+        "xp": 2300
+      },
+      "tags": [
+        "cr-6",
+        "beast"
+      ]
+    },
+    {
+      "id": "medusa",
+      "sortOrder": 251,
+      "name": {
+        "en": "Medusa",
+        "ja": "Medusa"
+      },
+      "values": {
+        "xp": 2300
+      },
+      "tags": [
+        "cr-6",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "vrock",
+      "sortOrder": 252,
+      "name": {
+        "en": "Vrock",
+        "ja": "Vrock"
+      },
+      "values": {
+        "xp": 2300
+      },
+      "tags": [
+        "cr-6",
+        "fiend"
+      ]
+    },
+    {
+      "id": "wyvern",
+      "sortOrder": 253,
+      "name": {
+        "en": "Wyvern",
+        "ja": "Wyvern"
+      },
+      "values": {
+        "xp": 2300
+      },
+      "tags": [
+        "cr-6",
+        "dragon"
+      ]
+    },
+    {
+      "id": "young-brass-dragon",
+      "sortOrder": 254,
+      "name": {
+        "en": "Young Brass Dragon",
+        "ja": "Young Brass Dragon"
+      },
+      "values": {
+        "xp": 2300
+      },
+      "tags": [
+        "cr-6",
+        "dragon"
+      ]
+    },
+    {
+      "id": "young-white-dragon",
+      "sortOrder": 255,
+      "name": {
+        "en": "Young White Dragon",
+        "ja": "Young White Dragon"
+      },
+      "values": {
+        "xp": 2300
+      },
+      "tags": [
+        "cr-6",
+        "dragon"
+      ]
+    },
+    {
+      "id": "giant-ape",
+      "sortOrder": 256,
+      "name": {
+        "en": "Giant Ape",
+        "ja": "Giant Ape"
+      },
+      "values": {
+        "xp": 2900
+      },
+      "tags": [
+        "cr-7",
+        "beast"
+      ]
+    },
+    {
+      "id": "oni",
+      "sortOrder": 257,
+      "name": {
+        "en": "Oni",
+        "ja": "Oni"
+      },
+      "values": {
+        "xp": 2900
+      },
+      "tags": [
+        "cr-7",
+        "giant"
+      ]
+    },
+    {
+      "id": "shield-guardian",
+      "sortOrder": 258,
+      "name": {
+        "en": "Shield Guardian",
+        "ja": "Shield Guardian"
+      },
+      "values": {
+        "xp": 2900
+      },
+      "tags": [
+        "cr-7",
+        "construct"
+      ]
+    },
+    {
+      "id": "stone-giant",
+      "sortOrder": 259,
+      "name": {
+        "en": "Stone Giant",
+        "ja": "Stone Giant"
+      },
+      "values": {
+        "xp": 2900
+      },
+      "tags": [
+        "cr-7",
+        "giant"
+      ]
+    },
+    {
+      "id": "young-black-dragon",
+      "sortOrder": 260,
+      "name": {
+        "en": "Young Black Dragon",
+        "ja": "Young Black Dragon"
+      },
+      "values": {
+        "xp": 2900
+      },
+      "tags": [
+        "cr-7",
+        "dragon"
+      ]
+    },
+    {
+      "id": "young-copper-dragon",
+      "sortOrder": 261,
+      "name": {
+        "en": "Young Copper Dragon",
+        "ja": "Young Copper Dragon"
+      },
+      "values": {
+        "xp": 2900
+      },
+      "tags": [
+        "cr-7",
+        "dragon"
+      ]
+    },
+    {
+      "id": "assassin",
+      "sortOrder": 262,
+      "name": {
+        "en": "Assassin",
+        "ja": "Assassin"
+      },
+      "values": {
+        "xp": 3900
+      },
+      "tags": [
+        "cr-8",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "chain-devil",
+      "sortOrder": 263,
+      "name": {
+        "en": "Chain Devil",
+        "ja": "Chain Devil"
+      },
+      "values": {
+        "xp": 3900
+      },
+      "tags": [
+        "cr-8",
+        "fiend"
+      ]
+    },
+    {
+      "id": "cloaker",
+      "sortOrder": 264,
+      "name": {
+        "en": "Cloaker",
+        "ja": "Cloaker"
+      },
+      "values": {
+        "xp": 3900
+      },
+      "tags": [
+        "cr-8",
+        "aberration"
+      ]
+    },
+    {
+      "id": "frost-giant",
+      "sortOrder": 265,
+      "name": {
+        "en": "Frost Giant",
+        "ja": "Frost Giant"
+      },
+      "values": {
+        "xp": 3900
+      },
+      "tags": [
+        "cr-8",
+        "giant"
+      ]
+    },
+    {
+      "id": "hezrou",
+      "sortOrder": 266,
+      "name": {
+        "en": "Hezrou",
+        "ja": "Hezrou"
+      },
+      "values": {
+        "xp": 3900
+      },
+      "tags": [
+        "cr-8",
+        "fiend"
+      ]
+    },
+    {
+      "id": "hydra",
+      "sortOrder": 267,
+      "name": {
+        "en": "Hydra",
+        "ja": "Hydra"
+      },
+      "values": {
+        "xp": 3900
+      },
+      "tags": [
+        "cr-8",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "spirit-naga",
+      "sortOrder": 268,
+      "name": {
+        "en": "Spirit Naga",
+        "ja": "Spirit Naga"
+      },
+      "values": {
+        "xp": 3900
+      },
+      "tags": [
+        "cr-8",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "tyrannosaurus-rex",
+      "sortOrder": 269,
+      "name": {
+        "en": "Tyrannosaurus Rex",
+        "ja": "Tyrannosaurus Rex"
+      },
+      "values": {
+        "xp": 3900
+      },
+      "tags": [
+        "cr-8",
+        "beast"
+      ]
+    },
+    {
+      "id": "young-bronze-dragon",
+      "sortOrder": 270,
+      "name": {
+        "en": "Young Bronze Dragon",
+        "ja": "Young Bronze Dragon"
+      },
+      "values": {
+        "xp": 3900
+      },
+      "tags": [
+        "cr-8",
+        "dragon"
+      ]
+    },
+    {
+      "id": "young-green-dragon",
+      "sortOrder": 271,
+      "name": {
+        "en": "Young Green Dragon",
+        "ja": "Young Green Dragon"
+      },
+      "values": {
+        "xp": 3900
+      },
+      "tags": [
+        "cr-8",
+        "dragon"
+      ]
+    },
+    {
+      "id": "bone-devil",
+      "sortOrder": 272,
+      "name": {
+        "en": "Bone Devil",
+        "ja": "Bone Devil"
+      },
+      "values": {
+        "xp": 5000
+      },
+      "tags": [
+        "cr-9",
+        "fiend"
+      ]
+    },
+    {
+      "id": "clay-golem",
+      "sortOrder": 273,
+      "name": {
+        "en": "Clay Golem",
+        "ja": "Clay Golem"
+      },
+      "values": {
+        "xp": 5000
+      },
+      "tags": [
+        "cr-9",
+        "construct"
+      ]
+    },
+    {
+      "id": "cloud-giant",
+      "sortOrder": 274,
+      "name": {
+        "en": "Cloud Giant",
+        "ja": "Cloud Giant"
+      },
+      "values": {
+        "xp": 5000
+      },
+      "tags": [
+        "cr-9",
+        "giant"
+      ]
+    },
+    {
+      "id": "fire-giant",
+      "sortOrder": 275,
+      "name": {
+        "en": "Fire Giant",
+        "ja": "Fire Giant"
+      },
+      "values": {
+        "xp": 5000
+      },
+      "tags": [
+        "cr-9",
+        "giant"
+      ]
+    },
+    {
+      "id": "glabrezu",
+      "sortOrder": 276,
+      "name": {
+        "en": "Glabrezu",
+        "ja": "Glabrezu"
+      },
+      "values": {
+        "xp": 5000
+      },
+      "tags": [
+        "cr-9",
+        "fiend"
+      ]
+    },
+    {
+      "id": "treant",
+      "sortOrder": 277,
+      "name": {
+        "en": "Treant",
+        "ja": "Treant"
+      },
+      "values": {
+        "xp": 5000
+      },
+      "tags": [
+        "cr-9",
+        "plant"
+      ]
+    },
+    {
+      "id": "young-blue-dragon",
+      "sortOrder": 278,
+      "name": {
+        "en": "Young Blue Dragon",
+        "ja": "Young Blue Dragon"
+      },
+      "values": {
+        "xp": 5000
+      },
+      "tags": [
+        "cr-9",
+        "dragon"
+      ]
+    },
+    {
+      "id": "young-silver-dragon",
+      "sortOrder": 279,
+      "name": {
+        "en": "Young Silver Dragon",
+        "ja": "Young Silver Dragon"
+      },
+      "values": {
+        "xp": 5000
+      },
+      "tags": [
+        "cr-9",
+        "dragon"
+      ]
+    },
+    {
+      "id": "aboleth",
+      "sortOrder": 280,
+      "name": {
+        "en": "Aboleth",
+        "ja": "Aboleth"
+      },
+      "values": {
+        "xp": 5900
+      },
+      "tags": [
+        "cr-10",
+        "aberration"
+      ]
+    },
+    {
+      "id": "deva",
+      "sortOrder": 281,
+      "name": {
+        "en": "Deva",
+        "ja": "Deva"
+      },
+      "values": {
+        "xp": 5900
+      },
+      "tags": [
+        "cr-10",
+        "celestial"
+      ]
+    },
+    {
+      "id": "guardian-naga",
+      "sortOrder": 282,
+      "name": {
+        "en": "Guardian Naga",
+        "ja": "Guardian Naga"
+      },
+      "values": {
+        "xp": 5900
+      },
+      "tags": [
+        "cr-10",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "stone-golem",
+      "sortOrder": 283,
+      "name": {
+        "en": "Stone Golem",
+        "ja": "Stone Golem"
+      },
+      "values": {
+        "xp": 5900
+      },
+      "tags": [
+        "cr-10",
+        "construct"
+      ]
+    },
+    {
+      "id": "young-gold-dragon",
+      "sortOrder": 284,
+      "name": {
+        "en": "Young Gold Dragon",
+        "ja": "Young Gold Dragon"
+      },
+      "values": {
+        "xp": 5900
+      },
+      "tags": [
+        "cr-10",
+        "dragon"
+      ]
+    },
+    {
+      "id": "young-red-dragon",
+      "sortOrder": 285,
+      "name": {
+        "en": "Young Red Dragon",
+        "ja": "Young Red Dragon"
+      },
+      "values": {
+        "xp": 5900
+      },
+      "tags": [
+        "cr-10",
+        "dragon"
+      ]
+    },
+    {
+      "id": "behir",
+      "sortOrder": 286,
+      "name": {
+        "en": "Behir",
+        "ja": "Behir"
+      },
+      "values": {
+        "xp": 7200
+      },
+      "tags": [
+        "cr-11",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "djinni",
+      "sortOrder": 287,
+      "name": {
+        "en": "Djinni",
+        "ja": "Djinni"
+      },
+      "values": {
+        "xp": 7200
+      },
+      "tags": [
+        "cr-11",
+        "elemental"
+      ]
+    },
+    {
+      "id": "efreeti",
+      "sortOrder": 288,
+      "name": {
+        "en": "Efreeti",
+        "ja": "Efreeti"
+      },
+      "values": {
+        "xp": 7200
+      },
+      "tags": [
+        "cr-11",
+        "elemental"
+      ]
+    },
+    {
+      "id": "gynosphinx",
+      "sortOrder": 289,
+      "name": {
+        "en": "Gynosphinx",
+        "ja": "Gynosphinx"
+      },
+      "values": {
+        "xp": 7200
+      },
+      "tags": [
+        "cr-11",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "horned-devil",
+      "sortOrder": 290,
+      "name": {
+        "en": "Horned Devil",
+        "ja": "Horned Devil"
+      },
+      "values": {
+        "xp": 7200
+      },
+      "tags": [
+        "cr-11",
+        "fiend"
+      ]
+    },
+    {
+      "id": "remorhaz",
+      "sortOrder": 291,
+      "name": {
+        "en": "Remorhaz",
+        "ja": "Remorhaz"
+      },
+      "values": {
+        "xp": 7200
+      },
+      "tags": [
+        "cr-11",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "roc",
+      "sortOrder": 292,
+      "name": {
+        "en": "Roc",
+        "ja": "Roc"
+      },
+      "values": {
+        "xp": 7200
+      },
+      "tags": [
+        "cr-11",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "archmage",
+      "sortOrder": 293,
+      "name": {
+        "en": "Archmage",
+        "ja": "Archmage"
+      },
+      "values": {
+        "xp": 8400
+      },
+      "tags": [
+        "cr-12",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "erinyes",
+      "sortOrder": 294,
+      "name": {
+        "en": "Erinyes",
+        "ja": "Erinyes"
+      },
+      "values": {
+        "xp": 8400
+      },
+      "tags": [
+        "cr-12",
+        "fiend"
+      ]
+    },
+    {
+      "id": "adult-brass-dragon",
+      "sortOrder": 295,
+      "name": {
+        "en": "Adult Brass Dragon",
+        "ja": "Adult Brass Dragon"
+      },
+      "values": {
+        "xp": 10000
+      },
+      "tags": [
+        "cr-13",
+        "dragon"
+      ]
+    },
+    {
+      "id": "adult-white-dragon",
+      "sortOrder": 296,
+      "name": {
+        "en": "Adult White Dragon",
+        "ja": "Adult White Dragon"
+      },
+      "values": {
+        "xp": 10000
+      },
+      "tags": [
+        "cr-13",
+        "dragon"
+      ]
+    },
+    {
+      "id": "nalfeshnee",
+      "sortOrder": 297,
+      "name": {
+        "en": "Nalfeshnee",
+        "ja": "Nalfeshnee"
+      },
+      "values": {
+        "xp": 10000
+      },
+      "tags": [
+        "cr-13",
+        "fiend"
+      ]
+    },
+    {
+      "id": "rakshasa",
+      "sortOrder": 298,
+      "name": {
+        "en": "Rakshasa",
+        "ja": "Rakshasa"
+      },
+      "values": {
+        "xp": 10000
+      },
+      "tags": [
+        "cr-13",
+        "fiend"
+      ]
+    },
+    {
+      "id": "storm-giant",
+      "sortOrder": 299,
+      "name": {
+        "en": "Storm Giant",
+        "ja": "Storm Giant"
+      },
+      "values": {
+        "xp": 10000
+      },
+      "tags": [
+        "cr-13",
+        "giant"
+      ]
+    },
+    {
+      "id": "vampire-bat",
+      "sortOrder": 300,
+      "name": {
+        "en": "Vampire, Bat Form",
+        "ja": "Vampire, Bat Form"
+      },
+      "values": {
+        "xp": 10000
+      },
+      "tags": [
+        "cr-13",
+        "undead"
+      ]
+    },
+    {
+      "id": "vampire-mist",
+      "sortOrder": 301,
+      "name": {
+        "en": "Vampire, Mist Form",
+        "ja": "Vampire, Mist Form"
+      },
+      "values": {
+        "xp": 10000
+      },
+      "tags": [
+        "cr-13",
+        "undead"
+      ]
+    },
+    {
+      "id": "vampire-vampire",
+      "sortOrder": 302,
+      "name": {
+        "en": "Vampire, Vampire Form",
+        "ja": "Vampire, Vampire Form"
+      },
+      "values": {
+        "xp": 10000
+      },
+      "tags": [
+        "cr-13",
+        "undead"
+      ]
+    },
+    {
+      "id": "adult-black-dragon",
+      "sortOrder": 303,
+      "name": {
+        "en": "Adult Black Dragon",
+        "ja": "Adult Black Dragon"
+      },
+      "values": {
+        "xp": 11500
+      },
+      "tags": [
+        "cr-14",
+        "dragon"
+      ]
+    },
+    {
+      "id": "adult-copper-dragon",
+      "sortOrder": 304,
+      "name": {
+        "en": "Adult Copper Dragon",
+        "ja": "Adult Copper Dragon"
+      },
+      "values": {
+        "xp": 11500
+      },
+      "tags": [
+        "cr-14",
+        "dragon"
+      ]
+    },
+    {
+      "id": "ice-devil",
+      "sortOrder": 305,
+      "name": {
+        "en": "Ice Devil",
+        "ja": "Ice Devil"
+      },
+      "values": {
+        "xp": 11500
+      },
+      "tags": [
+        "cr-14",
+        "fiend"
+      ]
+    },
+    {
+      "id": "adult-bronze-dragon",
+      "sortOrder": 306,
+      "name": {
+        "en": "Adult Bronze Dragon",
+        "ja": "Adult Bronze Dragon"
+      },
+      "values": {
+        "xp": 13000
+      },
+      "tags": [
+        "cr-15",
+        "dragon"
+      ]
+    },
+    {
+      "id": "adult-green-dragon",
+      "sortOrder": 307,
+      "name": {
+        "en": "Adult Green Dragon",
+        "ja": "Adult Green Dragon"
+      },
+      "values": {
+        "xp": 13000
+      },
+      "tags": [
+        "cr-15",
+        "dragon"
+      ]
+    },
+    {
+      "id": "mummy-lord",
+      "sortOrder": 308,
+      "name": {
+        "en": "Mummy Lord",
+        "ja": "Mummy Lord"
+      },
+      "values": {
+        "xp": 13000
+      },
+      "tags": [
+        "cr-15",
+        "undead"
+      ]
+    },
+    {
+      "id": "purple-worm",
+      "sortOrder": 309,
+      "name": {
+        "en": "Purple Worm",
+        "ja": "Purple Worm"
+      },
+      "values": {
+        "xp": 13000
+      },
+      "tags": [
+        "cr-15",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "adult-blue-dragon",
+      "sortOrder": 310,
+      "name": {
+        "en": "Adult Blue Dragon",
+        "ja": "Adult Blue Dragon"
+      },
+      "values": {
+        "xp": 15000
+      },
+      "tags": [
+        "cr-16",
+        "dragon"
+      ]
+    },
+    {
+      "id": "adult-silver-dragon",
+      "sortOrder": 311,
+      "name": {
+        "en": "Adult Silver Dragon",
+        "ja": "Adult Silver Dragon"
+      },
+      "values": {
+        "xp": 15000
+      },
+      "tags": [
+        "cr-16",
+        "dragon"
+      ]
+    },
+    {
+      "id": "iron-golem",
+      "sortOrder": 312,
+      "name": {
+        "en": "Iron Golem",
+        "ja": "Iron Golem"
+      },
+      "values": {
+        "xp": 15000
+      },
+      "tags": [
+        "cr-16",
+        "construct"
+      ]
+    },
+    {
+      "id": "marilith",
+      "sortOrder": 313,
+      "name": {
+        "en": "Marilith",
+        "ja": "Marilith"
+      },
+      "values": {
+        "xp": 15000
+      },
+      "tags": [
+        "cr-16",
+        "fiend"
+      ]
+    },
+    {
+      "id": "planetar",
+      "sortOrder": 314,
+      "name": {
+        "en": "Planetar",
+        "ja": "Planetar"
+      },
+      "values": {
+        "xp": 15000
+      },
+      "tags": [
+        "cr-16",
+        "celestial"
+      ]
+    },
+    {
+      "id": "adult-gold-dragon",
+      "sortOrder": 315,
+      "name": {
+        "en": "Adult Gold Dragon",
+        "ja": "Adult Gold Dragon"
+      },
+      "values": {
+        "xp": 18000
+      },
+      "tags": [
+        "cr-17",
+        "dragon"
+      ]
+    },
+    {
+      "id": "adult-red-dragon",
+      "sortOrder": 316,
+      "name": {
+        "en": "Adult Red Dragon",
+        "ja": "Adult Red Dragon"
+      },
+      "values": {
+        "xp": 18000
+      },
+      "tags": [
+        "cr-17",
+        "dragon"
+      ]
+    },
+    {
+      "id": "androsphinx",
+      "sortOrder": 317,
+      "name": {
+        "en": "Androsphinx",
+        "ja": "Androsphinx"
+      },
+      "values": {
+        "xp": 18000
+      },
+      "tags": [
+        "cr-17",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "dragon-turtle",
+      "sortOrder": 318,
+      "name": {
+        "en": "Dragon Turtle",
+        "ja": "Dragon Turtle"
+      },
+      "values": {
+        "xp": 18000
+      },
+      "tags": [
+        "cr-17",
+        "dragon"
+      ]
+    },
+    {
+      "id": "balor",
+      "sortOrder": 319,
+      "name": {
+        "en": "Balor",
+        "ja": "Balor"
+      },
+      "values": {
+        "xp": 22000
+      },
+      "tags": [
+        "cr-19",
+        "fiend"
+      ]
+    },
+    {
+      "id": "ancient-brass-dragon",
+      "sortOrder": 320,
+      "name": {
+        "en": "Ancient Brass Dragon",
+        "ja": "Ancient Brass Dragon"
+      },
+      "values": {
+        "xp": 25000
+      },
+      "tags": [
+        "cr-20",
+        "dragon"
+      ]
+    },
+    {
+      "id": "ancient-white-dragon",
+      "sortOrder": 321,
+      "name": {
+        "en": "Ancient White Dragon",
+        "ja": "Ancient White Dragon"
+      },
+      "values": {
+        "xp": 25000
+      },
+      "tags": [
+        "cr-20",
+        "dragon"
+      ]
+    },
+    {
+      "id": "pit-fiend",
+      "sortOrder": 322,
+      "name": {
+        "en": "Pit Fiend",
+        "ja": "Pit Fiend"
+      },
+      "values": {
+        "xp": 25000
+      },
+      "tags": [
+        "cr-20",
+        "fiend"
+      ]
+    },
+    {
+      "id": "ancient-black-dragon",
+      "sortOrder": 323,
+      "name": {
+        "en": "Ancient Black Dragon",
+        "ja": "Ancient Black Dragon"
+      },
+      "values": {
+        "xp": 33000
+      },
+      "tags": [
+        "cr-21",
+        "dragon"
+      ]
+    },
+    {
+      "id": "ancient-copper-dragon",
+      "sortOrder": 324,
+      "name": {
+        "en": "Ancient Copper Dragon",
+        "ja": "Ancient Copper Dragon"
+      },
+      "values": {
+        "xp": 33000
+      },
+      "tags": [
+        "cr-21",
+        "dragon"
+      ]
+    },
+    {
+      "id": "lich",
+      "sortOrder": 325,
+      "name": {
+        "en": "Lich",
+        "ja": "Lich"
+      },
+      "values": {
+        "xp": 33000
+      },
+      "tags": [
+        "cr-21",
+        "undead"
+      ]
+    },
+    {
+      "id": "solar",
+      "sortOrder": 326,
+      "name": {
+        "en": "Solar",
+        "ja": "Solar"
+      },
+      "values": {
+        "xp": 33000
+      },
+      "tags": [
+        "cr-21",
+        "celestial"
+      ]
+    },
+    {
+      "id": "ancient-bronze-dragon",
+      "sortOrder": 327,
+      "name": {
+        "en": "Ancient Bronze Dragon",
+        "ja": "Ancient Bronze Dragon"
+      },
+      "values": {
+        "xp": 41000
+      },
+      "tags": [
+        "cr-22",
+        "dragon"
+      ]
+    },
+    {
+      "id": "ancient-green-dragon",
+      "sortOrder": 328,
+      "name": {
+        "en": "Ancient Green Dragon",
+        "ja": "Ancient Green Dragon"
+      },
+      "values": {
+        "xp": 41000
+      },
+      "tags": [
+        "cr-22",
+        "dragon"
+      ]
+    },
+    {
+      "id": "ancient-blue-dragon",
+      "sortOrder": 329,
+      "name": {
+        "en": "Ancient Blue Dragon",
+        "ja": "Ancient Blue Dragon"
+      },
+      "values": {
+        "xp": 50000
+      },
+      "tags": [
+        "cr-23",
+        "dragon"
+      ]
+    },
+    {
+      "id": "ancient-silver-dragon",
+      "sortOrder": 330,
+      "name": {
+        "en": "Ancient Silver Dragon",
+        "ja": "Ancient Silver Dragon"
+      },
+      "values": {
+        "xp": 50000
+      },
+      "tags": [
+        "cr-23",
+        "dragon"
+      ]
+    },
+    {
+      "id": "kraken",
+      "sortOrder": 331,
+      "name": {
+        "en": "Kraken",
+        "ja": "Kraken"
+      },
+      "values": {
+        "xp": 50000
+      },
+      "tags": [
+        "cr-23",
+        "monstrosity"
+      ]
+    },
+    {
+      "id": "ancient-gold-dragon",
+      "sortOrder": 332,
+      "name": {
+        "en": "Ancient Gold Dragon",
+        "ja": "Ancient Gold Dragon"
+      },
+      "values": {
+        "xp": 62000
+      },
+      "tags": [
+        "cr-24",
+        "dragon"
+      ]
+    },
+    {
+      "id": "ancient-red-dragon",
+      "sortOrder": 333,
+      "name": {
+        "en": "Ancient Red Dragon",
+        "ja": "Ancient Red Dragon"
+      },
+      "values": {
+        "xp": 62000
+      },
+      "tags": [
+        "cr-24",
+        "dragon"
+      ]
+    },
+    {
+      "id": "tarrasque",
+      "sortOrder": 334,
+      "name": {
+        "en": "Tarrasque",
+        "ja": "Tarrasque"
+      },
+      "values": {
+        "xp": 155000
+      },
+      "tags": [
+        "cr-30",
+        "monstrosity"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "cr-0",
+      "name": {
+        "en": "CR 0 (0–10 XP)",
+        "ja": "CR 0（0–10 XP）"
+      },
+      "location": {
+        "en": "29 monsters",
+        "ja": "29体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Awakened Shrub",
+            "ja": "Awakened Shrub"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Baboon",
+            "ja": "Baboon"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Badger",
+            "ja": "Badger"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Bat",
+            "ja": "Bat"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Cat",
+            "ja": "Cat"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Commoner",
+            "ja": "Commoner"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Crab",
+            "ja": "Crab"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Deer",
+            "ja": "Deer"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Eagle",
+            "ja": "Eagle"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Frog",
+            "ja": "Frog"
+          },
+          "level": 1,
+          "values": {
+            "xp": 0
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Fire Beetle",
+            "ja": "Giant Fire Beetle"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Goat",
+            "ja": "Goat"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Hawk",
+            "ja": "Hawk"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Homunculus",
+            "ja": "Homunculus"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Hyena",
+            "ja": "Hyena"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Jackal",
+            "ja": "Jackal"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Lemure",
+            "ja": "Lemure"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Lizard",
+            "ja": "Lizard"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Octopus",
+            "ja": "Octopus"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Owl",
+            "ja": "Owl"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Quipper",
+            "ja": "Quipper"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Rat",
+            "ja": "Rat"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Raven",
+            "ja": "Raven"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Scorpion",
+            "ja": "Scorpion"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Sea Horse",
+            "ja": "Sea Horse"
+          },
+          "level": 1,
+          "values": {
+            "xp": 0
+          }
+        },
+        {
+          "name": {
+            "en": "Shrieker",
+            "ja": "Shrieker"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Spider",
+            "ja": "Spider"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Vulture",
+            "ja": "Vulture"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        },
+        {
+          "name": {
+            "en": "Weasel",
+            "ja": "Weasel"
+          },
+          "level": 1,
+          "values": {
+            "xp": 10
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 270
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-1_8",
+      "name": {
+        "en": "CR 1/8 (25 XP each)",
+        "ja": "CR 1/8（各25 XP）"
+      },
+      "location": {
+        "en": "19 monsters",
+        "ja": "19体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Bandit",
+            "ja": "Bandit"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Blood Hawk",
+            "ja": "Blood Hawk"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Camel",
+            "ja": "Camel"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Cultist",
+            "ja": "Cultist"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Flying Snake",
+            "ja": "Flying Snake"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Crab",
+            "ja": "Giant Crab"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Rat",
+            "ja": "Giant Rat"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Rat (Diseased)",
+            "ja": "Giant Rat (Diseased)"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Weasel",
+            "ja": "Giant Weasel"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Guard",
+            "ja": "Guard"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Kobold",
+            "ja": "Kobold"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Mastiff",
+            "ja": "Mastiff"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Merfolk",
+            "ja": "Merfolk"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Mule",
+            "ja": "Mule"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Noble",
+            "ja": "Noble"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Poisonous Snake",
+            "ja": "Poisonous Snake"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Pony",
+            "ja": "Pony"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Stirge",
+            "ja": "Stirge"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Tribal Warrior",
+            "ja": "Tribal Warrior"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 475
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-1_4",
+      "name": {
+        "en": "CR 1/4 (25–50 XP)",
+        "ja": "CR 1/4（25–50 XP）"
+      },
+      "location": {
+        "en": "32 monsters",
+        "ja": "32体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Acolyte",
+            "ja": "Acolyte"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Axe Beak",
+            "ja": "Axe Beak"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Blink Dog",
+            "ja": "Blink Dog"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Boar",
+            "ja": "Boar"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Constrictor Snake",
+            "ja": "Constrictor Snake"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Draft Horse",
+            "ja": "Draft Horse"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Dretch",
+            "ja": "Dretch"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Drow",
+            "ja": "Drow"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Elk",
+            "ja": "Elk"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Flying Sword",
+            "ja": "Flying Sword"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Badger",
+            "ja": "Giant Badger"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Bat",
+            "ja": "Giant Bat"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Centipede",
+            "ja": "Giant Centipede"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Frog",
+            "ja": "Giant Frog"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Lizard",
+            "ja": "Giant Lizard"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Owl",
+            "ja": "Giant Owl"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Poisonous Snake",
+            "ja": "Giant Poisonous Snake"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Wolf Spider",
+            "ja": "Giant Wolf Spider"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Goblin",
+            "ja": "Goblin"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Grimlock",
+            "ja": "Grimlock"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Panther",
+            "ja": "Panther"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Pseudodragon",
+            "ja": "Pseudodragon"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Riding Horse",
+            "ja": "Riding Horse"
+          },
+          "level": 1,
+          "values": {
+            "xp": 25
+          }
+        },
+        {
+          "name": {
+            "en": "Skeleton",
+            "ja": "Skeleton"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Sprite",
+            "ja": "Sprite"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Steam Mephit",
+            "ja": "Steam Mephit"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Swarm of Bats",
+            "ja": "Swarm of Bats"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Swarm of Rats",
+            "ja": "Swarm of Rats"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Swarm of Ravens",
+            "ja": "Swarm of Ravens"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Violet Fungus",
+            "ja": "Violet Fungus"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Wolf",
+            "ja": "Wolf"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Zombie",
+            "ja": "Zombie"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 1550
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-1_2",
+      "name": {
+        "en": "CR 1/2 (50–100 XP)",
+        "ja": "CR 1/2（50–100 XP）"
+      },
+      "location": {
+        "en": "33 monsters",
+        "ja": "33体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Ape",
+            "ja": "Ape"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Black Bear",
+            "ja": "Black Bear"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Cockatrice",
+            "ja": "Cockatrice"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Crocodile",
+            "ja": "Crocodile"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Darkmantle",
+            "ja": "Darkmantle"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Deep Gnome (Svirfneblin)",
+            "ja": "Deep Gnome (Svirfneblin)"
+          },
+          "level": 1,
+          "values": {
+            "xp": 50
+          }
+        },
+        {
+          "name": {
+            "en": "Dust Mephit",
+            "ja": "Dust Mephit"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Goat",
+            "ja": "Giant Goat"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Sea Horse",
+            "ja": "Giant Sea Horse"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Wasp",
+            "ja": "Giant Wasp"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Gnoll",
+            "ja": "Gnoll"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Gray Ooze",
+            "ja": "Gray Ooze"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Hobgoblin",
+            "ja": "Hobgoblin"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Ice Mephit",
+            "ja": "Ice Mephit"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Lizardfolk",
+            "ja": "Lizardfolk"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Magma Mephit",
+            "ja": "Magma Mephit"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Magmin",
+            "ja": "Magmin"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Orc",
+            "ja": "Orc"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Reef Shark",
+            "ja": "Reef Shark"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Rust Monster",
+            "ja": "Rust Monster"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Sahuagin",
+            "ja": "Sahuagin"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Satyr",
+            "ja": "Satyr"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Scout",
+            "ja": "Scout"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Shadow",
+            "ja": "Shadow"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Swarm of Beetles",
+            "ja": "Swarm of Beetles"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Swarm of Centipedes",
+            "ja": "Swarm of Centipedes"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Swarm of Insects",
+            "ja": "Swarm of Insects"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Swarm of Spiders",
+            "ja": "Swarm of Spiders"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Swarm of Wasps",
+            "ja": "Swarm of Wasps"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Thug",
+            "ja": "Thug"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Warhorse",
+            "ja": "Warhorse"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Warhorse Skeleton",
+            "ja": "Warhorse Skeleton"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Worg",
+            "ja": "Worg"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 3250
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-1",
+      "name": {
+        "en": "CR 1 (100–200 XP)",
+        "ja": "CR 1（100–200 XP）"
+      },
+      "location": {
+        "en": "25 monsters",
+        "ja": "25体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Animated Armor",
+            "ja": "Animated Armor"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Brass Dragon Wyrmling",
+            "ja": "Brass Dragon Wyrmling"
+          },
+          "level": 1,
+          "values": {
+            "xp": 100
+          }
+        },
+        {
+          "name": {
+            "en": "Brown Bear",
+            "ja": "Brown Bear"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Bugbear",
+            "ja": "Bugbear"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Copper Dragon Wyrmling",
+            "ja": "Copper Dragon Wyrmling"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Death Dog",
+            "ja": "Death Dog"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Dire Wolf",
+            "ja": "Dire Wolf"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Dryad",
+            "ja": "Dryad"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Duergar",
+            "ja": "Duergar"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Ghoul",
+            "ja": "Ghoul"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Eagle",
+            "ja": "Giant Eagle"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Hyena",
+            "ja": "Giant Hyena"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Octopus",
+            "ja": "Giant Octopus"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Spider",
+            "ja": "Giant Spider"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Toad",
+            "ja": "Giant Toad"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Vulture",
+            "ja": "Giant Vulture"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Harpy",
+            "ja": "Harpy"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Hippogriff",
+            "ja": "Hippogriff"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Imp",
+            "ja": "Imp"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Lion",
+            "ja": "Lion"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Quasit",
+            "ja": "Quasit"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Specter",
+            "ja": "Specter"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Spy",
+            "ja": "Spy"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Swarm of Quippers",
+            "ja": "Swarm of Quippers"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        },
+        {
+          "name": {
+            "en": "Tiger",
+            "ja": "Tiger"
+          },
+          "level": 1,
+          "values": {
+            "xp": 200
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 4900
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-2",
+      "name": {
+        "en": "CR 2 (250–450 XP)",
+        "ja": "CR 2（250–450 XP）"
+      },
+      "location": {
+        "en": "43 monsters",
+        "ja": "43体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Ankheg",
+            "ja": "Ankheg"
+          },
+          "level": 2,
+          "values": {
+            "xp": 250
+          }
+        },
+        {
+          "name": {
+            "en": "Awakened Tree",
+            "ja": "Awakened Tree"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Azer",
+            "ja": "Azer"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Bandit Captain",
+            "ja": "Bandit Captain"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Berserker",
+            "ja": "Berserker"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Black Dragon Wyrmling",
+            "ja": "Black Dragon Wyrmling"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Bronze Dragon Wyrmling",
+            "ja": "Bronze Dragon Wyrmling"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Centaur",
+            "ja": "Centaur"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Cult Fanatic",
+            "ja": "Cult Fanatic"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Druid",
+            "ja": "Druid"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Ettercap",
+            "ja": "Ettercap"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Gargoyle",
+            "ja": "Gargoyle"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Gelatinous Cube",
+            "ja": "Gelatinous Cube"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Ghast",
+            "ja": "Ghast"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Boar",
+            "ja": "Giant Boar"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Constrictor Snake",
+            "ja": "Giant Constrictor Snake"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Elk",
+            "ja": "Giant Elk"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Gibbering Mouther",
+            "ja": "Gibbering Mouther"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Green Dragon Wyrmling",
+            "ja": "Green Dragon Wyrmling"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Grick",
+            "ja": "Grick"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Griffon",
+            "ja": "Griffon"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Hunter Shark",
+            "ja": "Hunter Shark"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Merrow",
+            "ja": "Merrow"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Mimic",
+            "ja": "Mimic"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Minotaur Skeleton",
+            "ja": "Minotaur Skeleton"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Ochre Jelly",
+            "ja": "Ochre Jelly"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Ogre",
+            "ja": "Ogre"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Ogre Zombie",
+            "ja": "Ogre Zombie"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Pegasus",
+            "ja": "Pegasus"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Plesiosaurus",
+            "ja": "Plesiosaurus"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Polar Bear",
+            "ja": "Polar Bear"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Priest",
+            "ja": "Priest"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Rhinoceros",
+            "ja": "Rhinoceros"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Rug of Smothering",
+            "ja": "Rug of Smothering"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Saber-Toothed Tiger",
+            "ja": "Saber-Toothed Tiger"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Sea Hag",
+            "ja": "Sea Hag"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Silver Dragon Wyrmling",
+            "ja": "Silver Dragon Wyrmling"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Swarm of Poisonous Snakes",
+            "ja": "Swarm of Poisonous Snakes"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Wererat, Human Form",
+            "ja": "Wererat, Human Form"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Wererat, Hybrid Form",
+            "ja": "Wererat, Hybrid Form"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Wererat, Rat Form",
+            "ja": "Wererat, Rat Form"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "White Dragon Wyrmling",
+            "ja": "White Dragon Wyrmling"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        },
+        {
+          "name": {
+            "en": "Will-o'-Wisp",
+            "ja": "Will-o'-Wisp"
+          },
+          "level": 2,
+          "values": {
+            "xp": 450
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 19150
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-3",
+      "name": {
+        "en": "CR 3 (700 XP each)",
+        "ja": "CR 3（各700 XP）"
+      },
+      "location": {
+        "en": "22 monsters",
+        "ja": "22体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Basilisk",
+            "ja": "Basilisk"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Bearded Devil",
+            "ja": "Bearded Devil"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Blue Dragon Wyrmling",
+            "ja": "Blue Dragon Wyrmling"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Doppelganger",
+            "ja": "Doppelganger"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Scorpion",
+            "ja": "Giant Scorpion"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Gold Dragon Wyrmling",
+            "ja": "Gold Dragon Wyrmling"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Green Hag",
+            "ja": "Green Hag"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Hell Hound",
+            "ja": "Hell Hound"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Killer Whale",
+            "ja": "Killer Whale"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Knight",
+            "ja": "Knight"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Manticore",
+            "ja": "Manticore"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Minotaur",
+            "ja": "Minotaur"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Mummy",
+            "ja": "Mummy"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Nightmare",
+            "ja": "Nightmare"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Owlbear",
+            "ja": "Owlbear"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Phase Spider",
+            "ja": "Phase Spider"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Veteran",
+            "ja": "Veteran"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Werewolf, Human Form",
+            "ja": "Werewolf, Human Form"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Werewolf, Hybrid Form",
+            "ja": "Werewolf, Hybrid Form"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Werewolf, Wolf Form",
+            "ja": "Werewolf, Wolf Form"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Wight",
+            "ja": "Wight"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        },
+        {
+          "name": {
+            "en": "Winter Wolf",
+            "ja": "Winter Wolf"
+          },
+          "level": 3,
+          "values": {
+            "xp": 700
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 15400
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-4",
+      "name": {
+        "en": "CR 4 (1,100 XP each)",
+        "ja": "CR 4（各1,100 XP）"
+      },
+      "location": {
+        "en": "15 monsters",
+        "ja": "15体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Black Pudding",
+            "ja": "Black Pudding"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Chuul",
+            "ja": "Chuul"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Couatl",
+            "ja": "Couatl"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Elephant",
+            "ja": "Elephant"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Ettin",
+            "ja": "Ettin"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Ghost",
+            "ja": "Ghost"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Lamia",
+            "ja": "Lamia"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Red Dragon Wyrmling",
+            "ja": "Red Dragon Wyrmling"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Succubus/Incubus",
+            "ja": "Succubus/Incubus"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Wereboar, Boar Form",
+            "ja": "Wereboar, Boar Form"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Wereboar, Human Form",
+            "ja": "Wereboar, Human Form"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Wereboar, Hybrid Form",
+            "ja": "Wereboar, Hybrid Form"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Weretiger, Human Form",
+            "ja": "Weretiger, Human Form"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Weretiger, Hybrid Form",
+            "ja": "Weretiger, Hybrid Form"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        },
+        {
+          "name": {
+            "en": "Weretiger, Tiger Form",
+            "ja": "Weretiger, Tiger Form"
+          },
+          "level": 4,
+          "values": {
+            "xp": 1100
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 16500
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-5",
+      "name": {
+        "en": "CR 5 (1,800 XP each)",
+        "ja": "CR 5（各1,800 XP）"
+      },
+      "location": {
+        "en": "27 monsters",
+        "ja": "27体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Air Elemental",
+            "ja": "Air Elemental"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Barbed Devil",
+            "ja": "Barbed Devil"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Bulette",
+            "ja": "Bulette"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Earth Elemental",
+            "ja": "Earth Elemental"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Fire Elemental",
+            "ja": "Fire Elemental"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Flesh Golem",
+            "ja": "Flesh Golem"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Crocodile",
+            "ja": "Giant Crocodile"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Giant Shark",
+            "ja": "Giant Shark"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Gladiator",
+            "ja": "Gladiator"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Gorgon",
+            "ja": "Gorgon"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Half-Red Dragon Veteran",
+            "ja": "Half-Red Dragon Veteran"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Hill Giant",
+            "ja": "Hill Giant"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Night Hag",
+            "ja": "Night Hag"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Otyugh",
+            "ja": "Otyugh"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Roper",
+            "ja": "Roper"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Salamander",
+            "ja": "Salamander"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Shambling Mound",
+            "ja": "Shambling Mound"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Triceratops",
+            "ja": "Triceratops"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Troll",
+            "ja": "Troll"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Unicorn",
+            "ja": "Unicorn"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Vampire Spawn",
+            "ja": "Vampire Spawn"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Water Elemental",
+            "ja": "Water Elemental"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Werebear, Bear Form",
+            "ja": "Werebear, Bear Form"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Werebear, Human Form",
+            "ja": "Werebear, Human Form"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Werebear, Hybrid Form",
+            "ja": "Werebear, Hybrid Form"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Wraith",
+            "ja": "Wraith"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        },
+        {
+          "name": {
+            "en": "Xorn",
+            "ja": "Xorn"
+          },
+          "level": 5,
+          "values": {
+            "xp": 1800
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 48600
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-6",
+      "name": {
+        "en": "CR 6 (2,300 XP each)",
+        "ja": "CR 6（各2,300 XP）"
+      },
+      "location": {
+        "en": "10 monsters",
+        "ja": "10体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Chimera",
+            "ja": "Chimera"
+          },
+          "level": 6,
+          "values": {
+            "xp": 2300
+          }
+        },
+        {
+          "name": {
+            "en": "Drider",
+            "ja": "Drider"
+          },
+          "level": 6,
+          "values": {
+            "xp": 2300
+          }
+        },
+        {
+          "name": {
+            "en": "Invisible Stalker",
+            "ja": "Invisible Stalker"
+          },
+          "level": 6,
+          "values": {
+            "xp": 2300
+          }
+        },
+        {
+          "name": {
+            "en": "Mage",
+            "ja": "Mage"
+          },
+          "level": 6,
+          "values": {
+            "xp": 2300
+          }
+        },
+        {
+          "name": {
+            "en": "Mammoth",
+            "ja": "Mammoth"
+          },
+          "level": 6,
+          "values": {
+            "xp": 2300
+          }
+        },
+        {
+          "name": {
+            "en": "Medusa",
+            "ja": "Medusa"
+          },
+          "level": 6,
+          "values": {
+            "xp": 2300
+          }
+        },
+        {
+          "name": {
+            "en": "Vrock",
+            "ja": "Vrock"
+          },
+          "level": 6,
+          "values": {
+            "xp": 2300
+          }
+        },
+        {
+          "name": {
+            "en": "Wyvern",
+            "ja": "Wyvern"
+          },
+          "level": 6,
+          "values": {
+            "xp": 2300
+          }
+        },
+        {
+          "name": {
+            "en": "Young Brass Dragon",
+            "ja": "Young Brass Dragon"
+          },
+          "level": 6,
+          "values": {
+            "xp": 2300
+          }
+        },
+        {
+          "name": {
+            "en": "Young White Dragon",
+            "ja": "Young White Dragon"
+          },
+          "level": 6,
+          "values": {
+            "xp": 2300
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 23000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-7",
+      "name": {
+        "en": "CR 7 (2,900 XP each)",
+        "ja": "CR 7（各2,900 XP）"
+      },
+      "location": {
+        "en": "6 monsters",
+        "ja": "6体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Giant Ape",
+            "ja": "Giant Ape"
+          },
+          "level": 7,
+          "values": {
+            "xp": 2900
+          }
+        },
+        {
+          "name": {
+            "en": "Oni",
+            "ja": "Oni"
+          },
+          "level": 7,
+          "values": {
+            "xp": 2900
+          }
+        },
+        {
+          "name": {
+            "en": "Shield Guardian",
+            "ja": "Shield Guardian"
+          },
+          "level": 7,
+          "values": {
+            "xp": 2900
+          }
+        },
+        {
+          "name": {
+            "en": "Stone Giant",
+            "ja": "Stone Giant"
+          },
+          "level": 7,
+          "values": {
+            "xp": 2900
+          }
+        },
+        {
+          "name": {
+            "en": "Young Black Dragon",
+            "ja": "Young Black Dragon"
+          },
+          "level": 7,
+          "values": {
+            "xp": 2900
+          }
+        },
+        {
+          "name": {
+            "en": "Young Copper Dragon",
+            "ja": "Young Copper Dragon"
+          },
+          "level": 7,
+          "values": {
+            "xp": 2900
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 17400
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-8",
+      "name": {
+        "en": "CR 8 (3,900 XP each)",
+        "ja": "CR 8（各3,900 XP）"
+      },
+      "location": {
+        "en": "10 monsters",
+        "ja": "10体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Assassin",
+            "ja": "Assassin"
+          },
+          "level": 8,
+          "values": {
+            "xp": 3900
+          }
+        },
+        {
+          "name": {
+            "en": "Chain Devil",
+            "ja": "Chain Devil"
+          },
+          "level": 8,
+          "values": {
+            "xp": 3900
+          }
+        },
+        {
+          "name": {
+            "en": "Cloaker",
+            "ja": "Cloaker"
+          },
+          "level": 8,
+          "values": {
+            "xp": 3900
+          }
+        },
+        {
+          "name": {
+            "en": "Frost Giant",
+            "ja": "Frost Giant"
+          },
+          "level": 8,
+          "values": {
+            "xp": 3900
+          }
+        },
+        {
+          "name": {
+            "en": "Hezrou",
+            "ja": "Hezrou"
+          },
+          "level": 8,
+          "values": {
+            "xp": 3900
+          }
+        },
+        {
+          "name": {
+            "en": "Hydra",
+            "ja": "Hydra"
+          },
+          "level": 8,
+          "values": {
+            "xp": 3900
+          }
+        },
+        {
+          "name": {
+            "en": "Spirit Naga",
+            "ja": "Spirit Naga"
+          },
+          "level": 8,
+          "values": {
+            "xp": 3900
+          }
+        },
+        {
+          "name": {
+            "en": "Tyrannosaurus Rex",
+            "ja": "Tyrannosaurus Rex"
+          },
+          "level": 8,
+          "values": {
+            "xp": 3900
+          }
+        },
+        {
+          "name": {
+            "en": "Young Bronze Dragon",
+            "ja": "Young Bronze Dragon"
+          },
+          "level": 8,
+          "values": {
+            "xp": 3900
+          }
+        },
+        {
+          "name": {
+            "en": "Young Green Dragon",
+            "ja": "Young Green Dragon"
+          },
+          "level": 8,
+          "values": {
+            "xp": 3900
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 39000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-9",
+      "name": {
+        "en": "CR 9 (5,000 XP each)",
+        "ja": "CR 9（各5,000 XP）"
+      },
+      "location": {
+        "en": "8 monsters",
+        "ja": "8体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Bone Devil",
+            "ja": "Bone Devil"
+          },
+          "level": 9,
+          "values": {
+            "xp": 5000
+          }
+        },
+        {
+          "name": {
+            "en": "Clay Golem",
+            "ja": "Clay Golem"
+          },
+          "level": 9,
+          "values": {
+            "xp": 5000
+          }
+        },
+        {
+          "name": {
+            "en": "Cloud Giant",
+            "ja": "Cloud Giant"
+          },
+          "level": 9,
+          "values": {
+            "xp": 5000
+          }
+        },
+        {
+          "name": {
+            "en": "Fire Giant",
+            "ja": "Fire Giant"
+          },
+          "level": 9,
+          "values": {
+            "xp": 5000
+          }
+        },
+        {
+          "name": {
+            "en": "Glabrezu",
+            "ja": "Glabrezu"
+          },
+          "level": 9,
+          "values": {
+            "xp": 5000
+          }
+        },
+        {
+          "name": {
+            "en": "Treant",
+            "ja": "Treant"
+          },
+          "level": 9,
+          "values": {
+            "xp": 5000
+          }
+        },
+        {
+          "name": {
+            "en": "Young Blue Dragon",
+            "ja": "Young Blue Dragon"
+          },
+          "level": 9,
+          "values": {
+            "xp": 5000
+          }
+        },
+        {
+          "name": {
+            "en": "Young Silver Dragon",
+            "ja": "Young Silver Dragon"
+          },
+          "level": 9,
+          "values": {
+            "xp": 5000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 40000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-10",
+      "name": {
+        "en": "CR 10 (5,900 XP each)",
+        "ja": "CR 10（各5,900 XP）"
+      },
+      "location": {
+        "en": "6 monsters",
+        "ja": "6体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Aboleth",
+            "ja": "Aboleth"
+          },
+          "level": 10,
+          "values": {
+            "xp": 5900
+          }
+        },
+        {
+          "name": {
+            "en": "Deva",
+            "ja": "Deva"
+          },
+          "level": 10,
+          "values": {
+            "xp": 5900
+          }
+        },
+        {
+          "name": {
+            "en": "Guardian Naga",
+            "ja": "Guardian Naga"
+          },
+          "level": 10,
+          "values": {
+            "xp": 5900
+          }
+        },
+        {
+          "name": {
+            "en": "Stone Golem",
+            "ja": "Stone Golem"
+          },
+          "level": 10,
+          "values": {
+            "xp": 5900
+          }
+        },
+        {
+          "name": {
+            "en": "Young Gold Dragon",
+            "ja": "Young Gold Dragon"
+          },
+          "level": 10,
+          "values": {
+            "xp": 5900
+          }
+        },
+        {
+          "name": {
+            "en": "Young Red Dragon",
+            "ja": "Young Red Dragon"
+          },
+          "level": 10,
+          "values": {
+            "xp": 5900
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 35400
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-11",
+      "name": {
+        "en": "CR 11 (7,200 XP each)",
+        "ja": "CR 11（各7,200 XP）"
+      },
+      "location": {
+        "en": "7 monsters",
+        "ja": "7体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Behir",
+            "ja": "Behir"
+          },
+          "level": 11,
+          "values": {
+            "xp": 7200
+          }
+        },
+        {
+          "name": {
+            "en": "Djinni",
+            "ja": "Djinni"
+          },
+          "level": 11,
+          "values": {
+            "xp": 7200
+          }
+        },
+        {
+          "name": {
+            "en": "Efreeti",
+            "ja": "Efreeti"
+          },
+          "level": 11,
+          "values": {
+            "xp": 7200
+          }
+        },
+        {
+          "name": {
+            "en": "Gynosphinx",
+            "ja": "Gynosphinx"
+          },
+          "level": 11,
+          "values": {
+            "xp": 7200
+          }
+        },
+        {
+          "name": {
+            "en": "Horned Devil",
+            "ja": "Horned Devil"
+          },
+          "level": 11,
+          "values": {
+            "xp": 7200
+          }
+        },
+        {
+          "name": {
+            "en": "Remorhaz",
+            "ja": "Remorhaz"
+          },
+          "level": 11,
+          "values": {
+            "xp": 7200
+          }
+        },
+        {
+          "name": {
+            "en": "Roc",
+            "ja": "Roc"
+          },
+          "level": 11,
+          "values": {
+            "xp": 7200
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 50400
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-12",
+      "name": {
+        "en": "CR 12 (8,400 XP each)",
+        "ja": "CR 12（各8,400 XP）"
+      },
+      "location": {
+        "en": "2 monsters",
+        "ja": "2体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Archmage",
+            "ja": "Archmage"
+          },
+          "level": 12,
+          "values": {
+            "xp": 8400
+          }
+        },
+        {
+          "name": {
+            "en": "Erinyes",
+            "ja": "Erinyes"
+          },
+          "level": 12,
+          "values": {
+            "xp": 8400
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 16800
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-13",
+      "name": {
+        "en": "CR 13 (10,000 XP each)",
+        "ja": "CR 13（各10,000 XP）"
+      },
+      "location": {
+        "en": "8 monsters",
+        "ja": "8体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Adult Brass Dragon",
+            "ja": "Adult Brass Dragon"
+          },
+          "level": 13,
+          "values": {
+            "xp": 10000
+          }
+        },
+        {
+          "name": {
+            "en": "Adult White Dragon",
+            "ja": "Adult White Dragon"
+          },
+          "level": 13,
+          "values": {
+            "xp": 10000
+          }
+        },
+        {
+          "name": {
+            "en": "Nalfeshnee",
+            "ja": "Nalfeshnee"
+          },
+          "level": 13,
+          "values": {
+            "xp": 10000
+          }
+        },
+        {
+          "name": {
+            "en": "Rakshasa",
+            "ja": "Rakshasa"
+          },
+          "level": 13,
+          "values": {
+            "xp": 10000
+          }
+        },
+        {
+          "name": {
+            "en": "Storm Giant",
+            "ja": "Storm Giant"
+          },
+          "level": 13,
+          "values": {
+            "xp": 10000
+          }
+        },
+        {
+          "name": {
+            "en": "Vampire, Bat Form",
+            "ja": "Vampire, Bat Form"
+          },
+          "level": 13,
+          "values": {
+            "xp": 10000
+          }
+        },
+        {
+          "name": {
+            "en": "Vampire, Mist Form",
+            "ja": "Vampire, Mist Form"
+          },
+          "level": 13,
+          "values": {
+            "xp": 10000
+          }
+        },
+        {
+          "name": {
+            "en": "Vampire, Vampire Form",
+            "ja": "Vampire, Vampire Form"
+          },
+          "level": 13,
+          "values": {
+            "xp": 10000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 80000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-14",
+      "name": {
+        "en": "CR 14 (11,500 XP each)",
+        "ja": "CR 14（各11,500 XP）"
+      },
+      "location": {
+        "en": "3 monsters",
+        "ja": "3体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Adult Black Dragon",
+            "ja": "Adult Black Dragon"
+          },
+          "level": 14,
+          "values": {
+            "xp": 11500
+          }
+        },
+        {
+          "name": {
+            "en": "Adult Copper Dragon",
+            "ja": "Adult Copper Dragon"
+          },
+          "level": 14,
+          "values": {
+            "xp": 11500
+          }
+        },
+        {
+          "name": {
+            "en": "Ice Devil",
+            "ja": "Ice Devil"
+          },
+          "level": 14,
+          "values": {
+            "xp": 11500
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 34500
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-15",
+      "name": {
+        "en": "CR 15 (13,000 XP each)",
+        "ja": "CR 15（各13,000 XP）"
+      },
+      "location": {
+        "en": "4 monsters",
+        "ja": "4体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Adult Bronze Dragon",
+            "ja": "Adult Bronze Dragon"
+          },
+          "level": 15,
+          "values": {
+            "xp": 13000
+          }
+        },
+        {
+          "name": {
+            "en": "Adult Green Dragon",
+            "ja": "Adult Green Dragon"
+          },
+          "level": 15,
+          "values": {
+            "xp": 13000
+          }
+        },
+        {
+          "name": {
+            "en": "Mummy Lord",
+            "ja": "Mummy Lord"
+          },
+          "level": 15,
+          "values": {
+            "xp": 13000
+          }
+        },
+        {
+          "name": {
+            "en": "Purple Worm",
+            "ja": "Purple Worm"
+          },
+          "level": 15,
+          "values": {
+            "xp": 13000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 52000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-16",
+      "name": {
+        "en": "CR 16 (15,000 XP each)",
+        "ja": "CR 16（各15,000 XP）"
+      },
+      "location": {
+        "en": "5 monsters",
+        "ja": "5体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Adult Blue Dragon",
+            "ja": "Adult Blue Dragon"
+          },
+          "level": 16,
+          "values": {
+            "xp": 15000
+          }
+        },
+        {
+          "name": {
+            "en": "Adult Silver Dragon",
+            "ja": "Adult Silver Dragon"
+          },
+          "level": 16,
+          "values": {
+            "xp": 15000
+          }
+        },
+        {
+          "name": {
+            "en": "Iron Golem",
+            "ja": "Iron Golem"
+          },
+          "level": 16,
+          "values": {
+            "xp": 15000
+          }
+        },
+        {
+          "name": {
+            "en": "Marilith",
+            "ja": "Marilith"
+          },
+          "level": 16,
+          "values": {
+            "xp": 15000
+          }
+        },
+        {
+          "name": {
+            "en": "Planetar",
+            "ja": "Planetar"
+          },
+          "level": 16,
+          "values": {
+            "xp": 15000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 75000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-17",
+      "name": {
+        "en": "CR 17 (18,000 XP each)",
+        "ja": "CR 17（各18,000 XP）"
+      },
+      "location": {
+        "en": "4 monsters",
+        "ja": "4体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Adult Gold Dragon",
+            "ja": "Adult Gold Dragon"
+          },
+          "level": 17,
+          "values": {
+            "xp": 18000
+          }
+        },
+        {
+          "name": {
+            "en": "Adult Red Dragon",
+            "ja": "Adult Red Dragon"
+          },
+          "level": 17,
+          "values": {
+            "xp": 18000
+          }
+        },
+        {
+          "name": {
+            "en": "Androsphinx",
+            "ja": "Androsphinx"
+          },
+          "level": 17,
+          "values": {
+            "xp": 18000
+          }
+        },
+        {
+          "name": {
+            "en": "Dragon Turtle",
+            "ja": "Dragon Turtle"
+          },
+          "level": 17,
+          "values": {
+            "xp": 18000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 72000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-19",
+      "name": {
+        "en": "CR 19 (22,000 XP each)",
+        "ja": "CR 19（各22,000 XP）"
+      },
+      "location": {
+        "en": "1 monster",
+        "ja": "1体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Balor",
+            "ja": "Balor"
+          },
+          "level": 19,
+          "values": {
+            "xp": 22000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 22000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-20",
+      "name": {
+        "en": "CR 20 (25,000 XP each)",
+        "ja": "CR 20（各25,000 XP）"
+      },
+      "location": {
+        "en": "3 monsters",
+        "ja": "3体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Ancient Brass Dragon",
+            "ja": "Ancient Brass Dragon"
+          },
+          "level": 20,
+          "values": {
+            "xp": 25000
+          }
+        },
+        {
+          "name": {
+            "en": "Ancient White Dragon",
+            "ja": "Ancient White Dragon"
+          },
+          "level": 20,
+          "values": {
+            "xp": 25000
+          }
+        },
+        {
+          "name": {
+            "en": "Pit Fiend",
+            "ja": "Pit Fiend"
+          },
+          "level": 20,
+          "values": {
+            "xp": 25000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 75000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-21",
+      "name": {
+        "en": "CR 21 (33,000 XP each)",
+        "ja": "CR 21（各33,000 XP）"
+      },
+      "location": {
+        "en": "4 monsters",
+        "ja": "4体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Ancient Black Dragon",
+            "ja": "Ancient Black Dragon"
+          },
+          "level": 21,
+          "values": {
+            "xp": 33000
+          }
+        },
+        {
+          "name": {
+            "en": "Ancient Copper Dragon",
+            "ja": "Ancient Copper Dragon"
+          },
+          "level": 21,
+          "values": {
+            "xp": 33000
+          }
+        },
+        {
+          "name": {
+            "en": "Lich",
+            "ja": "Lich"
+          },
+          "level": 21,
+          "values": {
+            "xp": 33000
+          }
+        },
+        {
+          "name": {
+            "en": "Solar",
+            "ja": "Solar"
+          },
+          "level": 21,
+          "values": {
+            "xp": 33000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 132000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-22",
+      "name": {
+        "en": "CR 22 (41,000 XP each)",
+        "ja": "CR 22（各41,000 XP）"
+      },
+      "location": {
+        "en": "2 monsters",
+        "ja": "2体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Ancient Bronze Dragon",
+            "ja": "Ancient Bronze Dragon"
+          },
+          "level": 22,
+          "values": {
+            "xp": 41000
+          }
+        },
+        {
+          "name": {
+            "en": "Ancient Green Dragon",
+            "ja": "Ancient Green Dragon"
+          },
+          "level": 22,
+          "values": {
+            "xp": 41000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 82000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-23",
+      "name": {
+        "en": "CR 23 (50,000 XP each)",
+        "ja": "CR 23（各50,000 XP）"
+      },
+      "location": {
+        "en": "3 monsters",
+        "ja": "3体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Ancient Blue Dragon",
+            "ja": "Ancient Blue Dragon"
+          },
+          "level": 23,
+          "values": {
+            "xp": 50000
+          }
+        },
+        {
+          "name": {
+            "en": "Ancient Silver Dragon",
+            "ja": "Ancient Silver Dragon"
+          },
+          "level": 23,
+          "values": {
+            "xp": 50000
+          }
+        },
+        {
+          "name": {
+            "en": "Kraken",
+            "ja": "Kraken"
+          },
+          "level": 23,
+          "values": {
+            "xp": 50000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 150000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-24",
+      "name": {
+        "en": "CR 24 (62,000 XP each)",
+        "ja": "CR 24（各62,000 XP）"
+      },
+      "location": {
+        "en": "2 monsters",
+        "ja": "2体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Ancient Gold Dragon",
+            "ja": "Ancient Gold Dragon"
+          },
+          "level": 24,
+          "values": {
+            "xp": 62000
+          }
+        },
+        {
+          "name": {
+            "en": "Ancient Red Dragon",
+            "ja": "Ancient Red Dragon"
+          },
+          "level": 24,
+          "values": {
+            "xp": 62000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 124000
+      },
+      "rematchable": true
+    },
+    {
+      "id": "cr-30",
+      "name": {
+        "en": "CR 30 (155,000 XP each)",
+        "ja": "CR 30（各155,000 XP）"
+      },
+      "location": {
+        "en": "1 monster",
+        "ja": "1体"
+      },
+      "members": [
+        {
+          "name": {
+            "en": "Tarrasque",
+            "ja": "Tarrasque"
+          },
+          "level": 30,
+          "values": {
+            "xp": 155000
+          }
+        }
+      ],
+      "totalValues": {
+        "xp": 155000
+      },
+      "rematchable": true
+    }
+  ]
+}
