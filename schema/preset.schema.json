@@ -111,6 +111,13 @@
       "items": {
         "$ref": "#/$defs/NoteItem"
       }
+    },
+    "goalTemplates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/PresetGoalTemplate"
+      },
+      "description": "Preset-defined goal templates (e.g. level-up XP thresholds)"
     }
   },
   "$defs": {
@@ -228,6 +235,20 @@
         "url": { "type": "string", "format": "uri", "description": "Optional external reference URL" }
       },
       "description": "A structured note with localized text and optional external reference"
+    },
+    "PresetGoalTemplate": {
+      "type": "object",
+      "required": ["id", "name", "goals"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "$ref": "#/$defs/LocalizedString" },
+        "goals": {
+          "type": "object",
+          "additionalProperties": { "type": "number" },
+          "description": "Counter ID to goal value mapping"
+        }
+      },
+      "description": "A preset-defined goal template"
     },
     "SourceGroup": {
       "type": "object",
