@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-12T01:30:43Z",
+  "updatedAt": "2026-03-13T03:16:38Z",
   "presets": [
     {
       "id": "frlg",
@@ -160,7 +160,7 @@
       "size": 51303,
       "counters": 5,
       "entryCount": 186,
-      "groupCount": 6,
+      "groupCount": 7,
       "dataUrl": "https://erutobusiness.github.io/countstack-presets/presets/birding/preset.json",
       "tags": [
         "nature",
