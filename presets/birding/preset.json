@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "id": "birding",
+    "name": "バードウォッチング Life List",
+    "version": "1.0.0",
+    "description": "日本の野鳥観察ライフリストを生息環境別に記録するプリセット"
+  },
+  "theme": {
+    "secondary":            { "light": "#2E7D32", "dark": "#81C784" },
+    "secondaryContainer":   { "light": "#C8E6C9", "dark": "#1B5E20" },
+    "onSecondaryContainer": { "light": "#1B5E20", "dark": "#C8E6C9" },
+    "tertiary":             { "light": "#0277BD", "dark": "#4FC3F7" },
+    "tertiaryContainer":    { "light": "#B3E5FC", "dark": "#01579B" },
+    "onAccent":             { "light": "#FFFFFF", "dark": "#1A1A1A" }
+  },
+  "labels": {
+    "entries": { "ja": "野鳥", "en": "Birds" },
+    "groups":  { "ja": "探鳥コース", "en": "Birding Routes" },
+    "notes":   { "ja": "バードウォッチングガイド", "en": "Birding Guide" }
+  },
+  "counters": [
+    {
+      "id": "forest", "name": { "ja": "森林", "en": "Forest" }, "shortName": "森",
+      "max": 150, "recommended": 80, "defaultDirection": "up", "includeInTotal": true,
+      "unit": { "ja": "種", "en": "species" },
+      "milestones": [
+        { "label": { "ja": "初心者", "en": "Beginner" }, "value": 10 },
+        { "label": { "ja": "中級", "en": "Intermediate" }, "value": 30 },
+        { "label": { "ja": "上級", "en": "Advanced" }, "value": 60 },
+        { "label": { "ja": "エキスパート", "en": "Expert" }, "value": 100 }
+      ]
+    },
+    {
+      "id": "wetland", "name": { "ja": "湿地・水辺", "en": "Wetland" }, "shortName": "水",
+      "max": 120, "recommended": 60, "defaultDirection": "up", "includeInTotal": true,
+      "unit": { "ja": "種", "en": "species" },
+      "milestones": [
+        { "label": { "ja": "初心者", "en": "Beginner" }, "value": 8 },
+        { "label": { "ja": "中級", "en": "Intermediate" }, "value": 25 },
+        { "label": { "ja": "上級", "en": "Advanced" }, "value": 50 },
+        { "label": { "ja": "エキスパート", "en": "Expert" }, "value": 80 }
+      ]
+    },
+    {
+      "id": "grassland", "name": { "ja": "草地・農耕地", "en": "Grassland" }, "shortName": "草",
+      "max": 80, "recommended": 40, "defaultDirection": "up", "includeInTotal": true,
+      "unit": { "ja": "種", "en": "species" },
+      "milestones": [
+        { "label": { "ja": "初心者", "en": "Beginner" }, "value": 5 },
+        { "label": { "ja": "中級", "en": "Intermediate" }, "value": 15 },
+        { "label": { "ja": "上級", "en": "Advanced" }, "value": 30 },
+        { "label": { "ja": "エキスパート", "en": "Expert" }, "value": 50 }
+      ]
+    },
+    {
+      "id": "coastal", "name": { "ja": "海岸・干潟", "en": "Coastal" }, "shortName": "海",
+      "max": 100, "recommended": 50, "defaultDirection": "up", "includeInTotal": true,
+      "unit": { "ja": "種", "en": "species" },
+      "milestones": [
+        { "label": { "ja": "初心者", "en": "Beginner" }, "value": 8 },
+        { "label": { "ja": "中級", "en": "Intermediate" }, "value": 20 },
+        { "label": { "ja": "上級", "en": "Advanced" }, "value": 40 },
+        { "label": { "ja": "エキスパート", "en": "Expert" }, "value": 65 }
+      ]
+    },
+    {
+      "id": "urban", "name": { "ja": "市街地", "en": "Urban" }, "shortName": "街",
+      "max": 80, "recommended": 40, "defaultDirection": "up", "includeInTotal": true,
+      "unit": { "ja": "種", "en": "species" },
+      "milestones": [
+        { "label": { "ja": "初心者", "en": "Beginner" }, "value": 8 },
+        { "label": { "ja": "中級", "en": "Intermediate" }, "value": 20 },
+        { "label": { "ja": "上級", "en": "Advanced" }, "value": 35 },
+        { "label": { "ja": "エキスパート", "en": "Expert" }, "value": 55 }
+      ]
+    }
+  ],
+  "totalMax": 530,
+  "multipliers": [],
+  "multiplierStacking": "multiplicative",
+  "items": [],
+  "itemsAffectedByMultipliers": false,
+  "manualSteps": {
+    "increments": [1, 5, 10],
+    "decrements": [1]
+  },
+  "database": {
+    "entries": [
+      { "id": "japanese-green-woodpecker", "sortOrder": 1, "name": { "ja": "アオゲラ", "en": "Japanese Green Woodpecker" }, "values": { "forest": 1 }, "tags": ["piciformes", "resident", "uncommon"] },
+      { "id": "japanese-pygmy-woodpecker", "sortOrder": 2, "name": { "ja": "コゲラ", "en": "Japanese Pygmy Woodpecker" }, "values": { "forest": 1, "urban": 1 }, "tags": ["piciformes", "resident", "common"] },
+      { "id": "great-spotted-woodpecker", "sortOrder": 3, "name": { "ja": "アカゲラ", "en": "Great Spotted Woodpecker" }, "values": { "forest": 1 }, "tags": ["piciformes", "resident", "uncommon"] },
+      { "id": "white-backed-woodpecker", "sortOrder": 4, "name": { "ja": "オオアカゲラ", "en": "White-backed Woodpecker" }, "values": { "forest": 1 }, "tags": ["piciformes", "resident", "rare"] },
+      { "id": "grey-headed-woodpecker", "sortOrder": 5, "name": { "ja": "ヤマゲラ", "en": "Grey-headed Woodpecker" }, "values": { "forest": 1 }, "tags": ["piciformes", "resident", "rare"] },
+
+      { "id": "varied-tit", "sortOrder": 10, "name": { "ja": "ヤマガラ", "en": "Varied Tit" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "japanese-tit", "sortOrder": 11, "name": { "ja": "シジュウカラ", "en": "Japanese Tit" }, "values": { "forest": 1, "urban": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "coal-tit", "sortOrder": 12, "name": { "ja": "ヒガラ", "en": "Coal Tit" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "willow-tit", "sortOrder": 13, "name": { "ja": "コガラ", "en": "Willow Tit" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "uncommon"] },
+      { "id": "long-tailed-tit", "sortOrder": 14, "name": { "ja": "エナガ", "en": "Long-tailed Tit" }, "values": { "forest": 1, "urban": 1 }, "tags": ["passeriformes", "resident", "common"] },
+
+      { "id": "eurasian-nuthatch", "sortOrder": 20, "name": { "ja": "ゴジュウカラ", "en": "Eurasian Nuthatch" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "eurasian-treecreeper", "sortOrder": 21, "name": { "ja": "キバシリ", "en": "Eurasian Treecreeper" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "uncommon"] },
+
+      { "id": "japanese-white-eye", "sortOrder": 30, "name": { "ja": "メジロ", "en": "Japanese White-eye" }, "values": { "forest": 1, "urban": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "brown-eared-bulbul", "sortOrder": 31, "name": { "ja": "ヒヨドリ", "en": "Brown-eared Bulbul" }, "values": { "forest": 1, "urban": 1 }, "tags": ["passeriformes", "resident", "common"] },
+
+      { "id": "japanese-bush-warbler", "sortOrder": 40, "name": { "ja": "ウグイス", "en": "Japanese Bush Warbler" }, "values": { "forest": 1, "grassland": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "asian-stubtail", "sortOrder": 41, "name": { "ja": "ヤブサメ", "en": "Asian Stubtail" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+      { "id": "japanese-leaf-warbler", "sortOrder": 42, "name": { "ja": "センダイムシクイ", "en": "Eastern Crowned Warbler" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+      { "id": "arctic-warbler", "sortOrder": 43, "name": { "ja": "メボソムシクイ", "en": "Arctic Warbler" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+
+      { "id": "narcissus-flycatcher", "sortOrder": 50, "name": { "ja": "キビタキ", "en": "Narcissus Flycatcher" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "common"] },
+      { "id": "blue-and-white-flycatcher", "sortOrder": 51, "name": { "ja": "オオルリ", "en": "Blue-and-white Flycatcher" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "common"] },
+      { "id": "asian-brown-flycatcher", "sortOrder": 52, "name": { "ja": "コサメビタキ", "en": "Asian Brown Flycatcher" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+      { "id": "mugimaki-flycatcher", "sortOrder": 53, "name": { "ja": "ムギマキ", "en": "Mugimaki Flycatcher" }, "values": { "forest": 1 }, "tags": ["passeriformes", "passage", "rare"] },
+      { "id": "daurian-redstart", "sortOrder": 54, "name": { "ja": "ジョウビタキ", "en": "Daurian Redstart" }, "values": { "forest": 1, "urban": 1 }, "tags": ["passeriformes", "winter", "common"] },
+      { "id": "siberian-bluechat", "sortOrder": 55, "name": { "ja": "コルリ", "en": "Siberian Blue Robin" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+      { "id": "japanese-robin", "sortOrder": 56, "name": { "ja": "コマドリ", "en": "Japanese Robin" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+
+      { "id": "eurasian-jay", "sortOrder": 60, "name": { "ja": "カケス", "en": "Eurasian Jay" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "jungle-crow", "sortOrder": 61, "name": { "ja": "ハシブトガラス", "en": "Large-billed Crow" }, "values": { "urban": 1, "forest": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "carrion-crow", "sortOrder": 62, "name": { "ja": "ハシボソガラス", "en": "Carrion Crow" }, "values": { "urban": 1, "grassland": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "azure-winged-magpie", "sortOrder": 63, "name": { "ja": "オナガ", "en": "Azure-winged Magpie" }, "values": { "urban": 1, "forest": 1 }, "tags": ["passeriformes", "resident", "uncommon"] },
+
+      { "id": "eurasian-tree-sparrow", "sortOrder": 70, "name": { "ja": "スズメ", "en": "Eurasian Tree Sparrow" }, "values": { "urban": 1, "grassland": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "white-cheeked-starling", "sortOrder": 71, "name": { "ja": "ムクドリ", "en": "White-cheeked Starling" }, "values": { "urban": 1, "grassland": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "japanese-wagtail", "sortOrder": 72, "name": { "ja": "セグロセキレイ", "en": "Japanese Wagtail" }, "values": { "wetland": 1, "urban": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "white-wagtail", "sortOrder": 73, "name": { "ja": "ハクセキレイ", "en": "White Wagtail" }, "values": { "urban": 1, "wetland": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "grey-wagtail", "sortOrder": 74, "name": { "ja": "キセキレイ", "en": "Grey Wagtail" }, "values": { "wetland": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "olive-backed-pipit", "sortOrder": 75, "name": { "ja": "ビンズイ", "en": "Olive-backed Pipit" }, "values": { "forest": 1, "grassland": 1 }, "tags": ["passeriformes", "winter", "uncommon"] },
+
+      { "id": "meadow-bunting", "sortOrder": 80, "name": { "ja": "ホオジロ", "en": "Meadow Bunting" }, "values": { "grassland": 1, "forest": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "black-faced-bunting", "sortOrder": 81, "name": { "ja": "アオジ", "en": "Black-faced Bunting" }, "values": { "forest": 1, "grassland": 1 }, "tags": ["passeriformes", "winter", "common"] },
+      { "id": "rustic-bunting", "sortOrder": 82, "name": { "ja": "カシラダカ", "en": "Rustic Bunting" }, "values": { "grassland": 1, "forest": 1 }, "tags": ["passeriformes", "winter", "common"] },
+      { "id": "yellow-throated-bunting", "sortOrder": 83, "name": { "ja": "ミヤマホオジロ", "en": "Yellow-throated Bunting" }, "values": { "forest": 1 }, "tags": ["passeriformes", "winter", "uncommon"] },
+      { "id": "reed-bunting", "sortOrder": 84, "name": { "ja": "オオジュリン", "en": "Common Reed Bunting" }, "values": { "wetland": 1, "grassland": 1 }, "tags": ["passeriformes", "winter", "common"] },
+
+      { "id": "hawfinch", "sortOrder": 90, "name": { "ja": "シメ", "en": "Hawfinch" }, "values": { "forest": 1 }, "tags": ["passeriformes", "winter", "common"] },
+      { "id": "oriental-greenfinch", "sortOrder": 91, "name": { "ja": "カワラヒワ", "en": "Oriental Greenfinch" }, "values": { "grassland": 1, "urban": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "siskin", "sortOrder": 92, "name": { "ja": "マヒワ", "en": "Eurasian Siskin" }, "values": { "forest": 1 }, "tags": ["passeriformes", "winter", "common"] },
+      { "id": "long-tailed-rosefinch", "sortOrder": 93, "name": { "ja": "ベニマシコ", "en": "Long-tailed Rosefinch" }, "values": { "grassland": 1, "forest": 1 }, "tags": ["passeriformes", "winter", "uncommon"] },
+      { "id": "bullfinch", "sortOrder": 94, "name": { "ja": "ウソ", "en": "Eurasian Bullfinch" }, "values": { "forest": 1 }, "tags": ["passeriformes", "winter", "uncommon"] },
+      { "id": "japanese-grosbeak", "sortOrder": 95, "name": { "ja": "イカル", "en": "Japanese Grosbeak" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "uncommon"] },
+
+      { "id": "barn-swallow", "sortOrder": 100, "name": { "ja": "ツバメ", "en": "Barn Swallow" }, "values": { "urban": 1, "wetland": 1 }, "tags": ["passeriformes", "summer", "common"] },
+      { "id": "red-rumped-swallow", "sortOrder": 101, "name": { "ja": "コシアカツバメ", "en": "Red-rumped Swallow" }, "values": { "urban": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+      { "id": "asian-house-martin", "sortOrder": 102, "name": { "ja": "イワツバメ", "en": "Asian House Martin" }, "values": { "urban": 1, "coastal": 1 }, "tags": ["passeriformes", "summer", "common"] },
+
+      { "id": "bull-headed-shrike", "sortOrder": 110, "name": { "ja": "モズ", "en": "Bull-headed Shrike" }, "values": { "grassland": 1, "urban": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "tiger-shrike", "sortOrder": 111, "name": { "ja": "チゴモズ", "en": "Tiger Shrike" }, "values": { "grassland": 1 }, "tags": ["passeriformes", "summer", "rare"] },
+
+      { "id": "skylark", "sortOrder": 115, "name": { "ja": "ヒバリ", "en": "Eurasian Skylark" }, "values": { "grassland": 1 }, "tags": ["passeriformes", "resident", "common"] },
+
+      { "id": "japanese-waxwing", "sortOrder": 120, "name": { "ja": "ヒレンジャク", "en": "Japanese Waxwing" }, "values": { "forest": 1, "urban": 1 }, "tags": ["passeriformes", "winter", "uncommon"] },
+      { "id": "bohemian-waxwing", "sortOrder": 121, "name": { "ja": "キレンジャク", "en": "Bohemian Waxwing" }, "values": { "forest": 1, "urban": 1 }, "tags": ["passeriformes", "winter", "rare"] },
+
+      { "id": "winter-wren", "sortOrder": 125, "name": { "ja": "ミソサザイ", "en": "Eurasian Wren" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "common"] },
+      { "id": "brown-dipper", "sortOrder": 126, "name": { "ja": "カワガラス", "en": "Brown Dipper" }, "values": { "wetland": 1, "forest": 1 }, "tags": ["passeriformes", "resident", "uncommon"] },
+
+      { "id": "pale-thrush", "sortOrder": 130, "name": { "ja": "シロハラ", "en": "Pale Thrush" }, "values": { "forest": 1 }, "tags": ["passeriformes", "winter", "common"] },
+      { "id": "dusky-thrush", "sortOrder": 131, "name": { "ja": "ツグミ", "en": "Dusky Thrush" }, "values": { "grassland": 1, "urban": 1 }, "tags": ["passeriformes", "winter", "common"] },
+      { "id": "japanese-thrush", "sortOrder": 132, "name": { "ja": "クロツグミ", "en": "Japanese Thrush" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+      { "id": "brown-headed-thrush", "sortOrder": 133, "name": { "ja": "アカハラ", "en": "Brown-headed Thrush" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "common"] },
+      { "id": "white-s-ground-thrush", "sortOrder": 134, "name": { "ja": "トラツグミ", "en": "Scaly Thrush" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "uncommon"] },
+
+      { "id": "rock-dove", "sortOrder": 140, "name": { "ja": "カワラバト（ドバト）", "en": "Rock Dove" }, "values": { "urban": 1 }, "tags": ["columbiformes", "resident", "common"] },
+      { "id": "oriental-turtle-dove", "sortOrder": 141, "name": { "ja": "キジバト", "en": "Oriental Turtle Dove" }, "values": { "urban": 1, "forest": 1, "grassland": 1 }, "tags": ["columbiformes", "resident", "common"] },
+      { "id": "japanese-green-pigeon", "sortOrder": 142, "name": { "ja": "アオバト", "en": "Japanese Green Pigeon" }, "values": { "forest": 1, "coastal": 1 }, "tags": ["columbiformes", "resident", "uncommon"] },
+
+      { "id": "common-cuckoo", "sortOrder": 150, "name": { "ja": "カッコウ", "en": "Common Cuckoo" }, "values": { "forest": 1, "grassland": 1 }, "tags": ["cuculiformes", "summer", "common"] },
+      { "id": "lesser-cuckoo", "sortOrder": 151, "name": { "ja": "ホトトギス", "en": "Lesser Cuckoo" }, "values": { "forest": 1 }, "tags": ["cuculiformes", "summer", "common"] },
+
+      { "id": "common-kingfisher", "sortOrder": 160, "name": { "ja": "カワセミ", "en": "Common Kingfisher" }, "values": { "wetland": 1, "urban": 1 }, "tags": ["coraciiformes", "resident", "common"] },
+      { "id": "crested-kingfisher", "sortOrder": 161, "name": { "ja": "ヤマセミ", "en": "Crested Kingfisher" }, "values": { "wetland": 1 }, "tags": ["coraciiformes", "resident", "rare"] },
+
+      { "id": "little-egret", "sortOrder": 200, "name": { "ja": "コサギ", "en": "Little Egret" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["pelecaniformes", "resident", "common"] },
+      { "id": "great-egret", "sortOrder": 201, "name": { "ja": "ダイサギ", "en": "Great Egret" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["pelecaniformes", "summer", "common"] },
+      { "id": "intermediate-egret", "sortOrder": 202, "name": { "ja": "チュウサギ", "en": "Intermediate Egret" }, "values": { "wetland": 1, "grassland": 1 }, "tags": ["pelecaniformes", "summer", "uncommon"] },
+      { "id": "cattle-egret", "sortOrder": 203, "name": { "ja": "アマサギ", "en": "Cattle Egret" }, "values": { "grassland": 1, "wetland": 1 }, "tags": ["pelecaniformes", "summer", "uncommon"] },
+      { "id": "grey-heron", "sortOrder": 204, "name": { "ja": "アオサギ", "en": "Grey Heron" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["pelecaniformes", "resident", "common"] },
+      { "id": "black-crowned-night-heron", "sortOrder": 205, "name": { "ja": "ゴイサギ", "en": "Black-crowned Night Heron" }, "values": { "wetland": 1 }, "tags": ["pelecaniformes", "resident", "common"] },
+      { "id": "striated-heron", "sortOrder": 206, "name": { "ja": "ササゴイ", "en": "Striated Heron" }, "values": { "wetland": 1 }, "tags": ["pelecaniformes", "summer", "uncommon"] },
+      { "id": "eurasian-bittern", "sortOrder": 207, "name": { "ja": "サンカノゴイ", "en": "Eurasian Bittern" }, "values": { "wetland": 1 }, "tags": ["pelecaniformes", "winter", "rare"] },
+
+      { "id": "great-cormorant", "sortOrder": 210, "name": { "ja": "カワウ", "en": "Great Cormorant" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["suliformes", "resident", "common"] },
+      { "id": "japanese-cormorant", "sortOrder": 211, "name": { "ja": "ウミウ", "en": "Japanese Cormorant" }, "values": { "coastal": 1 }, "tags": ["suliformes", "resident", "uncommon"] },
+
+      { "id": "spot-billed-duck", "sortOrder": 220, "name": { "ja": "カルガモ", "en": "Eastern Spot-billed Duck" }, "values": { "wetland": 1, "urban": 1 }, "tags": ["anseriformes", "resident", "common"] },
+      { "id": "mallard", "sortOrder": 221, "name": { "ja": "マガモ", "en": "Mallard" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "common"] },
+      { "id": "common-teal", "sortOrder": 222, "name": { "ja": "コガモ", "en": "Common Teal" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "common"] },
+      { "id": "wigeon", "sortOrder": 223, "name": { "ja": "ヒドリガモ", "en": "Eurasian Wigeon" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["anseriformes", "winter", "common"] },
+      { "id": "northern-pintail", "sortOrder": 224, "name": { "ja": "オナガガモ", "en": "Northern Pintail" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "common"] },
+      { "id": "northern-shoveler", "sortOrder": 225, "name": { "ja": "ハシビロガモ", "en": "Northern Shoveler" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "common"] },
+      { "id": "gadwall", "sortOrder": 226, "name": { "ja": "オカヨシガモ", "en": "Gadwall" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "uncommon"] },
+      { "id": "tufted-duck", "sortOrder": 227, "name": { "ja": "キンクロハジロ", "en": "Tufted Duck" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "common"] },
+      { "id": "common-pochard", "sortOrder": 228, "name": { "ja": "ホシハジロ", "en": "Common Pochard" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "common"] },
+      { "id": "common-goldeneye", "sortOrder": 229, "name": { "ja": "ホオジロガモ", "en": "Common Goldeneye" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["anseriformes", "winter", "uncommon"] },
+      { "id": "smew", "sortOrder": 230, "name": { "ja": "ミコアイサ", "en": "Smew" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "uncommon"] },
+      { "id": "common-merganser", "sortOrder": 231, "name": { "ja": "カワアイサ", "en": "Common Merganser" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "uncommon"] },
+      { "id": "mandarin-duck", "sortOrder": 232, "name": { "ja": "オシドリ", "en": "Mandarin Duck" }, "values": { "wetland": 1, "forest": 1 }, "tags": ["anseriformes", "resident", "uncommon"] },
+      { "id": "greater-white-fronted-goose", "sortOrder": 235, "name": { "ja": "マガン", "en": "Greater White-fronted Goose" }, "values": { "wetland": 1, "grassland": 1 }, "tags": ["anseriformes", "winter", "uncommon"] },
+      { "id": "whooper-swan", "sortOrder": 236, "name": { "ja": "オオハクチョウ", "en": "Whooper Swan" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "uncommon"] },
+      { "id": "tundra-swan", "sortOrder": 237, "name": { "ja": "コハクチョウ", "en": "Tundra Swan" }, "values": { "wetland": 1 }, "tags": ["anseriformes", "winter", "uncommon"] },
+
+      { "id": "little-grebe", "sortOrder": 240, "name": { "ja": "カイツブリ", "en": "Little Grebe" }, "values": { "wetland": 1 }, "tags": ["podicipediformes", "resident", "common"] },
+      { "id": "great-crested-grebe", "sortOrder": 241, "name": { "ja": "カンムリカイツブリ", "en": "Great Crested Grebe" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["podicipediformes", "winter", "uncommon"] },
+
+      { "id": "common-moorhen", "sortOrder": 250, "name": { "ja": "バン", "en": "Common Moorhen" }, "values": { "wetland": 1 }, "tags": ["gruiformes", "resident", "common"] },
+      { "id": "eurasian-coot", "sortOrder": 251, "name": { "ja": "オオバン", "en": "Eurasian Coot" }, "values": { "wetland": 1 }, "tags": ["gruiformes", "winter", "common"] },
+      { "id": "white-breasted-waterhen", "sortOrder": 252, "name": { "ja": "シロハラクイナ", "en": "White-breasted Waterhen" }, "values": { "wetland": 1 }, "tags": ["gruiformes", "resident", "rare"] },
+
+      { "id": "common-snipe", "sortOrder": 260, "name": { "ja": "タシギ", "en": "Common Snipe" }, "values": { "wetland": 1, "grassland": 1 }, "tags": ["charadriiformes", "winter", "common"] },
+      { "id": "little-ringed-plover", "sortOrder": 261, "name": { "ja": "コチドリ", "en": "Little Ringed Plover" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["charadriiformes", "summer", "common"] },
+      { "id": "kentish-plover", "sortOrder": 262, "name": { "ja": "シロチドリ", "en": "Kentish Plover" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "resident", "common"] },
+      { "id": "grey-plover", "sortOrder": 263, "name": { "ja": "ダイゼン", "en": "Grey Plover" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+      { "id": "pacific-golden-plover", "sortOrder": 264, "name": { "ja": "ムナグロ", "en": "Pacific Golden Plover" }, "values": { "coastal": 1, "grassland": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+      { "id": "dunlin", "sortOrder": 265, "name": { "ja": "ハマシギ", "en": "Dunlin" }, "values": { "coastal": 1, "wetland": 1 }, "tags": ["charadriiformes", "winter", "common"] },
+      { "id": "common-sandpiper", "sortOrder": 266, "name": { "ja": "イソシギ", "en": "Common Sandpiper" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["charadriiformes", "resident", "common"] },
+      { "id": "green-sandpiper", "sortOrder": 267, "name": { "ja": "クサシギ", "en": "Green Sandpiper" }, "values": { "wetland": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+      { "id": "wood-sandpiper", "sortOrder": 268, "name": { "ja": "タカブシギ", "en": "Wood Sandpiper" }, "values": { "wetland": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+      { "id": "greenshank", "sortOrder": 269, "name": { "ja": "アオアシシギ", "en": "Common Greenshank" }, "values": { "coastal": 1, "wetland": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+      { "id": "whimbrel", "sortOrder": 270, "name": { "ja": "チュウシャクシギ", "en": "Whimbrel" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+      { "id": "far-eastern-curlew", "sortOrder": 271, "name": { "ja": "ホウロクシギ", "en": "Far Eastern Curlew" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "passage", "rare"] },
+      { "id": "ruddy-turnstone", "sortOrder": 272, "name": { "ja": "キョウジョシギ", "en": "Ruddy Turnstone" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+      { "id": "red-necked-stint", "sortOrder": 273, "name": { "ja": "トウネン", "en": "Red-necked Stint" }, "values": { "coastal": 1, "wetland": 1 }, "tags": ["charadriiformes", "passage", "common"] },
+      { "id": "sanderling", "sortOrder": 274, "name": { "ja": "ミユビシギ", "en": "Sanderling" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+      { "id": "northern-lapwing", "sortOrder": 275, "name": { "ja": "タゲリ", "en": "Northern Lapwing" }, "values": { "grassland": 1, "wetland": 1 }, "tags": ["charadriiformes", "winter", "uncommon"] },
+
+      { "id": "black-tailed-gull", "sortOrder": 280, "name": { "ja": "ウミネコ", "en": "Black-tailed Gull" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "resident", "common"] },
+      { "id": "vega-gull", "sortOrder": 281, "name": { "ja": "セグロカモメ", "en": "Vega Gull" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "winter", "common"] },
+      { "id": "black-headed-gull", "sortOrder": 282, "name": { "ja": "ユリカモメ", "en": "Black-headed Gull" }, "values": { "coastal": 1, "wetland": 1 }, "tags": ["charadriiformes", "winter", "common"] },
+      { "id": "common-tern", "sortOrder": 283, "name": { "ja": "アジサシ", "en": "Common Tern" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "summer", "uncommon"] },
+      { "id": "little-tern", "sortOrder": 284, "name": { "ja": "コアジサシ", "en": "Little Tern" }, "values": { "coastal": 1, "wetland": 1 }, "tags": ["charadriiformes", "summer", "uncommon"] },
+
+      { "id": "osprey", "sortOrder": 300, "name": { "ja": "ミサゴ", "en": "Osprey" }, "values": { "coastal": 1, "wetland": 1 }, "tags": ["accipitriformes", "resident", "uncommon"] },
+      { "id": "black-kite", "sortOrder": 301, "name": { "ja": "トビ", "en": "Black Kite" }, "values": { "urban": 1, "coastal": 1, "grassland": 1 }, "tags": ["accipitriformes", "resident", "common"] },
+      { "id": "northern-goshawk", "sortOrder": 302, "name": { "ja": "オオタカ", "en": "Northern Goshawk" }, "values": { "forest": 1, "urban": 1 }, "tags": ["accipitriformes", "resident", "uncommon"] },
+      { "id": "eurasian-sparrowhawk", "sortOrder": 303, "name": { "ja": "ハイタカ", "en": "Eurasian Sparrowhawk" }, "values": { "forest": 1 }, "tags": ["accipitriformes", "resident", "uncommon"] },
+      { "id": "grey-faced-buzzard", "sortOrder": 304, "name": { "ja": "サシバ", "en": "Grey-faced Buzzard" }, "values": { "forest": 1, "grassland": 1 }, "tags": ["accipitriformes", "summer", "uncommon"] },
+      { "id": "eastern-buzzard", "sortOrder": 305, "name": { "ja": "ノスリ", "en": "Eastern Buzzard" }, "values": { "grassland": 1, "forest": 1 }, "tags": ["accipitriformes", "winter", "common"] },
+      { "id": "mountain-hawk-eagle", "sortOrder": 306, "name": { "ja": "クマタカ", "en": "Mountain Hawk-Eagle" }, "values": { "forest": 1 }, "tags": ["accipitriformes", "resident", "rare"] },
+      { "id": "white-tailed-eagle", "sortOrder": 307, "name": { "ja": "オジロワシ", "en": "White-tailed Eagle" }, "values": { "coastal": 1, "wetland": 1 }, "tags": ["accipitriformes", "winter", "rare"] },
+      { "id": "stellers-sea-eagle", "sortOrder": 308, "name": { "ja": "オオワシ", "en": "Steller's Sea Eagle" }, "values": { "coastal": 1 }, "tags": ["accipitriformes", "winter", "rare"] },
+
+      { "id": "common-kestrel", "sortOrder": 310, "name": { "ja": "チョウゲンボウ", "en": "Common Kestrel" }, "values": { "grassland": 1, "urban": 1 }, "tags": ["falconiformes", "winter", "uncommon"] },
+      { "id": "peregrine-falcon", "sortOrder": 311, "name": { "ja": "ハヤブサ", "en": "Peregrine Falcon" }, "values": { "coastal": 1, "urban": 1 }, "tags": ["falconiformes", "resident", "rare"] },
+
+      { "id": "ural-owl", "sortOrder": 320, "name": { "ja": "フクロウ", "en": "Ural Owl" }, "values": { "forest": 1 }, "tags": ["strigiformes", "resident", "uncommon"] },
+      { "id": "collared-scops-owl", "sortOrder": 321, "name": { "ja": "オオコノハズク", "en": "Japanese Scops Owl" }, "values": { "forest": 1 }, "tags": ["strigiformes", "resident", "rare"] },
+      { "id": "brown-hawk-owl", "sortOrder": 322, "name": { "ja": "アオバズク", "en": "Brown Hawk-Owl" }, "values": { "forest": 1, "urban": 1 }, "tags": ["strigiformes", "summer", "uncommon"] },
+      { "id": "short-eared-owl", "sortOrder": 323, "name": { "ja": "コミミズク", "en": "Short-eared Owl" }, "values": { "grassland": 1 }, "tags": ["strigiformes", "winter", "rare"] },
+
+      { "id": "green-pheasant", "sortOrder": 330, "name": { "ja": "キジ", "en": "Green Pheasant" }, "values": { "grassland": 1, "forest": 1 }, "tags": ["galliformes", "resident", "common"] },
+      { "id": "japanese-quail", "sortOrder": 331, "name": { "ja": "ウズラ", "en": "Japanese Quail" }, "values": { "grassland": 1 }, "tags": ["galliformes", "resident", "rare"] },
+      { "id": "copper-pheasant", "sortOrder": 332, "name": { "ja": "ヤマドリ", "en": "Copper Pheasant" }, "values": { "forest": 1 }, "tags": ["galliformes", "resident", "rare"] },
+
+      { "id": "japanese-pygmy-woodpecker-sp", "sortOrder": 335, "name": { "ja": "アリスイ", "en": "Eurasian Wryneck" }, "values": { "forest": 1, "grassland": 1 }, "tags": ["piciformes", "summer", "uncommon"] },
+
+      { "id": "great-tit", "sortOrder": 340, "name": { "ja": "シジュウカラ（亜種）", "en": "Great Tit" }, "values": { "forest": 1, "urban": 1 }, "tags": ["passeriformes", "resident", "common"] },
+
+      { "id": "rufous-faced-warbler", "sortOrder": 345, "name": { "ja": "ガビチョウ", "en": "Chinese Hwamei" }, "values": { "forest": 1, "urban": 1 }, "tags": ["passeriformes", "resident", "uncommon"] },
+      { "id": "red-billed-leiothrix", "sortOrder": 346, "name": { "ja": "ソウシチョウ", "en": "Red-billed Leiothrix" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "uncommon"] },
+
+      { "id": "little-ringed-plover-2", "sortOrder": 350, "name": { "ja": "タヒバリ", "en": "Water Pipit" }, "values": { "grassland": 1, "wetland": 1 }, "tags": ["passeriformes", "winter", "common"] },
+
+      { "id": "brambling", "sortOrder": 355, "name": { "ja": "アトリ", "en": "Brambling" }, "values": { "forest": 1, "grassland": 1 }, "tags": ["passeriformes", "winter", "common"] },
+      { "id": "common-crossbill", "sortOrder": 356, "name": { "ja": "イスカ", "en": "Red Crossbill" }, "values": { "forest": 1 }, "tags": ["passeriformes", "winter", "rare"] },
+
+      { "id": "goldcrest", "sortOrder": 360, "name": { "ja": "キクイタダキ", "en": "Goldcrest" }, "values": { "forest": 1 }, "tags": ["passeriformes", "winter", "common"] },
+
+      { "id": "grey-bunting", "sortOrder": 365, "name": { "ja": "クロジ", "en": "Grey Bunting" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+
+      { "id": "white-bellied-green-pigeon", "sortOrder": 370, "name": { "ja": "ズアカアオバト", "en": "Whistling Green Pigeon" }, "values": { "forest": 1 }, "tags": ["columbiformes", "resident", "rare"] },
+
+      { "id": "grey-starling", "sortOrder": 375, "name": { "ja": "コムクドリ", "en": "Chestnut-cheeked Starling" }, "values": { "forest": 1, "urban": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+
+      { "id": "japanese-accentor", "sortOrder": 380, "name": { "ja": "カヤクグリ", "en": "Japanese Accentor" }, "values": { "forest": 1 }, "tags": ["passeriformes", "winter", "uncommon"] },
+
+      { "id": "great-spotted-cuckoo", "sortOrder": 385, "name": { "ja": "ジュウイチ", "en": "Hodgson's Hawk-Cuckoo" }, "values": { "forest": 1 }, "tags": ["cuculiformes", "summer", "uncommon"] },
+      { "id": "indian-cuckoo", "sortOrder": 386, "name": { "ja": "ツツドリ", "en": "Indian Cuckoo" }, "values": { "forest": 1 }, "tags": ["cuculiformes", "summer", "uncommon"] },
+
+      { "id": "common-swift", "sortOrder": 390, "name": { "ja": "アマツバメ", "en": "Pacific Swift" }, "values": { "urban": 1, "coastal": 1 }, "tags": ["apodiformes", "summer", "common"] },
+      { "id": "needle-tailed-swift", "sortOrder": 391, "name": { "ja": "ハリオアマツバメ", "en": "White-throated Needletail" }, "values": { "forest": 1 }, "tags": ["apodiformes", "summer", "uncommon"] },
+
+      { "id": "crested-ibis-note", "sortOrder": 395, "name": { "ja": "サンコウチョウ", "en": "Japanese Paradise Flycatcher" }, "values": { "forest": 1 }, "tags": ["passeriformes", "summer", "uncommon"] },
+
+      { "id": "brown-shrike", "sortOrder": 400, "name": { "ja": "アカモズ", "en": "Brown Shrike" }, "values": { "grassland": 1 }, "tags": ["passeriformes", "summer", "rare"] },
+
+      { "id": "black-faced-spoonbill", "sortOrder": 405, "name": { "ja": "クロツラヘラサギ", "en": "Black-faced Spoonbill" }, "values": { "coastal": 1, "wetland": 1 }, "tags": ["pelecaniformes", "winter", "rare"] },
+
+      { "id": "hooded-crane", "sortOrder": 410, "name": { "ja": "ナベヅル", "en": "Hooded Crane" }, "values": { "wetland": 1, "grassland": 1 }, "tags": ["gruiformes", "winter", "rare"] },
+      { "id": "white-naped-crane", "sortOrder": 411, "name": { "ja": "マナヅル", "en": "White-naped Crane" }, "values": { "wetland": 1, "grassland": 1 }, "tags": ["gruiformes", "winter", "rare"] },
+
+      { "id": "dollarbird", "sortOrder": 415, "name": { "ja": "ブッポウソウ", "en": "Dollarbird" }, "values": { "forest": 1 }, "tags": ["coraciiformes", "summer", "rare"] },
+
+      { "id": "grey-nightjar", "sortOrder": 420, "name": { "ja": "ヨタカ", "en": "Grey Nightjar" }, "values": { "forest": 1 }, "tags": ["caprimulgiformes", "summer", "uncommon"] },
+
+      { "id": "eurasian-hobby", "sortOrder": 425, "name": { "ja": "チゴハヤブサ", "en": "Eurasian Hobby" }, "values": { "grassland": 1, "wetland": 1 }, "tags": ["falconiformes", "summer", "rare"] },
+
+      { "id": "marsh-harrier", "sortOrder": 430, "name": { "ja": "チュウヒ", "en": "Eastern Marsh Harrier" }, "values": { "wetland": 1, "grassland": 1 }, "tags": ["accipitriformes", "winter", "uncommon"] },
+      { "id": "hen-harrier", "sortOrder": 431, "name": { "ja": "ハイイロチュウヒ", "en": "Hen Harrier" }, "values": { "grassland": 1, "wetland": 1 }, "tags": ["accipitriformes", "winter", "rare"] },
+
+      { "id": "long-tailed-tit-subspecies", "sortOrder": 435, "name": { "ja": "シマエナガ", "en": "Long-tailed Tit (Hokkaido)" }, "values": { "forest": 1 }, "tags": ["passeriformes", "resident", "uncommon"] },
+
+      { "id": "varied-tit-subspecies", "sortOrder": 440, "name": { "ja": "ルリビタキ", "en": "Red-flanked Bluetail" }, "values": { "forest": 1 }, "tags": ["passeriformes", "winter", "common"] },
+
+      { "id": "japanese-woodpigeon", "sortOrder": 445, "name": { "ja": "カラスバト", "en": "Japanese Wood Pigeon" }, "values": { "forest": 1, "coastal": 1 }, "tags": ["columbiformes", "resident", "rare"] },
+
+      { "id": "eurasian-oystercatcher", "sortOrder": 450, "name": { "ja": "ミヤコドリ", "en": "Eurasian Oystercatcher" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "winter", "uncommon"] },
+
+      { "id": "ringed-plover", "sortOrder": 455, "name": { "ja": "ハジロコチドリ", "en": "Common Ringed Plover" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "passage", "rare"] },
+
+      { "id": "black-winged-stilt", "sortOrder": 460, "name": { "ja": "セイタカシギ", "en": "Black-winged Stilt" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+
+      { "id": "spotted-redshank", "sortOrder": 465, "name": { "ja": "ツルシギ", "en": "Spotted Redshank" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+      { "id": "common-redshank", "sortOrder": 466, "name": { "ja": "アカアシシギ", "en": "Common Redshank" }, "values": { "wetland": 1, "coastal": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+
+      { "id": "terek-sandpiper", "sortOrder": 470, "name": { "ja": "ソリハシシギ", "en": "Terek Sandpiper" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+
+      { "id": "curlew-sandpiper", "sortOrder": 475, "name": { "ja": "サルハマシギ", "en": "Curlew Sandpiper" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "passage", "rare"] },
+
+      { "id": "bar-tailed-godwit", "sortOrder": 480, "name": { "ja": "オオソリハシシギ", "en": "Bar-tailed Godwit" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+      { "id": "black-tailed-godwit", "sortOrder": 481, "name": { "ja": "オグロシギ", "en": "Black-tailed Godwit" }, "values": { "coastal": 1, "wetland": 1 }, "tags": ["charadriiformes", "passage", "uncommon"] },
+
+      { "id": "little-stint", "sortOrder": 485, "name": { "ja": "ヨーロッパトウネン", "en": "Little Stint" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "passage", "rare"] },
+
+      { "id": "roseate-tern", "sortOrder": 490, "name": { "ja": "ベニアジサシ", "en": "Roseate Tern" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "summer", "rare"] },
+
+      { "id": "slaty-backed-gull", "sortOrder": 495, "name": { "ja": "オオセグロカモメ", "en": "Slaty-backed Gull" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "winter", "common"] },
+      { "id": "glaucous-winged-gull", "sortOrder": 496, "name": { "ja": "ワシカモメ", "en": "Glaucous-winged Gull" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "winter", "uncommon"] },
+
+      { "id": "ancient-murrelet", "sortOrder": 500, "name": { "ja": "カンムリウミスズメ", "en": "Japanese Murrelet" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "resident", "rare"] },
+      { "id": "rhinoceros-auklet", "sortOrder": 501, "name": { "ja": "ウトウ", "en": "Rhinoceros Auklet" }, "values": { "coastal": 1 }, "tags": ["charadriiformes", "summer", "uncommon"] },
+
+      { "id": "streaked-shearwater", "sortOrder": 505, "name": { "ja": "オオミズナギドリ", "en": "Streaked Shearwater" }, "values": { "coastal": 1 }, "tags": ["procellariiformes", "summer", "uncommon"] },
+
+      { "id": "greater-painted-snipe", "sortOrder": 510, "name": { "ja": "タマシギ", "en": "Greater Painted-snipe" }, "values": { "wetland": 1, "grassland": 1 }, "tags": ["charadriiformes", "summer", "rare"] },
+
+      { "id": "pheasant-tailed-jacana", "sortOrder": 515, "name": { "ja": "レンカク", "en": "Pheasant-tailed Jacana" }, "values": { "wetland": 1 }, "tags": ["charadriiformes", "passage", "rare"] },
+
+      { "id": "ruddy-crake", "sortOrder": 520, "name": { "ja": "ヒクイナ", "en": "Ruddy-breasted Crake" }, "values": { "wetland": 1 }, "tags": ["gruiformes", "summer", "rare"] }
+    ],
+    "groups": [
+      {
+        "id": "city-park",
+        "name": { "ja": "都市公園", "en": "City Park" },
+        "location": { "ja": "市街地の公園", "en": "Urban Park" },
+        "members": [
+          { "name": { "ja": "シジュウカラ", "en": "Japanese Tit" },        "level": 1, "values": { "forest": 1, "urban": 1 } },
+          { "name": { "ja": "メジロ", "en": "Japanese White-eye" },       "level": 1, "values": { "forest": 1, "urban": 1 } },
+          { "name": { "ja": "ヒヨドリ", "en": "Brown-eared Bulbul" },     "level": 1, "values": { "forest": 1, "urban": 1 } },
+          { "name": { "ja": "スズメ", "en": "Eurasian Tree Sparrow" },    "level": 1, "values": { "urban": 1, "grassland": 1 } },
+          { "name": { "ja": "ハシブトガラス", "en": "Large-billed Crow" },"level": 1, "values": { "urban": 1, "forest": 1 } },
+          { "name": { "ja": "キジバト", "en": "Oriental Turtle Dove" },   "level": 1, "values": { "urban": 1, "forest": 1, "grassland": 1 } }
+        ],
+        "totalValues": { "forest": 5, "urban": 6, "grassland": 2 },
+        "rematchable": true
+      },
+      {
+        "id": "riverside",
+        "name": { "ja": "河川敷", "en": "Riverside" },
+        "location": { "ja": "河川・水辺", "en": "River Area" },
+        "members": [
+          { "name": { "ja": "カワセミ", "en": "Common Kingfisher" },    "level": 1, "values": { "wetland": 1, "urban": 1 } },
+          { "name": { "ja": "セグロセキレイ", "en": "Japanese Wagtail" },"level": 1, "values": { "wetland": 1, "urban": 1 } },
+          { "name": { "ja": "ハクセキレイ", "en": "White Wagtail" },    "level": 1, "values": { "urban": 1, "wetland": 1 } },
+          { "name": { "ja": "イソシギ", "en": "Common Sandpiper" },     "level": 1, "values": { "wetland": 1, "coastal": 1 } },
+          { "name": { "ja": "カルガモ", "en": "Spot-billed Duck" },     "level": 1, "values": { "wetland": 1, "urban": 1 } }
+        ],
+        "totalValues": { "wetland": 5, "urban": 4, "coastal": 1 },
+        "rematchable": true
+      },
+      {
+        "id": "mountain-trail",
+        "name": { "ja": "山道", "en": "Mountain Trail" },
+        "location": { "ja": "山地・森林", "en": "Mountain Forest" },
+        "members": [
+          { "name": { "ja": "キビタキ", "en": "Narcissus Flycatcher" },       "level": 1, "values": { "forest": 1 } },
+          { "name": { "ja": "オオルリ", "en": "Blue-and-white Flycatcher" },  "level": 1, "values": { "forest": 1 } },
+          { "name": { "ja": "ヤマガラ", "en": "Varied Tit" },                "level": 1, "values": { "forest": 1 } },
+          { "name": { "ja": "コゲラ", "en": "Japanese Pygmy Woodpecker" },   "level": 1, "values": { "forest": 1, "urban": 1 } },
+          { "name": { "ja": "ミソサザイ", "en": "Eurasian Wren" },            "level": 1, "values": { "forest": 1 } }
+        ],
+        "totalValues": { "forest": 5, "urban": 1 },
+        "rematchable": true
+      },
+      {
+        "id": "tidal-flat",
+        "name": { "ja": "干潟", "en": "Tidal Flat" },
+        "location": { "ja": "海岸・干潟", "en": "Coastal Mudflat" },
+        "members": [
+          { "name": { "ja": "ハマシギ", "en": "Dunlin" },                 "level": 1, "values": { "coastal": 1, "wetland": 1 } },
+          { "name": { "ja": "シロチドリ", "en": "Kentish Plover" },       "level": 1, "values": { "coastal": 1 } },
+          { "name": { "ja": "ウミネコ", "en": "Black-tailed Gull" },     "level": 1, "values": { "coastal": 1 } },
+          { "name": { "ja": "コサギ", "en": "Little Egret" },            "level": 1, "values": { "wetland": 1, "coastal": 1 } },
+          { "name": { "ja": "アオサギ", "en": "Grey Heron" },            "level": 1, "values": { "wetland": 1, "coastal": 1 } },
+          { "name": { "ja": "ミサゴ", "en": "Osprey" },                  "level": 1, "values": { "coastal": 1, "wetland": 1 } }
+        ],
+        "totalValues": { "coastal": 6, "wetland": 4 },
+        "rematchable": true
+      },
+      {
+        "id": "rice-paddy",
+        "name": { "ja": "田んぼ", "en": "Rice Paddy" },
+        "location": { "ja": "農耕地", "en": "Farmland" },
+        "members": [
+          { "name": { "ja": "ヒバリ", "en": "Eurasian Skylark" },         "level": 1, "values": { "grassland": 1 } },
+          { "name": { "ja": "モズ", "en": "Bull-headed Shrike" },        "level": 1, "values": { "grassland": 1, "urban": 1 } },
+          { "name": { "ja": "ツグミ", "en": "Dusky Thrush" },            "level": 1, "values": { "grassland": 1, "urban": 1 } },
+          { "name": { "ja": "ダイサギ", "en": "Great Egret" },           "level": 1, "values": { "wetland": 1, "coastal": 1 } },
+          { "name": { "ja": "タシギ", "en": "Common Snipe" },            "level": 1, "values": { "wetland": 1, "grassland": 1 } }
+        ],
+        "totalValues": { "grassland": 4, "urban": 2, "wetland": 2, "coastal": 1 },
+        "rematchable": true
+      },
+      {
+        "id": "lake",
+        "name": { "ja": "湖", "en": "Lake" },
+        "location": { "ja": "湖沼", "en": "Lake Area" },
+        "members": [
+          { "name": { "ja": "カイツブリ", "en": "Little Grebe" },        "level": 1, "values": { "wetland": 1 } },
+          { "name": { "ja": "オオバン", "en": "Eurasian Coot" },         "level": 1, "values": { "wetland": 1 } },
+          { "name": { "ja": "マガモ", "en": "Mallard" },                 "level": 1, "values": { "wetland": 1 } },
+          { "name": { "ja": "コガモ", "en": "Common Teal" },            "level": 1, "values": { "wetland": 1 } },
+          { "name": { "ja": "キンクロハジロ", "en": "Tufted Duck" },     "level": 1, "values": { "wetland": 1 } },
+          { "name": { "ja": "カワウ", "en": "Great Cormorant" },        "level": 1, "values": { "wetland": 1, "coastal": 1 } }
+        ],
+        "totalValues": { "wetland": 6, "coastal": 1 },
+        "rematchable": true
+      }
+    ]
+  },
+  "notes": [
+    {
+      "text": {
+        "ja": "## 双眼鏡の使い方\n\n- 初心者には **8倍** が最適（8x32 や 8x42）\n- まず肉眼で鳥を見つけてから、視線を動かさずに双眼鏡を目に持っていく\n- ピント合わせはゆっくり回す。素早く回すと見失いやすい\n- レンズの汚れはブロアーで吹き飛ばし、レンズペンで拭く",
+        "en": "## Binocular Tips\n\n- **8x magnification** is ideal for beginners (8x32 or 8x42)\n- First locate the bird with your naked eye, then bring binoculars up without moving your gaze\n- Adjust focus slowly — fast turns make it easy to lose the bird\n- Clean lenses with a blower first, then a lens pen"
+      },
+      "url": "https://www.wbsj.org/activity/spread-and-education/birding-guide/"
+    },
+    {
+      "text": {
+        "ja": "## 観察のベストシーズン\n\n- **春（3〜5月）**: 夏鳥の渡来、シギチドリの春の渡り\n- **夏（6〜8月）**: 繁殖期、さえずりが最も活発\n- **秋（9〜11月）**: シギチドリの秋の渡り、冬鳥の渡来\n- **冬（12〜2月）**: カモ類が最も多い、猛禽類も観察しやすい\n- 年間を通じて楽しめるが、**早朝**（日の出〜午前中）が最も活発",
+        "en": "## Best Observation Seasons\n\n- **Spring (Mar–May)**: Summer visitors arrive, shorebird spring migration\n- **Summer (Jun–Aug)**: Breeding season, most active singing\n- **Autumn (Sep–Nov)**: Shorebird autumn migration, winter visitors arrive\n- **Winter (Dec–Feb)**: Most ducks present, raptors easier to spot\n- Birding is year-round, but **early morning** (sunrise to noon) is most active"
+      }
+    },
+    {
+      "text": {
+        "ja": "## 早朝の観察テクニック\n\n- 日の出前に現地に到着するのが理想的\n- **静かに移動**し、鳥の警戒を避ける\n- 地味な色の服装を着用（迷彩柄は不要、グレーやカーキでOK）\n- 同じ場所に **15〜20分** じっと待つと、鳥が慣れて近くに来る\n- 鳴き声で種類を判別できると、観察効率が大幅にアップ",
+        "en": "## Morning Observation Tips\n\n- Arrive at the site before sunrise ideally\n- **Move quietly** to avoid alarming birds\n- Wear muted colors (camouflage is unnecessary — grey or khaki works)\n- Stay still in one spot for **15–20 minutes** and birds will come closer\n- Learning bird calls greatly improves identification efficiency"
+      }
+    },
+    {
+      "text": {
+        "ja": "## フィールドノートの取り方\n\n記録すべき項目:\n1. **日時・天候・気温**\n2. **場所**（GPS座標があると便利）\n3. **種名・個体数**\n4. **行動**（採餌、さえずり、飛翔方向など）\n5. **特徴**（不明種のスケッチや色のメモ）\n\nスマートフォンの野鳥記録アプリ（eBird等）を併用すると、データの蓄積と共有が容易",
+        "en": "## Field Notes Guide\n\nKey items to record:\n1. **Date, time, weather, temperature**\n2. **Location** (GPS coordinates are helpful)\n3. **Species name and count**\n4. **Behavior** (feeding, singing, flight direction, etc.)\n5. **Features** (sketch or color notes for unidentified birds)\n\nUse a bird recording app (e.g., eBird) alongside to easily accumulate and share data"
+      },
+      "url": "https://ebird.org/"
+    },
+    {
+      "text": {
+        "ja": "## バードウォッチングのマナー\n\n- **巣に近づかない** — 繁殖期は特に注意。親鳥が巣を放棄する原因になる\n- **録音した鳴き声の再生は控えめに** — 鳥にストレスを与える\n- **私有地に無断で立ち入らない**\n- **ゴミは必ず持ち帰る**\n- **他の観察者への配慮** — 大声を出さない、観察の邪魔をしない\n- 希少種の営巣場所をSNSに公開しない",
+        "en": "## Birding Etiquette\n\n- **Don't approach nests** — especially during breeding season, as it can cause nest abandonment\n- **Limit playback of recorded calls** — it stresses birds\n- **Don't trespass on private property**\n- **Take all trash with you**\n- **Be considerate of other birders** — keep quiet, don't block others' views\n- Don't share rare nesting locations on social media"
+      }
+    }
+  ]
+}

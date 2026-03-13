@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "id": "jlpt",
+    "name": "JLPT Study Tracker",
+    "version": "1.0.0",
+    "description": "Track study progress for the Japanese Language Proficiency Test"
+  },
+  "theme": {
+    "secondary":            { "light": "#AD1457", "dark": "#F48FB1" },
+    "secondaryContainer":   { "light": "#F8BBD0", "dark": "#880E4F" },
+    "onSecondaryContainer": { "light": "#880E4F", "dark": "#F8BBD0" },
+    "tertiary":             { "light": "#283593", "dark": "#9FA8DA" },
+    "tertiaryContainer":    { "light": "#C5CAE9", "dark": "#1A237E" },
+    "onAccent":             { "light": "#FFFFFF", "dark": "#1A1A1A" }
+  },
+  "labels": {
+    "entries": { "ja": "学習アクティビティ", "en": "Activities" },
+    "groups": { "ja": "学習プラン", "en": "Study Plans" },
+    "notes": { "ja": "学習ガイド", "en": "Study Guide" }
+  },
+  "counters": [
+    {
+      "id": "vocab",
+      "name": { "ja": "語彙", "en": "Vocabulary" },
+      "shortName": "V",
+      "max": 10000,
+      "recommended": 6000,
+      "defaultDirection": "up",
+      "includeInTotal": true,
+      "unit": { "ja": "語", "en": "words" },
+      "milestones": [
+        { "label": { "ja": "N5", "en": "N5" }, "value": 800 },
+        { "label": { "ja": "N4", "en": "N4" }, "value": 1500 },
+        { "label": { "ja": "N3", "en": "N3" }, "value": 3750 },
+        { "label": { "ja": "N2", "en": "N2" }, "value": 6000 },
+        { "label": { "ja": "N1", "en": "N1" }, "value": 10000 }
+      ]
+    },
+    {
+      "id": "kanji",
+      "name": { "ja": "漢字", "en": "Kanji" },
+      "shortName": "K",
+      "max": 2200,
+      "recommended": 1000,
+      "defaultDirection": "up",
+      "includeInTotal": true,
+      "unit": { "ja": "字", "en": "chars" },
+      "milestones": [
+        { "label": { "ja": "N5", "en": "N5" }, "value": 100 },
+        { "label": { "ja": "N4", "en": "N4" }, "value": 300 },
+        { "label": { "ja": "N3", "en": "N3" }, "value": 600 },
+        { "label": { "ja": "N2", "en": "N2" }, "value": 1000 },
+        { "label": { "ja": "N1", "en": "N1" }, "value": 2200 }
+      ]
+    },
+    {
+      "id": "grammar",
+      "name": { "ja": "文法", "en": "Grammar" },
+      "shortName": "G",
+      "max": 800,
+      "recommended": 400,
+      "defaultDirection": "up",
+      "includeInTotal": true,
+      "unit": { "ja": "項目", "en": "points" },
+      "milestones": [
+        { "label": { "ja": "N5", "en": "N5" }, "value": 50 },
+        { "label": { "ja": "N4", "en": "N4" }, "value": 150 },
+        { "label": { "ja": "N3", "en": "N3" }, "value": 250 },
+        { "label": { "ja": "N2", "en": "N2" }, "value": 400 },
+        { "label": { "ja": "N1", "en": "N1" }, "value": 800 }
+      ]
+    },
+    {
+      "id": "reading",
+      "name": { "ja": "読解", "en": "Reading" },
+      "shortName": "R",
+      "max": 500,
+      "recommended": 250,
+      "defaultDirection": "up",
+      "includeInTotal": true,
+      "unit": { "ja": "本", "en": "texts" },
+      "milestones": [
+        { "label": { "ja": "N5", "en": "N5" }, "value": 20 },
+        { "label": { "ja": "N4", "en": "N4" }, "value": 60 },
+        { "label": { "ja": "N3", "en": "N3" }, "value": 120 },
+        { "label": { "ja": "N2", "en": "N2" }, "value": 250 },
+        { "label": { "ja": "N1", "en": "N1" }, "value": 500 }
+      ]
+    },
+    {
+      "id": "listening",
+      "name": { "ja": "聴解", "en": "Listening" },
+      "shortName": "L",
+      "max": 500,
+      "recommended": 250,
+      "defaultDirection": "up",
+      "includeInTotal": true,
+      "unit": { "ja": "時間", "en": "hours" },
+      "milestones": [
+        { "label": { "ja": "N5", "en": "N5" }, "value": 20 },
+        { "label": { "ja": "N4", "en": "N4" }, "value": 60 },
+        { "label": { "ja": "N3", "en": "N3" }, "value": 120 },
+        { "label": { "ja": "N2", "en": "N2" }, "value": 250 },
+        { "label": { "ja": "N1", "en": "N1" }, "value": 500 }
+      ]
+    }
+  ],
+  "totalMax": 14000,
+  "multipliers": [],
+  "multiplierStacking": "multiplicative",
+  "items": [],
+  "itemsAffectedByMultipliers": false,
+  "manualSteps": {
+    "increments": [1, 5, 10],
+    "decrements": [1]
+  },
+  "database": {
+    "entries": [
+      { "id": "anki-vocab-30min",       "sortOrder": 1,  "name": { "ja": "Anki 語彙 30分",           "en": "Anki Vocab 30min" },          "values": { "vocab": 15 },                                    "tags": ["vocab", "all", "srs"] },
+      { "id": "anki-kanji-review",      "sortOrder": 2,  "name": { "ja": "Anki 漢字復習",            "en": "Anki Kanji Review" },         "values": { "kanji": 5 },                                     "tags": ["kanji", "all", "srs"] },
+      { "id": "textbook-chapter",       "sortOrder": 3,  "name": { "ja": "教科書1章",                "en": "Textbook Chapter" },          "values": { "vocab": 20, "grammar": 5, "reading": 2 },        "tags": ["mixed", "all", "textbook"] },
+      { "id": "grammar-workbook",       "sortOrder": 4,  "name": { "ja": "文法ワークブック",          "en": "Grammar Workbook" },          "values": { "grammar": 3 },                                   "tags": ["grammar", "all", "textbook"] },
+      { "id": "jlpt-mock-test",         "sortOrder": 5,  "name": { "ja": "JLPT模試",                "en": "JLPT Mock Test" },            "values": { "vocab": 5, "grammar": 3, "reading": 5, "listening": 5 }, "tags": ["mixed", "all", "exam"] },
+      { "id": "podcast-30min",          "sortOrder": 6,  "name": { "ja": "ポッドキャスト 30分",       "en": "Podcast 30min" },             "values": { "listening": 1 },                                 "tags": ["listening", "all", "immersion"] },
+      { "id": "nhk-news-reading",       "sortOrder": 7,  "name": { "ja": "NHKニュース読解",          "en": "NHK News Reading" },          "values": { "reading": 2, "vocab": 5 },                       "tags": ["reading", "n3", "immersion"] },
+      { "id": "shadowing-practice",     "sortOrder": 8,  "name": { "ja": "シャドーイング練習",        "en": "Shadowing Practice" },        "values": { "listening": 2, "vocab": 3 },                     "tags": ["listening", "all", "drill"] },
+      { "id": "kanji-writing",          "sortOrder": 9,  "name": { "ja": "漢字書き取り練習",          "en": "Kanji Writing Practice" },    "values": { "kanji": 10 },                                    "tags": ["kanji", "all", "drill"] },
+      { "id": "manga-reading",          "sortOrder": 10, "name": { "ja": "マンガ読書",               "en": "Manga Reading" },             "values": { "reading": 1, "vocab": 8 },                       "tags": ["reading", "n4", "immersion"] },
+      { "id": "drama-anime-episode",    "sortOrder": 11, "name": { "ja": "ドラマ/アニメ 1話",         "en": "Drama/Anime 1 Episode" },     "values": { "listening": 1, "vocab": 3 },                     "tags": ["listening", "all", "immersion"] },
+      { "id": "essay-writing",          "sortOrder": 12, "name": { "ja": "作文練習",                 "en": "Essay Writing" },             "values": { "grammar": 2, "vocab": 5 },                       "tags": ["grammar", "n3", "output"] },
+      { "id": "lang-exchange-30min",    "sortOrder": 13, "name": { "ja": "言語交換 30分",             "en": "Lang Exchange 30min" },       "values": { "listening": 2, "vocab": 5 },                     "tags": ["mixed", "all", "output"] },
+      { "id": "dictionary-lookup",      "sortOrder": 14, "name": { "ja": "辞書引きセッション",        "en": "Dictionary Lookup Session" }, "values": { "vocab": 10 },                                    "tags": ["vocab", "all", "drill"] },
+      { "id": "speed-reading-drill",    "sortOrder": 15, "name": { "ja": "速読ドリル",               "en": "Speed Reading Drill" },       "values": { "reading": 3 },                                   "tags": ["reading", "n2", "drill"] },
+      { "id": "dictation-practice",     "sortOrder": 16, "name": { "ja": "ディクテーション練習",      "en": "Dictation Practice" },        "values": { "listening": 3 },                                 "tags": ["listening", "n3", "drill"] },
+      { "id": "grammar-pattern-drill",  "sortOrder": 17, "name": { "ja": "文法パターンドリル",        "en": "Grammar Pattern Drill" },     "values": { "grammar": 5 },                                   "tags": ["grammar", "all", "drill"] },
+      { "id": "wanikani-session",       "sortOrder": 18, "name": { "ja": "WaniKaniセッション",        "en": "WaniKani Session" },          "values": { "kanji": 8 },                                     "tags": ["kanji", "all", "srs"] },
+      { "id": "graded-reader",          "sortOrder": 19, "name": { "ja": "多読（レベル別読本）",       "en": "Graded Reader" },             "values": { "reading": 2, "vocab": 5 },                       "tags": ["reading", "n4", "immersion"] },
+      { "id": "news-listening",         "sortOrder": 20, "name": { "ja": "ニュースリスニング",        "en": "News Listening" },            "values": { "listening": 2, "vocab": 3 },                     "tags": ["listening", "n3", "immersion"] },
+      { "id": "vocabulary-quiz",        "sortOrder": 21, "name": { "ja": "語彙クイズ",               "en": "Vocabulary Quiz" },           "values": { "vocab": 8 },                                     "tags": ["vocab", "all", "drill"] },
+      { "id": "jlpt-listening-section", "sortOrder": 22, "name": { "ja": "JLPT聴解セクション",       "en": "JLPT Listening Section" },    "values": { "listening": 5 },                                 "tags": ["listening", "all", "exam"] },
+      { "id": "jlpt-reading-section",   "sortOrder": 23, "name": { "ja": "JLPT読解セクション",       "en": "JLPT Reading Section" },      "values": { "reading": 5, "vocab": 3 },                       "tags": ["reading", "all", "exam"] },
+      { "id": "conversation-class",     "sortOrder": 24, "name": { "ja": "会話レッスン",             "en": "Conversation Class" },        "values": { "listening": 2, "grammar": 2, "vocab": 5 },       "tags": ["mixed", "all", "output"] },
+      { "id": "kanji-quiz",             "sortOrder": 25, "name": { "ja": "漢字クイズ",               "en": "Kanji Quiz" },                "values": { "kanji": 5 },                                     "tags": ["kanji", "all", "drill"] },
+      { "id": "extensive-reading-1hr",  "sortOrder": 26, "name": { "ja": "多読 1時間",               "en": "Extensive Reading 1hr" },     "values": { "reading": 4, "vocab": 10 },                      "tags": ["reading", "n3", "immersion"] },
+      { "id": "intensive-grammar",      "sortOrder": 27, "name": { "ja": "文法集中学習",             "en": "Intensive Grammar Study" },   "values": { "grammar": 8 },                                   "tags": ["grammar", "n2", "textbook"] },
+      { "id": "word-list-review",       "sortOrder": 28, "name": { "ja": "単語帳復習",               "en": "Word List Review" },          "values": { "vocab": 20 },                                    "tags": ["vocab", "all", "srs"] },
+      { "id": "rtk-session",            "sortOrder": 29, "name": { "ja": "RTKセッション",            "en": "RTK Session" },               "values": { "kanji": 15 },                                    "tags": ["kanji", "all", "srs"] },
+      { "id": "immersion-day",          "sortOrder": 30, "name": { "ja": "イマージョンデー",          "en": "Immersion Day" },             "values": { "listening": 5, "reading": 3, "vocab": 15 },      "tags": ["mixed", "all", "immersion"] }
+    ],
+    "groups": [
+      {
+        "id": "daily-n5",
+        "name": { "ja": "N5 毎日30分", "en": "N5 Daily 30min" },
+        "location": { "ja": "初級プラン", "en": "Beginner Plan" },
+        "members": [
+          { "name": { "ja": "Anki 語彙 30分",    "en": "Anki Vocab 30min" },    "level": 1, "values": { "vocab": 15 } },
+          { "name": { "ja": "Anki 漢字復習",      "en": "Anki Kanji Review" },   "level": 1, "values": { "kanji": 5 } },
+          { "name": { "ja": "文法ワークブック",    "en": "Grammar Workbook" },    "level": 1, "values": { "grammar": 3 } }
+        ],
+        "totalValues": { "vocab": 15, "kanji": 5, "grammar": 3 },
+        "rematchable": true
+      },
+      {
+        "id": "daily-n3",
+        "name": { "ja": "N3 毎日1時間", "en": "N3 Daily 1 Hour" },
+        "location": { "ja": "中級プラン", "en": "Intermediate Plan" },
+        "members": [
+          { "name": { "ja": "Anki 語彙 30分",      "en": "Anki Vocab 30min" },      "level": 1, "values": { "vocab": 15 } },
+          { "name": { "ja": "文法パターンドリル",    "en": "Grammar Pattern Drill" }, "level": 1, "values": { "grammar": 5 } },
+          { "name": { "ja": "NHKニュース読解",      "en": "NHK News Reading" },      "level": 1, "values": { "reading": 2, "vocab": 5 } },
+          { "name": { "ja": "シャドーイング練習",    "en": "Shadowing Practice" },    "level": 1, "values": { "listening": 2, "vocab": 3 } }
+        ],
+        "totalValues": { "vocab": 23, "grammar": 5, "reading": 2, "listening": 2 },
+        "rematchable": true
+      },
+      {
+        "id": "vocab-intensive",
+        "name": { "ja": "語彙集中", "en": "Vocab Intensive" },
+        "location": { "ja": "集中プラン", "en": "Intensive Plan" },
+        "members": [
+          { "name": { "ja": "Anki 語彙 30分",      "en": "Anki Vocab 30min" },          "level": 1, "values": { "vocab": 15 } },
+          { "name": { "ja": "単語帳復習",            "en": "Word List Review" },          "level": 1, "values": { "vocab": 20 } },
+          { "name": { "ja": "辞書引きセッション",    "en": "Dictionary Lookup Session" }, "level": 1, "values": { "vocab": 10 } },
+          { "name": { "ja": "語彙クイズ",            "en": "Vocabulary Quiz" },           "level": 1, "values": { "vocab": 8 } }
+        ],
+        "totalValues": { "vocab": 53 },
+        "rematchable": true
+      },
+      {
+        "id": "exam-prep",
+        "name": { "ja": "試験対策", "en": "Exam Prep" },
+        "location": { "ja": "試験直前", "en": "Pre-Exam" },
+        "members": [
+          { "name": { "ja": "JLPT模試",            "en": "JLPT Mock Test" },         "level": 1, "values": { "vocab": 5, "grammar": 3, "reading": 5, "listening": 5 } },
+          { "name": { "ja": "JLPT聴解セクション",   "en": "JLPT Listening Section" }, "level": 1, "values": { "listening": 5 } },
+          { "name": { "ja": "JLPT読解セクション",   "en": "JLPT Reading Section" },   "level": 1, "values": { "reading": 5, "vocab": 3 } },
+          { "name": { "ja": "文法パターンドリル",    "en": "Grammar Pattern Drill" },  "level": 1, "values": { "grammar": 5 } },
+          { "name": { "ja": "語彙クイズ",           "en": "Vocabulary Quiz" },         "level": 1, "values": { "vocab": 8 } }
+        ],
+        "totalValues": { "vocab": 16, "grammar": 8, "reading": 10, "listening": 10 },
+        "rematchable": true
+      },
+      {
+        "id": "immersion",
+        "name": { "ja": "イマージョン", "en": "Immersion Day" },
+        "location": { "ja": "没入プラン", "en": "Immersion Plan" },
+        "members": [
+          { "name": { "ja": "ドラマ/アニメ 1話",    "en": "Drama/Anime 1 Episode" }, "level": 1, "values": { "listening": 1, "vocab": 3 } },
+          { "name": { "ja": "マンガ読書",            "en": "Manga Reading" },         "level": 1, "values": { "reading": 1, "vocab": 8 } },
+          { "name": { "ja": "ポッドキャスト 30分",   "en": "Podcast 30min" },         "level": 1, "values": { "listening": 1 } },
+          { "name": { "ja": "イマージョンデー",      "en": "Immersion Day" },         "level": 1, "values": { "listening": 5, "reading": 3, "vocab": 15 } }
+        ],
+        "totalValues": { "listening": 7, "vocab": 26, "reading": 4 },
+        "rematchable": true
+      },
+      {
+        "id": "weekend-review",
+        "name": { "ja": "週末復習", "en": "Weekend Review" },
+        "location": { "ja": "復習プラン", "en": "Review Plan" },
+        "members": [
+          { "name": { "ja": "単語帳復習",           "en": "Word List Review" },       "level": 1, "values": { "vocab": 20 } },
+          { "name": { "ja": "漢字書き取り練習",     "en": "Kanji Writing Practice" }, "level": 1, "values": { "kanji": 10 } },
+          { "name": { "ja": "文法集中学習",         "en": "Intensive Grammar Study" },"level": 1, "values": { "grammar": 8 } },
+          { "name": { "ja": "多読 1時間",           "en": "Extensive Reading 1hr" },  "level": 1, "values": { "reading": 4, "vocab": 10 } },
+          { "name": { "ja": "ニュースリスニング",   "en": "News Listening" },         "level": 1, "values": { "listening": 2, "vocab": 3 } }
+        ],
+        "totalValues": { "vocab": 33, "kanji": 10, "grammar": 8, "reading": 4, "listening": 2 },
+        "rematchable": true
+      }
+    ]
+  },
+  "goalTemplates": [
+    {
+      "id": "pass-n5",
+      "name": { "ja": "N5 合格", "en": "Pass N5" },
+      "goals": { "vocab": 800, "kanji": 100, "grammar": 50, "reading": 20, "listening": 20 }
+    },
+    {
+      "id": "pass-n4",
+      "name": { "ja": "N4 合格", "en": "Pass N4" },
+      "goals": { "vocab": 1500, "kanji": 300, "grammar": 150, "reading": 60, "listening": 60 }
+    },
+    {
+      "id": "pass-n3",
+      "name": { "ja": "N3 合格", "en": "Pass N3" },
+      "goals": { "vocab": 3750, "kanji": 600, "grammar": 250, "reading": 120, "listening": 120 }
+    },
+    {
+      "id": "pass-n2",
+      "name": { "ja": "N2 合格", "en": "Pass N2" },
+      "goals": { "vocab": 6000, "kanji": 1000, "grammar": 400, "reading": 250, "listening": 250 }
+    },
+    {
+      "id": "pass-n1",
+      "name": { "ja": "N1 合格", "en": "Pass N1" },
+      "goals": { "vocab": 10000, "kanji": 2200, "grammar": 800, "reading": 500, "listening": 500 }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "ja": "**SRSの効果的な使い方**: Anki・WaniKaniなどのSRS（間隔反復システム）は**毎日継続**が最重要。1日30分でも毎日やることで、忘却曲線に沿った効率的な記憶定着が可能。レビュー溜めは逆効果なので、新規カード追加は自分のペースで調整すること",
+        "en": "**Effective SRS usage**: The most important rule with SRS tools (Anki, WaniKani) is **daily consistency**. Even 30 minutes daily enables efficient retention along the forgetting curve. Letting reviews pile up is counterproductive — adjust new card additions to your pace"
+      },
+      "url": "https://en.wikipedia.org/wiki/Spaced_repetition"
+    },
+    {
+      "text": {
+        "ja": "**JLPT各レベルの要求水準**:\n- **N5**: 語彙 ~800 / 漢字 ~100 / 文法 ~50項目（基本的な日常会話）\n- **N4**: 語彙 ~1,500 / 漢字 ~300 / 文法 ~150項目\n- **N3**: 語彙 ~3,750 / 漢字 ~600 / 文法 ~250項目（日常的な場面を理解）\n- **N2**: 語彙 ~6,000 / 漢字 ~1,000 / 文法 ~400項目（新聞・ニュースを理解）\n- **N1**: 語彙 ~10,000 / 漢字 ~2,200 / 文法 ~800項目（幅広い場面で使用される日本語を理解）",
+        "en": "**JLPT level requirements**:\n- **N5**: ~800 vocab / ~100 kanji / ~50 grammar (basic daily conversation)\n- **N4**: ~1,500 vocab / ~300 kanji / ~150 grammar\n- **N3**: ~3,750 vocab / ~600 kanji / ~250 grammar (everyday situations)\n- **N2**: ~6,000 vocab / ~1,000 kanji / ~400 grammar (newspapers & news)\n- **N1**: ~10,000 vocab / ~2,200 kanji / ~800 grammar (broad range of Japanese)"
+      },
+      "url": "https://www.jlpt.jp/about/levelsummary.html"
+    },
+    {
+      "text": {
+        "ja": "**インプット仮説と多読のすすめ**: Krashenのインプット仮説によると、理解可能なインプット（i+1）を大量に浴びることが言語習得の鍵。多読は語彙の自然な獲得と読解速度の向上に効果的。自分のレベルより少し簡単な素材から始めて、辞書を引かずに楽しく読むのがコツ",
+        "en": "**Input hypothesis & extensive reading**: According to Krashen's input hypothesis, massive exposure to comprehensible input (i+1) is key to language acquisition. Extensive reading effectively builds vocabulary naturally and improves reading speed. Start with material slightly below your level and read for enjoyment without a dictionary"
+      },
+      "url": "https://en.wikipedia.org/wiki/Input_hypothesis"
+    },
+    {
+      "text": {
+        "ja": "**リスニング力向上のコツ**:\n- **シャドーイング**: 音声を聞きながら0.5秒遅れで復唱。発音・イントネーション・リズム感が向上\n- **ディクテーション**: 音声を聞いて書き取り。聞き取れない部分が明確になる\n- **多聴**: ポッドキャスト・ニュース・ドラマを日常的に聞く。完璧に理解できなくてもOK\n- まずは速度を落として（0.75x）聞き、慣れたら通常速度に戻す",
+        "en": "**Listening comprehension tips**:\n- **Shadowing**: repeat audio with a 0.5s delay to improve pronunciation and rhythm\n- **Dictation**: write down what you hear to identify weak spots\n- **Extensive listening**: regularly listen to podcasts, news, dramas — perfect understanding isn't required\n- Start at 0.75x speed, then work up to normal speed"
+      }
+    },
+    {
+      "text": {
+        "ja": "**試験対策のスケジュール**:\n- **6ヶ月前**: 目標レベルの語彙・漢字・文法の基礎固め開始\n- **3ヶ月前**: 模試を1回解いて現在地を把握。弱点分野を重点的に\n- **1ヶ月前**: 過去問・模試を週1回ペースで実施。時間配分を意識\n- **2週間前**: 苦手セクションの集中対策。新しい教材には手を出さない\n- **前日**: 軽く復習のみ。十分な睡眠を取ること",
+        "en": "**Exam prep timeline**:\n- **6 months before**: start building vocab, kanji, and grammar foundations\n- **3 months before**: take a practice test to assess current level, focus on weaknesses\n- **1 month before**: weekly mock tests, practice time management\n- **2 weeks before**: intensive focus on weak sections, don't start new material\n- **Day before**: light review only, get plenty of sleep"
+      }
+    }
+  ]
+}

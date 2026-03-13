@@ -9048,10 +9048,46 @@
     ]
   },
   "goalTemplates": [
-    { "id": "lv5",  "name": { "ja": "Lv 5 到達",  "en": "Reach Lv 5" },  "goals": { "xp": 6500 } },
-    { "id": "lv10", "name": { "ja": "Lv 10 到達", "en": "Reach Lv 10" }, "goals": { "xp": 64000 } },
-    { "id": "lv15", "name": { "ja": "Lv 15 到達", "en": "Reach Lv 15" }, "goals": { "xp": 165000 } },
-    { "id": "lv20", "name": { "ja": "Lv 20 到達", "en": "Reach Lv 20" }, "goals": { "xp": 355000 } }
+    {
+      "id": "lv5",
+      "name": {
+        "ja": "Lv 5 到達",
+        "en": "Reach Lv 5"
+      },
+      "goals": {
+        "xp": 6500
+      }
+    },
+    {
+      "id": "lv10",
+      "name": {
+        "ja": "Lv 10 到達",
+        "en": "Reach Lv 10"
+      },
+      "goals": {
+        "xp": 64000
+      }
+    },
+    {
+      "id": "lv15",
+      "name": {
+        "ja": "Lv 15 到達",
+        "en": "Reach Lv 15"
+      },
+      "goals": {
+        "xp": 165000
+      }
+    },
+    {
+      "id": "lv20",
+      "name": {
+        "ja": "Lv 20 到達",
+        "en": "Reach Lv 20"
+      },
+      "goals": {
+        "xp": 355000
+      }
+    }
   ],
   "notes": [
     {

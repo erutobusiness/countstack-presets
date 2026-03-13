@@ -2,7 +2,7 @@
   "meta": {
     "id": "workout",
     "name": "筋トレ Volume Tracker",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "週間トレーニングボリュームを部位別に管理するプリセット"
   },
   "theme": {
@@ -19,106 +19,137 @@
     "notes": { "ja": "ガイド", "en": "Guide" }
   },
   "counters": [
-    { "id": "chest",     "name": { "ja": "胸",   "en": "Chest" },     "shortName": "胸", "max": 30, "recommended": 20, "goalValue": 16, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
-      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 6 },
-      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 10 },
-      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 16 },
-      { "label": { "ja": "エリート", "en": "Elite" }, "value": 22 }
+    { "id": "chest",     "name": { "ja": "胸",   "en": "Chest" },     "shortName": "胸", "max": 60, "recommended": 40, "goalValue": 32, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
+      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 12 },
+      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 20 },
+      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 32 },
+      { "label": { "ja": "エリート", "en": "Elite" }, "value": 44 }
     ]},
-    { "id": "back",      "name": { "ja": "背中", "en": "Back" },      "shortName": "背", "max": 30, "recommended": 20, "goalValue": 16, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
-      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 6 },
-      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 10 },
-      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 16 },
-      { "label": { "ja": "エリート", "en": "Elite" }, "value": 22 }
+    { "id": "back",      "name": { "ja": "背中", "en": "Back" },      "shortName": "背", "max": 60, "recommended": 40, "goalValue": 32, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
+      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 12 },
+      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 20 },
+      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 32 },
+      { "label": { "ja": "エリート", "en": "Elite" }, "value": 44 }
     ]},
-    { "id": "shoulders", "name": { "ja": "肩",   "en": "Shoulders" }, "shortName": "肩", "max": 26, "recommended": 18, "goalValue": 14, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
-      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 6 },
-      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 10 },
-      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 14 },
-      { "label": { "ja": "エリート", "en": "Elite" }, "value": 20 }
+    { "id": "shoulders", "name": { "ja": "肩",   "en": "Shoulders" }, "shortName": "肩", "max": 52, "recommended": 36, "goalValue": 28, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
+      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 12 },
+      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 20 },
+      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 28 },
+      { "label": { "ja": "エリート", "en": "Elite" }, "value": 40 }
     ]},
-    { "id": "legs",      "name": { "ja": "脚",   "en": "Legs" },      "shortName": "脚", "max": 30, "recommended": 20, "goalValue": 16, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
-      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 6 },
-      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 10 },
-      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 16 },
-      { "label": { "ja": "エリート", "en": "Elite" }, "value": 22 }
+    { "id": "legs",      "name": { "ja": "脚",   "en": "Legs" },      "shortName": "脚", "max": 60, "recommended": 40, "goalValue": 32, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
+      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 12 },
+      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 20 },
+      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 32 },
+      { "label": { "ja": "エリート", "en": "Elite" }, "value": 44 }
     ]},
-    { "id": "arms",      "name": { "ja": "腕",   "en": "Arms" },      "shortName": "腕", "max": 26, "recommended": 18, "goalValue": 14, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
-      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 4 },
-      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 8 },
-      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 14 },
-      { "label": { "ja": "エリート", "en": "Elite" }, "value": 20 }
+    { "id": "arms",      "name": { "ja": "腕",   "en": "Arms" },      "shortName": "腕", "max": 52, "recommended": 36, "goalValue": 28, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
+      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 8 },
+      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 16 },
+      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 28 },
+      { "label": { "ja": "エリート", "en": "Elite" }, "value": 40 }
     ]},
-    { "id": "core",      "name": { "ja": "体幹", "en": "Core" },      "shortName": "体", "max": 20, "recommended": 14, "goalValue": 10, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
-      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 4 },
-      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 8 },
-      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 12 },
-      { "label": { "ja": "エリート", "en": "Elite" }, "value": 16 }
+    { "id": "core",      "name": { "ja": "体幹", "en": "Core" },      "shortName": "体", "max": 40, "recommended": 28, "goalValue": 20, "defaultDirection": "up", "includeInTotal": true, "unit": { "ja": "セット", "en": "sets" }, "milestones": [
+      { "label": { "ja": "初心者", "en": "Beginner" }, "value": 8 },
+      { "label": { "ja": "中級",   "en": "Intermediate" }, "value": 16 },
+      { "label": { "ja": "上級",   "en": "Advanced" }, "value": 24 },
+      { "label": { "ja": "エリート", "en": "Elite" }, "value": 32 }
     ]}
   ],
-  "totalMax": 162,
+  "totalMax": 324,
   "multipliers": [],
   "multiplierStacking": "multiplicative",
   "items": [],
   "itemsAffectedByMultipliers": false,
   "manualSteps": {
-    "increments": [1, 2, 3],
+    "increments": [1, 2, 4, 6],
     "decrements": [1]
   },
   "database": {
     "entries": [
-      { "id": "bench-press",           "sortOrder": 1,  "name": { "ja": "ベンチプレス",                 "en": "Bench Press" },             "values": { "chest": 1 },               "tags": ["compound", "chest"] },
-      { "id": "incline-bench-press",   "sortOrder": 2,  "name": { "ja": "インクラインベンチプレス",      "en": "Incline Bench Press" },     "values": { "chest": 1 },               "tags": ["compound", "chest"] },
-      { "id": "decline-bench-press",   "sortOrder": 3,  "name": { "ja": "デクラインベンチプレス",        "en": "Decline Bench Press" },     "values": { "chest": 1 },               "tags": ["compound", "chest"] },
-      { "id": "dumbbell-fly",          "sortOrder": 4,  "name": { "ja": "ダンベルフライ",               "en": "Dumbbell Fly" },            "values": { "chest": 1 },               "tags": ["isolation", "chest"] },
-      { "id": "cable-crossover",       "sortOrder": 5,  "name": { "ja": "ケーブルクロスオーバー",        "en": "Cable Crossover" },         "values": { "chest": 1 },               "tags": ["isolation", "chest"] },
-      { "id": "push-up",               "sortOrder": 6,  "name": { "ja": "腕立て伏せ",                   "en": "Push-up" },                 "values": { "chest": 1 },               "tags": ["bodyweight", "chest"] },
-      { "id": "chest-press-machine",   "sortOrder": 7,  "name": { "ja": "チェストプレスマシン",          "en": "Chest Press Machine" },     "values": { "chest": 1 },               "tags": ["machine", "chest"] },
+      { "id": "bench-press",           "sortOrder": 1,  "name": { "ja": "ベンチプレス",                 "en": "Bench Press" },             "values": { "chest": 2, "arms": 1, "shoulders": 1 }, "tags": ["compound", "barbell", "chest"] },
+      { "id": "incline-bench-press",   "sortOrder": 2,  "name": { "ja": "インクラインベンチプレス",      "en": "Incline Bench Press" },     "values": { "chest": 2, "shoulders": 1 },             "tags": ["compound", "barbell", "chest"] },
+      { "id": "decline-bench-press",   "sortOrder": 3,  "name": { "ja": "デクラインベンチプレス",        "en": "Decline Bench Press" },     "values": { "chest": 2, "arms": 1 },                  "tags": ["compound", "barbell", "chest"] },
+      { "id": "dumbbell-fly",          "sortOrder": 4,  "name": { "ja": "ダンベルフライ",               "en": "Dumbbell Fly" },            "values": { "chest": 2 },                              "tags": ["isolation", "dumbbell", "chest"] },
+      { "id": "cable-crossover",       "sortOrder": 5,  "name": { "ja": "ケーブルクロスオーバー",        "en": "Cable Crossover" },         "values": { "chest": 2 },                              "tags": ["isolation", "cable", "chest"] },
+      { "id": "push-up",               "sortOrder": 6,  "name": { "ja": "腕立て伏せ",                   "en": "Push-up" },                 "values": { "chest": 2, "arms": 1, "core": 1 },       "tags": ["bodyweight", "chest"] },
+      { "id": "chest-press-machine",   "sortOrder": 7,  "name": { "ja": "チェストプレスマシン",          "en": "Chest Press Machine" },     "values": { "chest": 2 },                              "tags": ["machine", "chest"] },
+      { "id": "dumbbell-bench-press",  "sortOrder": 8,  "name": { "ja": "ダンベルベンチプレス",          "en": "Dumbbell Bench Press" },    "values": { "chest": 2, "arms": 1 },                   "tags": ["compound", "dumbbell", "chest"] },
+      { "id": "cable-fly",             "sortOrder": 9,  "name": { "ja": "ケーブルフライ",               "en": "Cable Fly" },               "values": { "chest": 2 },                              "tags": ["isolation", "cable", "chest"] },
+      { "id": "close-grip-bench-press","sortOrder": 10, "name": { "ja": "ナローベンチプレス",            "en": "Close-Grip Bench Press" },  "values": { "arms": 2, "chest": 1 },                   "tags": ["compound", "barbell", "arms", "chest"] },
+      { "id": "dumbbell-pullover",     "sortOrder": 11, "name": { "ja": "ダンベルプルオーバー",          "en": "Dumbbell Pullover" },       "values": { "chest": 2, "back": 1 },                   "tags": ["compound", "dumbbell", "chest", "back"] },
+      { "id": "pec-deck",             "sortOrder": 12, "name": { "ja": "ペックデック",                 "en": "Pec Deck" },                "values": { "chest": 2 },                              "tags": ["machine", "chest"] },
 
-      { "id": "barbell-row",           "sortOrder": 10, "name": { "ja": "バーベルロウ",                 "en": "Barbell Row" },             "values": { "back": 1 },                "tags": ["compound", "back"] },
-      { "id": "pull-up",               "sortOrder": 11, "name": { "ja": "懸垂（チンニング）",            "en": "Pull-up / Chin-up" },       "values": { "back": 1 },                "tags": ["bodyweight", "back"] },
-      { "id": "lat-pulldown",          "sortOrder": 12, "name": { "ja": "ラットプルダウン",              "en": "Lat Pulldown" },            "values": { "back": 1 },                "tags": ["machine", "back"] },
-      { "id": "seated-cable-row",      "sortOrder": 13, "name": { "ja": "シーテッドロウ",               "en": "Seated Cable Row" },        "values": { "back": 1 },                "tags": ["machine", "back"] },
-      { "id": "deadlift",              "sortOrder": 14, "name": { "ja": "デッドリフト",                 "en": "Deadlift" },                "values": { "back": 1, "legs": 1 },     "tags": ["compound", "back", "legs"] },
-      { "id": "t-bar-row",             "sortOrder": 15, "name": { "ja": "Tバーロウ",                    "en": "T-Bar Row" },               "values": { "back": 1 },                "tags": ["compound", "back"] },
-      { "id": "face-pull",             "sortOrder": 16, "name": { "ja": "フェイスプル",                 "en": "Face Pull" },               "values": { "back": 1 },                "tags": ["isolation", "back"] },
-      { "id": "dumbbell-row",          "sortOrder": 17, "name": { "ja": "ダンベルロウ",                 "en": "Dumbbell Row" },            "values": { "back": 1 },                "tags": ["compound", "back"] },
+      { "id": "barbell-row",           "sortOrder": 20, "name": { "ja": "バーベルロウ",                 "en": "Barbell Row" },             "values": { "back": 2, "arms": 1 },                    "tags": ["compound", "barbell", "back"] },
+      { "id": "pull-up",               "sortOrder": 21, "name": { "ja": "懸垂（チンニング）",            "en": "Pull-up / Chin-up" },       "values": { "back": 2, "arms": 1 },                    "tags": ["bodyweight", "back"] },
+      { "id": "lat-pulldown",          "sortOrder": 22, "name": { "ja": "ラットプルダウン",              "en": "Lat Pulldown" },            "values": { "back": 2 },                               "tags": ["machine", "back"] },
+      { "id": "seated-cable-row",      "sortOrder": 23, "name": { "ja": "シーテッドロウ",               "en": "Seated Cable Row" },        "values": { "back": 2 },                               "tags": ["machine", "cable", "back"] },
+      { "id": "deadlift",              "sortOrder": 24, "name": { "ja": "デッドリフト",                 "en": "Deadlift" },                "values": { "back": 2, "legs": 2, "core": 1 },        "tags": ["compound", "barbell", "back", "legs"] },
+      { "id": "t-bar-row",             "sortOrder": 25, "name": { "ja": "Tバーロウ",                    "en": "T-Bar Row" },               "values": { "back": 2, "arms": 1 },                    "tags": ["compound", "barbell", "back"] },
+      { "id": "face-pull",             "sortOrder": 26, "name": { "ja": "フェイスプル",                 "en": "Face Pull" },               "values": { "back": 2 },                               "tags": ["isolation", "cable", "back"] },
+      { "id": "dumbbell-row",          "sortOrder": 27, "name": { "ja": "ダンベルロウ",                 "en": "Dumbbell Row" },            "values": { "back": 2, "arms": 1 },                    "tags": ["compound", "dumbbell", "back"] },
+      { "id": "cable-row",             "sortOrder": 28, "name": { "ja": "ケーブルロウ",                 "en": "Cable Row" },               "values": { "back": 2, "arms": 1 },                    "tags": ["compound", "cable", "back"] },
+      { "id": "pendlay-row",           "sortOrder": 29, "name": { "ja": "ペンドレイロウ",               "en": "Pendlay Row" },             "values": { "back": 2, "arms": 1 },                    "tags": ["compound", "barbell", "back"] },
+      { "id": "barbell-shrug",         "sortOrder": 30, "name": { "ja": "バーベルシュラッグ",            "en": "Barbell Shrug" },           "values": { "back": 2 },                               "tags": ["isolation", "barbell", "back"] },
+      { "id": "reverse-fly-machine",   "sortOrder": 31, "name": { "ja": "リバースフライマシン",          "en": "Reverse Fly Machine" },     "values": { "back": 2 },                               "tags": ["machine", "back"] },
 
-      { "id": "overhead-press",        "sortOrder": 20, "name": { "ja": "オーバーヘッドプレス",          "en": "Overhead Press" },          "values": { "shoulders": 1 },           "tags": ["compound", "shoulders"] },
-      { "id": "lateral-raise",         "sortOrder": 21, "name": { "ja": "サイドレイズ",                 "en": "Lateral Raise" },           "values": { "shoulders": 1 },           "tags": ["isolation", "shoulders"] },
-      { "id": "front-raise",           "sortOrder": 22, "name": { "ja": "フロントレイズ",               "en": "Front Raise" },             "values": { "shoulders": 1 },           "tags": ["isolation", "shoulders"] },
-      { "id": "rear-delt-fly",         "sortOrder": 23, "name": { "ja": "リアデルトフライ",              "en": "Rear Delt Fly" },           "values": { "shoulders": 1 },           "tags": ["isolation", "shoulders"] },
-      { "id": "arnold-press",          "sortOrder": 24, "name": { "ja": "アーノルドプレス",              "en": "Arnold Press" },            "values": { "shoulders": 1 },           "tags": ["compound", "shoulders"] },
-      { "id": "upright-row",           "sortOrder": 25, "name": { "ja": "アップライトロウ",              "en": "Upright Row" },             "values": { "shoulders": 1 },           "tags": ["compound", "shoulders"] },
-      { "id": "shoulder-press-machine","sortOrder": 26, "name": { "ja": "ショルダープレスマシン",        "en": "Shoulder Press Machine" },  "values": { "shoulders": 1 },           "tags": ["machine", "shoulders"] },
+      { "id": "overhead-press",        "sortOrder": 40, "name": { "ja": "オーバーヘッドプレス",          "en": "Overhead Press" },          "values": { "shoulders": 2, "arms": 1 },               "tags": ["compound", "barbell", "shoulders"] },
+      { "id": "lateral-raise",         "sortOrder": 41, "name": { "ja": "サイドレイズ",                 "en": "Lateral Raise" },           "values": { "shoulders": 2 },                          "tags": ["isolation", "dumbbell", "shoulders"] },
+      { "id": "front-raise",           "sortOrder": 42, "name": { "ja": "フロントレイズ",               "en": "Front Raise" },             "values": { "shoulders": 2 },                          "tags": ["isolation", "dumbbell", "shoulders"] },
+      { "id": "rear-delt-fly",         "sortOrder": 43, "name": { "ja": "リアデルトフライ",              "en": "Rear Delt Fly" },           "values": { "shoulders": 2 },                          "tags": ["isolation", "dumbbell", "shoulders"] },
+      { "id": "arnold-press",          "sortOrder": 44, "name": { "ja": "アーノルドプレス",              "en": "Arnold Press" },            "values": { "shoulders": 2, "arms": 1 },               "tags": ["compound", "dumbbell", "shoulders"] },
+      { "id": "upright-row",           "sortOrder": 45, "name": { "ja": "アップライトロウ",              "en": "Upright Row" },             "values": { "shoulders": 2, "arms": 1 },               "tags": ["compound", "barbell", "shoulders"] },
+      { "id": "shoulder-press-machine","sortOrder": 46, "name": { "ja": "ショルダープレスマシン",        "en": "Shoulder Press Machine" },  "values": { "shoulders": 2 },                          "tags": ["machine", "shoulders"] },
+      { "id": "dumbbell-shoulder-press","sortOrder": 47, "name": { "ja": "ダンベルショルダープレス",     "en": "Dumbbell Shoulder Press" }, "values": { "shoulders": 2, "arms": 1 },               "tags": ["compound", "dumbbell", "shoulders"] },
+      { "id": "cable-lateral-raise",   "sortOrder": 48, "name": { "ja": "ケーブルサイドレイズ",          "en": "Cable Lateral Raise" },     "values": { "shoulders": 2 },                          "tags": ["isolation", "cable", "shoulders"] },
+      { "id": "pike-push-up",          "sortOrder": 49, "name": { "ja": "パイクプッシュアップ",          "en": "Pike Push-up" },            "values": { "shoulders": 2, "arms": 1 },               "tags": ["bodyweight", "shoulders"] },
 
-      { "id": "squat",                 "sortOrder": 30, "name": { "ja": "スクワット",                   "en": "Squat" },                   "values": { "legs": 1 },                "tags": ["compound", "legs"] },
-      { "id": "leg-press",             "sortOrder": 31, "name": { "ja": "レッグプレス",                 "en": "Leg Press" },               "values": { "legs": 1 },                "tags": ["machine", "legs"] },
-      { "id": "lunges",                "sortOrder": 32, "name": { "ja": "ランジ",                       "en": "Lunges" },                  "values": { "legs": 1 },                "tags": ["compound", "legs"] },
-      { "id": "leg-extension",         "sortOrder": 33, "name": { "ja": "レッグエクステンション",        "en": "Leg Extension" },           "values": { "legs": 1 },                "tags": ["machine", "legs"] },
-      { "id": "leg-curl",              "sortOrder": 34, "name": { "ja": "レッグカール",                 "en": "Leg Curl" },                "values": { "legs": 1 },                "tags": ["machine", "legs"] },
-      { "id": "calf-raise",            "sortOrder": 35, "name": { "ja": "カーフレイズ",                 "en": "Calf Raise" },              "values": { "legs": 1 },                "tags": ["isolation", "legs"] },
-      { "id": "bulgarian-split-squat", "sortOrder": 36, "name": { "ja": "ブルガリアンスクワット",        "en": "Bulgarian Split Squat" },   "values": { "legs": 1 },                "tags": ["compound", "legs"] },
-      { "id": "hip-thrust",            "sortOrder": 37, "name": { "ja": "ヒップスラスト",               "en": "Hip Thrust" },              "values": { "legs": 1 },                "tags": ["compound", "legs"] },
-      { "id": "goblet-squat",          "sortOrder": 38, "name": { "ja": "ゴブレットスクワット",          "en": "Goblet Squat" },            "values": { "legs": 1 },                "tags": ["compound", "legs"] },
+      { "id": "squat",                 "sortOrder": 60, "name": { "ja": "スクワット",                   "en": "Squat" },                   "values": { "legs": 2, "core": 1 },                    "tags": ["compound", "barbell", "legs"] },
+      { "id": "leg-press",             "sortOrder": 61, "name": { "ja": "レッグプレス",                 "en": "Leg Press" },               "values": { "legs": 2 },                               "tags": ["machine", "legs"] },
+      { "id": "lunges",                "sortOrder": 62, "name": { "ja": "ランジ",                       "en": "Lunges" },                  "values": { "legs": 2, "core": 1 },                    "tags": ["compound", "legs"] },
+      { "id": "leg-extension",         "sortOrder": 63, "name": { "ja": "レッグエクステンション",        "en": "Leg Extension" },           "values": { "legs": 2 },                               "tags": ["machine", "legs"] },
+      { "id": "leg-curl",              "sortOrder": 64, "name": { "ja": "レッグカール",                 "en": "Leg Curl" },                "values": { "legs": 2 },                               "tags": ["machine", "legs"] },
+      { "id": "calf-raise",            "sortOrder": 65, "name": { "ja": "カーフレイズ",                 "en": "Calf Raise" },              "values": { "legs": 2 },                               "tags": ["isolation", "legs"] },
+      { "id": "bulgarian-split-squat", "sortOrder": 66, "name": { "ja": "ブルガリアンスクワット",        "en": "Bulgarian Split Squat" },   "values": { "legs": 2, "core": 1 },                    "tags": ["compound", "legs"] },
+      { "id": "hip-thrust",            "sortOrder": 67, "name": { "ja": "ヒップスラスト",               "en": "Hip Thrust" },              "values": { "legs": 2, "core": 1 },                    "tags": ["compound", "legs"] },
+      { "id": "goblet-squat",          "sortOrder": 68, "name": { "ja": "ゴブレットスクワット",          "en": "Goblet Squat" },            "values": { "legs": 2, "core": 1 },                    "tags": ["compound", "dumbbell", "legs"] },
+      { "id": "front-squat",           "sortOrder": 69, "name": { "ja": "フロントスクワット",            "en": "Front Squat" },             "values": { "legs": 2, "core": 1 },                    "tags": ["compound", "barbell", "legs"] },
+      { "id": "romanian-deadlift",     "sortOrder": 70, "name": { "ja": "ルーマニアンデッドリフト",      "en": "Romanian Deadlift" },       "values": { "legs": 2, "back": 1 },                    "tags": ["compound", "barbell", "legs"] },
+      { "id": "sumo-deadlift",         "sortOrder": 71, "name": { "ja": "スモウデッドリフト",            "en": "Sumo Deadlift" },           "values": { "legs": 2, "back": 1, "core": 1 },        "tags": ["compound", "barbell", "legs"] },
+      { "id": "barbell-hip-thrust",    "sortOrder": 72, "name": { "ja": "バーベルヒップスラスト",        "en": "Barbell Hip Thrust" },      "values": { "legs": 2, "core": 1 },                    "tags": ["compound", "barbell", "legs"] },
+      { "id": "dumbbell-lunges",       "sortOrder": 73, "name": { "ja": "ダンベルランジ",               "en": "Dumbbell Lunges" },         "values": { "legs": 2, "core": 1 },                    "tags": ["compound", "dumbbell", "legs"] },
+      { "id": "dumbbell-deadlift",     "sortOrder": 74, "name": { "ja": "ダンベルデッドリフト",          "en": "Dumbbell Deadlift" },       "values": { "legs": 2, "back": 1 },                    "tags": ["compound", "dumbbell", "legs"] },
+      { "id": "hack-squat",            "sortOrder": 75, "name": { "ja": "ハックスクワット",              "en": "Hack Squat" },              "values": { "legs": 2 },                               "tags": ["machine", "legs"] },
+      { "id": "smith-machine-squat",   "sortOrder": 76, "name": { "ja": "スミスマシンスクワット",        "en": "Smith Machine Squat" },     "values": { "legs": 2, "core": 1 },                    "tags": ["machine", "legs"] },
+      { "id": "seated-leg-press",      "sortOrder": 77, "name": { "ja": "シーテッドレッグプレス",        "en": "Seated Leg Press" },        "values": { "legs": 2 },                               "tags": ["machine", "legs"] },
+      { "id": "bodyweight-squat",      "sortOrder": 78, "name": { "ja": "自重スクワット",               "en": "Bodyweight Squat" },        "values": { "legs": 2 },                               "tags": ["bodyweight", "legs"] },
+      { "id": "glute-bridge",          "sortOrder": 79, "name": { "ja": "グルートブリッジ",              "en": "Glute Bridge" },            "values": { "legs": 2 },                               "tags": ["bodyweight", "legs"] },
 
-      { "id": "bicep-curl",            "sortOrder": 40, "name": { "ja": "アームカール",                 "en": "Bicep Curl" },              "values": { "arms": 1 },                "tags": ["isolation", "arms"] },
-      { "id": "tricep-extension",      "sortOrder": 41, "name": { "ja": "トライセプスエクステンション",   "en": "Tricep Extension" },        "values": { "arms": 1 },                "tags": ["isolation", "arms"] },
-      { "id": "hammer-curl",           "sortOrder": 42, "name": { "ja": "ハンマーカール",               "en": "Hammer Curl" },             "values": { "arms": 1 },                "tags": ["isolation", "arms"] },
-      { "id": "dips",                  "sortOrder": 43, "name": { "ja": "ディップス",                   "en": "Dips" },                    "values": { "arms": 1, "chest": 1 },    "tags": ["compound", "arms", "chest"] },
-      { "id": "skull-crusher",         "sortOrder": 44, "name": { "ja": "スカルクラッシャー",            "en": "Skull Crusher" },           "values": { "arms": 1 },                "tags": ["isolation", "arms"] },
-      { "id": "preacher-curl",         "sortOrder": 45, "name": { "ja": "プリーチャーカール",            "en": "Preacher Curl" },           "values": { "arms": 1 },                "tags": ["isolation", "arms"] },
-      { "id": "cable-pushdown",        "sortOrder": 46, "name": { "ja": "ケーブルプッシュダウン",        "en": "Cable Pushdown" },          "values": { "arms": 1 },                "tags": ["isolation", "arms"] },
-      { "id": "concentration-curl",    "sortOrder": 47, "name": { "ja": "コンセントレーションカール",     "en": "Concentration Curl" },      "values": { "arms": 1 },                "tags": ["isolation", "arms"] },
+      { "id": "bicep-curl",            "sortOrder": 80, "name": { "ja": "アームカール",                 "en": "Bicep Curl" },              "values": { "arms": 2 },                               "tags": ["isolation", "dumbbell", "arms"] },
+      { "id": "tricep-extension",      "sortOrder": 81, "name": { "ja": "トライセプスエクステンション",   "en": "Tricep Extension" },        "values": { "arms": 2 },                               "tags": ["isolation", "arms"] },
+      { "id": "hammer-curl",           "sortOrder": 82, "name": { "ja": "ハンマーカール",               "en": "Hammer Curl" },             "values": { "arms": 2 },                               "tags": ["isolation", "dumbbell", "arms"] },
+      { "id": "dips",                  "sortOrder": 83, "name": { "ja": "ディップス",                   "en": "Dips" },                    "values": { "arms": 2, "chest": 1 },                   "tags": ["compound", "bodyweight", "arms", "chest"] },
+      { "id": "skull-crusher",         "sortOrder": 84, "name": { "ja": "スカルクラッシャー",            "en": "Skull Crusher" },           "values": { "arms": 2 },                               "tags": ["isolation", "barbell", "arms"] },
+      { "id": "preacher-curl",         "sortOrder": 85, "name": { "ja": "プリーチャーカール",            "en": "Preacher Curl" },           "values": { "arms": 2 },                               "tags": ["isolation", "arms"] },
+      { "id": "cable-pushdown",        "sortOrder": 86, "name": { "ja": "ケーブルプッシュダウン",        "en": "Cable Pushdown" },          "values": { "arms": 2 },                               "tags": ["isolation", "cable", "arms"] },
+      { "id": "concentration-curl",    "sortOrder": 87, "name": { "ja": "コンセントレーションカール",     "en": "Concentration Curl" },      "values": { "arms": 2 },                               "tags": ["isolation", "dumbbell", "arms"] },
+      { "id": "barbell-curl",          "sortOrder": 88, "name": { "ja": "バーベルカール",               "en": "Barbell Curl" },            "values": { "arms": 2 },                               "tags": ["isolation", "barbell", "arms"] },
+      { "id": "cable-curl",            "sortOrder": 89, "name": { "ja": "ケーブルカール",               "en": "Cable Curl" },              "values": { "arms": 2 },                               "tags": ["isolation", "cable", "arms"] },
+      { "id": "cable-kickback",        "sortOrder": 90, "name": { "ja": "ケーブルキックバック",          "en": "Cable Kickback" },          "values": { "arms": 2 },                               "tags": ["isolation", "cable", "arms"] },
+      { "id": "tricep-dip-machine",    "sortOrder": 91, "name": { "ja": "トライセプスディップマシン",    "en": "Tricep Dip Machine" },      "values": { "arms": 2 },                               "tags": ["machine", "arms"] },
 
-      { "id": "plank",                 "sortOrder": 50, "name": { "ja": "プランク",                     "en": "Plank" },                   "values": { "core": 1 },                "tags": ["bodyweight", "core"] },
-      { "id": "crunch",                "sortOrder": 51, "name": { "ja": "クランチ",                     "en": "Crunch" },                  "values": { "core": 1 },                "tags": ["bodyweight", "core"] },
-      { "id": "russian-twist",         "sortOrder": 52, "name": { "ja": "ロシアンツイスト",              "en": "Russian Twist" },           "values": { "core": 1 },                "tags": ["bodyweight", "core"] },
-      { "id": "hanging-leg-raise",     "sortOrder": 53, "name": { "ja": "ハンギングレッグレイズ",        "en": "Hanging Leg Raise" },       "values": { "core": 1 },                "tags": ["bodyweight", "core"] },
-      { "id": "ab-wheel",              "sortOrder": 54, "name": { "ja": "アブローラー",                 "en": "Ab Wheel Rollout" },        "values": { "core": 1 },                "tags": ["bodyweight", "core"] },
-      { "id": "side-plank",            "sortOrder": 55, "name": { "ja": "サイドプランク",               "en": "Side Plank" },              "values": { "core": 1 },                "tags": ["bodyweight", "core"] },
-      { "id": "mountain-climber",      "sortOrder": 56, "name": { "ja": "マウンテンクライマー",          "en": "Mountain Climber" },        "values": { "core": 1 },                "tags": ["bodyweight", "core"] },
-      { "id": "cable-woodchop",        "sortOrder": 57, "name": { "ja": "ケーブルウッドチョップ",        "en": "Cable Woodchop" },          "values": { "core": 1 },                "tags": ["machine", "core"] }
+      { "id": "plank",                 "sortOrder": 100, "name": { "ja": "プランク",                     "en": "Plank" },                   "values": { "core": 2 },                              "tags": ["bodyweight", "core"] },
+      { "id": "crunch",                "sortOrder": 101, "name": { "ja": "クランチ",                     "en": "Crunch" },                  "values": { "core": 2 },                              "tags": ["bodyweight", "core"] },
+      { "id": "russian-twist",         "sortOrder": 102, "name": { "ja": "ロシアンツイスト",              "en": "Russian Twist" },           "values": { "core": 2 },                              "tags": ["bodyweight", "core"] },
+      { "id": "hanging-leg-raise",     "sortOrder": 103, "name": { "ja": "ハンギングレッグレイズ",        "en": "Hanging Leg Raise" },       "values": { "core": 2 },                              "tags": ["bodyweight", "core"] },
+      { "id": "ab-wheel",              "sortOrder": 104, "name": { "ja": "アブローラー",                 "en": "Ab Wheel Rollout" },        "values": { "core": 2 },                              "tags": ["bodyweight", "core"] },
+      { "id": "side-plank",            "sortOrder": 105, "name": { "ja": "サイドプランク",               "en": "Side Plank" },              "values": { "core": 2 },                              "tags": ["bodyweight", "core"] },
+      { "id": "mountain-climber",      "sortOrder": 106, "name": { "ja": "マウンテンクライマー",          "en": "Mountain Climber" },        "values": { "core": 2 },                              "tags": ["bodyweight", "core"] },
+      { "id": "cable-woodchop",        "sortOrder": 107, "name": { "ja": "ケーブルウッドチョップ",        "en": "Cable Woodchop" },          "values": { "core": 2 },                              "tags": ["machine", "cable", "core"] },
+      { "id": "dead-bug",              "sortOrder": 108, "name": { "ja": "デッドバグ",                   "en": "Dead Bug" },                "values": { "core": 2 },                              "tags": ["bodyweight", "core"] },
+      { "id": "v-up",                  "sortOrder": 109, "name": { "ja": "V字クランチ",                  "en": "V-Up" },                    "values": { "core": 2 },                              "tags": ["bodyweight", "core"] },
+      { "id": "flutter-kicks",         "sortOrder": 110, "name": { "ja": "フラッターキック",              "en": "Flutter Kicks" },           "values": { "core": 2 },                              "tags": ["bodyweight", "core"] },
+      { "id": "bicycle-crunch",        "sortOrder": 111, "name": { "ja": "バイシクルクランチ",            "en": "Bicycle Crunch" },          "values": { "core": 2 },                              "tags": ["bodyweight", "core"] }
     ],
     "groups": [
       {
@@ -126,14 +157,14 @@
         "name": { "ja": "プッシュデー", "en": "Push Day" },
         "location": { "ja": "PPL分割", "en": "PPL Split" },
         "members": [
-          { "name": { "ja": "ベンチプレス",            "en": "Bench Press" },          "level": 3, "values": { "chest": 3 } },
-          { "name": { "ja": "インクラインベンチプレス",  "en": "Incline Bench Press" },  "level": 3, "values": { "chest": 3 } },
-          { "name": { "ja": "オーバーヘッドプレス",      "en": "Overhead Press" },       "level": 3, "values": { "shoulders": 3 } },
-          { "name": { "ja": "サイドレイズ",             "en": "Lateral Raise" },        "level": 3, "values": { "shoulders": 3 } },
-          { "name": { "ja": "トライセプスエクステンション","en": "Tricep Extension" },    "level": 3, "values": { "arms": 3 } },
-          { "name": { "ja": "ケーブルプッシュダウン",     "en": "Cable Pushdown" },       "level": 3, "values": { "arms": 3 } }
+          { "name": { "ja": "ベンチプレス",            "en": "Bench Press" },          "level": 3, "values": { "chest": 6, "arms": 3, "shoulders": 3 } },
+          { "name": { "ja": "インクラインベンチプレス",  "en": "Incline Bench Press" },  "level": 3, "values": { "chest": 6, "shoulders": 3 } },
+          { "name": { "ja": "オーバーヘッドプレス",      "en": "Overhead Press" },       "level": 3, "values": { "shoulders": 6, "arms": 3 } },
+          { "name": { "ja": "サイドレイズ",             "en": "Lateral Raise" },        "level": 3, "values": { "shoulders": 6 } },
+          { "name": { "ja": "トライセプスエクステンション","en": "Tricep Extension" },    "level": 3, "values": { "arms": 6 } },
+          { "name": { "ja": "ケーブルプッシュダウン",     "en": "Cable Pushdown" },       "level": 3, "values": { "arms": 6 } }
         ],
-        "totalValues": { "chest": 6, "shoulders": 6, "arms": 6 },
+        "totalValues": { "chest": 12, "shoulders": 18, "arms": 21 },
         "rematchable": true
       },
       {
@@ -141,14 +172,14 @@
         "name": { "ja": "プルデー", "en": "Pull Day" },
         "location": { "ja": "PPL分割", "en": "PPL Split" },
         "members": [
-          { "name": { "ja": "バーベルロウ",       "en": "Barbell Row" },       "level": 3, "values": { "back": 3 } },
-          { "name": { "ja": "懸垂",              "en": "Pull-up" },           "level": 3, "values": { "back": 3 } },
-          { "name": { "ja": "ラットプルダウン",    "en": "Lat Pulldown" },      "level": 3, "values": { "back": 3 } },
-          { "name": { "ja": "フェイスプル",       "en": "Face Pull" },          "level": 3, "values": { "back": 3 } },
-          { "name": { "ja": "アームカール",       "en": "Bicep Curl" },         "level": 3, "values": { "arms": 3 } },
-          { "name": { "ja": "ハンマーカール",     "en": "Hammer Curl" },        "level": 3, "values": { "arms": 3 } }
+          { "name": { "ja": "バーベルロウ",       "en": "Barbell Row" },       "level": 3, "values": { "back": 6, "arms": 3 } },
+          { "name": { "ja": "懸垂",              "en": "Pull-up" },           "level": 3, "values": { "back": 6, "arms": 3 } },
+          { "name": { "ja": "ラットプルダウン",    "en": "Lat Pulldown" },      "level": 3, "values": { "back": 6 } },
+          { "name": { "ja": "フェイスプル",       "en": "Face Pull" },          "level": 3, "values": { "back": 6 } },
+          { "name": { "ja": "アームカール",       "en": "Bicep Curl" },         "level": 3, "values": { "arms": 6 } },
+          { "name": { "ja": "ハンマーカール",     "en": "Hammer Curl" },        "level": 3, "values": { "arms": 6 } }
         ],
-        "totalValues": { "back": 12, "arms": 6 },
+        "totalValues": { "back": 24, "arms": 18 },
         "rematchable": true
       },
       {
@@ -156,14 +187,14 @@
         "name": { "ja": "レッグデー", "en": "Leg Day" },
         "location": { "ja": "PPL分割", "en": "PPL Split" },
         "members": [
-          { "name": { "ja": "スクワット",            "en": "Squat" },            "level": 4, "values": { "legs": 4 } },
-          { "name": { "ja": "レッグプレス",           "en": "Leg Press" },         "level": 3, "values": { "legs": 3 } },
-          { "name": { "ja": "ランジ",                "en": "Lunges" },            "level": 3, "values": { "legs": 3 } },
-          { "name": { "ja": "レッグカール",           "en": "Leg Curl" },          "level": 3, "values": { "legs": 3 } },
-          { "name": { "ja": "レッグエクステンション",  "en": "Leg Extension" },     "level": 3, "values": { "legs": 3 } },
-          { "name": { "ja": "カーフレイズ",           "en": "Calf Raise" },        "level": 4, "values": { "legs": 4 } }
+          { "name": { "ja": "スクワット",            "en": "Squat" },            "level": 4, "values": { "legs": 8, "core": 4 } },
+          { "name": { "ja": "レッグプレス",           "en": "Leg Press" },         "level": 3, "values": { "legs": 6 } },
+          { "name": { "ja": "ランジ",                "en": "Lunges" },            "level": 3, "values": { "legs": 6, "core": 3 } },
+          { "name": { "ja": "レッグカール",           "en": "Leg Curl" },          "level": 3, "values": { "legs": 6 } },
+          { "name": { "ja": "レッグエクステンション",  "en": "Leg Extension" },     "level": 3, "values": { "legs": 6 } },
+          { "name": { "ja": "カーフレイズ",           "en": "Calf Raise" },        "level": 4, "values": { "legs": 8 } }
         ],
-        "totalValues": { "legs": 20 },
+        "totalValues": { "legs": 40, "core": 7 },
         "rematchable": true
       },
       {
@@ -171,14 +202,14 @@
         "name": { "ja": "上半身デー", "en": "Upper Body Day" },
         "location": { "ja": "上下分割", "en": "Upper/Lower Split" },
         "members": [
-          { "name": { "ja": "ベンチプレス",        "en": "Bench Press" },       "level": 3, "values": { "chest": 3 } },
-          { "name": { "ja": "バーベルロウ",        "en": "Barbell Row" },       "level": 3, "values": { "back": 3 } },
-          { "name": { "ja": "オーバーヘッドプレス",  "en": "Overhead Press" },   "level": 3, "values": { "shoulders": 3 } },
-          { "name": { "ja": "ラットプルダウン",     "en": "Lat Pulldown" },      "level": 3, "values": { "back": 3 } },
-          { "name": { "ja": "アームカール",        "en": "Bicep Curl" },         "level": 3, "values": { "arms": 3 } },
-          { "name": { "ja": "トライセプスエクステンション","en": "Tricep Extension" },"level": 3, "values": { "arms": 3 } }
+          { "name": { "ja": "ベンチプレス",        "en": "Bench Press" },       "level": 3, "values": { "chest": 6, "arms": 3, "shoulders": 3 } },
+          { "name": { "ja": "バーベルロウ",        "en": "Barbell Row" },       "level": 3, "values": { "back": 6, "arms": 3 } },
+          { "name": { "ja": "オーバーヘッドプレス",  "en": "Overhead Press" },   "level": 3, "values": { "shoulders": 6, "arms": 3 } },
+          { "name": { "ja": "ラットプルダウン",     "en": "Lat Pulldown" },      "level": 3, "values": { "back": 6 } },
+          { "name": { "ja": "アームカール",        "en": "Bicep Curl" },         "level": 3, "values": { "arms": 6 } },
+          { "name": { "ja": "トライセプスエクステンション","en": "Tricep Extension" },"level": 3, "values": { "arms": 6 } }
         ],
-        "totalValues": { "chest": 3, "back": 6, "shoulders": 3, "arms": 6 },
+        "totalValues": { "chest": 6, "back": 12, "shoulders": 9, "arms": 21 },
         "rematchable": true
       },
       {
@@ -186,14 +217,14 @@
         "name": { "ja": "下半身デー", "en": "Lower Body Day" },
         "location": { "ja": "上下分割", "en": "Upper/Lower Split" },
         "members": [
-          { "name": { "ja": "スクワット",      "en": "Squat" },                "level": 4, "values": { "legs": 4 } },
-          { "name": { "ja": "デッドリフト",     "en": "Deadlift" },             "level": 3, "values": { "back": 3, "legs": 3 } },
-          { "name": { "ja": "ランジ",          "en": "Lunges" },               "level": 3, "values": { "legs": 3 } },
-          { "name": { "ja": "レッグカール",     "en": "Leg Curl" },             "level": 3, "values": { "legs": 3 } },
-          { "name": { "ja": "カーフレイズ",     "en": "Calf Raise" },           "level": 4, "values": { "legs": 4 } },
-          { "name": { "ja": "プランク",        "en": "Plank" },                "level": 3, "values": { "core": 3 } }
+          { "name": { "ja": "スクワット",      "en": "Squat" },                "level": 4, "values": { "legs": 8, "core": 4 } },
+          { "name": { "ja": "デッドリフト",     "en": "Deadlift" },             "level": 3, "values": { "back": 6, "legs": 6, "core": 3 } },
+          { "name": { "ja": "ランジ",          "en": "Lunges" },               "level": 3, "values": { "legs": 6, "core": 3 } },
+          { "name": { "ja": "レッグカール",     "en": "Leg Curl" },             "level": 3, "values": { "legs": 6 } },
+          { "name": { "ja": "カーフレイズ",     "en": "Calf Raise" },           "level": 4, "values": { "legs": 8 } },
+          { "name": { "ja": "プランク",        "en": "Plank" },                "level": 3, "values": { "core": 6 } }
         ],
-        "totalValues": { "legs": 17, "back": 3, "core": 3 },
+        "totalValues": { "legs": 34, "back": 6, "core": 16 },
         "rematchable": true
       },
       {
@@ -201,14 +232,14 @@
         "name": { "ja": "全身トレーニング", "en": "Full Body Workout" },
         "location": { "ja": "全身プラン", "en": "Full Body Plan" },
         "members": [
-          { "name": { "ja": "スクワット",          "en": "Squat" },            "level": 3, "values": { "legs": 3 } },
-          { "name": { "ja": "ベンチプレス",         "en": "Bench Press" },      "level": 3, "values": { "chest": 3 } },
-          { "name": { "ja": "バーベルロウ",         "en": "Barbell Row" },      "level": 3, "values": { "back": 3 } },
-          { "name": { "ja": "オーバーヘッドプレス",  "en": "Overhead Press" },   "level": 3, "values": { "shoulders": 3 } },
-          { "name": { "ja": "アームカール",         "en": "Bicep Curl" },       "level": 2, "values": { "arms": 2 } },
-          { "name": { "ja": "プランク",             "en": "Plank" },            "level": 2, "values": { "core": 2 } }
+          { "name": { "ja": "スクワット",          "en": "Squat" },            "level": 3, "values": { "legs": 6, "core": 3 } },
+          { "name": { "ja": "ベンチプレス",         "en": "Bench Press" },      "level": 3, "values": { "chest": 6, "arms": 3, "shoulders": 3 } },
+          { "name": { "ja": "バーベルロウ",         "en": "Barbell Row" },      "level": 3, "values": { "back": 6, "arms": 3 } },
+          { "name": { "ja": "オーバーヘッドプレス",  "en": "Overhead Press" },   "level": 3, "values": { "shoulders": 6, "arms": 3 } },
+          { "name": { "ja": "アームカール",         "en": "Bicep Curl" },       "level": 2, "values": { "arms": 4 } },
+          { "name": { "ja": "プランク",             "en": "Plank" },            "level": 2, "values": { "core": 4 } }
         ],
-        "totalValues": { "legs": 3, "chest": 3, "back": 3, "shoulders": 3, "arms": 2, "core": 2 },
+        "totalValues": { "legs": 6, "chest": 6, "back": 6, "shoulders": 9, "arms": 13, "core": 7 },
         "rematchable": true
       },
       {
@@ -216,14 +247,14 @@
         "name": { "ja": "自宅トレーニング", "en": "Home Workout" },
         "location": { "ja": "器具なし", "en": "No Equipment" },
         "members": [
-          { "name": { "ja": "腕立て伏せ",          "en": "Push-up" },              "level": 3, "values": { "chest": 3 } },
-          { "name": { "ja": "ブルガリアンスクワット", "en": "Bulgarian Split Squat" },"level": 3, "values": { "legs": 3 } },
-          { "name": { "ja": "ディップス（椅子）",     "en": "Dips (chair)" },        "level": 3, "values": { "arms": 3, "chest": 3 } },
-          { "name": { "ja": "プランク",              "en": "Plank" },               "level": 3, "values": { "core": 3 } },
-          { "name": { "ja": "クランチ",              "en": "Crunch" },              "level": 3, "values": { "core": 3 } },
-          { "name": { "ja": "マウンテンクライマー",    "en": "Mountain Climber" },    "level": 3, "values": { "core": 3 } }
+          { "name": { "ja": "腕立て伏せ",          "en": "Push-up" },              "level": 3, "values": { "chest": 6, "arms": 3, "core": 3 } },
+          { "name": { "ja": "ブルガリアンスクワット", "en": "Bulgarian Split Squat" },"level": 3, "values": { "legs": 6, "core": 3 } },
+          { "name": { "ja": "ディップス（椅子）",     "en": "Dips (chair)" },        "level": 3, "values": { "arms": 6, "chest": 3 } },
+          { "name": { "ja": "プランク",              "en": "Plank" },               "level": 3, "values": { "core": 6 } },
+          { "name": { "ja": "クランチ",              "en": "Crunch" },              "level": 3, "values": { "core": 6 } },
+          { "name": { "ja": "マウンテンクライマー",    "en": "Mountain Climber" },    "level": 3, "values": { "core": 6 } }
         ],
-        "totalValues": { "chest": 6, "legs": 3, "arms": 3, "core": 9 },
+        "totalValues": { "chest": 9, "legs": 6, "arms": 9, "core": 24 },
         "rematchable": true
       }
     ]
@@ -290,6 +321,12 @@
       "text": {
         "ja": "このプリセットの「レベル」はメニュー内の推奨セット数を表す。自分の体力に合わせて調整すること",
         "en": "The 'level' in routines represents recommended sets per exercise. Adjust based on your fitness level"
+      }
+    },
+    {
+      "text": {
+        "ja": "v2.0では2倍スケール方式を採用: コンパウンド種目は主動筋=2・協力筋=1で加算。アイソレーション種目は対象部位=2。より正確なボリューム配分を反映",
+        "en": "v2.0 uses 2x integer scale: compound exercises add primary=2, synergist=1. Isolation exercises add target=2. This reflects volume distribution more accurately"
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-11T08:17:41Z",
+  "updatedAt": "2026-03-12T01:30:43Z",
   "presets": [
     {
       "id": "frlg",
@@ -48,10 +48,10 @@
         "ja": "週間トレーニングボリュームを部位別に管理",
         "en": "Track weekly training volume by muscle group"
       },
-      "version": "1.0.0",
-      "size": 24081,
+      "version": "2.0.0",
+      "size": 35295,
       "counters": 6,
-      "entryCount": 44,
+      "entryCount": 78,
       "groupCount": 7,
       "dataUrl": "https://erutobusiness.github.io/countstack-presets/presets/workout/preset.json",
       "tags": [
@@ -85,7 +85,7 @@
         "en": "Track experience points for D&D 5th Edition using SRD 5.1 monster data"
       },
       "version": "1.0.0",
-      "size": 182425,
+      "size": 183092,
       "counters": 1,
       "entryCount": 334,
       "groupCount": 28,
@@ -143,6 +143,78 @@
         "notes": {
           "ja": "学習法",
           "en": "Methods"
+        }
+      }
+    },
+    {
+      "id": "birding",
+      "name": {
+        "ja": "バードウォッチング Life List",
+        "en": "Birdwatching Life List"
+      },
+      "description": {
+        "ja": "日本の野鳥観察ライフリストを生息環境別に記録",
+        "en": "Track your birding life list by habitat type across Japan"
+      },
+      "version": "1.0.0",
+      "size": 51303,
+      "counters": 5,
+      "entryCount": 186,
+      "groupCount": 6,
+      "dataUrl": "https://erutobusiness.github.io/countstack-presets/presets/birding/preset.json",
+      "tags": [
+        "nature",
+        "birding",
+        "wildlife"
+      ],
+      "labels": {
+        "entries": {
+          "ja": "野鳥",
+          "en": "Birds"
+        },
+        "groups": {
+          "ja": "探鳥コース",
+          "en": "Birding Routes"
+        },
+        "notes": {
+          "ja": "バードウォッチングガイド",
+          "en": "Birding Guide"
+        }
+      }
+    },
+    {
+      "id": "jlpt",
+      "name": {
+        "ja": "JLPT 学習トラッカー",
+        "en": "JLPT Study Tracker"
+      },
+      "description": {
+        "ja": "日本語能力試験の学習進捗をスキル別に管理",
+        "en": "Track study progress for the Japanese Language Proficiency Test"
+      },
+      "version": "1.0.0",
+      "size": 22389,
+      "counters": 5,
+      "entryCount": 30,
+      "groupCount": 6,
+      "dataUrl": "https://erutobusiness.github.io/countstack-presets/presets/jlpt/preset.json",
+      "tags": [
+        "language",
+        "japanese",
+        "jlpt"
+      ],
+      "labels": {
+        "entries": {
+          "ja": "学習アクティビティ",
+          "en": "Activities"
+        },
+        "groups": {
+          "ja": "学習プラン",
+          "en": "Study Plans"
+        },
+        "notes": {
+          "ja": "学習ガイド",
+          "en": "Study Guide"
         }
       }
     }
