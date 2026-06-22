@@ -26,11 +26,19 @@ function updateRegistry(id: string, presetPath: string, entryCount: number, grou
   const registry = JSON.parse(readFileSync(REGISTRY_PATH, "utf-8"));
   const entry = registry.presets.find((p: RegistryPreset) => p.id === id);
   if (entry) {
-    entry.size = statSync(presetPath).size;
+    const newSize = statSync(presetPath).size;
+    const changed =
+      entry.size !== newSize ||
+      entry.entryCount !== entryCount ||
+      entry.groupCount !== groupCount ||
+      (labels !== undefined && JSON.stringify(entry.labels) !== JSON.stringify(labels));
+    entry.size = newSize;
     entry.entryCount = entryCount;
     entry.groupCount = groupCount;
     if (labels) entry.labels = labels;
-    registry.updatedAt = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
+    if (changed) {
+      registry.updatedAt = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
+    }
     writeFileSync(REGISTRY_PATH, JSON.stringify(registry, null, 2));
   }
 }
