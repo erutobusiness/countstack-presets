@@ -1,3 +1,6 @@
 node_modules/
 dist/
 .cache/
+
+# ローカルAI設定（公開Pagesに配信されるリポジトリのため非追跡）
+CLAUDE.md
